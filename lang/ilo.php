@@ -83,6 +83,10 @@ return [
     'login.form.remember'=> 'Lag-adanak',
     'login.form.connect'=> 'Konektar',
     'login.form.cancel'=> 'Kanselahen',
+    // Login Page Placeholders
+    'login.form.host_placeholder'=> 'Router IP or Hostname',
+    'login.form.username_placeholder'=> 'Enter your username',
+    'login.form.password_placeholder'=> 'Enter your password',
 
 
     // about-us.php

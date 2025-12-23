@@ -85,6 +85,10 @@ return [
     'login.form.remember'=> 'Hinumdumi Ko',
     'login.form.connect'=> 'Konektar',
     'login.form.cancel'=> 'Kanselahon',
+    // Login Page Placeholders
+    'login.form.host_placeholder'=> 'Router IP or Hostname',
+    'login.form.username_placeholder'=> 'Enter your username',
+    'login.form.password_placeholder'=> 'Enter your password',
 
 
     // about-us.php

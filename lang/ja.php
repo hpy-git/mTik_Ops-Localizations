@@ -85,6 +85,10 @@ return [
     'login.form.remember'=> 'ログイン状態を保持',
     'login.form.connect'=> '接続',
     'login.form.cancel'=> 'キャンセル',
+    // Login Page Placeholders
+    'login.form.host_placeholder'=> 'Router IP or Hostname',
+    'login.form.username_placeholder'=> 'Enter your username',
+    'login.form.password_placeholder'=> 'Enter your password',
 
 
     // about-us.php

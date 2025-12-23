@@ -85,7 +85,12 @@ return [
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Remember Me',
     'login.form.connect'=> 'Connect',
+
     'login.form.cancel'=> 'Cancel',
+    // Login Page Placeholders
+    'login.form.host_placeholder'=> 'Router IP or Hostname',
+    'login.form.username_placeholder'=> 'Enter your username',
+    'login.form.password_placeholder'=> 'Enter your password',
 
 
     // about-us.php

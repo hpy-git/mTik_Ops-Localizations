@@ -82,6 +82,10 @@ return [
     'login.form.remember'=> 'Ingat Saya',
     'login.form.connect'=> 'Masuk',
     'login.form.cancel'=> 'Batal',
+    // Login Page Placeholders
+    'login.form.host_placeholder'=> 'Router IP or Hostname',
+    'login.form.username_placeholder'=> 'Enter your username',
+    'login.form.password_placeholder'=> 'Enter your password',
 
 
     // about-us.php
