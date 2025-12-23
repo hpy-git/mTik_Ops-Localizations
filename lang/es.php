@@ -7,6 +7,8 @@
 return [
     // Start of Translations
     // Global
+    'language-changed' => 'El idioma se ha cambiado a {lang}',
+    'language-search-placeholder' => 'Buscar...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -745,6 +747,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Último ID llamado',
     'ppp.table.th.rate-limit'=> 'Límite de velocidad',
     'ppp.table.th.only-one'=> 'Solo uno',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Agregar servidor PPPoE',

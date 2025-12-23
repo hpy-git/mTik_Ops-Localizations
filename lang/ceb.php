@@ -7,6 +7,8 @@
 return [
     // Start of Translations
     // Global
+    'language-changed' => 'Nausab ang pinulongan ngadto sa {lang}',
+    'language-search-placeholder' => 'Pangita...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -745,6 +747,10 @@ return [
     'ppp.table.th.last-called-id'=> 'Katapusang Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Usa Ra',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
+
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Idugang ang PPPoE Server',

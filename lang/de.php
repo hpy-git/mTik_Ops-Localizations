@@ -4,10 +4,11 @@
 // Author: HPY™                                                         
 // Version: Next-Generation                                           
 ////////////////////////////////////////////////////////////////////////
-
 return [
     // Start of Translations
     // Global
+    'language-changed' => 'Die Sprache wurde auf {lang} geändert',
+    'language-search-placeholder' => 'Suchen...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -747,6 +748,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Last Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Only One',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Add PPPoE Server',

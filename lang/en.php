@@ -15,7 +15,22 @@
 return [
     // Start of Translations
     // Global
+    'language-changed' => 'Language changed to {lang}',
+    'language-search-placeholder' => 'Search...',
 
+    // Global Search
+    'search.title' => 'Search',
+    'search.instructions' => 'Type a keyword or phrase to search the site.',
+    'search.results_header' => 'Search Results for "{query}"',
+    'search.placeholder' => 'Type to search...',
+    'search.no_results' => 'No results found',
+    'search.results' => 'Results',
+    'search.button' => 'Search',
+    'search.hint' => 'Type to see instant suggestions.',
+    'search.quick_links' => 'Quick Links',
+    'search.show' => 'Show Search',
+
+    
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Centralized Router Management',
@@ -700,15 +715,18 @@ return [
     'ppp.servers'=> 'Servers',
     'ppp.secrets'=> 'Secrets',
     'ppp.profiles'=> 'Profiles',
+    'ppp.active'=> 'Active Sessions',
     
     // PPP Page Descriptions
     'ppp.servers.desc'=> 'View and manage PPPoE server instances and bindings.',
     'ppp.secrets.desc'=> 'Manage PPPoE secrets (user credentials).',
     'ppp.profiles.desc'=> 'Create and manage PPPoE profiles.',
+    'ppp.active.desc'=> 'View and disconnect active PPPoE sessions.',
 
     'ppp.open.servers'=> 'Open PPPoE Servers',
     'ppp.open.secrets'=> 'Open Secrets',
     'ppp.open.profiles'=> 'Open Profiles',
+    'ppp.open.active'=> 'Open Active Sessions',
 
     // PPP Page - Back Button
     'ppp.back-to-ppp'=> 'Back to PPPoE Manager',
@@ -747,6 +765,8 @@ return [
     'ppp.table.th.name'=> 'Name',
     'ppp.table.th.password'=> 'Password',
     'ppp.table.th.service'=> 'Service',
+    'ppp.table.th.address'=> 'Address',
+    'ppp.table.th.caller-id'=> 'Caller ID',
     'ppp.table.th.local-address'=> 'Local Address',
     'ppp.table.th.remote-address'=> '',
     'ppp.table.th.last-logged-out'=> 'Last Logged Out',
@@ -754,6 +774,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Last Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Only One',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Add PPPoE Server',

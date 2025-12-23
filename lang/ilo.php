@@ -2,9 +2,13 @@
 ////////////////////////////////////////////////////////////////////////
 // Ilocano dialect translations for mTik_Ops
 // Author: HPY™ (translated to Ilocano)
+// Version: Next-Generation                                             
 ////////////////////////////////////////////////////////////////////////
 return [
     // Start of Translations
+    //Global
+    'language-changed' => 'Nabaliwan ti pagsasao iti {lang}',
+    'language-search-placeholder' => 'Agbiruk...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -742,6 +746,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Last Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Maysa Laeng',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Agaramid ti PPPoE Server',

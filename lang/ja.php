@@ -7,6 +7,8 @@
 return [
     // Start of Translations
     // Global
+    'language-changed' => '言語が {lang} に変更されました',
+    'language-search-placeholder' => '検索...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -745,6 +747,9 @@ return [
     'ppp.table.th.last-called-id'=> '最終番号',
     'ppp.table.th.rate-limit'=> 'レート制限',
     'ppp.table.th.only-one'=> '1つのみ',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'PPPoEサーバーを追加',

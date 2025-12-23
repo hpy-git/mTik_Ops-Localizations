@@ -4,10 +4,11 @@
 // Author: HPY™ - (Temporary Translation using AI)                                                        
 // Version: Next-Generation                                             
 ////////////////////////////////////////////////////////////////////////
-
 return [
     // Start of Translations
     // Global
+    'language-changed' => 'Язык изменён на {lang}',
+    'language-search-placeholder' => 'Поиск...',
 
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
@@ -708,6 +709,7 @@ return [
 
     // PPP Loading Status
     'ppp.status.loading'=> 'Загрузка данных PPPoE...',
+
     // PPP Secrets Table Headers
     'ppp.table.th.service-name'=> 'Имя сервиса',
     'ppp.table.th.iface'=> 'Интерфейс',
@@ -725,6 +727,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Последний вызываемый ID',
     'ppp.table.th.rate-limit'=> 'Лимит скорости',
     'ppp.table.th.only-one'=> 'Только один',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes In',
+    'ppp.table.th.bytes-out'=> 'Bytes Out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Добавить сервер PPPoE',
