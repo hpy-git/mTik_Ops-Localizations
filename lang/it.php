@@ -10,6 +10,18 @@ return [
     'language-changed' => 'La lingua è stata cambiata in {lang}',
     'language-search-placeholder' => 'Cerca...',
 
+    // Global Search
+    'search.title' => 'Cerca',
+    'search.instructions' => 'Digita una parola chiave o una frase per cercare nel sito.',
+    'search.results_header' => 'Risultati di ricerca per "{query}"',
+    'search.placeholder' => 'Digita per cercare...',
+    'search.no_results' => 'Nessun risultato trovato',
+    'search.results' => 'Risultati',
+    'search.button' => 'Cerca',
+    'search.hint' => 'Digita per vedere suggerimenti istantanei.',
+    'search.quick_links' => 'Link rapidi',
+    'search.show' => 'Mostra ricerca',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => "Gestione centralizzata dei router",
@@ -739,6 +751,8 @@ return [
     'ppp.table.th.name'=> "Nome",
     'ppp.table.th.password'=> "Password",
     'ppp.table.th.service'=> "Servizio",
+    'ppp.table.th.address'=> "Indirizzo",
+    'ppp.table.th.caller-id'=> "ID chiamante",
     'ppp.table.th.local-address'=> "Indirizzo locale",
     'ppp.table.th.remote-address'=> "Indirizzo remoto",
     'ppp.table.th.last-logged-out'=> "Ultima disconnessione",
@@ -746,9 +760,9 @@ return [
     'ppp.table.th.last-called-id'=> "Ultimo Called ID",
     'ppp.table.th.rate-limit'=> "Limite velocità",
     'ppp.table.th.only-one'=> "Solo uno",
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> 'Tempo di attività',
+    'ppp.table.th.bytes-in'=> 'Byte in',
+    'ppp.table.th.bytes-out'=> 'Byte out',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> "Aggiungi server PPPoE",

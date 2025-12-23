@@ -10,6 +10,18 @@ return [
     'language-changed' => 'Bahasa telah diubah menjadi {lang}',
     'language-search-placeholder' => 'Cari...',
 
+    // Global Search
+    'search.title' => 'Cari',
+    'search.instructions' => 'Ketik kata kunci atau frase untuk mencari situs.',
+    'search.results_header' => 'Hasil pencarian untuk "{query}"',
+    'search.placeholder' => 'Ketik untuk mencari...',
+    'search.no_results' => 'Tidak ada hasil',
+    'search.results' => 'Hasil',
+    'search.button' => 'Cari',
+    'search.hint' => 'Ketik untuk melihat saran instan.',
+    'search.quick_links' => 'Tautan cepat',
+    'search.show' => 'Tampilkan pencarian',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Manajemen Router Terpusat',
@@ -726,6 +738,8 @@ return [
     'ppp.table.th.name'=> 'Nama',
     'ppp.table.th.password'=> 'Kata Sandi',
     'ppp.table.th.service'=> 'Layanan',
+    'ppp.table.th.address'=> 'Alamat',
+    'ppp.table.th.caller-id'=> 'ID Pemanggil',
     'ppp.table.th.local-address'=> 'Alamat Lokal',
     'ppp.table.th.remote-address'=> 'Alamat Jarak Jauh',
     'ppp.table.th.last-logged-out'=> 'Terakhir Keluar',
@@ -733,9 +747,9 @@ return [
     'ppp.table.th.last-called-id'=> 'ID Panggilan Terakhir',
     'ppp.table.th.rate-limit'=> 'Batas Kecepatan',
     'ppp.table.th.only-one'=> 'Hanya Satu',
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> 'Waktu Aktif',
+    'ppp.table.th.bytes-in'=> 'Bytes Masuk',
+    'ppp.table.th.bytes-out'=> 'Bytes Keluar',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Tambah Server PPPoE',

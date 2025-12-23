@@ -10,6 +10,18 @@ return [
     'language-changed' => 'Nabago ang wika sa {lang}',
     'language-search-placeholder' => 'Maghanap...',
 
+    // Global Search
+    'search.title' => 'Paghahanap',
+    'search.instructions' => 'Mag-type ng keyword o parirala para hanapin ang site.',
+    'search.results_header' => 'Mga resulta ng paghahanap para sa "{query}"',
+    'search.placeholder' => 'Mag-type para maghanap...',
+    'search.no_results' => 'Walang nahanap',
+    'search.results' => 'Mga resulta',
+    'search.button' => 'Hanap',
+    'search.hint' => 'Mag-type para makita ang mga instant na mungkahi.',
+    'search.quick_links' => 'Mabilis na Link',
+    'search.show' => 'Ipakita ang Paghahanap',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Sentralisadong Pamamahala ng Router',
@@ -740,6 +752,8 @@ return [
     'ppp.table.th.name'=> 'Pangalan',
     'ppp.table.th.password'=> 'Password',
     'ppp.table.th.service'=> 'Serbisyo',
+    'ppp.table.th.address'=> 'Address',
+    'ppp.table.th.caller-id'=> 'Caller ID',
     'ppp.table.th.local-address'=> 'Local Address',
     'ppp.table.th.remote-address'=> 'Remote Address',
     'ppp.table.th.last-logged-out'=> 'Huling Pag-logout',
@@ -747,9 +761,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Huling Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Isa Lamang',
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> 'Oras ng pag-aktibo',
+    'ppp.table.th.bytes-in'=> 'Bytes papasok',
+    'ppp.table.th.bytes-out'=> 'Bytes palabas',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Magdagdag ng PPPoE Server',

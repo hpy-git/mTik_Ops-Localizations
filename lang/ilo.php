@@ -10,6 +10,18 @@ return [
     'language-changed' => 'Nabaliwan ti pagsasao iti {lang}',
     'language-search-placeholder' => 'Agbiruk...',
 
+    // Global Search
+    'search.title' => 'Agbiruk',
+    'search.instructions' => 'I-typing ti sao wenno parirala tapno agbiruk iti sitio.',
+    'search.results_header' => 'Dagiti resulta ti panagbiruk para iti "{query}"',
+    'search.placeholder' => 'Ag-typing para agbiruk...',
+    'search.no_results' => 'Awan resulta',
+    'search.results' => 'Resulta',
+    'search.button' => 'Agbiruk',
+    'search.hint' => 'Ag-typing tapno makita dagiti suhesion kadagidiay ngay.',
+    'search.quick_links' => 'Paspas a link',
+    'search.show' => 'Ipakita ti Panagbiruk',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Sentralisado a Panangimanihar ti Router',
@@ -739,6 +751,8 @@ return [
     'ppp.table.th.name'=> 'Nagan',
     'ppp.table.th.password'=> 'Password',
     'ppp.table.th.service'=> 'Serbisio',
+    'ppp.table.th.address'=> 'Address',
+    'ppp.table.th.caller-id'=> 'Caller ID',
     'ppp.table.th.local-address'=> 'Local Address',
     'ppp.table.th.remote-address'=> 'Remote Address',
     'ppp.table.th.last-logged-out'=> 'Nakalabas a Log',
@@ -746,9 +760,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Last Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
     'ppp.table.th.only-one'=> 'Maysa Laeng',
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> 'Oras ti panagtrabaho',
+    'ppp.table.th.bytes-in'=> 'Bytes sumrek',
+    'ppp.table.th.bytes-out'=> 'Bytes lumabas',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Agaramid ti PPPoE Server',

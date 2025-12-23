@@ -10,6 +10,18 @@ return [
     'language-changed' => '言語が {lang} に変更されました',
     'language-search-placeholder' => '検索...',
 
+    // Global Search
+    'search.title' => '検索',
+    'search.instructions' => 'キーワードやフレーズを入力してサイトを検索してください。',
+    'search.results_header' => '"{query}" の検索結果',
+    'search.placeholder' => '入力して検索...',
+    'search.no_results' => '結果が見つかりませんでした',
+    'search.results' => '結果',
+    'search.button' => '検索',
+    'search.hint' => '入力すると候補が表示されます。',
+    'search.quick_links' => 'クイックリンク',
+    'search.show' => '検索を表示',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'ルーターを一元管理するプラットフォーム',
@@ -740,6 +752,8 @@ return [
     'ppp.table.th.name'=> '名前',
     'ppp.table.th.password'=> 'パスワード',
     'ppp.table.th.service'=> 'サービス',
+    'ppp.table.th.address'=> 'アドレス',
+    'ppp.table.th.caller-id'=> '発信者ID',
     'ppp.table.th.local-address'=> 'ローカルアドレス',
     'ppp.table.th.remote-address'=> '',
     'ppp.table.th.last-logged-out'=> '最終ログアウト',
@@ -747,9 +761,9 @@ return [
     'ppp.table.th.last-called-id'=> '最終番号',
     'ppp.table.th.rate-limit'=> 'レート制限',
     'ppp.table.th.only-one'=> '1つのみ',
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> '稼働時間',
+    'ppp.table.th.bytes-in'=> '受信バイト',
+    'ppp.table.th.bytes-out'=> '送信バイト',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'PPPoEサーバーを追加',

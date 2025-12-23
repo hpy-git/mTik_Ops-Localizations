@@ -10,6 +10,18 @@ return [
     'language-changed' => 'Язык изменён на {lang}',
     'language-search-placeholder' => 'Поиск...',
 
+    // Global Search
+    'search.title' => 'Поиск',
+    'search.instructions' => 'Введите ключевое слово или фразу для поиска по сайту.',
+    'search.results_header' => 'Результаты поиска для "{query}"',
+    'search.placeholder' => 'Начните ввод...',
+    'search.no_results' => 'Ничего не найдено',
+    'search.results' => 'Результаты',
+    'search.button' => 'Поиск',
+    'search.hint' => 'Начните ввод, чтобы увидеть подсказки.',
+    'search.quick_links' => 'Быстрые ссылки',
+    'search.show' => 'Показать поиск',
+
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Централизованное управление маршрутизаторами',
@@ -720,6 +732,8 @@ return [
     'ppp.table.th.name'=> 'Имя',
     'ppp.table.th.password'=> 'Пароль',
     'ppp.table.th.service'=> 'Сервис',
+    'ppp.table.th.address'=> 'Адрес',
+    'ppp.table.th.caller-id'=> 'ID вызывающего абонента',
     'ppp.table.th.local-address'=> 'Локальный адрес',
     'ppp.table.th.remote-address'=> 'Удаленный адрес',
     'ppp.table.th.last-logged-out'=> 'Последний выход',
@@ -727,9 +741,9 @@ return [
     'ppp.table.th.last-called-id'=> 'Последний вызываемый ID',
     'ppp.table.th.rate-limit'=> 'Лимит скорости',
     'ppp.table.th.only-one'=> 'Только один',
-    'ppp.table.th.uptime'=> 'Uptime',
-    'ppp.table.th.bytes-in'=> 'Bytes In',
-    'ppp.table.th.bytes-out'=> 'Bytes Out',
+    'ppp.table.th.uptime'=> 'Время работы',
+    'ppp.table.th.bytes-in'=> 'Входящие байты',
+    'ppp.table.th.bytes-out'=> 'Исходящие байты',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Добавить сервер PPPoE',
