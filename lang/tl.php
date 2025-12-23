@@ -86,9 +86,9 @@ return [
     'login.form.connect'=> 'Konektahin',
     'login.form.cancel'=> 'Kanselahin',
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'Router IP or Hostname',
-    'login.form.username_placeholder'=> 'Enter your username',
-    'login.form.password_placeholder'=> 'Enter your password',
+    'login.form.host_placeholder'=> 'IP ng Router o Hostname',
+    'login.form.username_placeholder'=> 'Ilagay ang iyong username',
+    'login.form.password_placeholder'=> 'Ilagay ang iyong password',
 
 
     // about-us.php

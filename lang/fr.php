@@ -87,9 +87,9 @@ return [
     'login.form.connect'=> 'Se connecter',
     'login.form.cancel'=> 'Annuler',
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'Router IP or Hostname',
-    'login.form.username_placeholder'=> 'Enter your username',
-    'login.form.password_placeholder'=> 'Enter your password',
+    'login.form.host_placeholder'=> 'IP du routeur ou nom d\'hôte',
+    'login.form.username_placeholder'=> 'Entrez votre nom d\'utilisateur',
+    'login.form.password_placeholder'=> 'Entrez votre mot de passe',
 
 
     // about-us.php

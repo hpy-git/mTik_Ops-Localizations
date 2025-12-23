@@ -84,9 +84,9 @@ return [
     'login.form.connect'=> 'Konektar',
     'login.form.cancel'=> 'Kanselahen',
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'Router IP or Hostname',
-    'login.form.username_placeholder'=> 'Enter your username',
-    'login.form.password_placeholder'=> 'Enter your password',
+    'login.form.host_placeholder'=> 'IP ti Router wenno Hostname',
+    'login.form.username_placeholder'=> 'Ikkabil ti nagan ti usuario',
+    'login.form.password_placeholder'=> 'Ikkabil ti password',
 
 
     // about-us.php

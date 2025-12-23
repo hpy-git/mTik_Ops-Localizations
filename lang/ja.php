@@ -86,9 +86,9 @@ return [
     'login.form.connect'=> '接続',
     'login.form.cancel'=> 'キャンセル',
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'Router IP or Hostname',
-    'login.form.username_placeholder'=> 'Enter your username',
-    'login.form.password_placeholder'=> 'Enter your password',
+    'login.form.host_placeholder'=> 'ルーターのIPまたはホスト名',
+    'login.form.username_placeholder'=> 'ユーザー名を入力してください',
+    'login.form.password_placeholder'=> 'パスワードを入力してください',
 
 
     // about-us.php
