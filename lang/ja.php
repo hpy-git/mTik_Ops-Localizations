@@ -491,6 +491,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'アップロード',
+    'settings.buttons.delete'=> '削除',
+    'settings.buttons.refresh'=> '更新',
+    'settings.buttons.save'=> '保存',
+    'settings.buttons.cancel'=> 'キャンセル',
+    'settings.buttons.close'=> '閉じる',
+    'settings.buttons.edit'=> '編集',
+    'settings.buttons.add'=> '追加',
+    'settings.buttons.remove'=> '削除',
+    'settings.buttons.prev'=> '前へ',
+    'settings.buttons.next'=> '次へ',
+    'settings.sort.by'=> '並べ替え条件',
+    'settings.sort' => '並べ替え',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'アクション',
+
+    // Settings Page - Loading
+    'settings.loading'=> '設定を読み込んでいます...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> '名前',
+    'settings.table.th.group'=> 'グループ',
+    'settings.table.th.last-login'=> '最終ログイン',
+    'settings.table.th.comment'=> 'コメント',
+    'settings.table.th.role'=> '役割',
+    'settings.table.th.select'=> 'すべて選択',
+    'settings.table.th.username'=> 'ユーザー名',
+    'settings.table.th.password'=> 'パスワード',
+    'settings.table.th.actions'=> '操作',
+    'settings.table.th.next-run'=> '次の実行',
+    'settings.table.th.interval'=> '間隔',
+    'settings.table.th.enabled'=> '有効',
+    'settings.table.th.size'=> 'サイズ',
+    'settings.table.th.owner'=> '所有者',
+    'settings.table.th.date'=> '日付',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'ファイルマネージャー',
+    'settings.files.desc'=> 'デバイスに保存されたファイルのアップロード、ダウンロード、管理。',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'ユーザーマネージャー',
+    'settings.users.desc'=> 'システムユーザーとそのアクセス権を作成、編集、管理します。',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'スケジューラ',
+    'settings.scheduler.desc'=> '保守と自動化のためのスケジュールされたタスクを作成および管理します。',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'スクリプト',
+    'settings.scripts.desc'=> 'デバイス上のカスタムスクリプトを作成、編集、実行します。',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> '設定に戻る',
 
@@ -534,14 +589,6 @@ return [
     'settings.ntp.synced.server'=> '同期中のサーバー',
     'settings.ntp.synced.stratum'=> '同期ストラタム',
     'settings.ntp.system.offset'=> 'システムオフセット',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

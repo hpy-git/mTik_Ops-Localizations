@@ -501,8 +501,29 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Upload',
+    'settings.buttons.delete'=> 'Delete',
+    'settings.buttons.refresh'=> 'Refresh',
+    'settings.buttons.save'=> 'Save',
+    'settings.buttons.cancel'=> 'Cancel',
+    'settings.buttons.close'=> 'Close',
+    'settings.buttons.edit'=> 'Edit',
+    'settings.buttons.add'=> 'Add',
+    'settings.buttons.remove'=> 'Remove',
+    'settings.buttons.prev'=> 'Prev',
+    'settings.buttons.next'=> 'Next',
+    'settings.sort.by'=> 'Sort by',
+    'settings.sort' => 'Sort',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Back to Settings',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Actions',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Loading Settings...',
 
     // Settings Page Descriptions
     'settings.identity.desc'=> 'View and edit the device identity and basic system information.',
@@ -514,6 +535,23 @@ return [
     'settings.reset.desc'=> 'Reset configuration to defaults. Use with caution.',
     'settings.reboot.desc'=> 'Restart the device remotely. Ensure all changes are saved before rebooting.',
     'settings.shutdown.desc'=> 'Shut down the device remotely and safely. Use with caution.',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Name',
+    'settings.table.th.group'=> 'Group',
+    'settings.table.th.last-login'=> 'Last Login',
+    'settings.table.th.comment'=> 'Comment',
+    'settings.table.th.role'=> 'Role',
+    'settings.table.th.select'=> 'Select All',
+    'settings.table.th.username'=> 'Username',
+    'settings.table.th.password'=> 'Password',
+    'settings.table.th.actions'=> 'Actions',
+    'settings.table.th.next-run'=> 'Next Run',
+    'settings.table.th.interval'=> 'Interval',
+    'settings.table.th.enabled'=> 'Enabled',
+    'settings.table.th.size'=> 'Size',
+    'settings.table.th.owner'=> 'Owner',
+    'settings.table.th.date'=> 'Date',
 
    
     // Settings Page - Identity
@@ -546,12 +584,21 @@ return [
     'settings.ntp.system.offset'=> 'System Offset',
 
     // Settings Page - Files
+    'settings.files.title'=> 'Files Manager',
+    'settings.files.desc'=> 'Upload, download and manage files stored on the device.',
+
 
     // Settings Page - Users
+    'settings.users.title'=> 'User Manager',
+    'settings.users.desc'=> 'Create, edit and manage system users and their access rights.',
 
     // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Scheduler',
+    'settings.scheduler.desc'=> 'Create and manage scheduled tasks for maintenance and automation.',
 
     // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Create, edit and run custom scripts on the device.',
 
     // Settings Page - Reset
     // Reset Modal

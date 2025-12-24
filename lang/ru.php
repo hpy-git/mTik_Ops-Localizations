@@ -478,6 +478,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Загрузить',
+    'settings.buttons.delete'=> 'Удалить',
+    'settings.buttons.refresh'=> 'Обновить',
+    'settings.buttons.save'=> 'Сохранить',
+    'settings.buttons.cancel'=> 'Отмена',
+    'settings.buttons.close'=> 'Закрыть',
+    'settings.buttons.edit'=> 'Редактировать',
+    'settings.buttons.add'=> 'Добавить',
+    'settings.buttons.remove'=> 'Удалить',
+    'settings.buttons.prev'=> 'Назад',
+    'settings.buttons.next'=> 'Далее',
+    'settings.sort.by'=> 'Сортировать по',
+    'settings.sort' => 'Сортировать',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Действия',
+    
+    // Settings Page - Loading
+    'settings.loading'=> 'Загрузка настроек...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Имя',
+    'settings.table.th.group'=> 'Группа',
+    'settings.table.th.last-login'=> 'Последний вход',
+    'settings.table.th.comment'=> 'Комментарий',
+    'settings.table.th.role'=> 'Роль',
+    'settings.table.th.select'=> 'Выбрать все',
+    'settings.table.th.username'=> 'Имя пользователя',
+    'settings.table.th.password'=> 'Пароль',
+    'settings.table.th.actions'=> 'Действия',
+    'settings.table.th.next-run'=> 'Следующий запуск',
+    'settings.table.th.interval'=> 'Интервал',
+    'settings.table.th.enabled'=> 'Включено',
+    'settings.table.th.size'=> 'Размер',
+    'settings.table.th.owner'=> 'Владелец',
+    'settings.table.th.date'=> 'Дата',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Менеджер файлов',
+    'settings.files.desc'=> 'Загружайте, скачивайте и управляйте файлами, хранящимися на устройстве.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Управление пользователями',
+    'settings.users.desc'=> 'Создавайте, редактируйте и управляйте системными пользователями и их правами доступа.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Планировщик',
+    'settings.scheduler.desc'=> 'Создавайте и управляйте запланированными задачами для обслуживания и автоматизации.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Скрипты',
+    'settings.scripts.desc'=> 'Создавайте, редактируйте и запускайте пользовательские скрипты на устройстве.',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Вернуться к настройкам',
 
@@ -520,14 +575,6 @@ return [
     'settings.ntp.synced.server'=> 'Синхронизированный сервер',
     'settings.ntp.synced.stratum'=> 'Синхронизированный уровень',
     'settings.ntp.system.offset'=> 'Системное смещение',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

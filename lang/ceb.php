@@ -491,8 +491,29 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Upload',
+    'settings.buttons.delete'=> 'Delete',
+    'settings.buttons.refresh'=> 'Refresh',
+    'settings.buttons.save'=> 'Save',
+    'settings.buttons.cancel'=> 'Cancel',
+    'settings.buttons.close'=> 'Close',
+    'settings.buttons.edit'=> 'Edit',
+    'settings.buttons.add'=> 'Add',
+    'settings.buttons.remove'=> 'Remove',
+    'settings.buttons.prev'=> 'Prev',
+    'settings.buttons.next'=> 'Next',
+    'settings.sort.by'=> 'Sort by',
+    'settings.sort' => 'Sort',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Balik sa Mga Setting',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Actions',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Loading Settings...',
 
     // Settings Page Descriptions
     'settings.identity.desc'=> 'Tan-awa ug i-edit ang identity sa device ug ang basic nga impormasyon sa sistema.',
@@ -504,6 +525,23 @@ return [
     'settings.reset.desc'=> 'I-reset ang konfigurasyon ngadto sa default. Gamita uban ang pag-amping.',
     'settings.reboot.desc'=> 'I-restart ang device remotely. Siguroha nga na-save ang tanan nga kausaban sa wala pa mag-reboot.',
     'settings.shutdown.desc'=> 'I-shutdown ang device remotely ug luwas. Gamita uban ang pag-amping.',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Name',
+    'settings.table.th.group'=> 'Group',
+    'settings.table.th.last-login'=> 'Last Login',
+    'settings.table.th.comment'=> 'Comment',
+    'settings.table.th.role'=> 'Role',
+    'settings.table.th.select'=> 'Select All',
+    'settings.table.th.username'=> 'Username',
+    'settings.table.th.password'=> 'Password',
+    'settings.table.th.actions'=> 'Actions',
+    'settings.table.th.next-run'=> 'Next Run',
+    'settings.table.th.interval'=> 'Interval',
+    'settings.table.th.enabled'=> 'Enabled',
+    'settings.table.th.size'=> 'Size',
+    'settings.table.th.owner'=> 'Owner',
+    'settings.table.th.date'=> 'Date',
 
    
     // Settings Page - Identity
@@ -536,12 +574,21 @@ return [
     'settings.ntp.system.offset'=> 'System Offset',
 
     // Settings Page - Files
+    'settings.files.title'=> 'Files Manager',
+    'settings.files.desc'=> 'Upload, download and manage files stored on the device.',
+
 
     // Settings Page - Users
+    'settings.users.title'=> 'User Manager',
+    'settings.users.desc'=> 'Create, edit and manage system users and their access rights.',
 
     // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Scheduler',
+    'settings.scheduler.desc'=> 'Create and manage scheduled tasks for maintenance and automation.',
 
     // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Create, edit and run custom scripts on the device.',
 
     // Settings Page - Reset
     // Reset Modal

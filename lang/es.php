@@ -491,6 +491,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Subir',
+    'settings.buttons.delete'=> 'Eliminar',
+    'settings.buttons.refresh'=> 'Actualizar',
+    'settings.buttons.save'=> 'Guardar',
+    'settings.buttons.cancel'=> 'Cancelar',
+    'settings.buttons.close'=> 'Cerrar',
+    'settings.buttons.edit'=> 'Editar',
+    'settings.buttons.add'=> 'Agregar',
+    'settings.buttons.remove'=> 'Eliminar',
+    'settings.buttons.prev'=> 'Anterior',
+    'settings.buttons.next'=> 'Siguiente',
+    'settings.sort.by'=> 'Ordenar por',
+    'settings.sort' => 'Ordenar',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Acciones',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Cargando ajustes...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Nombre',
+    'settings.table.th.group'=> 'Grupo',
+    'settings.table.th.last-login'=> 'Último inicio de sesión',
+    'settings.table.th.comment'=> 'Comentario',
+    'settings.table.th.role'=> 'Rol',
+    'settings.table.th.select'=> 'Seleccionar todo',
+    'settings.table.th.username'=> 'Nombre de usuario',
+    'settings.table.th.password'=> 'Contraseña',
+    'settings.table.th.actions'=> 'Acciones',
+    'settings.table.th.next-run'=> 'Próxima ejecución',
+    'settings.table.th.interval'=> 'Intervalo',
+    'settings.table.th.enabled'=> 'Habilitado',
+    'settings.table.th.size'=> 'Tamaño',
+    'settings.table.th.owner'=> 'Propietario',
+    'settings.table.th.date'=> 'Fecha',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Administrador de archivos',
+    'settings.files.desc'=> 'Subir, descargar y administrar archivos almacenados en el dispositivo.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Administrador de usuarios',
+    'settings.users.desc'=> 'Crear, editar y administrar los usuarios del sistema y sus permisos de acceso.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Programador',
+    'settings.scheduler.desc'=> 'Crear y gestionar tareas programadas para mantenimiento y automatización.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Crear, editar y ejecutar scripts personalizados en el dispositivo.',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Volver a Ajustes',
 
@@ -534,14 +589,6 @@ return [
     'settings.ntp.synced.server'=> 'Servidor sincronizado',
     'settings.ntp.synced.stratum'=> 'Estrato sincronizado',
     'settings.ntp.system.offset'=> 'Desplazamiento del sistema',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

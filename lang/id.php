@@ -482,6 +482,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Unggah',
+    'settings.buttons.delete'=> 'Hapus',
+    'settings.buttons.refresh'=> 'Segarkan',
+    'settings.buttons.save'=> 'Simpan',
+    'settings.buttons.cancel'=> 'Batal',
+    'settings.buttons.close'=> 'Tutup',
+    'settings.buttons.edit'=> 'Edit',
+    'settings.buttons.add'=> 'Tambah',
+    'settings.buttons.remove'=> 'Hapus',
+    'settings.buttons.prev'=> 'Sebelumnya',
+    'settings.buttons.next'=> 'Berikutnya',
+    'settings.sort.by'=> 'Urutkan berdasarkan',
+    'settings.sort' => 'Urutkan',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Tindakan',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Memuat Pengaturan...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Nama',
+    'settings.table.th.group'=> 'Grup',
+    'settings.table.th.last-login'=> 'Login Terakhir',
+    'settings.table.th.comment'=> 'Komentar',
+    'settings.table.th.role'=> 'Peran',
+    'settings.table.th.select'=> 'Pilih Semua',
+    'settings.table.th.username'=> 'Nama Pengguna',
+    'settings.table.th.password'=> 'Kata Sandi',
+    'settings.table.th.actions'=> 'Tindakan',
+    'settings.table.th.next-run'=> 'Jalankan Berikutnya',
+    'settings.table.th.interval'=> 'Interval',
+    'settings.table.th.enabled'=> 'Diaktifkan',
+    'settings.table.th.size'=> 'Ukuran',
+    'settings.table.th.owner'=> 'Pemilik',
+    'settings.table.th.date'=> 'Tanggal',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Pengelola Berkas',
+    'settings.files.desc'=> 'Unggah, unduh dan kelola file yang disimpan di perangkat.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Pengelola Pengguna',
+    'settings.users.desc'=> 'Buat, edit dan kelola pengguna sistem dan hak akses mereka.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Penjadwal',
+    'settings.scheduler.desc'=> 'Buat dan kelola tugas terjadwal untuk pemeliharaan dan otomatisasi.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Skrip',
+    'settings.scripts.desc'=> 'Buat, edit dan jalankan skrip kustom di perangkat.',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Kembali ke Pengaturan',
 
@@ -526,12 +581,6 @@ return [
     'settings.ntp.synced.stratum'=> 'Stratum Sinkron',
     'settings.ntp.system.offset'=> 'Offset Sistem',
     // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

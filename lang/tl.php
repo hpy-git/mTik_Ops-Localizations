@@ -491,6 +491,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'I-upload',
+    'settings.buttons.delete'=> 'Tanggalin',
+    'settings.buttons.refresh'=> 'I-refresh',
+    'settings.buttons.save'=> 'I-save',
+    'settings.buttons.cancel'=> 'Kanselahin',
+    'settings.buttons.close'=> 'Isara',
+    'settings.buttons.edit'=> 'I-edit',
+    'settings.buttons.add'=> 'Idagdag',
+    'settings.buttons.remove'=> 'Alisin',
+    'settings.buttons.prev'=> 'Nauna',
+    'settings.buttons.next'=> 'Susunod',
+    'settings.sort.by'=> 'Isort ayon sa',
+    'settings.sort' => 'Isort',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Mga Aksyon',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Naglo-load ng Mga Setting...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Pangalan',
+    'settings.table.th.group'=> 'Grupo',
+    'settings.table.th.last-login'=> 'Huling Pag-login',
+    'settings.table.th.comment'=> 'Komento',
+    'settings.table.th.role'=> 'Tungkulin',
+    'settings.table.th.select'=> 'Piliin Lahat',
+    'settings.table.th.username'=> 'Username',
+    'settings.table.th.password'=> 'Password',
+    'settings.table.th.actions'=> 'Mga Aksyon',
+    'settings.table.th.next-run'=> 'Susunod na Takbo',
+    'settings.table.th.interval'=> 'Interval',
+    'settings.table.th.enabled'=> 'Pinagana',
+    'settings.table.th.size'=> 'Sukat',
+    'settings.table.th.owner'=> 'May-ari',
+    'settings.table.th.date'=> 'Petsa',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Tagapamahala ng File',
+    'settings.files.desc'=> 'Mag-upload, mag-download at pamahalaan ang mga file na naka-imbak sa device.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Tagapamahala ng Mga User',
+    'settings.users.desc'=> 'Lumikha, i-edit at pamahalaan ang mga system user at ang kanilang mga karapatan sa pag-access.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Scheduler',
+    'settings.scheduler.desc'=> 'Lumikha at pamahalaan ang mga naka-iskedyul na gawain para sa maintenance at automation.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Mga Script',
+    'settings.scripts.desc'=> 'Lumikha, i-edit at patakbuhin ang custom na mga script sa device.',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Bumalik sa Mga Setting',
 
@@ -534,14 +589,6 @@ return [
     'settings.ntp.synced.server'=> 'Naka-sync na Server',
     'settings.ntp.synced.stratum'=> 'Naka-sync na Stratum',
     'settings.ntp.system.offset'=> 'Offset ng System',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

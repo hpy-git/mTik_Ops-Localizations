@@ -491,6 +491,61 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'I-upload',
+    'settings.buttons.delete'=> 'Ikkaten',
+    'settings.buttons.refresh'=> 'I-refresh',
+    'settings.buttons.save'=> 'I-save',
+    'settings.buttons.cancel'=> 'Ikansela',
+    'settings.buttons.close'=> 'Isarado',
+    'settings.buttons.edit'=> 'I-edit',
+    'settings.buttons.add'=> 'Idugang',
+    'settings.buttons.remove'=> 'Ikkaten',
+    'settings.buttons.prev'=> 'Napalabas',
+    'settings.buttons.next'=> 'Sumaruno',
+    'settings.sort.by'=> 'Ag-sorta babaen ti',
+    'settings.sort' => 'Ag-sorta',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Aksyon',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Agar-aramat iti Settings...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Nagan',
+    'settings.table.th.group'=> 'Grupo',
+    'settings.table.th.last-login'=> 'Last Login',
+    'settings.table.th.comment'=> 'Komento',
+    'settings.table.th.role'=> 'Role',
+    'settings.table.th.select'=> 'Pilia amin',
+    'settings.table.th.username'=> 'Username',
+    'settings.table.th.password'=> 'Password',
+    'settings.table.th.actions'=> 'Aksyon',
+    'settings.table.th.next-run'=> 'Sumaruno a Run',
+    'settings.table.th.interval'=> 'Interval',
+    'settings.table.th.enabled'=> 'Aktibo',
+    'settings.table.th.size'=> 'Kadakkel',
+    'settings.table.th.owner'=> 'Agtagikua',
+    'settings.table.th.date'=> 'Petsa',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'File Manager',
+    'settings.files.desc'=> 'I-upload, i-download ken i-manihar dagiti files a naimpan iti aparato.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'User Manager',
+    'settings.users.desc'=> 'Agaramid, i-edit ken i-manihar dagiti system users ken dagiti access rights da.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Scheduler',
+    'settings.scheduler.desc'=> 'Agaramid ken i-manihar dagiti naka-schedule a tasks para iti panagmantener ken automation.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Agaramid, i-edit ken patakderen dagiti custom a scripts iti aparato.',
+
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Agtungpal manen iti Setting',
 
@@ -534,14 +589,6 @@ return [
     'settings.ntp.synced.server'=> 'Na-synced a Server',
     'settings.ntp.synced.stratum'=> 'Na-synced a Stratum',
     'settings.ntp.system.offset'=> 'System Offset',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal

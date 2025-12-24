@@ -491,8 +491,63 @@ return [
     //'settings.open.reboot'=> 'Reboot',
     //'settings.open.shutdown'=> 'Shutdown',
 
+    // SETTINGS GENERAL BUTTONS
+    'settings.buttons.upload'=> 'Téléverser',
+    'settings.buttons.delete'=> 'Supprimer',
+    'settings.buttons.refresh'=> 'Actualiser',
+    'settings.buttons.save'=> 'Enregistrer',
+    'settings.buttons.cancel'=> 'Annuler',
+    'settings.buttons.close'=> 'Fermer',
+    'settings.buttons.edit'=> 'Modifier',
+    'settings.buttons.add'=> 'Ajouter',
+    'settings.buttons.remove'=> 'Supprimer',
+    'settings.buttons.prev'=> 'Précédent',
+    'settings.buttons.next'=> 'Suivant',
+    'settings.sort.by'=> 'Trier par',
+    'settings.sort' => 'Trier',
+
+    // Settings Page - Actions
+    'settings.actions'=> 'Actions',
+
+    // Settings Page - Loading
+    'settings.loading'=> 'Chargement des paramètres...',
+
+    // Settings Table Headers
+    'settings.table.th.name'=> 'Nom',
+    'settings.table.th.group'=> 'Groupe',
+    'settings.table.th.last-login'=> 'Dernière connexion',
+    'settings.table.th.comment'=> 'Commentaire',
+    'settings.table.th.role'=> 'Rôle',
+    'settings.table.th.select'=> 'Tout sélectionner',
+    'settings.table.th.username'=> 'Nom d\'utilisateur',
+    'settings.table.th.password'=> 'Mot de passe',
+    'settings.table.th.actions'=> 'Actions',
+    'settings.table.th.next-run'=> 'Prochaine exécution',
+    'settings.table.th.interval'=> 'Intervalle',
+    'settings.table.th.enabled'=> 'Activé',
+    'settings.table.th.size'=> 'Taille',
+    'settings.table.th.owner'=> 'Propriétaire',
+    'settings.table.th.date'=> 'Date',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Gestionnaire de fichiers',
+    'settings.files.desc'=> 'Téléversez, téléchargez et gérez les fichiers stockés sur l\'appareil.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Gestion des utilisateurs',
+    'settings.users.desc'=> 'Créer, modifier et gérer les utilisateurs du système et leurs droits d\'accès.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Planificateur',
+    'settings.scheduler.desc'=> 'Créer et gérer des tâches planifiées pour la maintenance et l\'automatisation.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Créer, modifier et exécuter des scripts personnalisés sur l\'appareil.',
+
     // Settings Page - Back Button
-    'settings.back-to-settings'=> 'Back to Settings',
+    'settings.back-to-settings'=> 'Retour aux paramètres',
 
     // Settings Page Descriptions
     'settings.identity.desc'=> 'View and edit the device identity and basic system information.',
@@ -534,14 +589,6 @@ return [
     'settings.ntp.synced.server'=> 'Synced Server',
     'settings.ntp.synced.stratum'=> 'Synced Stratum',
     'settings.ntp.system.offset'=> 'System Offset',
-
-    // Settings Page - Files
-
-    // Settings Page - Users
-
-    // Settings Page - Scheduler
-
-    // Settings Page - Scripts
 
     // Settings Page - Reset
     // Reset Modal
