@@ -232,6 +232,8 @@ return [
     'dashboard.fullscreen'=> 'Fullscreen',
     'dashboard.loading'=> 'Ag-load ti datos...',
     'dashboard.not-monitoring'=> 'Saan a nasukimat',
+    'dashboard.monitoring'=> 'Panagsukimat',
+    'dashboard.select_interface'=> 'Piliin ti interface tapno agpatingga ti live monitoring.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'System Logging',
@@ -998,10 +1000,23 @@ return [
     'ip.cloud.public.ipv4'=> 'Public a IPv4',
     'ip.cloud.public.ipv6'=> 'Public a IPv6',
     'ip.cloud.dns.name' => 'Nagan ti DNS',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
     'ip.dhcp.client.options'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
    
     // dns.php

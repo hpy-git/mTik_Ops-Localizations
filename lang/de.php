@@ -233,6 +233,8 @@ return [
     'dashboard.fullscreen'=> 'Vollbild',
     'dashboard.loading'=> 'Daten werden geladen...',
     'dashboard.not-monitoring'=> 'Keine Überwachung aktiv',
+        'dashboard.monitoring'=> 'Überwachung',
+        'dashboard.select_interface'=> 'Wählen Sie eine Schnittstelle, um die Live-Überwachung zu starten.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'Systemprotokolle',
@@ -974,9 +976,22 @@ return [
     'ip.cloud.public.ipv4'=> 'Öffentliche IPv4',
     'ip.cloud.public.ipv6'=> 'Öffentliche IPv6',
     'ip.cloud.dns.name' => 'DNS-Name',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // IP DHCP Client Page
     'ip.dhcp.client.options'=> 'DHCP-Client-Optionen',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
     // IP DNS - Modal Form
     'ip.dns.form.servers'=> 'DNS-Server',

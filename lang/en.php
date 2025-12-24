@@ -242,6 +242,8 @@ return [
     'dashboard.fullscreen'=> 'Fullscreen',
     'dashboard.loading'=> 'Loading Data...',
     'dashboard.not-monitoring'=> 'Not Monitoring',
+    'dashboard.monitoring'=> 'Monitoring',
+    'dashboard.select_interface'=> 'Select an interface to start live monitoring.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'System Logging',
@@ -964,6 +966,7 @@ return [
     'ip.buttons.flush.cache'=> 'Flush Cache',
     'ip.buttons.add.dns.server'=> 'Add DNS Server',
 
+
     // IP UPnP Page
     'ip.upnp.enabled'=> 'Enabled',
     'ip.upnp.allow-disable-external-iface'=> 'Allow disable external interface',
@@ -1011,10 +1014,23 @@ return [
     'ip.cloud.public.ipv4'=> 'Public IPv4',
     'ip.cloud.public.ipv6'=> 'Public IPv6',
     'ip.cloud.dns.name' => 'DNS Name',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
-    'ip.dhcp.client.options'=> 'DHCP Client Options',
+    'ip.dhcp.client.options'=> 'DHCP Client',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
    
     // dns.php

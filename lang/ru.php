@@ -225,6 +225,8 @@ return [
     'dashboard.fullscreen'=> 'Полноэкранный режим',
     'dashboard.loading'=> 'Загрузка данных...',
     'dashboard.not-monitoring'=> 'Не мониторится',
+    'dashboard.monitoring'=> 'Мониторинг',
+    'dashboard.select_interface'=> 'Выберите интерфейс, чтобы начать мониторинг в реальном времени.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'Системное ведение журнала',
@@ -974,10 +976,23 @@ return [
     'ip.cloud.public.ipv4'=> 'Публичный IPv4',
     'ip.cloud.public.ipv6'=> 'Публичный IPv6',
     'ip.cloud.dns.name' => 'Имя DNS',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
     'ip.dhcp.client.options'=> 'Опции DHCP клиента',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
    
     // dns.php

@@ -232,6 +232,8 @@ return [
     'dashboard.fullscreen'=> 'Buong Screen',
     'dashboard.loading'=> 'Naglo-load ng Datos...',
     'dashboard.not-monitoring'=> 'Hindi Naka-monitor',
+    'dashboard.monitoring'=> 'Pagmomonitor',
+    'dashboard.select_interface'=> 'Piliin ang interface upang simulan ang live na pagmamanman.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'System Logging',
@@ -998,10 +1000,23 @@ return [
     'ip.cloud.public.ipv4'=> 'Public IPv4',
     'ip.cloud.public.ipv6'=> 'Public IPv6',
     'ip.cloud.dns.name' => 'Pangalan ng DNS',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
     'ip.dhcp.client.options'=> 'Mga Opsyon ng DHCP Client',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
    
     // dns.php

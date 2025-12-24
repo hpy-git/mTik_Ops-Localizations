@@ -232,6 +232,8 @@ return [
     'dashboard.fullscreen'=> 'Pantalla completa',
     'dashboard.loading'=> 'Cargando datos...',
     'dashboard.not-monitoring'=> 'Sin monitoreo',
+    'dashboard.monitoring'=> 'Monitorización',
+    'dashboard.select_interface'=> 'Seleccione una interfaz para iniciar la supervisión en vivo.',
 
     // Dashboard System Logging
     'dashboard.logging.title'=> 'Registro del sistema',
@@ -998,10 +1000,23 @@ return [
     'ip.cloud.public.ipv4'=> 'IPv4 pública',
     'ip.cloud.public.ipv6'=> 'IPv6 pública',
     'ip.cloud.dns.name' => 'Nombre DNS',
+    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
+    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
     'ip.dhcp.client.options'=> 'Opciones de cliente DHCP',
+    'ip.dhcp.client.modal.form.interface'=> 'Interface',
+    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
+    'ip.dhcp.client.options2'=> 'DHCP Client Options',
+    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.code'=> 'Code',
+    'ip.dhcp.client.modal.form.value'=> 'Value',
 
    
     // dns.php
