@@ -230,7 +230,6 @@ return [
     // Dashboard Network Monitoring
     'dashboard.monitoring.title'=> 'Pagmo-monitor ng Network',
     'dashboard.monitoring.desc'=> 'Real-time na pagmo-monitor ng performance ng network, uptime, at katayuan ng mga device sa iyong MikroTik infrastructure.',
-    'dashboard.ltmg.title'=> 'Live Traffic Monitoring Graph',
     'dashboard.fullscreen'=> 'Buong Screen',
     'dashboard.loading'=> 'Naglo-load ng data...',
     'dashboard.not-monitoring'=> 'Hindi naka-monitor',

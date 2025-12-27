@@ -229,7 +229,6 @@ return [
     // Dashboard Network Monitoring
     'dashboard.monitoring.title'=> 'Network Monitoring',
     'dashboard.monitoring.desc'=> 'Real-time monitoring of network performance, uptime, and device status across your MikroTik infrastructure.',
-    'dashboard.ltmg.title'=> 'Live Traffic Monitoring Graph',
     'dashboard.fullscreen'=> 'Fullscreen',
     'dashboard.loading'=> 'Loading Data...',
     'dashboard.not-monitoring'=> 'Not Monitoring',
