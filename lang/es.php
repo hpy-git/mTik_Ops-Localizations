@@ -1,17 +1,16 @@
 <?php
 ////////////////////////////////////////////////////////////////////////
-// Spanish language translations for mTik_Ops                           
-// Author: HPY™                                                         
-// Version: Next-Generation                                             
+// Spanish translations for mTik_Ops                                                                              
+// Version: Next-Generation                                           
 ////////////////////////////////////////////////////////////////////////
 return [
     // Start of Translations
     // Global
-    'language-changed' => 'El idioma se ha cambiado a {lang}',
+    'language-changed' => 'Idioma cambiado a {lang}',
     'language-search-placeholder' => 'Buscar...',
 
     // Global Search
-    'search.title' => 'Buscar',
+    'search.title' => 'Búsqueda',
     'search.instructions' => 'Escriba una palabra clave o frase para buscar en el sitio.',
     'search.results_header' => 'Resultados de búsqueda para "{query}"',
     'search.placeholder' => 'Escriba para buscar...',
@@ -19,9 +18,10 @@ return [
     'search.results' => 'Resultados',
     'search.button' => 'Buscar',
     'search.hint' => 'Escriba para ver sugerencias instantáneas.',
-    'search.quick_links' => 'Accesos rápidos',
+    'search.quick_links' => 'Enlaces rápidos',
     'search.show' => 'Mostrar búsqueda',
 
+    
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Gestión centralizada de routers',
@@ -29,8 +29,8 @@ return [
     // Authentication
     'nav.login' => 'Iniciar sesión',
     'nav.logout' => 'Cerrar sesión',
-    'auth.logging_in' => 'Iniciando sesión',
-    'auth.logging_out' => 'Cerrando sesión',
+    'auth.logging_in' => 'Iniciando sesión...',
+    'auth.logging_out' => 'Cerrando sesión...',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> '¡Hola!',
@@ -51,22 +51,22 @@ return [
 
     // index.php
     // Index Page - About Section
-    'about.title' => 'Construido para MikroTik',
-    'about.desc' => 'mTikOps es una plataforma basada en navegador para gestionar routers y hotspots de MikroTik. Incluye acceso remoto, gestión de hotspots (impresión), PPPoE y más. Todo en un sistema rápido y centralizado.',
+    'about.title' => 'Diseñado para MikroTik',
+    'about.desc' => 'mTikOps es una plataforma basada en navegador para gestionar routers y hotspots MikroTik. Incluye acceso remoto, gestión de hotspots (impresión), PPPoE y más. Todo en un sistema rápido.',
     'about.about_us_button' => 'Sobre nosotros',
     'about.our_team_button' => 'Nuestro equipo',
 
     // Index Page - Features Section
     'features.remote.title' => 'Gestión remota de la red',
-    'features.remote.desc' => 'Supervisa y administra routers remotos, consulta el estado de interfaces, realiza reinicios y aplica cambios de configuración de forma segura desde una consola unificada.',
+    'features.remote.desc' => 'Supervise y gestione routers remotos, vea el estado de las interfaces, realice reinicios y aplique cambios de configuración de forma segura desde una única consola.',
     'features.hotspot.title' => 'Gestión de Hotspot',
-    'features.hotspot.desc' => 'Crea y administra servidores hotspot y perfiles de usuario, emite vales, supervisa usuarios y sesiones activas, y realiza contabilidad e informes.',
+    'features.hotspot.desc' => 'Cree y gestione servidores hotspot y perfiles de usuario, emita vouchers, supervise usuarios activos y sesiones, y genere contabilidad e informes.',
     'features.troubleshoot.title' => 'Solución de problemas y configuración',
-    'features.troubleshoot.desc' => 'Aplica y audita cambios de configuración, ejecuta diagnósticos, visualiza logs y resuelve problemas de conectividad con herramientas integradas.',
+    'features.troubleshoot.desc' => 'Aplique y audite cambios de configuración, ejecute diagnósticos, consulte logs y solucione problemas de conectividad con herramientas integradas.',
 
     // Index Page - Signup Section
-    'signup.title' => 'Comienza con mTikOps',
-    'signup.desc' => 'Crea una cuenta para gestionar routers, hotspots y ejecutar diagnósticos en tu red desde un único panel.',
+    'signup.title' => 'Comience con mTikOps',
+    'signup.desc' => 'Cree una cuenta para gestionar routers, hotspots y ejecutar diagnósticos en su red desde un único panel.',
     'signup.cta' => 'Regístrate',
 
     // Index Page - Contact Section
@@ -81,14 +81,14 @@ return [
     'footer.copyright' => 'Copyright &copy; mTikOps {year}',
     'footer.powered' => 'Desarrollado por HPY™',
     'modal.confirm.title' => 'Confirmar',
-    'modal.confirm.body' => '¿Estás seguro?',
+    'modal.confirm.body' => '¿Está seguro?',
     'modal.confirm.cancel' => 'Cancelar',
-    'modal.confirm.ok' => 'Confirmar',
+    'modal.confirm.ok' => 'Aceptar',
 
     // Login Page
-    'login.title' => 'Inicia sesión en mTik_Ops',
-    'login.desc' => 'Accede a tu cuenta de mTik_Ops para gestionar routers y hotspots de MikroTik desde un panel centralizado.',
-    'login.form.title' => 'Inicia sesión en tu cuenta',
+    'login.title' => 'Iniciar sesión en mTik_Ops',
+    'login.desc' => 'Acceda a su cuenta mTik_Ops para gestionar routers y hotspots MikroTik desde un panel centralizado.',
+    'login.form.title' => 'Iniciar sesión en su cuenta',
     'login.form.host'=> 'Host',
     'login.form.username'=> 'Usuario',
     'login.form.password'=> 'Contraseña',
@@ -99,16 +99,17 @@ return [
     'login.form.remember'=> 'Recordarme',
     'login.form.connect'=> 'Conectar',
     'login.form.cancel'=> 'Cancelar',
+
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'Router IP o Nombre de Host',
-    'login.form.username_placeholder'=> 'Ingrese su nombre de usuario',
-    'login.form.password_placeholder'=> 'Ingrese su contraseña',
+    'login.form.host_placeholder'=> 'IP del router o nombre de host',
+    'login.form.username_placeholder'=> 'Introduzca su usuario',
+    'login.form.password_placeholder'=> 'Introduzca su contraseña',
 
 
     // about-us.php
     // About Us Page
     'about-us.title' => 'Sobre nosotros',
-    'about-us.desc' => 'Conoce más sobre mTik_Ops, nuestra misión y el equipo detrás de la plataforma.',
+    'about-us.desc' => 'Conozca más sobre mTik_Ops, nuestra misión y el equipo detrás de la plataforma.',
     'about-us.overview'=> 'Resumen',
     'about-us.vision'=> 'Visión',
     'about-us.features'=> 'Funciones',
@@ -118,12 +119,12 @@ return [
 
     // about-us.php
     // About Us Page Descriptions
-    'about-us.overview.desc'=> 'Obtén una introducción rápida a mTikOps y sus capacidades principales.',
-    'about-us.vision.desc'=> 'Conoce nuestra misión y objetivos a largo plazo del proyecto.',
-    'about-us.features.desc'=> 'Descubre las funcionalidades principales de mTikOps.',
+    'about-us.overview.desc'=> 'Introducción rápida a mTikOps y sus capacidades principales.',
+    'about-us.vision.desc'=> 'Conozca nuestra misión y objetivos a largo plazo para el proyecto.',
+    'about-us.features.desc'=> 'Vea las principales funciones disponibles en mTikOps.',
     'about-us.tutorials.desc'=> 'Guías paso a paso y flujos de trabajo de ejemplo.',
-    'about-us.faqs.desc'=> 'Preguntas frecuentes y respuestas sobre mTikOps.',
-    'about-us.requirements.desc'=> 'Requisitos previos y compatibilidad de RouterOS para ejecutar mTikOps.',
+    'about-us.faqs.desc'=> 'Preguntas frecuentes y sus respuestas sobre mTikOps.',
+    'about-us.requirements.desc'=> 'Requisitos previos y requisitos de RouterOS para ejecutar mTikOps.',
 
     // about-us.php
     // About Us Page Buttons
@@ -139,7 +140,7 @@ return [
 
     // About Us - Overview Page
     'about-us.overview-page.title'=> 'Resumen',
-    'about-us.overview-page.desc'=> 'mTikOps es una plataforma web ligera para gestionar routers y servicios hotspot de MikroTik desde el navegador.',
+    'about-us.overview-page.desc'=> 'mTikOps es una plataforma web ligera para gestionar routers MikroTik y servicios hotspot desde el navegador.',
 
     // About Us - Vision Page
     'about-us.vision-page.title'=> 'Visión',
@@ -147,15 +148,15 @@ return [
 
     // About Us - Features Page
     'about-us.features-page.title'=> 'Funciones',
-    'about-us.features-page.desc'=> 'Explora las funciones principales de mTikOps.',
+    'about-us.features-page.desc'=> 'Explore las funciones principales de mTikOps.',
 
     // About Us - Tutorials Page
     'about-us.tutorials-page.title'=> 'Tutoriales',
-    'about-us.tutorials-page.desc'=> 'Guías y tutoriales para tareas comunes.',
+    'about-us.tutorials-page.desc'=> 'Guías y procedimientos para tareas comunes.',
 
     // About Us - FAQs Page
     'about-us.faqs-page.title'=> 'Preguntas frecuentes',
-    'about-us.faqs-page.desc'=> 'Preguntas frecuentes y sus respuestas.',
+    'about-us.faqs-page.desc'=> 'Preguntas frecuentes y respuestas.',
 
     // About Us - Requirements Page
     'about-us.requirements-page.title'=> 'Requisitos',
@@ -164,44 +165,44 @@ return [
     // our-team.php
     // Our Team Page
     'our-team.title'=> 'Nuestro equipo',
-    'our-team.desc'=> 'Conoce a las personas detrás de mTikOps: desarrolladores, colaboradores y mantenedores.',
+    'our-team.desc'=> 'Conozca a las personas detrás de mTikOps: desarrolladores, contribuidores y mantenedores.',
     'our-team.leadership'=> 'Liderazgo',
     'our-team.developers'=> 'Desarrolladores',
-    'our-team.contributors'=> 'Colaboradores',
+    'our-team.contributors'=> 'Contribuidores',
     'our-team.advisors'=> 'Asesores',
     'our-team.careers'=> 'Únete',
     'our-team.contact'=> 'Contacto',
 
     // Our Team Page Descriptions
     'our-team.leadership.desc'=> 'Mantenedores principales y líderes del proyecto que impulsan mTikOps.',
-    'our-team.developers.desc'=> 'Ingenieros y colaboradores que desarrollan funcionalidades y correcciones.',
-    'our-team.contributors.desc'=> 'Colaboradores de la comunidad que ayudan con documentación, pruebas y código.',
+    'our-team.developers.desc'=> 'Ingenieros y contribuidores que desarrollan funciones y corrigen errores.', 
+    'our-team.contributors.desc'=> 'Miembros de la comunidad que ayudan con documentación, pruebas y código.',
     'our-team.advisors.desc'=> 'Asesores y expertos que apoyan el proyecto.',
-    'our-team.careers.desc'=> 'Vacantes abiertas y formas de unirte al equipo.',
-    'our-team.contact.desc'=> 'Contacta con el equipo para preguntas o colaboración.',
+    'our-team.careers.desc'=> 'Vacantes y formas de unirse al equipo.',
+    'our-team.contact.desc'=> 'Póngase en contacto con el equipo para preguntas o colaboración.',
 
     // Our Team Page Buttons
     'our-team.open.leadership'=> 'Ver liderazgo',
     'our-team.open.developers'=> 'Ver desarrolladores',
-    'our-team.open.contributors'=> 'Ver colaboradores',
+    'our-team.open.contributors'=> 'Ver contribuidores',
     'our-team.open.advisors'=> 'Ver asesores',
     'our-team.open.careers'=> 'Únete',
     'our-team.open.contact'=> 'Contactar al equipo',
 
     // Our Team - Back Button
-    'our-team.back-to-team'=> 'Volver a Nuestro equipo',
+    'our-team.back-to-team'=> 'Volver al equipo',
 
     // Our Team - Leadership Page
     'our-team.leadership-page.title'=> 'Liderazgo',
-    'our-team.leadership-page.desc'=> 'Conoce a los mantenedores principales y líderes del proyecto detrás de mTikOps.',
+    'our-team.leadership-page.desc'=> 'Conozca a los mantenedores principales y líderes del proyecto detrás de mTikOps.',
 
     // Our Team - Developers Page
     'our-team.developers-page.title'=> 'Desarrolladores',
     'our-team.developers-page.desc'=> 'Perfiles y responsabilidades de los desarrolladores que contribuyen a mTikOps.',
 
     // Our Team - Contributors Page
-    'our-team.contributors-page.title'=> 'Colaboradores',
-    'our-team.contributors-page.desc'=> 'Reconociendo a los colaboradores de la comunidad y cómo participar.',
+    'our-team.contributors-page.title'=> 'Contribuidores',
+    'our-team.contributors-page.desc'=> 'Reconociendo a los contribuidores de la comunidad y cómo participar.',
 
     // Our Team - Advisors Page
     'our-team.advisors-page.title'=> 'Asesores',
@@ -209,7 +210,7 @@ return [
 
     // Our Team - Join Us Page
     'our-team.join-us-page.title'=> 'Únete',
-    'our-team.join-us-page.desc'=> 'Explora vacantes abiertas y cómo contribuir a mTikOps.',
+    'our-team.join-us-page.desc'=> 'Explore vacantes abiertas y cómo contribuir a mTikOps.',  
 
     // Our Team - Contact Page
     'our-team.contact-page.title'=> 'Contacto',
@@ -217,18 +218,18 @@ return [
 
     // Dashboard Page
     'dashboard.title'=> 'Panel',
-    'dashboard.desc'=> 'Suite de monitoreo y registro de operaciones de red',
+    'dashboard.desc'=> 'Suite de monitoreo y registro para operaciones de red',
 
     // Dashboard Buttons
-    'dashboard.show'=> 'Ver panel',
+    'dashboard.show'=> 'Mostrar panel',
     'dashboard.button.refresh'=> 'Actualizar',
     'dashboard.button.prev'=> 'Anterior',
     'dashboard.button.next'=> 'Siguiente',
 
     // Dashboard Network Monitoring
     'dashboard.monitoring.title'=> 'Monitoreo de red',
-    'dashboard.monitoring.desc'=> 'Monitoreo en tiempo real del rendimiento, disponibilidad y estado de dispositivos en tu infraestructura MikroTik.',
-    'dashboard.ltmg.title'=> 'Gráfico de tráfico en tiempo real',
+    'dashboard.monitoring.desc'=> 'Monitoreo en tiempo real del rendimiento, disponibilidad y estado de dispositivos en su infraestructura MikroTik.',
+    'dashboard.ltmg.title'=> 'Gráfico de monitoreo de tráfico en vivo',
     'dashboard.fullscreen'=> 'Pantalla completa',
     'dashboard.loading'=> 'Cargando datos...',
     'dashboard.not-monitoring'=> 'Sin monitoreo',
@@ -243,15 +244,15 @@ return [
     'dashboard.device.info.title'=> 'Información del dispositivo',
     'dashboard.system.resources'=> 'Recursos del sistema',
     'dashboard.system.information'=> 'Información del sistema',
-    'dashboard.system.platform'=> 'Información de RouterBOARD',
+    'dashboard.system.platform'=> 'Información RouterBOARD',
 
     // Device info JS strings
     'device.system_identity' => 'Identidad del sistema',
-    'device.routeros_version' => 'Versión de RouterOS',
+    'device.routeros_version' => 'Versión RouterOS',
     'device.uptime' => 'Tiempo activo',
     'device.board' => 'Placa',
     'device.health' => 'Estado',
-    'device.temp_label' => 'Temp:',
+    'device.temp_label' => 'Temperatura:',
     'device.voltage_label' => 'Voltaje:',
     'device.unknown' => 'Desconocido',
     'device.na' => 'n/a',
@@ -259,27 +260,27 @@ return [
     'device.memory' => 'Memoria',
     'device.disk' => 'Disco',
     'device.board_model' => 'Modelo de placa',
-    'device.serial' => 'Serial',
+    'device.serial' => 'Serie',
     'device.architecture' => 'Arquitectura',
     'device.cpu_label' => 'CPU',
     'device.cores' => 'núcleos',
-    'device.build' => 'Compilación',
-    'device.failed_load' => 'Error al cargar la información del sistema',
+    'device.build' => 'Build',
+    'device.failed_load' => 'No se pudo cargar la información del sistema',
     // Generate users preview JS strings
     'generate.generating' => 'Generando...',
     'generate.print_fetch_failed' => 'Error al obtener impresión: %s',
-    'generate.network_not_ok' => 'La respuesta de la red no es correcta: %s',
+    'generate.network_not_ok' => 'Respuesta de red no válida: %s',
     'generate.generation_failed' => 'Generación fallida: %s',
     'generate.unknown_error' => 'Error desconocido',
     'generate.preview_not_available' => 'Vista previa no disponible',
-    'generate.failed_print_dialog' => 'Error al abrir el diálogo de impresión: %s',
-    'generate.cached_cleared' => 'Lote en caché borrado',
-    'generate.failed_clear_cached' => 'Error al borrar lote en caché',
-    'generate.preview_failed' => 'Error en la vista previa',
+    'generate.failed_print_dialog' => 'Error al abrir el diálogo de impresión nativo: %s',
+    'generate.cached_cleared' => 'Lote en caché limpiado',
+    'generate.failed_clear_cached' => 'Error al limpiar el lote en caché',
+    'generate.preview_failed' => 'Vista previa fallida',
     'generate.preview' => 'Vista previa',
     'generate.unexpected_error' => 'Error inesperado: %s',
-    'generate.generated' => 'Generados %s usuarios',
-    'generate.request_failed' => 'Solicitud fallida al generar vales.',
+    'generate.generated' => '%s usuarios generados',
+    'generate.request_failed' => 'Solicitud fallida al generar vouchers.',
     'generate.generate' => 'Generar',
 
     // Dashboard Hotspot Active Sessions
@@ -294,30 +295,30 @@ return [
     'dashboard.address' => 'Dirección',
     'dashboard.uptime' => 'Tiempo activo',
     'dashboard.service' => 'Servicio',
-    'dashboard.not_monitoring' => 'Sin monitoreo',
+    'dashboard.not_monitoring' => 'No supervisado',
     'dashboard.more_format' => '... y %d más',
-    'dashboard.unable_load_active' => 'No se pudo cargar las sesiones activas',
-    'dashboard.unable_load_ppp' => 'No se pudo cargar las sesiones PPP activas',
+    'dashboard.unable_load_active' => 'No se pudieron cargar las sesiones activas',
+    'dashboard.unable_load_ppp' => 'No se pudieron cargar las sesiones PPP activas',
 
     // hotspot.php
     // Hotspot Page
     'hotspot.title'=> 'Gestor de Hotspot',
-    'hotspot.desc'=> 'Gestiona usuarios hotspot, perfiles, sesiones activas y hosts.',
+    'hotspot.desc'=> 'Gestione usuarios de hotspot, perfiles, sesiones activas y hosts.',
     'hotspot.users'=> 'Usuarios',
     'hotspot.profiles'=> 'Perfiles',
-    'hotspot.active'=> 'Activos',
+    'hotspot.active'=> 'Activas',
     'hotspot.hosts'=> 'Hosts',
 
     // Hotspot Page Descriptions
-    'hotspot.users.desc'=> 'Crear, editar y administrar cuentas de usuario hotspot.',
-    'hotspot.profiles.desc'=> 'Gestionar perfiles de ancho de banda, sesión y límites para usuarios.',
+    'hotspot.users.desc'=> 'Crear, editar y gestionar cuentas de usuario hotspot individuales.',
+    'hotspot.profiles.desc'=> 'Gestionar perfiles de ancho de banda, sesión y límites de velocidad para usuarios.',
     'hotspot.active.desc'=> 'Ver y desconectar sesiones hotspot activas.',
-    'hotspot.hosts.desc'=> 'Inspeccionar y administrar dispositivos conectados al hotspot.',
+    'hotspot.hosts.desc'=> 'Inspeccionar y gestionar dispositivos conectados al hotspot.',
 
     // Hotspot Page Buttons
     'hotspot.open.users'=> 'Abrir usuarios',
     'hotspot.open.profiles'=> 'Abrir perfiles',
-    'hotspot.open.active'=> 'Abrir activos',
+    'hotspot.open.active'=> 'Abrir activas',
     'hotspot.open.hosts'=> 'Abrir hosts',
 
     // Hotspot - Back Button
@@ -327,11 +328,11 @@ return [
     'hotspot.action.button'=> 'Acciones',
     'hotspot.generate.button'=> 'Generar',
     'hotspot.add-user.button'=> 'Agregar usuario',
-    'hotspot.enable.button'=> 'Habilitar',
+    'hotspot.enable.button'=> 'Activar',
     'hotspot.add-profile.button'=> 'Agregar perfil',
     'hotspot.edit.button'=> 'Editar',
     'hotspot.remove.button'=> 'Eliminar',
-    'hotspot.disable.button'=> 'Deshabilitar',
+    'hotspot.disable.button'=> 'Desactivar',
     'hotspot.export.users'=> 'Exportar usuarios',
     'hotspot.export.button'=> 'Exportar',
     'hotspot.button.refresh'=> 'Actualizar',
@@ -339,7 +340,7 @@ return [
     'hotspot.button.next'=> 'Siguiente',
     'hotspot.sort.by'=> 'Ordenar por',
     'hotspot.sort.profiles'=> 'Ordenar por perfil',
-    'hotspot.sort.comments'=> 'Ordenar por comentarios',
+    'hotspot.sort.comments'=> 'Ordenar por comentario',
 
     // Hotspot Table Headers
     'hotspot.table.th.select'=> 'Seleccionar todo',
@@ -353,71 +354,94 @@ return [
     'hotspot.table.th.bytes-in'=> 'Bytes entrantes',
     'hotspot.table.th.bytes-out'=> 'Bytes salientes',
     'hotspot.table.th.comment'=> 'Comentario',
-    'hotspot.table.th.to-address'=> 'A dirección',
+    'hotspot.table.th.to-address'=> 'Dirección destino',
     'hotspot.table.th.last-seen'=> 'Última vez visto',
-    'hotspot.status.loading'=> 'Cargando usuarios hotspot...',
+    'hotspot.status.loading'=> 'Cargando usuarios Hotspot...',
 
     // Hotspot JS: hosts, profiles, users, modals
     // Hosts list
     'hotspot.hosts.no_hosts' => 'No hay hosts',
     'hotspot.hosts.loading' => 'Cargando...',
-    'hotspot.hosts.failed_to_contact_api' => 'Error al contactar la API',
+    'hotspot.hosts.failed_to_contact_api' => 'No se pudo contactar la API',
     'hotspot.hosts.page_info' => 'Página %s / %s (%s)',
 
     // Profiles list
     'hotspot.profiles.no_profiles' => 'No hay perfiles',
     'hotspot.profiles.loading' => 'Cargando...',
     'hotspot.profiles.failed_to_load' => 'Error al cargar perfiles',
-    'hotspot.profiles.failed_to_contact_api' => 'Error al contactar la API',
+    'hotspot.profiles.failed_to_contact_api' => 'No se pudo contactar la API',
     'hotspot.profiles.no_pools' => '(sin pools)',
     'hotspot.profiles.no_queues' => '(sin colas)',
     'hotspot.profiles.no_types' => '(sin tipos)',
     'hotspot.profiles.select' => 'Seleccionar...',
-    'hotspot.profiles.default' => 'default',
-    'hotspot.profiles.no_profiles_option' => '(no profiles)',
-    'hotspot.profiles.page_info' => 'Page %s / %s (%s)',
-    'hotspot.profiles.name_required' => 'Name is required',
-    'hotspot.profiles.added' => 'Profile added',
-    'hotspot.profiles.add_failed' => 'Failed to add profile: %s',
-    'hotspot.profiles.server_contact_failed' => 'Failed to contact server',
-    'hotspot.profiles.id_missing' => 'Profile id missing',
-    'hotspot.profiles.updated' => 'Profile updated',
-    'hotspot.profiles.update_failed' => 'Failed to update profile: %s',
-    'hotspot.profiles.removed' => 'Profile removed',
-    'hotspot.profiles.remove_failed' => 'Failed to remove profile: %s',
-    'hotspot.profiles.select_remove' => 'Select a profile to remove',
-    'hotspot.profiles.remove_confirm' => 'Are you sure you want to remove the selected profile?',
-    'hotspot.profiles.remove_confirm_title' => 'Confirm',
+    'hotspot.profiles.default' => 'predeterminado',
+    'hotspot.profiles.no_profiles_option' => '(sin perfiles)',
+    'hotspot.profiles.page_info' => 'Página %s / %s (%s)',
+    'hotspot.profiles.name_required' => 'El nombre es obligatorio',
+    'hotspot.profiles.added' => 'Perfil añadido',
+    'hotspot.profiles.add_failed' => 'No se pudo añadir el perfil: %s',
+    'hotspot.profiles.server_contact_failed' => 'No se pudo contactar el servidor',
+    'hotspot.profiles.id_missing' => 'Falta id de perfil',
+    'hotspot.profiles.updated' => 'Perfil actualizado',
+    'hotspot.profiles.update_failed' => 'Error al actualizar el perfil: %s',
+    'hotspot.profiles.removed' => 'Perfil eliminado',
+    'hotspot.profiles.remove_failed' => 'Error al eliminar el perfil: %s',
+    'hotspot.profiles.select_remove' => 'Seleccione un perfil para eliminar',
+    'hotspot.profiles.remove_confirm' => '¿Está seguro de que desea eliminar el perfil seleccionado?',
+    'hotspot.profiles.remove_confirm_title' => 'Confirmar',
+    
+    // Admin Control Panel translations
+    'admin.title' => 'Panel de administración',
+    'admin.desc' => 'Centro de control',
+    'admin.maintenance' => 'Mantenimiento',
+    'admin.maintenance.desc' => 'Activar o desactivar el aviso de mantenimiento para visitantes.',
+    'admin.page_access' => 'Control de acceso a páginas',
+    'admin.page_access.desc' => 'Permitir o denegar a usuarios el acceso a secciones completas de la aplicación.',
+    'admin.view_logs' => 'Ver registros',
+    'admin.logs.title' => 'Registros de acceso de administrador',
+    'admin.save' => 'Guardar',
+    'admin.saved' => 'Guardado',
+    'admin.save_failed' => 'Error al guardar',
+    'admin.save_error' => 'No se pudieron guardar los ajustes',
+    'admin.load_logs_failed' => 'Error al cargar los registros',
+    'admin.access_denied' => 'No tiene permiso para acceder al Panel de administración.',
+    'access.restricted.title' => 'Acceso restringido',
+    'access.restricted.desc' => 'Esta sección está deshabilitada actualmente',
+    'admin.section_disabled' => 'Sección deshabilitada por el administrador',
+    'nav.disabled' => 'Deshabilitado',
+    // Maintenance toggle JS strings
+    'maintenance.toast' => 'Modo de mantenimiento' . '<br/><br/>' . 'Las funciones están limitadas mientras el modo de mantenimiento esté habilitado.',
+    'maintenance.set_failed' => 'Error al establecer el estado del modo de mantenimiento',
 
     // Users modals and export
     'hotspot.modals.no_servers' => '(sin servidores)',
     'hotspot.modals.no_profiles' => '(sin perfiles)',
-    'hotspot.modals.please_select_export' => 'Seleccione uno o más usuarios para exportar',
+    'hotspot.modals.please_select_export' => 'Por favor seleccione uno o más usuarios para exportar',
     'hotspot.modals.select_at_least_one_field' => 'Seleccione al menos un campo para exportar',
-    'hotspot.modals.no_users_selected' => 'No hay usuarios seleccionados',
+    'hotspot.modals.no_users_selected' => 'No se seleccionaron usuarios',
     'hotspot.modals.no_data_to_export' => 'No hay datos para exportar',
     'hotspot.modals.export_started' => 'Exportación iniciada',
-    'hotspot.modals.export_failed' => 'Error en la exportación',
+    'hotspot.modals.export_failed' => 'Exportación fallida',
     'hotspot.modals.add_user_title' => 'Agregar usuario Hotspot',
     'hotspot.modals.edit_user_title' => 'Editar usuario Hotspot',
     'hotspot.modals.create_button' => 'Crear',
     'hotspot.modals.update_button' => 'Actualizar',
     'hotspot.modals.failed_load_user' => 'Error al cargar datos del usuario',
-    'hotspot.modals.select_one_to_edit' => 'Seleccione exactamente un usuario para editar',
+    'hotspot.modals.select_one_to_edit' => 'Por favor seleccione exactamente un usuario para editar',
     'hotspot.modals.user_updated' => 'Usuario actualizado',
     'hotspot.modals.user_created' => 'Usuario creado',
-    'hotspot.modals.create_update_failed' => 'Fallo al crear/actualizar',
-    'hotspot.modals.create_request_failed' => 'Fallo la solicitud de creación',
+    'hotspot.modals.create_update_failed' => 'Error al crear/actualizar',
+    'hotspot.modals.create_request_failed' => 'Error en la solicitud de creación',
 
     // Users list
     'hotspot.users.no_users' => 'No hay usuarios',
     'hotspot.users.loading' => 'Cargando...',
     'hotspot.users.empty_response' => 'Respuesta vacía',
-    'hotspot.users.failed_to_contact_api' => 'Error al contactar la API',
-    'hotspot.users.select_one_or_more' => 'Seleccione uno o más usuarios.',
-    'hotspot.users.remove_confirm' => '¿Eliminar usuarios seleccionados? Esto no se puede deshacer.',
-    'hotspot.users.action_completed' => 'Acción "%s" completada. Éxitos: %s/%s',
-    'hotspot.users.action_failed' => 'La acción falló: %s',
+    'hotspot.users.failed_to_contact_api' => 'No se pudo contactar la API',
+    'hotspot.users.select_one_or_more' => 'Por favor seleccione uno o más usuarios.',
+    'hotspot.users.remove_confirm' => '¿Eliminar los usuarios seleccionados? Esto no se puede deshacer.',
+    'hotspot.users.action_completed' => 'Acción "%s" completada. Éxito: %s/%s',
+    'hotspot.users.action_failed' => 'Acción fallida: %s',
     'hotspot.users.request_failed' => 'Solicitud fallida',
     'hotspot.users.sort_profiles' => 'Ordenar perfiles',
     'hotspot.users.sort_comments' => 'Ordenar comentarios',
@@ -427,7 +451,7 @@ return [
     // Hotspot JS helper strings
     'hotspot.no_active_entries' => 'No hay entradas activas',
     'hotspot.loading' => 'Cargando...',
-    'hotspot.failed_to_contact_api' => 'Error al contactar la API',
+    'hotspot.failed_to_contact_api' => 'No se pudo contactar la API',
     'hotspot.page_info' => 'Página %s / %s (%s)',
 
     // Hotspot Modal Tabs and Titles
@@ -441,7 +465,7 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Cantidad',
     'hotspot.modal.form.server'=> 'Servidor Hotspot',
-    'hotspot.modal.form.username'=> 'Usuario',
+    'hotspot.modal.form.username'=> 'Nombre de usuario',
     'hotspot.modal.form.password'=> 'Contraseña',
     'hotspot.modal.form.user-type'=> 'Tipo de usuario',
     'hotspot.modal.form.code-length'=> 'Longitud del código',
@@ -454,13 +478,13 @@ return [
     'hotspot.modal.form.data-limit'=>  'Límite de datos',
 
     // Hotspot Modal Form Generate - Printing Tab
-    'hotspot.modal.form.hotspot-name'=> 'Nombre del hotspot',
+    'hotspot.modal.form.hotspot-name'=> 'Nombre del Hotspot',
     'hotspot.modal.form.hotspot-dns'=> 'DNS',
     'hotspot.modal.form.hotspot-currency'=> 'Moneda',
-    'hotspot.modal.form.hotspot-select-currency'=> 'Seleccionar moneda',
+    'hotspot.modal.form.hotspot-select-currency'=> 'Seleccione moneda',
     'hotspot.modal.form.hotspot-price'=> 'Precio',
     'hotspot.modal.form.hotspot-include-comment'=> 'Incluir comentario',
-    'hotspot.modal.form.hotspot-include-comment-desc'=> 'Incluir comentario generado en el vale impreso',
+    'hotspot.modal.form.hotspot-include-comment-desc'=> 'Incluir el comentario generado en el voucher impreso',
     'hotspot.modal.form.hotspot-template'=> 'Plantilla',
 
     // Hotspot Modal Form Generate - Printing Placeholders
@@ -485,7 +509,7 @@ return [
     'hotspot.modal.form.stats.uptime'=> 'Tiempo activo',
     'hotspot.modal.form.stats.bytes_in'=> 'Bytes entrantes',
     'hotspot.modal.form.stats.bytes_out'=> 'Bytes salientes',
-    'hotspot.modal.form.stats.limit-uptime'=> 'Límite de tiempo activo',
+    'hotspot.modal.form.stats.limit-uptime'=> 'Límite de tiempo',
     'hotspot.modal.form.stats.limit-bytes_total'=> 'Límite total de bytes',
     'hotspot.modal.form.stats.user-code'=> 'Código de usuario',
     'hotspot.modal.form.stats.expire-date'=> 'Fecha de expiración',
@@ -504,14 +528,14 @@ return [
     // profiles.php
     // Hotspot User Profiles Page
     'hotspot.user.profiles.title'=> 'Perfiles',
-    'hotspot.user.profiles.desc'=> 'Gestiona perfiles de ancho de banda, sesión y límites para usuarios.',
+    'hotspot.user.profiles.desc'=> 'Gestionar perfiles de ancho de banda, sesión y límites de velocidad para usuarios.',
 
     // Hotspot User Profiles Table Headers
     'hotspot.user.profiles.th.name'=> 'Nombre',
     'hotspot.user.profiles.th.shared-users'=> 'Usuarios compartidos',
     'hotspot.user.profiles.th.rate-limit'=> 'Límite de velocidad',
     'hotspot.user.profiles.th.idle-timeout'=> 'Tiempo de inactividad',
-    'hotspot.user.profiles.th.keepalive-timeout'=> 'Tiempo keepalive',
+    'hotspot.user.profiles.th.keepalive-timeout'=> 'Tiempo de keepalive',
     'hotspot.user.profiles.th.queue-type'=> 'Tipo de cola',
 
     // Hotspot User Profiles Modal Form
@@ -520,21 +544,21 @@ return [
     // Hotspot User Profile Form Fields - General Tab
     'hotspot.user.profiles.form.name'=> 'Nombre del perfil',
     'hotspot.user.profiles.form.pool'=> 'Pool de direcciones',
-    'hotspot.user.profiles.form.rate-limit-rx'=> 'Límite (RX)',
-    'hotspot.user.profiles.form.rate-limit-tx'=> 'Límite (TX)',
+    'hotspot.user.profiles.form.rate-limit-rx'=> 'Límite de velocidad (RX)',
+    'hotspot.user.profiles.form.rate-limit-tx'=> 'Límite de velocidad (TX)',
     'hotspot.user.profiles.form.shared-users'=> 'Usuarios compartidos',
     'hotspot.user.profiles.form.expiry-mode'=> 'Modo de expiración',
     'hotspot.user.profiles.form.expiry-duration'=> 'Duración de expiración',
-    'hotspot.user.profiles.form.lock-device'=> 'Bloquear a dispositivo',
-    'hotspot.user.profiles.form.lock-server'=> 'Bloquear a servidor',
+    'hotspot.user.profiles.form.lock-device'=> 'Bloquear al dispositivo',
+    'hotspot.user.profiles.form.lock-server'=> 'Bloquear al servidor',
     'hotspot.user.profiles.form.comment'=> 'Comentario',
 
     // Expiry Mode Options
     'hotspot.user.profiles.form.expiry-mode_none'=> 'Ninguno',
     'hotspot.user.profiles.form.expiry-mode_remove'=> 'Eliminar',
-    'hotspot.user.profiles.form.expiry-mode_notice'=> 'Notificar',
+    'hotspot.user.profiles.form.expiry-mode_notice'=> 'Aviso',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Eliminar y registrar',
-    'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Eliminar y notificar',
+    'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Eliminar y avisar',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Cola padre',
@@ -548,20 +572,20 @@ return [
 
     // Hotspot User Profile Modal - Edit Profile
     'hotspot.user.profile.edit'=> 'Editar perfil',
-    'hotspot.user.profile.select.profile'=> 'Seleccionar perfil',
-    'hotspot.user.profile.select.profile.desc'=> 'Elige un perfil para editar. Tras la selección se abrirá el editor completo.',
+    'hotspot.user.profile.select.profile'=> 'Seleccione perfil',
+    'hotspot.user.profile.select.profile.desc'=> 'Elija un perfil para editar. Después de la selección se abrirá el editor completo.',
     'hotspot.user.profile.button.cancel'=> 'Cancelar',
     'hotspot.user.profile.button.save'=> 'Guardar',
 
     // Hotspot User Profile Modal - Remove Profile
     'hotspot.user.profiles.remove'=> 'Eliminar perfil',
-    'hotspot.user.profiles.remove-select'=> 'Seleccionar perfil para eliminar',
-    'hotspot.user.profiles.remove-warning'=> 'Esta acción no se puede deshacer. Asegúrate de querer eliminar el perfil seleccionado.',
+    'hotspot.user.profiles.remove-select'=> 'Seleccione perfil para eliminar',
+    'hotspot.user.profiles.remove-warning'=> 'Esta acción no se puede deshacer. Asegúrese de que desea eliminar el perfil seleccionado.',
     'hotspot.user.profiles.remove.button-cancel'=> 'Cancelar',
     'hotspot.user.profiles.remove.button-remove'=> 'Eliminar',
 
     // Hotspot Export Users Modal
-    'hotspot.export.user.desc'=> 'Selecciona qué campos incluir en la exportación. Solo se exportarán los usuarios seleccionados.',
+    'hotspot.export.user.desc'=> 'Seleccione los campos a incluir en la exportación. Solo se exportarán los usuarios seleccionados.',
     'hotspot.export.user.name'=> 'Nombre',
     'hotspot.export.user.price'=> 'Precio',
     'hotspot.export.user.password'=> 'Contraseña',
@@ -571,13 +595,13 @@ return [
     'hotspot.export.user.column-order'=> 'Orden de columnas',
     'hotspot.export.user.column-up'=> 'Arriba',
     'hotspot.export.user.column-down'=> 'Abajo',
-    'hotspot.export.user.column-desc'=> 'Selecciona un campo y usa Arriba/Abajo para cambiar el orden de columnas.',
+    'hotspot.export.user.column-desc'=> 'Seleccione un campo y use Arriba/Abajo para cambiar el orden de columnas.',
     'hotspot.export.user.button-cancel'=> 'Cancelar',
     'hotspot.export.user.button-download'=> 'Descargar CSV',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Vista previa de impresión',
-    'hotspot.print.preview.desc'=> 'Vista previa de los usuarios seleccionados antes de imprimir.',
+    'hotspot.print.preview.desc'=> 'Vea una vista previa de los usuarios seleccionados antes de imprimir.',
     'hotspot.print.preview.button-cancel'=> 'Cancelar',
     'hotspot.print.preview.button-close'=> 'Cerrar',
     'hotspot.print.preview.button-print'=> 'Guardar e imprimir',
@@ -592,7 +616,7 @@ return [
     // settings.php
     // Hotspot Settings Page
     'settings.title'=> 'Ajustes',
-    'settings.desc'=> 'Configura la identidad del dispositivo, servicios del sistema y acciones de mantenimiento.',
+    'settings.desc'=> 'Configure la identidad del dispositivo, los servicios del sistema y las acciones de mantenimiento.',
     'settings.identity'=> 'Identidad',
     'settings.ntp'=> 'NTP',
     'settings.files'=> 'Archivos',
@@ -629,11 +653,25 @@ return [
     'settings.sort.by'=> 'Ordenar por',
     'settings.sort' => 'Ordenar',
 
+    // Settings Page - Back Button
+    'settings.back-to-settings'=> 'Volver a Ajustes',
+
     // Settings Page - Actions
     'settings.actions'=> 'Acciones',
 
     // Settings Page - Loading
     'settings.loading'=> 'Cargando ajustes...',
+
+    // Settings Page Descriptions
+    'settings.identity.desc'=> 'Ver y editar la identidad del dispositivo y la información básica del sistema.',
+    'settings.ntp.desc'=> 'Configurar los ajustes de NTP (Network Time Protocol) para mantener la hora precisa.',
+    'settings.files.desc'=> 'Subir, descargar y gestionar archivos y scripts almacenados en el dispositivo.',
+    'settings.users.desc'=> 'Crear, editar y gestionar usuarios del sistema y sus permisos.',
+    'settings.scheduler.desc'=> 'Crear y gestionar tareas programadas para mantenimiento y automatización.',
+    'settings.scripts.desc'=> 'Crear, editar y ejecutar scripts personalizados en el dispositivo.',
+    'settings.reset.desc'=> 'Restablecer la configuración a los valores predeterminados. Usar con precaución.',
+    'settings.reboot.desc'=> 'Reiniciar el dispositivo de forma remota. Asegúrese de guardar todos los cambios antes de reiniciar.',
+    'settings.shutdown.desc'=> 'Apagar el dispositivo de forma remota y segura. Usar con precaución.',
 
     // Settings Table Headers
     'settings.table.th.name'=> 'Nombre',
@@ -642,7 +680,7 @@ return [
     'settings.table.th.comment'=> 'Comentario',
     'settings.table.th.role'=> 'Rol',
     'settings.table.th.select'=> 'Seleccionar todo',
-    'settings.table.th.username'=> 'Nombre de usuario',
+    'settings.table.th.username'=> 'Usuario',
     'settings.table.th.password'=> 'Contraseña',
     'settings.table.th.actions'=> 'Acciones',
     'settings.table.th.next-run'=> 'Próxima ejecución',
@@ -652,41 +690,10 @@ return [
     'settings.table.th.owner'=> 'Propietario',
     'settings.table.th.date'=> 'Fecha',
 
-    // Settings Page - Files
-    'settings.files.title'=> 'Administrador de archivos',
-    'settings.files.desc'=> 'Subir, descargar y administrar archivos almacenados en el dispositivo.',
-
-
-    // Settings Page - Users
-    'settings.users.title'=> 'Administrador de usuarios',
-    'settings.users.desc'=> 'Crear, editar y administrar los usuarios del sistema y sus permisos de acceso.',
-
-    // Settings Page - Scheduler
-    'settings.scheduler.title'=> 'Programador',
-    'settings.scheduler.desc'=> 'Crear y gestionar tareas programadas para mantenimiento y automatización.',
-
-    // Settings Page - Scripts
-    'settings.scripts.title'=> 'Scripts',
-    'settings.scripts.desc'=> 'Crear, editar y ejecutar scripts personalizados en el dispositivo.',
-
-    // Settings Page - Back Button
-    'settings.back-to-settings'=> 'Volver a Ajustes',
-
-    // Settings Page Descriptions
-    'settings.identity.desc'=> 'Ver y editar la identidad del dispositivo y la información básica del sistema.',
-    'settings.ntp.desc'=> 'Configura NTP (Network Time Protocol) para mantener la hora precisa.',
-    'settings.files.desc'=> 'Gestiona archivos subidos y scripts almacenados en el dispositivo.',
-    'settings.users.desc'=> 'Gestiona usuarios del sistema y sus permisos.',
-    'settings.scheduler.desc'=> 'Crea tareas programadas para mantenimiento y automatización.',
-    'settings.scripts.desc'=> 'Gestiona y ejecuta scripts personalizados en el dispositivo.',
-    'settings.reset.desc'=> 'Restablece la configuración a los valores predeterminados. Usar con precaución.',
-    'settings.reboot.desc'=> 'Reinicia el dispositivo de forma remota. Asegúrate de guardar los cambios antes.',
-    'settings.shutdown.desc'=> 'Apaga el dispositivo de forma remota y segura. Usar con precaución.',
-
    
     // Settings Page - Identity
-    'settings.identity.placeholder'=> 'Introduce la identidad del sistema',
-    'settings.identity.caption'=> 'Este es el nombre que se muestra en los registros y en la identificación de red.',
+    'settings.identity.placeholder'=> 'Introduzca la identidad del sistema',
+    'settings.identity.caption'=> 'Este es el nombre que se muestra en los registros y en la identificación de la red.',
 
     // Settings Page - Identity Buttons
     'settings.identity.save'=> 'Guardar identidad',
@@ -713,13 +720,30 @@ return [
     'settings.ntp.synced.stratum'=> 'Estrato sincronizado',
     'settings.ntp.system.offset'=> 'Desplazamiento del sistema',
 
+    // Settings Page - Files
+    'settings.files.title'=> 'Gestor de archivos',
+    'settings.files.desc'=> 'Subir, descargar y gestionar archivos almacenados en el dispositivo.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Gestor de usuarios',
+    'settings.users.desc'=> 'Crear, editar y gestionar usuarios del sistema y sus permisos.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Programador',
+    'settings.scheduler.desc'=> 'Crear y gestionar tareas programadas para mantenimiento y automatización.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Scripts',
+    'settings.scripts.desc'=> 'Crear, editar y ejecutar scripts personalizados en el dispositivo.',
+
     // Settings Page - Reset
     // Reset Modal
-    'settings.reset.type'=> 'Reset Type',
-    'settings.reset.config'=> 'Reset Configuration (keep user files)',
-    'settings.reset.all'=> 'Factory Reset (erase all, reload defaults)',
-    'settings.reset.delay'=> 'Delay (seconds)',
-    'settings.reset.delay.desc'=> 'Set to 0 to perform immediately when using the Schedule button, or click "Reset Now" to run immediately.',
+    'settings.reset.type'=> 'Tipo de restablecimiento',
+    'settings.reset.config'=> 'Restablecer configuración (mantener archivos de usuario)',
+    'settings.reset.all'=> 'Restablecimiento de fábrica (borrar todo, cargar valores predeterminados)',
+    'settings.reset.delay'=> 'Retardo (segundos)',
+    'settings.reset.delay.desc'=> 'Establezca 0 para ejecutar inmediatamente al usar el botón Programar, o haga clic en "Restablecer ahora" para ejecutarlo de inmediato.',
 
     //Reset Buttons
     'settings.reset.button.schedule'=> 'Programar restablecimiento',
@@ -727,8 +751,8 @@ return [
 
     // Settings Page - Reboot
     // Reboot Modal
-    'settings.reboot.delay'=> 'Delay (seconds)',
-    'settings.reboot.delay.desc'=> 'Set to 0 to reboot immediately when using the Schedule button, or click "Reboot Now" to force immediate reboot.',
+    'settings.reboot.delay'=> 'Retardo (segundos)',
+    'settings.reboot.delay.desc'=> 'Establezca 0 para reiniciar inmediatamente al usar el botón Programar, o haga clic en "Reiniciar ahora" para forzar el reinicio inmediato.',
 
     // Reboot Buttons
     'settings.reboot.button.schedule'=> 'Programar reinicio',
@@ -736,8 +760,8 @@ return [
 
     // Settings Page - Shutdown
     // Shutdown Modal
-    'settings.shutdown.delay'=> 'Delay (seconds)',
-    'settings.shutdown.delay.desc'=> 'Set to 0 to shutdown immediately when using the Schedule button, or click "Shutdown Now" to force immediate shutdown.',
+    'settings.shutdown.delay'=> 'Retardo (segundos)',
+    'settings.shutdown.delay.desc'=> 'Establezca 0 para apagar inmediatamente al usar el botón Programar, o haga clic en "Apagar ahora" para forzar el apagado inmediato.',
 
     // Shutdown Buttons
     'settings.shutdown.button.schedule'=> 'Programar apagado',
@@ -746,21 +770,20 @@ return [
 
     // queues.php
     // Queues Page
+    'queues.title'=> 'Administrador de colas',
+    'queues.desc'=> 'Gestionar colas simples, árboles de colas y tipos de cola.',
 
-    'queues.title'=> 'Gestor de colas',
-    'queues.desc'=> 'Gestiona colas simples, árboles de colas y tipos de cola.',
-
-    'queues.simple'=> 'Simples',
+    'queues.simple'=> 'Simple',
     'queues.tree'=> 'Árbol',
     'queues.types'=> 'Tipos',
     'queues.simple-queue'=> 'Colas simples',
-    'queues.queue-tree'=> 'Árboles de cola',
+    'queues.queue-tree'=> 'Árboles de colas',
     'queues.queue-types'=> 'Tipos de cola',
 
     // Queues Page Descriptions
-    'queues.simple.desc'=> 'Crea y gestiona colas simples por host/objetivo.',
-    'queues.tree.desc'=> 'Gestiona árboles de cola jerárquicos para shaping avanzado.',
-    'queues.types.desc'=> 'Define y gestiona tipos de cola y clasificadores de paquetes.',
+    'queues.simple.desc'=> 'Crear y gestionar colas simples por host/objetivo.',
+    'queues.tree.desc'=> 'Gestionar árboles de colas jerárquicos para modelado avanzado de tráfico.',
+    'queues.types.desc'=> 'Definir y gestionar tipos de cola y clasificadores de paquetes.',
 
     // Queues Page Buttons
     'queues.open.simple'=> 'Abrir colas simples',
@@ -768,7 +791,7 @@ return [
     'queues.open.types'=> 'Abrir tipos de cola',
 
     // Queues Page - Back Button
-    'queues.back-to-queues'=> 'Volver al gestor de colas',
+    'queues.back-to-queues'=> 'Volver al administrador de colas',
 
     // Queues General Buttons
     'queues.button.new'=> 'Nuevo',
@@ -797,20 +820,20 @@ return [
 
     // Simple Queues Action Buttons
     'queues.simple.actions'=> 'Acciones',
-    'queues.simple.actions.desc'=> 'Realiza acciones en las colas seleccionadas.',
+    'queues.simple.actions.desc'=> 'Realizar acciones en las colas seleccionadas.',
 
     // Queues Table Headers
     'queues.table.th.name'=> 'Nombre',
     'queues.table.th.number'=> 'Número',
     'queues.table.th.target'=> 'Objetivo',
-    'queues.table.th.upload-limit'=> 'Límite de subida',
-    'queues.table.th.download-limit'=> 'Límite de bajada',
-    'queues.table.th.download-avg-rate'=> 'Vel. media de bajada',
+    'queues.table.th.upload-limit'=> 'Límite subida',
+    'queues.table.th.download-limit'=> 'Límite descarga',
+    'queues.table.th.download-avg-rate'=> 'Velocidad media descarga',
     'queues.table.th.max-limit'=> 'Límite máximo',
     'queues.table.th.queue-type'=> 'Tipo de cola',
     'queues.table.th.limit-at'=> 'Límite en',
     'queues.table.th.bytes'=> 'Bytes',
-    'queues.table.th.avg.rate'=> 'Vel. media',
+    'queues.table.th.avg.rate'=> 'Velocidad media',
     'queues.table.th.kind'=> 'Tipo',
 
     // Queues Modal Form - Tabs
@@ -827,30 +850,30 @@ return [
     'queues.modal.form.target-select-iface'=> 'Seleccionar interfaz',
     'queues.modal.form.dst'=> 'Destino',
     'queues.modal.form.dst-select-iface'=> 'Seleccionar interfaz',
-    'queues.modal.form.target.dst-caption'=> 'Selecciona una interfaz o introduce un objetivo personalizado abajo.',
-    'queues.modal.form.placeholder'=> 'o introduce IP (ej. 192.168.10.0/24 o 10.0.0.5)',
-    'queues.modal.form.target.upload'=> 'Límite de subida',
+    'queues.modal.form.target.dst-caption'=> 'Seleccione una interfaz o ingrese un objetivo personalizado abajo.',
+    'queues.modal.form.placeholder'=> 'o ingrese IP (ej. 192.168.10.0/24 o 10.0.0.5)',
+    'queues.modal.form.target.upload'=> 'Subida objetivo',
     'queues.modal.form.max-limit'=> 'Límite máximo',
-    'queues.modal.form.target.download'=> 'Límite de bajada',
+    'queues.modal.form.target.download'=> 'Descarga objetivo',
     'queues.modal.form.pkt-marks'=> 'Marcas de paquetes',
     'queues.modal.form.limit-at'=> 'Límite en',
     'queues.modal.form.burst-limit'=> 'Límite de ráfaga',
     'queues.modal.form.burst-threshold'=> 'Umbral de ráfaga',
     'queues.modal.form.burst-time'=> 'Tiempo de ráfaga',
     'queues.modal.form.priority'=> 'Prioridad',
-    'queues.modal.form.bucket-size'=> 'Tamaño del bucket',
+    'queues.modal.form.bucket-size'=> 'Tamaño de bucket',
     'queues.modal.form.parent-queue'=> 'Cola padre',
     'queues.modal.form.queue-type'=> 'Tipo de cola',
     'queues.modal.form.comment'=> 'Comentario',
     'queues.modal.form.comment-placeholder'=> 'Comentario opcional',
-    'queues.modal.form.clear-parent'=> 'Quitar padre (eliminar relación de padre)',
+    'queues.modal.form.clear-parent'=> 'Eliminar padre (quitar relación padre)',
 
     // tree.php
     // Queue Tree Page
 
     // Queue Tree Action Buttons
     'queues.tree.actions'=> 'Acciones',
-    'queues.tree.action.desc'=> 'Realiza acciones en las entradas de árbol de colas seleccionadas.',
+    'queues.tree.action.desc'=> 'Realizar acciones en las entradas seleccionadas del árbol de colas.',
 
     // Queue Tree Modal Form - Tabs
     'queues.tree.create.title'=> 'Crear entrada de árbol de colas',
@@ -863,30 +886,33 @@ return [
   
     // Queue Types Action 
     'queues.types.actions'=> 'Acciones',
-    'queues.types.action.desc'=> 'Realiza acciones en los tipos de cola seleccionados.',
+    'queues.types.action.desc'=> 'Realizar acciones en los tipos de colas seleccionados.',
 
 
     // ppp.php
     // PPP Page
-    'ppp.title'=> 'Gestor PPPoE',
-    'ppp.desc'=> 'Gestiona servidores PPPoE, secretos y perfiles.',
+    'ppp.title'=> 'Administrador de PPPoE',
+    'ppp.desc'=> 'Gestionar servidores PPPoE, secretos y perfiles.',
 
     'ppp.pppoe.servers'=> 'Servidores PPPoE',
     'ppp.servers'=> 'Servidores',
     'ppp.secrets'=> 'Secretos',
     'ppp.profiles'=> 'Perfiles',
+    'ppp.active'=> 'Sesiones activas',
 
     // PPP Page Descriptions
-    'ppp.servers.desc'=> 'Ver y gestionar instancias de servidor PPPoE y sus bindings.',
+    'ppp.servers.desc'=> 'Ver y gestionar instancias y enlaces de servidores PPPoE.',
     'ppp.secrets.desc'=> 'Gestionar secretos PPPoE (credenciales de usuario).',
     'ppp.profiles.desc'=> 'Crear y gestionar perfiles PPPoE.',
+    'ppp.active.desc'=> 'Ver y desconectar sesiones PPPoE activas.',
 
     'ppp.open.servers'=> 'Abrir servidores PPPoE',
     'ppp.open.secrets'=> 'Abrir secretos',
     'ppp.open.profiles'=> 'Abrir perfiles',
+    'ppp.open.active'=> 'Abrir sesiones activas',
 
     // PPP Page - Back Button
-    'ppp.back-to-ppp'=> 'Volver al gestor PPPoE',
+    'ppp.back-to-ppp'=> 'Volver al administrador PPPoE',
 
     // PPP Actions
     'ppp.actions'=> 'Acciones',
@@ -900,7 +926,7 @@ return [
     'ppp.buttons.refresh'=> 'Actualizar',
     'ppp.sort.by'=> 'Ordenar por',
     'ppp.sort'=> 'Ordenar',
-    'ppp.select.all'=> 'Seleccionar todo',
+    'ppp.select.all'=> '',
     'ppp.buttons.prev'=> 'Anterior',
     'ppp.buttons.next'=> 'Siguiente',
     'ppp.buttons.clear'=> 'Limpiar',
@@ -915,7 +941,7 @@ return [
     // PPP Secrets Table Headers
     'ppp.table.th.service-name'=> 'Nombre del servicio',
     'ppp.table.th.iface'=> 'Interfaz',
-    'ppp.table.th.keepalive'=> 'Tiempo keepalive',
+    'ppp.table.th.keepalive'=> 'Tiempo de keepalive',
     'ppp.table.th.profile'=> 'Perfil',
     'ppp.table.th.one-session-host'=> 'Una sesión por host',
     'ppp.table.th.authentication'=> 'Autenticación',
@@ -926,12 +952,12 @@ return [
     'ppp.table.th.caller-id'=> 'ID del llamante',
     'ppp.table.th.local-address'=> 'Dirección local',
     'ppp.table.th.remote-address'=> 'Dirección remota',
-    'ppp.table.th.last-logged-out'=> 'Último cierre de sesión',
+    'ppp.table.th.last-logged-out'=> 'Última desconexión',
     'ppp.table.th.last-disc-reason'=> 'Razón de desconexión',
-    'ppp.table.th.last-called-id'=> 'Último ID llamado',
+    'ppp.table.th.last-called-id'=> 'Último ID marcado',
     'ppp.table.th.rate-limit'=> 'Límite de velocidad',
     'ppp.table.th.only-one'=> 'Solo uno',
-    'ppp.table.th.uptime'=> 'Tiempo de actividad',
+    'ppp.table.th.uptime'=> 'Tiempo activo',
     'ppp.table.th.bytes-in'=> 'Bytes entrantes',
     'ppp.table.th.bytes-out'=> 'Bytes salientes',
 
@@ -940,13 +966,13 @@ return [
     'ppp.modal.form.enabled'=> 'Habilitado',
     'ppp.modal.form.one-session-per-host'=> 'Una sesión por host',
     'ppp.modal.form.accept-empty-services'=> 'Aceptar servicios vacíos',
-    'ppp.modal.form.accept-untagged'=> 'Aceptar paquetes sin etiqueta',
+    'ppp.modal.form.accept-untagged'=> 'Aceptar no etiquetado',
     'ppp.modal.form.service-name'=> 'Nombre del servicio',
     'ppp.modal.form.service-name_placeholder'=> 'Nombre PPPoE',
     'ppp.modal.form.interface'=> 'Interfaz',
     'ppp.modal.form.placeholder'=> 'Predeterminado',
-    'ppp.modal.form.max-mtu'=> 'MTU máximo',
-    'ppp.modal.form.max-mru'=> 'MRU máximo',
+    'ppp.modal.form.max-mtu'=> 'MTU máxima',
+    'ppp.modal.form.max-mru'=> 'MRU máxima',
     'ppp.modal.form.mrru'=> 'MRRU',
     'ppp.modal.form.keepalive-timeout'=> 'Tiempo de keepalive',
     'ppp.modal.form.profile'=> 'Perfil',
@@ -1005,14 +1031,14 @@ return [
     'ppp.modal.form.profile.queue-type-tx'=> 'Tipo de cola (Subidas)',
     'ppp.modal.form.profile.script-onup'=> 'Al subir',
     'ppp.modal.form.profile.script-ondown'=> 'Al bajar',
-    'ppp.modal.form.profile.script-placeholder'=> 'El script se ejecutará cuando se active el evento',
+    'ppp.modal.form.profile.script-placeholder'=> 'El script se ejecutará cuando ocurra el evento',
     'ppp.modal.form.migration.confirm'=> 'Confirmar migración de perfil',
-    'ppp.modal.form.migration.caption'=> 'Borrar la Cola padre o el Tipo de Cola de este perfil puede requerir recrear el perfil y reasignar los secretos PPP asociados. Esta operación puede ser disruptiva. ¿Deseas continuar?',
+    'ppp.modal.form.migration.caption'=> 'Limpiar la Cola Padre o Tipo de Cola de este perfil puede requerir recrear el perfil y reasignar los secretos PPP asociados. Esta operación puede ser disruptiva. ¿Desea continuar?',
 
     // ip.php
     // IP Page
-    'ip.title'=> 'Gestor de IP',
-    'ip.desc'=> 'Gestiona ARP, direcciones, DHCP, DNS, pools y servicios IP relacionados.',
+    'ip.title'=> 'Administrador IP',
+    'ip.desc'=> 'Gestionar ARP, direcciones, DHCP, DNS, pools y servicios IP relacionados.',
 
     'ip.arp'=> 'ARP',
     'ip.addresses'=> 'Direcciones',
@@ -1025,15 +1051,15 @@ return [
     'ip.upnp'=> 'UPnP',
     'ip.settings'=> 'Ajustes',
     
-    'ip.arp.desc'=> 'Ver y administrar las entradas de la tabla ARP.',
-    'ip.addresses.desc'=> 'Gestionar direcciones IP asignadas a interfaces.',
-    'ip.cloud.desc'=> 'Ajustes de Cloud/DDNS. Los valores se leen desde el router.',
-    'ip.dhcp.client.desc'=> 'Ver y administrar clientes DHCP.',
-    'ip.dhcp.server.desc'=> 'Configurar servidor DHCP y leases.',
-    'ip.dns.desc'=> 'Gestionar ajustes DNS y entradas estáticas.',
-    'ip.pool.desc'=> 'Gestionar pools de direcciones para DHCP y otros servicios.',
+    'ip.arp.desc'=> 'Ver y gestionar las entradas de la tabla ARP.',
+    'ip.addresses.desc'=> 'Gestionar las direcciones IP asignadas a las interfaces.',
+    'ip.cloud.desc'=> 'Ajustes de Cloud/DDNS. Los valores se leen del router.',
+    'ip.dhcp.client.desc'=> 'Ver y gestionar los clientes DHCP.',
+    'ip.dhcp.server.desc'=> 'Configurar el servidor DHCP y las concesiones.',
+    'ip.dns.desc'=> 'Gestionar los ajustes de DNS y las entradas estáticas.',
+    'ip.pool.desc'=> 'Gestionar los pools de direcciones para DHCP y otros servicios.',
     'ip.services.desc'=> 'Habilitar o deshabilitar servicios relacionados con IP.',
-    'ip.upnp.desc'=> 'Ajustes de Universal Plug and Play. Los valores se leen desde el router.',
+    'ip.upnp.desc'=> 'Ajustes de Universal Plug and Play. Los valores se leen del router.',
     'ip.settings.desc'=> 'Ajustes generales del subsistema IP.',
 
     'ip.open.arp'=> 'Abrir ARP',
@@ -1048,12 +1074,14 @@ return [
     'ip.open.settings'=> 'Abrir ajustes',
 
     // IP Page - Back Button
-    'ip.back-to-ip'=> 'Volver al gestor de IP',
+    'ip.back-to-ip'=> 'Volver al administrador IP',
+
 
     // IP JS strings
+    // Addresses
     'ip.addresses.no_addresses' => 'No hay direcciones',
     'ip.addresses.loading' => 'Cargando...',
-    'ip.addresses.failed_to_contact_api' => 'Error al contactar la API',
+    'ip.addresses.failed_to_contact_api' => 'No se pudo contactar la API',
     'ip.addresses.please_select_one_or_more' => 'Por favor seleccione una o más entradas',
     'ip.addresses.select_one_to_edit' => 'Seleccione exactamente una dirección para editar',
     'ip.addresses.action_completed' => 'Acción %s completada',
@@ -1065,20 +1093,23 @@ return [
     'ip.addresses.update_failed' => 'Error al actualizar: %s',
     'ip.addresses.page_info' => 'Página %s / %s (%s)',
 
+    // ARP
     'ip.arp.no_arp_entries' => 'No hay entradas ARP',
     'ip.arp.loading' => 'Cargando...',
-    'ip.arp.failed_to_contact_api' => 'Error al contactar la API',
+    'ip.arp.failed_to_contact_api' => 'No se pudo contactar la API',
     'ip.arp.please_select_one_or_more' => 'Por favor seleccione una o más entradas',
     'ip.arp.enable_confirm' => '¿Habilitar las entradas ARP seleccionadas?',
     'ip.arp.disable_confirm' => '¿Deshabilitar las entradas ARP seleccionadas?',
     'ip.arp.remove_confirm' => '¿Eliminar las entradas ARP seleccionadas?',
     'ip.arp.page_info' => 'Página %s / %s (%s)',
 
+    // Cloud
     'ip.cloud.failed_to_load' => 'Error al cargar la configuración de cloud: %s',
     'ip.cloud.reverted' => 'Cambios revertidos',
     'ip.cloud.applied' => 'Configuración de cloud aplicada',
     'ip.cloud.apply_failed' => 'Error al aplicar: %s',
 
+    // DHCP Client
     'ip.dhcp.client.no_clients' => 'No hay clientes DHCP',
     'ip.dhcp.client.failed_to_load' => 'Error al cargar clientes DHCP: %s',
     'ip.dhcp.client.please_select_interface' => 'Por favor seleccione una interfaz',
@@ -1090,11 +1121,12 @@ return [
     'ip.dhcp.client.disable_completed' => 'Deshabilitación completada',
     'ip.dhcp.client.disable_failed' => 'Error al deshabilitar: %s',
     'ip.dhcp.client.remove_confirm' => '¿Eliminar los clientes DHCP seleccionados?',
-    'ip.dhcp.client.option_name_code_required' => 'Nombre y Código requeridos',
+    'ip.dhcp.client.option_name_code_required' => 'Nombre y código requeridos',
     'ip.dhcp.client.option_created' => 'Opción creada',
     'ip.dhcp.client.option_create_failed' => 'Error al crear: %s',
     'ip.dhcp.client.no_options' => 'Sin opciones',
 
+    // DHCP Networks
     'ip.dhcp.networks.no_networks' => 'No hay redes DHCP',
     'ip.dhcp.networks.loading' => 'Cargando...',
     'ip.dhcp.networks.select_one_to_edit' => 'Por favor seleccione una sola red para editar',
@@ -1105,29 +1137,31 @@ return [
     'ip.dhcp.networks.remove_failed' => 'Error al eliminar: %s',
     'ip.dhcp.networks.page_info' => 'Página %s / %s (%s)',
 
+    // DNS
     'ip.dns.add_server_placeholder' => 'Agregar servidor DNS (IP)',
     'ip.dns.remove' => 'Eliminar',
     'ip.dns.loading' => 'Cargando...',
-    'ip.dns.failed_to_contact_api' => 'Error al contactar la API',
+    'ip.dns.failed_to_contact_api' => 'No se pudo contactar la API',
     'ip.dns.error_loading' => 'Error al cargar la configuración DNS',
     'ip.dns.dns_saved' => 'Configuración DNS guardada',
     'ip.dns.failed_to_save' => 'Error al guardar: %s',
     'ip.dns.save_confirm' => '¿Guardar la configuración DNS?',
     'ip.dns.no_static_entries' => 'No hay entradas estáticas',
     'ip.dns.static_added' => 'DNS estático añadido',
-    'ip.dns.static_add_failed' => 'Error al añadir DNS estático',
-    'ip.dns.performing_action' => 'Ejecutando %s...',
+    'ip.dns.static_add_failed' => 'Error al añadir estático',
+    'ip.dns.performing_action' => 'Realizando %s...',
     'ip.dns.invalid_json' => 'Respuesta JSON inválida',
     'ip.dns.request_failed' => 'Solicitud fallida: %s',
     'ip.dns.flush_cache_confirm' => '¿Vaciar toda la caché DNS?',
     'ip.dns.cache_flushed' => 'Caché vaciada',
-    'ip.dns.failed_flush_cache' => 'Error al vaciar la caché: %s',
-    'ip.dns.no_cache_entries' => 'No hay entradas en la caché',
+    'ip.dns.failed_flush_cache' => 'Error al vaciar caché: %s',
+    'ip.dns.no_cache_entries' => 'No hay entradas en caché',
 
+    // Pool
     'ip.pool.no_pools' => 'No hay pools',
     'ip.pool.please_select_one_or_more' => 'Por favor seleccione uno o más pools',
     'ip.pool.select_one_to_edit' => 'Seleccione exactamente un pool para editar',
-    'ip.pool.name_and_address_required' => 'Nombre y Dirección son requeridos',
+    'ip.pool.name_and_address_required' => 'Nombre y dirección son obligatorios',
     'ip.pool.pool_created' => 'Pool creado',
     'ip.pool.create_failed' => 'Error al crear: %s',
     'ip.pool.pool_updated' => 'Pool actualizado',
@@ -1138,12 +1172,13 @@ return [
     'ip.pool.request_failed' => 'Solicitud fallida: %s',
     'ip.pool.none' => '(ninguno)',
     'ip.pool.loading' => 'Cargando...',
-    'ip.pool.failed_to_contact_api' => 'Error al contactar la API',
+    'ip.pool.failed_to_contact_api' => 'No se pudo contactar la API',
     'ip.pool.page_info' => 'Página %s / %s (%s)',
 
-    'ip.settings.refreshing_settings' => 'Actualizando ajustes...',
+    // IP Settings
+    'ip.settings.refreshing_settings' => 'Actualizando configuración...',
     'ip.settings.no_settings_found' => 'No se encontraron ajustes IP',
-    'ip.settings.failed_to_load' => 'Error al cargar los ajustes IP',
+    'ip.settings.failed_to_load' => 'Error al cargar ajustes IP',
     'ip.settings.updated' => 'Ajustes IP actualizados',
     'ip.settings.update_failed' => 'Error al actualizar: %s',
 
@@ -1171,9 +1206,10 @@ return [
     'ip.buttons.flush.cache'=> 'Vaciar caché',
     'ip.buttons.add.dns.server'=> 'Agregar servidor DNS',
 
+
     // IP UPnP Page
     'ip.upnp.enabled'=> 'Habilitado',
-    'ip.upnp.allow-disable-external-iface'=> 'Permitir deshabilitar la interfaz externa',
+    'ip.upnp.allow-disable-external-iface'=> 'Permitir deshabilitar interfaz externa',
     'ip.upnp.show-dummy-rule'=> 'Mostrar regla ficticia',
 
     // arp.php
@@ -1218,23 +1254,23 @@ return [
     'ip.cloud.public.ipv4'=> 'IPv4 pública',
     'ip.cloud.public.ipv6'=> 'IPv6 pública',
     'ip.cloud.dns.name' => 'Nombre DNS',
-    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
-    'ip.cloud.yes'=> 'Yes',
+    'ip.cloud.use-router-defaults'=> 'Usar valores predeterminados del router',
+    'ip.cloud.yes'=> 'Sí',
     'ip.cloud.no'=> 'No',
 
     // dhcp-client.php
     // IP DHCP Client Page
-    'ip.dhcp.client.options'=> 'Opciones de cliente DHCP',
-    'ip.dhcp.client.modal.form.interface'=> 'Interface',
-    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
-    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
-    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
-    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
-    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
-    'ip.dhcp.client.options2'=> 'DHCP Client Options',
-    'ip.dhcp.client.modal.form.name'=> 'Name',
-    'ip.dhcp.client.modal.form.code'=> 'Code',
-    'ip.dhcp.client.modal.form.value'=> 'Value',
+    'ip.dhcp.client.options'=> 'Cliente DHCP',
+    'ip.dhcp.client.modal.form.interface'=> 'Interfaz',
+    'ip.dhcp.client.modal.form.enabled'=> 'Habilitado',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Usar DNS del par',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Usar NTP del par',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Agregar ruta predeterminada',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Distancia de ruta predeterminada',
+    'ip.dhcp.client.options2'=> 'Opciones del cliente DHCP',
+    'ip.dhcp.client.modal.form.name'=> 'Nombre',
+    'ip.dhcp.client.modal.form.code'=> 'Código',
+    'ip.dhcp.client.modal.form.value'=> 'Valor',
 
    
     // dns.php
@@ -1244,17 +1280,17 @@ return [
     'ip.dns.form.servers'=> 'Servidores DNS',
     'ip.dns.form.dynamic-servers'=> 'Servidores dinámicos',
     'ip.dns.form.use.doh.servers'=> 'Usar servidores DoH',
-    'ip.dns.form.doh.max.server.conn'=> 'Máx. conexiones por servidor DoH',
-    'ip.dns.form.doh.max.concurrent.queries'=> 'Máx. consultas concurrentes DoH',
-    'ip.dns.form.doh.timeout'=> 'Tiempo de espera DoH (segundos)',
+    'ip.dns.form.doh.max.server.conn'=> 'Conexiones máximas por servidor DoH',
+    'ip.dns.form.doh.max.concurrent.queries'=> 'Máximo de consultas DoH concurrentes',
+    'ip.dns.form.doh.timeout'=> 'Timeout DoH (segundos)',
     'ip.dns.form.allow-remote.requests'=> 'Permitir solicitudes remotas',
 
     'ip.dns.form.cache.size'=> 'Tamaño de caché (KB)',
     'ip.dns.form.cache.max-ttl'=> 'TTL máximo de caché (segundos)',
     'ip.dns.form.cache.min-ttl'=> 'TTL mínimo de caché (segundos)',
-    'ip.dns.form.max.concurrent.queries'=> 'Máx. consultas concurrentes',
-    'ip.dns.form.max.concurrent.tcp'=> 'Máx. conexiones TCP concurrentes',
-    'ip.dns.form.query.timeout'=> 'Timeout de consulta (segundos)',
+    'ip.dns.form.max.concurrent.queries'=> 'Consultas concurrentes máximas',
+    'ip.dns.form.max.concurrent.tcp'=> 'Conexiones TCP concurrentes máximas',
+    'ip.dns.form.query.timeout'=> 'Tiempo de espera de consulta (segundos)',
     'ip.dns.form.cache.used'=> 'Caché usada (solo lectura)',
 
     'ip.dns.form.add.static.entry'=> 'Agregar entrada DNS estática',
@@ -1266,7 +1302,7 @@ return [
 
     // IP DNS - Static DNS
     'ip.dns.static'=> 'DNS estático',
-    'ip.dns.static.desc'=> 'Gestiona entradas DNS estáticas que sobrescriben la resolución DNS dinámica.',
+    'ip.dns.static.desc'=> 'Gestionar entradas DNS estáticas que anulan la resolución dinámica.',
 
     // IP DNS - Cache Settings
     'ip.dns.cache'=> 'Ajustes de caché DNS',
@@ -1278,7 +1314,7 @@ return [
     'ip.pool.table.th.name'=> 'Nombre',
     'ip.pool.table.th.ranges'=> 'Rangos',
     'ip.pool.table.th.comment'=> 'Comentario',
-    'ip.pool.table.th.total-addresses'=> 'Total de direcciones',
+    'ip.pool.table.th.total-addresses'=> 'Direcciones totales',
     'ip.pool.table.th.used'=> 'Usadas',
     'ip.pool.table.th.available'=> 'Disponibles',
 
@@ -1290,7 +1326,7 @@ return [
     'ip.pool.modal.form.ranges-placeholder'=> 'ej. 192.168.1.100-192.168.1.200 o 10.0.0.0/24',
     'ip.pool.modal.form.comment'=> 'Comentario',
     'ip.pool.modal.form.next-address'=> 'Siguiente dirección',
-    'ip.pool.modal.form.total-addresses'=> 'Total de direcciones',
+    'ip.pool.modal.form.total-addresses'=> 'Direcciones totales',
     'ip.pool.modal.form.used'=> 'Usadas',
     'ip.pool.modal.form.available'=> 'Disponibles',
 
@@ -1321,18 +1357,17 @@ return [
     // IP Settings Page
 
     // IP Settings Modal Form
-    'ip.settings.modal.form.ip-forward'=> 'Reenvío IP habilitado',
-    'ip.settings.modal.form.ip-send-redirects'=> 'Enviar redirecciones habilitado',
-    'ip.settings.modal.form.ip-accept-redirects'=> 'Aceptar redirecciones habilitado',
-    'ip.settings.modal.form.ip-secure-redirects'=> 'Redirecciones seguras habilitado',
-    'ip.settings.modal.form.ip-accept-source-route'=> 'Aceptar enrutamiento de origen habilitado',
-    'ip.settings.modal.form.ip-allow-fast-path'=> 'Permitir Fast Path habilitado',
-    'ip.settings.modal.form.ip-tcp-syncookies'=> 'TCP Syncookies habilitado',
-    'ip.settings.modal.form.ip-tcp-timestamps'=> 'Timestamps TCP',
-    'ip.settings.modal.form.ip-max-neighbors'=> 'Máx. vecinos',
-    'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Límite de ICMP',
-    'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (segundos)',
-    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Introduce el formato de tiempo de RouterOS (ej. 10m, 1h, o 00:10:00). Deja vacío para usar el valor por defecto.',
+    'ip.settings.modal.form.ip-forward'=> 'IP Forwarding Enabled',
+    'ip.settings.modal.form.ip-send-redirects'=> 'Send Redirects Enabled',
+    'ip.settings.modal.form.ip-accept-redirects'=> 'Accept Redirects Enabled',
+    'ip.settings.modal.form.ip-secure-redirects'=> 'Secure Redirects Enabled',
+    'ip.settings.modal.form.ip-accept-source-route'=> 'Accept Source Route Enabled',
+    'ip.settings.modal.form.ip-allow-fast-path'=> 'Allow Fast Path Enabled',
+    'ip.settings.modal.form.ip-tcp-syncookies'=> 'TCP Syncookies Enabled',
+    'ip.settings.modal.form.ip-tcp-timestamps'=> 'TCP Timestamps',
+    'ip.settings.modal.form.ip-max-neighbors'=> 'Max Neighbors',
+    'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Límite de tasa ICMP',
+    'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
+    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
 
-    // End of Translations
 ]; 

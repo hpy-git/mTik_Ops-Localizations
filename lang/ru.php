@@ -1,161 +1,167 @@
 <?php
 ////////////////////////////////////////////////////////////////////////
-// Russian language translations for mTik_Ops                           
-// Author: HPY™ - (Temporary Translation using AI)                                                        
-// Version: Next-Generation                                             
+// Russian translations for mTik_Ops                           
+// Author: HPY™                                                         
 ////////////////////////////////////////////////////////////////////////
 return [
     // Start of Translations
     // Global
-    'language-changed' => 'Язык изменён на {lang}',
+    'language-changed' => 'Язык сменён на {lang}',
     'language-search-placeholder' => 'Поиск...',
 
     // Global Search
-    'search.title' => 'Поиск',
-    'search.instructions' => 'Введите ключевое слово или фразу для поиска по сайту.',
-    'search.results_header' => 'Результаты поиска для "{query}"',
-    'search.placeholder' => 'Начните ввод...',
-    'search.no_results' => 'Ничего не найдено',
-    'search.results' => 'Результаты',
-    'search.button' => 'Поиск',
-    'search.hint' => 'Начните ввод, чтобы увидеть подсказки.',
-    'search.quick_links' => 'Быстрые ссылки',
-    'search.show' => 'Показать поиск',
 
-    // Site title and tagline
-    'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
-    'site.tagline' => 'Централизованное управление маршрутизаторами',
+    // ip.php
+    // IP Page
+    'ip.title'=> 'Управление IP',
+    'ip.desc'=> 'Управление IP-адресами, ARP, DHCP, DNS и сервисами.',
 
-    // Authentication
-    'nav.login' => 'Авторизоваться',
-    'nav.logout' => 'Выход из системы',
-    'auth.logging_in' => 'Вход в систему',
-    'auth.logging_out' => 'Выход из системы',
+    'ip.addresses'=> 'IP-адреса',
+    'ip.arp'=> 'ARP',
+    'ip.dhcp'=> 'DHCP',
+    'ip.dhcp.leases'=> 'DHCP аренды',
+    'ip.dhcp.networks'=> 'DHCP сети',
+    'ip.dhcp.options'=> 'DHCP опции',
+    'ip.dns'=> 'DNS',
+    'ip.dns.static'=> 'Статические записи DNS',
+    'ip.dns.cache'=> 'Кэш DNS',
+    'ip.pools'=> 'IP пулы',
+    'ip.services'=> 'IP сервисы',
 
-    // nav-brand.php
-    'nav.brand.user_greeting'=> 'Привет!',
+    'ip.open.addresses'=> 'Открыть IP-адреса',
+    'ip.open.arp'=> 'Открыть ARP',
+    'ip.open.dhcp'=> 'Открыть DHCP',
+    'ip.open.dns'=> 'Открыть DNS',
+    'ip.open.pools'=> 'Открыть пулы',
+    'ip.open.services'=> 'Открыть сервисы',
 
-    // nav.php
-    'lang.label'=> 'Язык',
-    'nav.about' => 'О нас',
-    'nav.features' => 'Функции',
-    'nav.our_team' => 'Наша команда',
-    'nav.contact' => 'Контакты',
-    'nav.menu' => 'Меню',
-    'nav.dashboard' => 'Панель управления',
-    'nav.hotspot' => 'Хотспот',
-    'nav.ip' => 'IP',
-    'nav.ppp' => 'PPP',
-    'nav.queues' => 'Очереди',
-    'nav.settings' => 'Настройки',
-    // index.php
-    // Index Page - About Section
-    'about.title' => 'Создано для MikroTik',
-    'about.desc' => 'mTikOps - это платформа на базе браузера для управления маршрутизаторами и хотспотами MikroTik. Включает удаленный доступ, управление хотспотами - печать, PPPoE и многое другое. Все в одной быстрой системе.',
-    'about.about_us_button' => 'О нас',
-    'about.our_team_button' => 'Наша команда',
+    // IP Page Descriptions
+    'ip.addresses.desc'=> 'Управление IP-адресами, назначенными интерфейсам.',
+    'ip.arp.desc'=> 'Просмотр и управление таблицей ARP.',
+    'ip.dhcp.desc'=> 'Управление DHCP-сервером, арендами и сетями.',
+    'ip.dns.desc'=> 'Управление статическими записями DNS и просмотр кэша DNS.',
+    'ip.pools.desc'=> 'Управление пулами адресов для динамического назначения.',
+    'ip.services.desc'=> 'Управление IP-уровневыми сервисами (например, NAT, firewall helpers).',
 
-    // Index Page - Features Section
-    'features.remote.title' => 'Удаленное управление сетью',
-    'features.remote.desc' => 'Мониторинг и управление удаленными маршрутизаторами, просмотр состояния интерфейсов, выполнение перезагрузок и безопасное применение изменений конфигурации по всему вашему парку из одной консоли.',
-    'features.hotspot.title' => 'Управление хотспотом',
-    'features.hotspot.desc' => 'Создавайте и управляйте серверами хотспотов и профилями пользователей, выдавайте ваучеры, контролируйте активных пользователей и сессии, а также выполняйте учет и отчетность.',
-    'features.troubleshoot.title' => 'Устранение неполадок и конфигурация',
-    'features.troubleshoot.desc' => 'Применяйте и проверяйте изменения конфигурации, запускайте диагностику, просматривайте логи и устраняйте проблемы с подключением с помощью встроенных инструментов и журналов.',
-    // Index Page - Signup Section
-    'signup.title' => 'Начните работу с mTikOps',
-    'signup.desc' => 'Создайте учетную запись для управления маршрутизаторами, хотспотами и запуска диагностики по всей вашей сети с единой панели управления.',
-    'signup.cta' => 'Зарегистрироваться',
-    // Index Page - Contact Section
-    'contact.hq' => 'HQ',
-    'contact.email' => 'Email',
-    'contact.contact' => 'Contact',
-    'contact.hq_address' => 'Taguig City, PH 1630',
-    'contact.email_addr' => 'noc@mtikops.com',
-    'contact.phone' => '+63 (962) 660-6116',
+    // IP Table Headers
+    'ip.table.th.address'=> 'Адрес',
+    'ip.table.th.interface'=> 'Интерфейс',
+    'ip.table.th.network'=> 'Сеть',
+    'ip.table.th.gateway'=> 'Шлюз',
+    'ip.table.th.type'=> 'Тип',
+    'ip.table.th.disabled'=> 'Отключено',
+    'ip.table.th.comment'=> 'Комментарий',
+    'ip.table.th.active'=> 'Активно',
 
-    // Index Page - Footer Section
-    'footer.copyright' => 'Авторское право &copy; mTikOps {year}',
-    'footer.powered' => 'Работает на HPY™',
-    'modal.confirm.title' => 'Подтвердить',
-    'modal.confirm.body' => 'Вы уверены?',
-    'modal.confirm.cancel' => 'Отмена',
-    'modal.confirm.ok' => 'Подтвердить',
+    // IP Buttons
+    'ip.buttons.add'=> 'Добавить адрес',
+    'ip.buttons.release'=> 'Освободить',
+    'ip.buttons.renew'=> 'Обновить',
+    'ip.buttons.clear-leases'=> 'Очистить аренды',
 
-    // Login Page
+    // DHCP Modal Fields
+    'ip.dhcp.modal.add.title'=> 'Добавить DHCP сеть',
+    'ip.dhcp.modal.network'=> 'Сеть',
+    'ip.dhcp.modal.placeholder'=> 'например 192.168.1.0/24',
+    'ip.dhcp.modal.gateway'=> 'Шлюз',
+    'ip.dhcp.modal.dns'=> 'DNS-серверы (через запятую)',
+    'ip.dhcp.modal.lease-time'=> 'Время аренды',
+    'ip.dhcp.modal.leases'=> 'Аренды',
+    'ip.dhcp.modal.options'=> 'Опции',
+
+    // DHCP Lease Table
+    'ip.dhcp.table.th.address'=> 'Адрес',
+    'ip.dhcp.table.th.mac'=> 'MAC',
+    'ip.dhcp.table.th.server'=> 'Сервер',
+    'ip.dhcp.table.th.expires'=> 'Истекает',
+    'ip.dhcp.table.th.status'=> 'Статус',
+
+    // DNS Modal
+    'ip.dns.modal.add.title'=> 'Добавить статическую запись DNS',
+    'ip.dns.modal.hostname'=> 'Имя хоста',
+    'ip.dns.modal.address'=> 'Адрес',
+    'ip.dns.modal.ttl'=> 'TTL',
+
+    // Pools Modal
+    'ip.pools.modal.add.title'=> 'Добавить IP-пул',
+    'ip.pools.modal.name'=> 'Имя',
+    'ip.pools.modal.ranges'=> 'Диапазоны (через запятую)',
+    'ip.pools.modal.placeholder'=> 'например 192.168.1.100-192.168.1.200,10.0.0.1-10.0.0.50',
     'login.title' => 'Вход в mTik_Ops',
-    'login.desc' => 'Доступ к вашей учетной записи mTik_Ops для управления маршрутизаторами и хотспотами MikroTik с централизованной панели управления.',
-    'login.form.title' => 'Вход в вашу учетную запись',
+    'login.desc' => 'Войдите в аккаунт mTik_Ops для управления маршрутизаторами MikroTik и хотспотами из централизованной панели.',
+    'login.form.title' => 'Вход в аккаунт',
     'login.form.host'=> 'Хост',
     'login.form.username'=> 'Имя пользователя',
     'login.form.password'=> 'Пароль',
     'login.form.connection_type'=> 'Тип подключения',
-    'login.form.connection_type_yes'=> 'Да (Безопасный API)',
-    'login.form.connection_type_no'=> 'Нет (Стандартный API)',
+    'login.form.connection_type_yes'=> 'Да (Secure API)',
+    'login.form.connection_type_no'=> 'Нет (Standard API)',
     'login.form.port'=> 'Порт',
     'login.form.remember'=> 'Запомнить меня',
     'login.form.connect'=> 'Подключиться',
     'login.form.cancel'=> 'Отмена',
+
     // Login Page Placeholders
-    'login.form.host_placeholder'=> 'IP роутера или имя хоста',
+    'login.form.host_placeholder'=> 'IP или имя хоста маршрутизатора',
     'login.form.username_placeholder'=> 'Введите имя пользователя',
     'login.form.password_placeholder'=> 'Введите пароль',
 
 
     // about-us.php
     // About Us Page
-    'about-us.title' => 'О нас',
-    'about-us.desc' => 'Узнайте больше о mTik_Ops, нашей миссии и команде, стоящей за платформой.',
+    'about-us.title' => 'О проекте',
+    'about-us.desc' => 'Узнайте о mTik_Ops, нашей миссии и команде, стоящей за платформой.',
     'about-us.overview'=> 'Обзор',
     'about-us.vision'=> 'Видение',
-    'about-us.features'=> 'Особенности',
-    'about-us.tutorials'=> 'Учебники',
+    'about-us.features'=> 'Функции',
+    'about-us.tutorials'=> 'Руководства',
     'about-us.faqs'=> 'Часто задаваемые вопросы',
     'about-us.requirements'=> 'Требования',
 
     // about-us.php
     // About Us Page Descriptions
-    'about-us.overview.desc'=> 'Получите краткое введение в mTikOps и его основные возможности.',
-    'about-us.vision.desc'=> 'Узнайте о нашей миссии и долгосрочных целях проекта.',
-    'about-us.features.desc'=> 'Посмотрите основные функции, доступные в mTikOps.',
-    'about-us.tutorials.desc'=> 'Пошаговые руководства и примеры рабочих процессов.',
-    'about-us.faqs.desc'=> 'Распространенные вопросы и ответы о mTikOps.',
-    'about-us.requirements.desc'=> 'Предварительные требования и требования RouterOS для запуска mTikOps.',
+    'about-us.overview.desc'=> 'Краткое введение в mTikOps и его ключевые возможности.',
+    'about-us.vision.desc'=> 'О нашей миссии и долгосрочных целях проекта.',
+    'about-us.features.desc'=> 'Основные возможности mTikOps.',
+    'about-us.tutorials.desc'=> 'Пошаговые инструкции и примеры рабочих процессов.',
+    'about-us.faqs.desc'=> 'Частые вопросы и ответы о mTikOps.',
+    'about-us.requirements.desc'=> 'Требования и совместимость с RouterOS для запуска mTikOps.',
 
     // about-us.php
     // About Us Page Buttons
     'about-us.open.overview'=> 'Открыть обзор',
     'about-us.open.vision'=> 'Открыть видение',
-    'about-us.open.features'=> 'Открыть особенности',
-    'about-us.open.tutorials'=> 'Открыть учебники',
-    'about-us.open.faqs'=> 'Открыть часто задаваемые вопросы',
+    'about-us.open.features'=> 'Открыть функции',
+    'about-us.open.tutorials'=> 'Открыть руководства',
+    'about-us.open.faqs'=> 'Открыть FAQ',
     'about-us.open.requirements'=> 'Открыть требования',
+
     // About Us - Back Button
-    'about-us.back-to-about'=> 'Назад к О нас',
+    'about-us.back-to-about'=> 'Назад',
 
     // About Us - Overview Page
     'about-us.overview-page.title'=> 'Обзор',
-    'about-us.overview-page.desc'=> 'mTikOps — это легкая веб-платформа для управления маршрутизаторами MikroTik и сервисами хотспота из браузера.',
+    'about-us.overview-page.desc'=> 'mTikOps — лёгкая веб‑платформа для управления маршрутизаторами MikroTik и сервисами хотспота через браузер.',
 
     // About Us - Vision Page
     'about-us.vision-page.title'=> 'Видение',
-    'about-us.vision-page.desc'=> 'Мы стремимся упростить сетевые операции для пользователей MikroTik с помощью интуитивно понятного интерфейса управления и инструментов автоматизации.',
+    'about-us.vision-page.desc'=> 'Мы стремимся упростить сетевые операции для пользователей MikroTik с помощью интуитивного интерфейса и инструментов автоматизации.',
 
     // About Us - Features Page
-    'about-us.features-page.title'=> 'Особенности',
-    'about-us.features-page.desc'=> 'Изучите основные функции mTikOps.',
+    'about-us.features-page.title'=> 'Функции',
+    'about-us.features-page.desc'=> 'Основные возможности mTikOps.',
 
     // About Us - Tutorials Page
-    'about-us.tutorials-page.title'=> 'Учебники',
-    'about-us.tutorials-page.desc'=> 'Руководства и инструкции по выполнению распространенных задач.',
+    'about-us.tutorials-page.title'=> 'Руководства',
+    'about-us.tutorials-page.desc'=> 'Руководства и инструкции для распространённых задач.',
 
     // About Us - FAQs Page
-    'about-us.faqs-page.title'=> 'Часто задаваемые вопросы',
+    'about-us.faqs-page.title'=> 'FAQ',
     'about-us.faqs-page.desc'=> 'Часто задаваемые вопросы и ответы.',
 
     // About Us - Requirements Page
     'about-us.requirements-page.title'=> 'Требования',
-    'about-us.requirements-page.desc'=> 'Минимальные требования и заметки о совместимости.',
+    'about-us.requirements-page.desc'=> 'Минимальные требования и заметки по совместимости.',
 
     // our-team.php
     // Our Team Page
@@ -165,89 +171,92 @@ return [
     'our-team.developers'=> 'Разработчики',
     'our-team.contributors'=> 'Участники',
     'our-team.advisors'=> 'Советники',
-    'our-team.careers'=> 'Присоединяйтесь к нам',
-    'our-team.contact'=> 'Контакт',
+    'our-team.careers'=> 'Присоединяйтесь',
+    'our-team.contact'=> 'Связаться',
 
     // Our Team Page Descriptions
-    'our-team.leadership.desc'=> 'Основные сопровождающие и руководители проекта, продвигающие mTikOps вперед.',
+    'our-team.leadership.desc'=> 'Ключевые сопровождающие и проектные лидеры, развивающие mTikOps.',
     'our-team.developers.desc'=> 'Инженеры и участники, создающие функции и исправления.', 
     'our-team.contributors.desc'=> 'Участники сообщества, помогающие с документацией, тестированием и кодом.',
     'our-team.advisors.desc'=> 'Советники и эксперты, поддерживающие проект.',
     'our-team.careers.desc'=> 'Открытые вакансии и способы присоединиться к команде.',
-    'our-team.contact.desc'=> 'Свяжитесь с командой для вопросов или сотрудничества.',
+    'our-team.contact.desc'=> 'Свяжитесь с командой по вопросам или для сотрудничества.',
 
     // Our Team Page Buttons
-    'our-team.open.leadership'=> 'Просмотреть руководство',
-    'our-team.open.developers'=> 'Просмотреть разработчиков',
-    'our-team.open.contributors'=> 'Просмотреть участников',
-    'our-team.open.advisors'=> 'Просмотреть советников',
-    'our-team.open.careers'=> 'Присоединяйтесь к нам',
+    'our-team.open.leadership'=> 'Показать руководство',
+    'our-team.open.developers'=> 'Показать разработчиков',
+    'our-team.open.contributors'=> 'Показать участников',
+    'our-team.open.advisors'=> 'Показать советников',
+    'our-team.open.careers'=> 'Присоединиться',
     'our-team.open.contact'=> 'Связаться с командой',
 
     // Our Team - Back Button
-    'our-team.back-to-team'=> 'Вернуться в нашу команду',
+    'our-team.back-to-team'=> 'Назад к команде',
 
     // Our Team - Leadership Page
     'our-team.leadership-page.title'=> 'Руководство',
-    'our-team.leadership-page.desc'=> 'Познакомьтесь с основными сопровождающими и руководителями проекта mTikOps.',
+    'our-team.leadership-page.desc'=> 'Познакомьтесь с ключевыми сопровождающими и лидерами проекта mTikOps.',
 
     // Our Team - Developers Page
     'our-team.developers-page.title'=> 'Разработчики',
     'our-team.developers-page.desc'=> 'Профили и обязанности разработчиков, вносящих вклад в mTikOps.',
+
     // Our Team - Contributors Page
     'our-team.contributors-page.title'=> 'Участники',
-    'our-team.contributors-page.desc'=> 'Признание участников сообщества и способы участия.',
+    'our-team.contributors-page.desc'=> 'Признание участников сообщества и информация о том, как присоединиться.',
 
     // Our Team - Advisors Page
     'our-team.advisors-page.title'=> 'Советники',
-    'our-team.advisors-page.desc'=> 'Советники и эксперты, предоставляющие руководство проекту.',
+    'our-team.advisors-page.desc'=> 'Советники и эксперты, которые консультируют проект.',
+
     // Our Team - Join Us Page
-    'our-team.join-us-page.title'=> 'Присоединяйтесь к нам',
-    'our-team.join-us-page.desc'=> 'Ознакомьтесь с открытыми вакансиями и способами участия в mTikOps.',  
+    'our-team.join-us-page.title'=> 'Присоединяйтесь',
+    'our-team.join-us-page.desc'=> 'Ознакомьтесь с открытыми ролями и способами вклада в mTikOps.',  
 
     // Our Team - Contact Page
-    'our-team.contact-page.title'=> 'Контакт',
+    'our-team.contact-page.title'=> 'Контакты',
     'our-team.contact-page.desc'=> 'Способы связаться с командой mTikOps для сотрудничества или поддержки.',
+
     // Dashboard Page
-    'dashboard.title'=> 'Панель управления',
-    'dashboard.desc'=> 'Набор инструментов для мониторинга и ведения журналов сетевых операций',
+    'dashboard.title'=> 'Панель',
+    'dashboard.desc'=> 'Набор инструментов для мониторинга и логирования сетевых операций',
 
     // Dashboard Buttons
     'dashboard.show'=> 'Показать панель',
     'dashboard.button.refresh'=> 'Обновить',
-    'dashboard.button.prev'=> 'Предыдущая',
-    'dashboard.button.next'=> 'Следующая',
+    'dashboard.button.prev'=> 'Назад',
+    'dashboard.button.next'=> 'Вперед',
 
     // Dashboard Network Monitoring
     'dashboard.monitoring.title'=> 'Мониторинг сети',
-    'dashboard.monitoring.desc'=> 'Мониторинг в реальном времени производительности сети, времени безотказной работы и состояния устройств в вашей инфраструктуре MikroTik.',
-    'dashboard.ltmg.title'=> 'График мониторинга живого трафика',
-    'dashboard.fullscreen'=> 'Полноэкранный режим',
+    'dashboard.monitoring.desc'=> 'Мониторинг производительности сети, времени работы и состояния устройств MikroTik в реальном времени.',
+    'dashboard.ltmg.title'=> 'График живого трафика',
+    'dashboard.fullscreen'=> 'На весь экран',
     'dashboard.loading'=> 'Загрузка данных...',
     'dashboard.not-monitoring'=> 'Не мониторится',
 
     // Dashboard System Logging
-    'dashboard.logging.title'=> 'Системное ведение журнала',
-    'dashboard.logging.desc'=> 'Централизованное ведение журнала и оповещения о системных событиях, ошибках',
-    'dashboard.system.logs'=> 'Системные журналы',
-    'dashboard.critical.logs'=> 'Критические журналы',
+    'dashboard.logging.title'=> 'Системные логи',
+    'dashboard.logging.desc'=> 'Централизованное логирование и оповещения о системных событиях и ошибках',
+    'dashboard.system.logs'=> 'Системные логи',
+    'dashboard.critical.logs'=> 'Критические логи',
 
     // Dashboard Device Information
     'dashboard.device.info.title'=> 'Информация об устройстве',
-    'dashboard.system.resources'=> 'Системные ресурсы',
+    'dashboard.system.resources'=> 'Ресурсы системы',
     'dashboard.system.information'=> 'Информация о системе',
     'dashboard.system.platform'=> 'Информация о RouterBOARD',
 
     // Device info JS strings
-    'device.system_identity' => 'Идентификация системы',
+    'device.system_identity' => 'Идентификатор системы',
     'device.routeros_version' => 'Версия RouterOS',
     'device.uptime' => 'Время работы',
     'device.board' => 'Плата',
     'device.health' => 'Состояние',
-    'device.temp_label' => 'Темп:',
-    'device.voltage_label' => 'Напряжение:',
+    'device.temp_label' => 'Темп.:',
+    'device.voltage_label' => 'Напряж.:',
     'device.unknown' => 'Неизвестно',
-    'device.na' => 'n/a',
+    'device.na' => 'н/д',
     'device.cpu' => 'CPU',
     'device.memory' => 'Память',
     'device.disk' => 'Диск',
@@ -255,29 +264,29 @@ return [
     'device.serial' => 'Серийный номер',
     'device.architecture' => 'Архитектура',
     'device.cpu_label' => 'CPU',
-    'device.cores' => 'ядра',
+    'device.cores' => 'ядер',
     'device.build' => 'Сборка',
     'device.failed_load' => 'Не удалось загрузить информацию о системе',
     // Generate users preview JS strings
     'generate.generating' => 'Генерация...',
-    'generate.print_fetch_failed' => 'Ошибка при получении печати: %s',
-    'generate.network_not_ok' => 'Сетевой ответ некорректен: %s',
-    'generate.generation_failed' => 'Ошибка генерации: %s',
+    'generate.print_fetch_failed' => 'Не удалось получить данные для печати: %s',
+    'generate.network_not_ok' => 'Неверный сетевой ответ: %s',
+    'generate.generation_failed' => 'Генерация не удалась: %s',
     'generate.unknown_error' => 'Неизвестная ошибка',
-    'generate.preview_not_available' => 'Предпросмотр недоступен',
-    'generate.failed_print_dialog' => 'Не удалось открыть диалог печати: %s',
+    'generate.preview_not_available' => 'Превью недоступно',
+    'generate.failed_print_dialog' => 'Не удалось открыть системный диалог печати: %s',
     'generate.cached_cleared' => 'Кэшированная партия очищена',
     'generate.failed_clear_cached' => 'Не удалось очистить кэшированную партию',
-    'generate.preview_failed' => 'Не удалось показать предпросмотр',
-    'generate.preview' => 'Предпросмотр',
-    'generate.unexpected_error' => 'Неожиданная ошибка: %s',
+    'generate.preview_failed' => 'Не удалось показать превью',
+    'generate.preview' => 'Превью',
+    'generate.unexpected_error' => 'Непредвиденная ошибка: %s',
     'generate.generated' => 'Сгенерировано %s пользователей',
     'generate.request_failed' => 'Запрос не удался при генерации ваучеров.',
     'generate.generate' => 'Генерировать',
 
     // Dashboard Hotspot Active Sessions
-    'dashboard.hotspot.as.title'=> 'Активные сессии Hotspot',
-    'dashboard.ppp.as.title'=> 'Активные сессии PPPoE',
+    'dashboard.hotspot.as.title'=> 'Активные сессии хотспота',
+    'dashboard.ppp.as.title'=> 'Активные PPPoE-сессии',
     // JS dashboard strings (used by client-side locale export)
     'dashboard.no_active_sessions' => 'Нет активных сессий',
     'dashboard.no_ppp_active_sessions' => 'Нет активных PPP-сессий',
@@ -287,25 +296,25 @@ return [
     'dashboard.address' => 'Адрес',
     'dashboard.uptime' => 'Время работы',
     'dashboard.service' => 'Сервис',
-    'dashboard.not_monitoring' => 'Не отслеживается',
+    'dashboard.not_monitoring' => 'Не мониторится',
     'dashboard.more_format' => '... и ещё %d',
     'dashboard.unable_load_active' => 'Не удалось загрузить активные сессии',
     'dashboard.unable_load_ppp' => 'Не удалось загрузить активные PPP-сессии',
 
     // hotspot.php
     // Hotspot Page
-    'hotspot.title'=> 'Менеджер Hotspot',
-    'hotspot.desc'=> 'Управление пользователями Hotspot, профилями пользователей, активными сессиями и хостами.',
+    'hotspot.title'=> 'Управление хотспотом',
+    'hotspot.desc'=> 'Управление пользователями хотспота, профилями, активными сессиями и хостами.',
     'hotspot.users'=> 'Пользователи',
     'hotspot.profiles'=> 'Профили',
     'hotspot.active'=> 'Активные',
     'hotspot.hosts'=> 'Хосты',
 
     // Hotspot Page Descriptions
-    'hotspot.users.desc'=> 'Создавайте, редактируйте и управляйте отдельными учетными записями пользователей hotspot.',
-    'hotspot.profiles.desc'=> 'Управляйте профилями пропускной способности, сессий и ограничений скорости для пользователей.',
-    'hotspot.active.desc'=> 'Просматривайте и отключайте текущие активные сессии hotspot.',
-    'hotspot.hosts.desc'=> 'Просматривайте и управляйте устройствами, подключенными к hotspot.',
+    'hotspot.users.desc'=> 'Создавайте, редактируйте и управляйте аккаунтами пользователей хотспота.',
+    'hotspot.profiles.desc'=> 'Управление профилями скорости, сессий и ограничений для пользователей.',
+    'hotspot.active.desc'=> 'Просмотр и отключение текущих активных сессий хотспота.',
+    'hotspot.hosts.desc'=> 'Просмотр и управление устройствами, подключёнными к хотспоту.',
 
     // Hotspot Page Buttons
     'hotspot.open.users'=> 'Открыть пользователей',
@@ -314,11 +323,11 @@ return [
     'hotspot.open.hosts'=> 'Открыть хосты',
 
     // Hotspot - Back Button
-    'hotspot.back-to-hotspot'=> 'Назад к менеджеру Hotspot',
+    'hotspot.back-to-hotspot'=> 'Назад к управлению хотспотом',
 
     // Hotspot General Buttons
     'hotspot.action.button'=> 'Действия',
-    'hotspot.generate.button'=> 'Создать',
+    'hotspot.generate.button'=> 'Генерировать',
     'hotspot.add-user.button'=> 'Добавить пользователя',
     'hotspot.enable.button'=> 'Включить',
     'hotspot.add-profile.button'=> 'Добавить профиль',
@@ -328,87 +337,110 @@ return [
     'hotspot.export.users'=> 'Экспорт пользователей',
     'hotspot.export.button'=> 'Экспорт',
     'hotspot.button.refresh'=> 'Обновить',
-    'hotspot.button.prev'=> 'Предыдущая',
-    'hotspot.button.next'=> 'Следующая',
+    'hotspot.button.prev'=> 'Назад',
+    'hotspot.button.next'=> 'Вперед',
     'hotspot.sort.by'=> 'Сортировать по',
     'hotspot.sort.profiles'=> 'Сортировать по профилю',
     'hotspot.sort.comments'=> 'Сортировать по комментариям',
 
     // Hotspot Table Headers
-    'hotspot.table.th.select'=> 'Выбрать все',
+    'hotspot.table.th.select'=> 'Выбрать всё',
     'hotspot.table.th.server'=> 'Имя сервера',
     'hotspot.table.th.user'=> 'Пользователь',
     'hotspot.table.th.name'=> 'Имя',
     'hotspot.table.th.address'=> 'Адрес',
-    'hotspot.table.th.mac'=> 'MAC адрес',
+    'hotspot.table.th.mac'=> 'MAC-адрес',
     'hotspot.table.th.profile'=> 'Профиль',
     'hotspot.table.th.uptime'=> 'Время работы',
-    'hotspot.table.th.bytes-in'=> 'Входящие байты',
-    'hotspot.table.th.bytes-out'=> 'Исходящие байты',
+    'hotspot.table.th.bytes-in'=> 'Байты вход.',
+    'hotspot.table.th.bytes-out'=> 'Байты исход.',
     'hotspot.table.th.comment'=> 'Комментарий',
     'hotspot.table.th.to-address'=> 'К адресу',
-    'hotspot.table.th.last-seen'=> 'Последнее посещение',
-    'hotspot.status.loading'=> 'Загрузка пользователей Hotspot...',
+    'hotspot.table.th.last-seen'=> 'Последняя активность',
+    'hotspot.status.loading'=> 'Загрузка пользователей хотспота...',
 
     // Hotspot JS: hosts, profiles, users, modals
     // Hosts list
-    'hotspot.hosts.no_hosts' => 'Нет хостов',
+    'hotspot.hosts.no_hosts' => 'Хостов нет',
     'hotspot.hosts.loading' => 'Загрузка...',
     'hotspot.hosts.failed_to_contact_api' => 'Не удалось связаться с API',
     'hotspot.hosts.page_info' => 'Страница %s / %s (%s)',
 
     // Profiles list
-    'hotspot.profiles.no_profiles' => 'Нет профилей',
+    'hotspot.profiles.no_profiles' => 'Профилей нет',
     'hotspot.profiles.loading' => 'Загрузка...',
     'hotspot.profiles.failed_to_load' => 'Не удалось загрузить профили',
     'hotspot.profiles.failed_to_contact_api' => 'Не удалось связаться с API',
-    'hotspot.profiles.no_pools' => '(нет пулов)',
-    'hotspot.profiles.no_queues' => '(нет очередей)',
-    'hotspot.profiles.no_types' => '(нет типов)',
+    'hotspot.profiles.no_pools' => '(пулов нет)',
+    'hotspot.profiles.no_queues' => '(очередей нет)',
+    'hotspot.profiles.no_types' => '(типов нет)',
     'hotspot.profiles.select' => 'Выбрать...',
-    'hotspot.profiles.default' => 'default',
-        'hotspot.profiles.no_profiles_option' => '(нет профилей)',
-        'hotspot.profiles.page_info' => 'Страница %s / %s (%s)',
-        'hotspot.profiles.name_required' => 'Имя обязательно',
-        'hotspot.profiles.added' => 'Профиль добавлен',
-        'hotspot.profiles.add_failed' => 'Не удалось добавить профиль: %s',
-        'hotspot.profiles.server_contact_failed' => 'Не удалось связаться с сервером',
-        'hotspot.profiles.id_missing' => 'Отсутствует идентификатор профиля',
-        'hotspot.profiles.updated' => 'Профиль обновлён',
-        'hotspot.profiles.update_failed' => 'Не удалось обновить профиль: %s',
-        'hotspot.profiles.removed' => 'Профиль удалён',
-        'hotspot.profiles.remove_failed' => 'Не удалось удалить профиль: %s',
-        'hotspot.profiles.select_remove' => 'Выберите профиль для удаления',
-        'hotspot.profiles.remove_confirm' => 'Вы уверены, что хотите удалить выбранный профиль?',
-        'hotspot.profiles.remove_confirm_title' => 'Подтвердить',
+    'hotspot.profiles.default' => 'по умолчанию',
+    'hotspot.profiles.no_profiles_option' => '(профилей нет)',
+    'hotspot.profiles.page_info' => 'Страница %s / %s (%s)',
+    'hotspot.profiles.name_required' => 'Требуется имя',
+    'hotspot.profiles.added' => 'Профиль добавлен',
+    'hotspot.profiles.add_failed' => 'Не удалось добавить профиль: %s',
+    'hotspot.profiles.server_contact_failed' => 'Не удалось связаться с сервером',
+    'hotspot.profiles.id_missing' => 'ID профиля отсутствует',
+    'hotspot.profiles.updated' => 'Профиль обновлён',
+    'hotspot.profiles.update_failed' => 'Не удалось обновить профиль: %s',
+    'hotspot.profiles.removed' => 'Профиль удалён',
+    'hotspot.profiles.remove_failed' => 'Не удалось удалить профиль: %s',
+    'hotspot.profiles.select_remove' => 'Выберите профиль для удаления',
+    'hotspot.profiles.remove_confirm' => 'Вы уверены, что хотите удалить выбранный профиль?',
+    'hotspot.profiles.remove_confirm_title' => 'Подтверждение',
+    
+    // Admin Control Panel translations
+    'admin.title' => 'Панель администратора',
+    'admin.desc' => 'Центр управления',
+    'admin.maintenance' => 'Технические работы',
+    'admin.maintenance.desc' => 'Включение/отключение уведомления о технических работах для посетителей.',
+    'admin.page_access' => 'Управление доступом к страницам',
+    'admin.page_access.desc' => 'Разрешение или запрет доступа пользователей к разделам приложения.',
+    'admin.view_logs' => 'Просмотр логов',
+    'admin.logs.title' => 'Логи доступа администратора',
+    'admin.save' => 'Сохранить',
+    'admin.saved' => 'Сохранено',
+    'admin.save_failed' => 'Ошибка сохранения',
+    'admin.save_error' => 'Не удалось сохранить настройки',
+    'admin.load_logs_failed' => 'Не удалось загрузить логи',
+    'admin.access_denied' => 'У вас нет прав для доступа к панели администратора.',
+    'access.restricted.title' => 'Доступ ограничен',
+    'access.restricted.desc' => 'Этот раздел в настоящее время отключён',
+    'admin.section_disabled' => 'Раздел отключён администратором',
+    'nav.disabled' => 'Отключено',
+    // Maintenance toggle JS strings
+    'maintenance.toast' => 'Режим обслуживания' . '<br/><br/>' . 'Функции ограничены, когда режим обслуживания включён.',
+    'maintenance.set_failed' => 'Не удалось изменить состояние режима обслуживания',
 
     // Users modals and export
-    'hotspot.modals.no_servers' => '(нет серверов)',
-    'hotspot.modals.no_profiles' => '(нет профилей)',
-    'hotspot.modals.please_select_export' => 'Пожалуйста, выберите одного или нескольких пользователей для экспорта',
+    'hotspot.modals.no_servers' => '(серверов нет)',
+    'hotspot.modals.no_profiles' => '(профилей нет)',
+    'hotspot.modals.please_select_export' => 'Выберите одного или нескольких пользователей для экспорта',
     'hotspot.modals.select_at_least_one_field' => 'Выберите хотя бы одно поле для экспорта',
     'hotspot.modals.no_users_selected' => 'Пользователи не выбраны',
     'hotspot.modals.no_data_to_export' => 'Нет данных для экспорта',
     'hotspot.modals.export_started' => 'Экспорт начат',
-    'hotspot.modals.export_failed' => 'Экспорт не удался',
-    'hotspot.modals.add_user_title' => 'Добавить пользователя Hotspot',
-    'hotspot.modals.edit_user_title' => 'Редактировать пользователя Hotspot',
+    'hotspot.modals.export_failed' => 'Не удалось экспортировать',
+    'hotspot.modals.add_user_title' => 'Добавить пользователя хотспота',
+    'hotspot.modals.edit_user_title' => 'Редактировать пользователя хотспота',
     'hotspot.modals.create_button' => 'Создать',
     'hotspot.modals.update_button' => 'Обновить',
     'hotspot.modals.failed_load_user' => 'Не удалось загрузить данные пользователя',
-    'hotspot.modals.select_one_to_edit' => 'Пожалуйста, выберите ровно одного пользователя для редактирования',
+    'hotspot.modals.select_one_to_edit' => 'Выберите ровно одного пользователя для редактирования',
     'hotspot.modals.user_updated' => 'Пользователь обновлён',
     'hotspot.modals.user_created' => 'Пользователь создан',
-    'hotspot.modals.create_update_failed' => 'Ошибка создания/обновления',
-    'hotspot.modals.create_request_failed' => 'Ошибка запроса на создание',
+    'hotspot.modals.create_update_failed' => 'Не удалось создать/обновить',
+    'hotspot.modals.create_request_failed' => 'Запрос на создание не удался',
 
     // Users list
-    'hotspot.users.no_users' => 'Нет пользователей',
+    'hotspot.users.no_users' => 'Пользователей нет',
     'hotspot.users.loading' => 'Загрузка...',
     'hotspot.users.empty_response' => 'Пустой ответ',
     'hotspot.users.failed_to_contact_api' => 'Не удалось связаться с API',
-    'hotspot.users.select_one_or_more' => 'Пожалуйста, выберите одного или нескольких пользователей.',
-    'hotspot.users.remove_confirm' => 'Удалить выбранных пользователей? Это действие нельзя отменить.',
+    'hotspot.users.select_one_or_more' => 'Выберите одного или нескольких пользователей.',
+    'hotspot.users.remove_confirm' => 'Удалить выбранных пользователей? Это действие необратимо.',
     'hotspot.users.action_completed' => 'Действие "%s" выполнено. Успех: %s/%s',
     'hotspot.users.action_failed' => 'Действие не удалось: %s',
     'hotspot.users.request_failed' => 'Запрос не удался',
@@ -418,21 +450,22 @@ return [
     'hotspot.users.select_comments_placeholder' => 'Сортировать комментарии',
 
     // Hotspot JS helper strings
-    'hotspot.no_active_entries' => 'Нет активных записей',
+    'hotspot.no_active_entries' => 'Активных записей нет',
     'hotspot.loading' => 'Загрузка...',
     'hotspot.failed_to_contact_api' => 'Не удалось связаться с API',
     'hotspot.page_info' => 'Страница %s / %s (%s)',
 
     // Hotspot Modal Tabs and Titles
-    'hotspot.modal.title.generate'=> 'Создать пользователей / ваучеры',
-    'hotspot.modal.general.tab'=> 'Общее',
+    'hotspot.modal.title.generate'=> 'Генерация пользователей / ваучеров',
+    'hotspot.modal.general.tab'=> 'Общие',
     'hotspot.modal.printing.tab'=> 'Печать',
     'hotspot.modal.stats.tab'=> 'Статистика',
-    'hotspot.modal.queueing.tab'=> 'Очередь',
+    'hotspot.modal.queueing.tab'=> 'Очереди',
     'hotspot.modal.scripts.tab'=> 'Скрипты',
+
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Количество',
-    'hotspot.modal.form.server'=> 'Сервер Hotspot',
+    'hotspot.modal.form.server'=> 'Сервер хотспота',
     'hotspot.modal.form.username'=> 'Имя пользователя',
     'hotspot.modal.form.password'=> 'Пароль',
     'hotspot.modal.form.user-type'=> 'Тип пользователя',
@@ -440,21 +473,23 @@ return [
     'hotspot.modal.form.characters'=> 'Символы',
     'hotspot.modal.form.user-profile'=> 'Профиль пользователя',
     'hotspot.modal.form.comment'=> 'Комментарий',
-    'hotspot.modal.form.optional-comment'=> 'Необязательный комментарий',
-    'hotspot.modal.form.mac-address'=>  'MAC адрес',
-    'hotspot.modal.form.time-limit'=>  'Лимит времени',
-    'hotspot.modal.form.data-limit'=>  'Лимит данных',
+    'hotspot.modal.form.optional-comment'=> 'Доп. комментарий',
+    'hotspot.modal.form.mac-address'=>  'MAC-адрес',
+    'hotspot.modal.form.time-limit'=>  'Ограничение по времени',
+    'hotspot.modal.form.data-limit'=>  'Ограничение по трафику',
+
     // Hotspot Modal Form Generate - Printing Tab
-    'hotspot.modal.form.hotspot-name'=> 'Имя Hotspot',
+    'hotspot.modal.form.hotspot-name'=> 'Название хотспота',
     'hotspot.modal.form.hotspot-dns'=> 'DNS',
     'hotspot.modal.form.hotspot-currency'=> 'Валюта',
     'hotspot.modal.form.hotspot-select-currency'=> 'Выбрать валюту',
     'hotspot.modal.form.hotspot-price'=> 'Цена',
     'hotspot.modal.form.hotspot-include-comment'=> 'Включить комментарий',
-    'hotspot.modal.form.hotspot-include-comment-desc'=> 'Включить сгенерированный комментарий на распечатанном ваучере',
+    'hotspot.modal.form.hotspot-include-comment-desc'=> 'Включить сгенерированный комментарий в печатный ваучер',
     'hotspot.modal.form.hotspot-template'=> 'Шаблон',
+
     // Hotspot Modal Form Generate - Printing Placeholders
-    'hotspot.modal.form.hotspot-name-placeholder'=> 'Моя точка доступа',
+    'hotspot.modal.form.hotspot-name-placeholder'=> 'Мой хотспот',
     'hotspot.modal.form.hotspot-dns-placeholder'=> 'hotspot.mtikops.com',
     'hotspot.modal.form.hotspot-price-placeholder'=> 'Цена за ваучер',
 
@@ -463,28 +498,29 @@ return [
     'hotspot.modal.form.user-type-voucher'=> 'Имя пользователя = Пароль',
 
     // Hotspot Modal Form Generate - Characters
-    'hotspot.modal.form.characters-lower'=> 'abcd (lowercase)',
-    'hotspot.modal.form.characters-upper'=> 'ABCD (UPPERCASE)',
-    'hotspot.modal.form.characters-mixed'=> 'AbCd (Mixed)',
-    'hotspot.modal.form.characters-num'=> '1234 (Numbers)',
-    'hotspot.modal.form.characters-lower-num'=> 'a1b2 (lowercase & Numbers)',
-    'hotspot.modal.form.characters-upper-num'=> 'A1B2 (UPPERCASE & Numbers)',
-    'hotspot.modal.form.characters-mixed-num'=> 'aA1bB2 (Mixed & Numbers',
+    'hotspot.modal.form.characters-lower'=> 'abcd (строчные)',
+    'hotspot.modal.form.characters-upper'=> 'ABCD (ЗАГЛАВНЫЕ)',
+    'hotspot.modal.form.characters-mixed'=> 'AbCd (Смешанные)',
+    'hotspot.modal.form.characters-num'=> '1234 (Цифры)',
+    'hotspot.modal.form.characters-lower-num'=> 'a1b2 (строчные и цифры)',
+    'hotspot.modal.form.characters-upper-num'=> 'A1B2 (ЗАГЛАВНЫЕ и цифры)',
+    'hotspot.modal.form.characters-mixed-num'=> 'aA1bB2 (Смешанные и цифры)',
 
     // Hotspot Modal Form Stats - Stats Tab
     'hotspot.modal.form.stats.uptime'=> 'Время работы',
-    'hotspot.modal.form.stats.bytes_in'=> 'Входящие байты',
-    'hotspot.modal.form.stats.bytes_out'=> 'Исходящие байты',
-    'hotspot.modal.form.stats.limit-uptime'=> 'Лимит времени работы',
-    'hotspot.modal.form.stats.limit-bytes_total'=> 'Лимит байтов всего',
+    'hotspot.modal.form.stats.bytes_in'=> 'Байты вход.',
+    'hotspot.modal.form.stats.bytes_out'=> 'Байты исход.',
+    'hotspot.modal.form.stats.limit-uptime'=> 'Ограничение по времени работы',
+    'hotspot.modal.form.stats.limit-bytes_total'=> 'Ограничение по общему объёму',
     'hotspot.modal.form.stats.user-code'=> 'Код пользователя',
-    'hotspot.modal.form.stats.expire-date'=> 'Дата истечения',
+    'hotspot.modal.form.stats.expire-date'=> 'Дата окончания',
 
     // Hotspot Modal Form Misc
     'hotspot.modal.form.loading' => 'Загрузка данных...',
+
     // Hotspot Modal Form Buttons
-    'hotspot.modal.form.button.generate-print'=> 'Сгенерировать и распечатать',
-    'hotspot.modal.form.button.generate'=> 'Только сгенерировать',
+    'hotspot.modal.form.button.generate-print'=> 'Генерировать и печатать',
+    'hotspot.modal.form.button.generate'=> 'Только генерировать',
     'hotspot.modal.form.button.clear-cached-batch'=> 'Очистить кэшированную партию',
     'hotspot.modal.form.button.close'=> 'Закрыть',
     'hotspot.modal.form.button.create'=> 'Создать',
@@ -493,14 +529,14 @@ return [
     // profiles.php
     // Hotspot User Profiles Page
     'hotspot.user.profiles.title'=> 'Профили',
-    'hotspot.user.profiles.desc'=> 'Управление профилями пропускной способности, сессий и ограничений скорости для пользователей.',
+    'hotspot.user.profiles.desc'=> 'Управление профилями скорости, сессий и ограничений для пользователей.',
 
     // Hotspot User Profiles Table Headers
     'hotspot.user.profiles.th.name'=> 'Имя',
-    'hotspot.user.profiles.th.shared-users'=> 'Общие пользователи',
+    'hotspot.user.profiles.th.shared-users'=> 'Совместные пользователи',
     'hotspot.user.profiles.th.rate-limit'=> 'Ограничение скорости',
-    'hotspot.user.profiles.th.idle-timeout'=> 'Время бездействия',
-    'hotspot.user.profiles.th.keepalive-timeout'=> 'Время поддержания соединения',
+    'hotspot.user.profiles.th.idle-timeout'=> 'Таймаут простоя',
+    'hotspot.user.profiles.th.keepalive-timeout'=> 'Таймаут keepalive',
     'hotspot.user.profiles.th.queue-type'=> 'Тип очереди',
 
     // Hotspot User Profiles Modal Form
@@ -509,11 +545,11 @@ return [
     // Hotspot User Profile Form Fields - General Tab
     'hotspot.user.profiles.form.name'=> 'Имя профиля',
     'hotspot.user.profiles.form.pool'=> 'Пул адресов',
-    'hotspot.user.profiles.form.rate-limit-rx'=> 'Ограничение скорости (RX)',
-    'hotspot.user.profiles.form.rate-limit-tx'=> 'Ограничение скорости (TX)',
-    'hotspot.user.profiles.form.shared-users'=> 'Общие пользователи',
+    'hotspot.user.profiles.form.rate-limit-rx'=> 'Ограничение (RX)',
+    'hotspot.user.profiles.form.rate-limit-tx'=> 'Ограничение (TX)',
+    'hotspot.user.profiles.form.shared-users'=> 'Совместные пользователи',
     'hotspot.user.profiles.form.expiry-mode'=> 'Режим истечения',
-    'hotspot.user.profiles.form.expiry-duration'=> 'Продолжительность истечения',
+    'hotspot.user.profiles.form.expiry-duration'=> 'Период истечения',
     'hotspot.user.profiles.form.lock-device'=> 'Привязать к устройству',
     'hotspot.user.profiles.form.lock-server'=> 'Привязать к серверу',
     'hotspot.user.profiles.form.comment'=> 'Комментарий',
@@ -524,47 +560,49 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Уведомление',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Удалить и записать',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Удалить и уведомить',
+
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Родительская очередь',
     'hotspot.user.profiles.form.queue-type'=> 'Тип очереди',
 
     // Hotspot User Profiles Form Fields - Scripts Tab
-    'hotspot.user.profiles.form.on-login-script'=> 'Скрипт входа в систему',
-    'hotspot.user.profiles.form.on-login-script_placeholder'=> 'Optional script to run on login',
-    'hotspot.user.profiles.form.on-logout-script'=> 'Скрипт выхода из системы',
-    'hotspot.user.profiles.form.on-logout-script_placeholder'=> 'Optional script to run on logout',
+    'hotspot.user.profiles.form.on-login-script'=> 'Скрипт при входе',
+    'hotspot.user.profiles.form.on-login-script_placeholder'=> 'Дополнительный скрипт для выполнения при входе',
+    'hotspot.user.profiles.form.on-logout-script'=> 'Скрипт при выходе',
+    'hotspot.user.profiles.form.on-logout-script_placeholder'=> 'Дополнительный скрипт для выполнения при выходе',
 
     // Hotspot User Profile Modal - Edit Profile
     'hotspot.user.profile.edit'=> 'Редактировать профиль',
-    'hotspot.user.profile.select.profile'=> 'Выбрать профиль',
+    'hotspot.user.profile.select.profile'=> 'Выберите профиль',
     'hotspot.user.profile.select.profile.desc'=> 'Выберите профиль для редактирования. После выбора откроется полный редактор.',
     'hotspot.user.profile.button.cancel'=> 'Отмена',
     'hotspot.user.profile.button.save'=> 'Сохранить',
+
     // Hotspot User Profile Modal - Remove Profile
     'hotspot.user.profiles.remove'=> 'Удалить профиль',
     'hotspot.user.profiles.remove-select'=> 'Выберите профиль для удаления',
-    'hotspot.user.profiles.remove-warning'=> 'Это действие нельзя отменить. Убедитесь, что вы хотите удалить выбранный профиль.',
+    'hotspot.user.profiles.remove-warning'=> 'Это действие необратимо. Убедитесь, что хотите удалить выбранный профиль.',
     'hotspot.user.profiles.remove.button-cancel'=> 'Отмена',
     'hotspot.user.profiles.remove.button-remove'=> 'Удалить',
 
     // Hotspot Export Users Modal
-    'hotspot.export.user.desc'=> 'Выберите, какие поля включить в экспорт. Будут экспортированы только выбранные пользователи.',
+    'hotspot.export.user.desc'=> 'Выберите поля для экспорта. Экспортируются только выбранные пользователи.',
     'hotspot.export.user.name'=> 'Имя',
     'hotspot.export.user.price'=> 'Цена',
     'hotspot.export.user.password'=> 'Пароль',
     'hotspot.export.user.profile'=> 'Профиль',
     'hotspot.export.user.comment'=> 'Комментарий',
     'hotspot.export.user.inc-header'=> 'Включить заголовки',
-    'hotspot.export.user.column-order'=> 'Порядок столбцов',
+    'hotspot.export.user.column-order'=> 'Порядок колонок',
     'hotspot.export.user.column-up'=> 'Вверх',
     'hotspot.export.user.column-down'=> 'Вниз',
-    'hotspot.export.user.column-desc'=> 'Выберите поле и используйте Вверх/Вниз для изменения порядка столбцов.',
+    'hotspot.export.user.column-desc'=> 'Выберите поле и используйте Вверх/Вниз для изменения порядка колонок.',
     'hotspot.export.user.button-cancel'=> 'Отмена',
     'hotspot.export.user.button-download'=> 'Скачать CSV',
 
     // Hotspot Print Preview Modal
-    'hotspot.print.preview.title'=> 'Предварительный просмотр печати',
-    'hotspot.print.preview.desc'=> 'Предварительный просмотр выбранных пользователей перед печатью.',
+    'hotspot.print.preview.title'=> 'Предпросмотр печати',
+    'hotspot.print.preview.desc'=> 'Предпросмотрите выбранных пользователей перед печатью.',
     'hotspot.print.preview.button-cancel'=> 'Отмена',
     'hotspot.print.preview.button-close'=> 'Закрыть',
     'hotspot.print.preview.button-print'=> 'Сохранить и печатать',
@@ -579,8 +617,8 @@ return [
     // settings.php
     // Hotspot Settings Page
     'settings.title'=> 'Настройки',
-    'settings.desc'=> 'Настройте идентификацию устройства, системные службы и действия по обслуживанию.',
-    'settings.identity'=> 'Идентификация',
+    'settings.desc'=> 'Настройка идентификации устройства, системных служб и действий обслуживания.',
+    'settings.identity'=> 'Идентификатор',
     'settings.ntp'=> 'NTP',
     'settings.files'=> 'Файлы',
     'settings.users'=> 'Пользователи',
@@ -612,15 +650,29 @@ return [
     'settings.buttons.add'=> 'Добавить',
     'settings.buttons.remove'=> 'Удалить',
     'settings.buttons.prev'=> 'Назад',
-    'settings.buttons.next'=> 'Далее',
+    'settings.buttons.next'=> 'Вперед',
     'settings.sort.by'=> 'Сортировать по',
     'settings.sort' => 'Сортировать',
 
+    // Settings Page - Back Button
+    'settings.back-to-settings'=> 'Назад к настройкам',
+
     // Settings Page - Actions
     'settings.actions'=> 'Действия',
-    
+
     // Settings Page - Loading
     'settings.loading'=> 'Загрузка настроек...',
+
+    // Settings Page Descriptions
+    'settings.identity.desc'=> 'Просмотр и редактирование идентификатора устройства и основной информации о системе.',
+    'settings.ntp.desc'=> 'Настройка протокола сетевого времени (NTP) для точного времени.',
+    'settings.files.desc'=> 'Управление загруженными файлами и скриптами на устройстве.',
+    'settings.users.desc'=> 'Управление системными пользователями и их правами доступа.',
+    'settings.scheduler.desc'=> 'Создание запланированных задач для обслуживания и автоматизации.',
+    'settings.scripts.desc'=> 'Управление и запуск пользовательских скриптов на устройстве.',
+    'settings.reset.desc'=> 'Сброс конфигурации к значениям по умолчанию. Используйте с осторожностью.',
+    'settings.reboot.desc'=> 'Перезагрузка устройства удалённо. Убедитесь, что все изменения сохранены перед перезагрузкой.',
+    'settings.shutdown.desc'=> 'Безопасное удалённое выключение устройства. Используйте с осторожностью.',
 
     // Settings Table Headers
     'settings.table.th.name'=> 'Имя',
@@ -628,132 +680,122 @@ return [
     'settings.table.th.last-login'=> 'Последний вход',
     'settings.table.th.comment'=> 'Комментарий',
     'settings.table.th.role'=> 'Роль',
-    'settings.table.th.select'=> 'Выбрать все',
+    'settings.table.th.select'=> 'Выбрать всё',
     'settings.table.th.username'=> 'Имя пользователя',
     'settings.table.th.password'=> 'Пароль',
     'settings.table.th.actions'=> 'Действия',
-    'settings.table.th.next-run'=> 'Следующий запуск',
+    'settings.table.th.next-run'=> 'След. запуск',
     'settings.table.th.interval'=> 'Интервал',
     'settings.table.th.enabled'=> 'Включено',
     'settings.table.th.size'=> 'Размер',
     'settings.table.th.owner'=> 'Владелец',
     'settings.table.th.date'=> 'Дата',
 
-    // Settings Page - Files
-    'settings.files.title'=> 'Менеджер файлов',
-    'settings.files.desc'=> 'Загружайте, скачивайте и управляйте файлами, хранящимися на устройстве.',
-
-
-    // Settings Page - Users
-    'settings.users.title'=> 'Управление пользователями',
-    'settings.users.desc'=> 'Создавайте, редактируйте и управляйте системными пользователями и их правами доступа.',
-
-    // Settings Page - Scheduler
-    'settings.scheduler.title'=> 'Планировщик',
-    'settings.scheduler.desc'=> 'Создавайте и управляйте запланированными задачами для обслуживания и автоматизации.',
-
-    // Settings Page - Scripts
-    'settings.scripts.title'=> 'Скрипты',
-    'settings.scripts.desc'=> 'Создавайте, редактируйте и запускайте пользовательские скрипты на устройстве.',
-
-    // Settings Page - Back Button
-    'settings.back-to-settings'=> 'Вернуться к настройкам',
-
-    // Settings Page Descriptions
-    'settings.identity.desc'=> 'Просмотр и редактирование идентификации устройства и основной системной информации.',
-    'settings.ntp.desc'=> 'Настройка протокола сетевого времени (NTP) для точного учета времени.',
-    'settings.files.desc'=> 'Управление загруженными файлами и скриптами, хранящимися на устройстве.',
-    'settings.users.desc'=> 'Управление системными пользователями и их правами доступа.',
-    'settings.scheduler.desc'=> 'Создание запланированных задач для обслуживания и автоматизации.',
-    'settings.scripts.desc'=> 'Управление и запуск пользовательских скриптов на устройстве.',
-    'settings.reset.desc'=> 'Сброс конфигурации к значениям по умолчанию. Используйте с осторожностью.',
-    'settings.reboot.desc'=> 'Удаленный перезапуск устройства. Убедитесь, что все изменения сохранены перед перезагрузкой.',
-    'settings.shutdown.desc'=> 'Удаленное безопасное выключение устройства. Используйте с осторожностью.',
-
    
     // Settings Page - Identity
     'settings.identity.placeholder'=> 'Введите идентификатор системы',
-    'settings.identity.caption'=> 'Это имя отображается в журналах и сетевой идентификации.',
+    'settings.identity.caption'=> 'Это имя отображается в логах и в сетевой идентификации.',
 
     // Settings Page - Identity Buttons
     'settings.identity.save'=> 'Сохранить идентификатор',
     'settings.identity.refresh'=> 'Обновить',
+
     // Settings Page - NTP Modal
     'settings.ntp.enabled'=> 'Включено',
     'settings.ntp.enabled-yes'=> 'Включено',
     'settings.ntp.enabled-no'=> 'Отключено',
     'settings.ntp.mode'=> 'Режим',
-    'settings.ntp.mode-broadcast'=> 'Широковещательный',
-    'settings.ntp.mode-manycast'=> 'Многокаст',
-    'settings.ntp.mode-multicast'=> 'Мультикаст',
-    'settings.ntp.mode-unicast'=> 'Юникаст',
-    'settings.ntp.server'=> 'NTP Серверы',
+    'settings.ntp.mode-broadcast'=> 'Broadcast',
+    'settings.ntp.mode-manycast'=> 'Manycast',
+    'settings.ntp.mode-multicast'=> 'Multicast',
+    'settings.ntp.mode-unicast'=> 'Unicast',
+    'settings.ntp.server'=> 'NTP серверы',
     'settings.ntp.server-add'=> 'Добавить сервер',
     'settings.ntp.server-refresh'=> 'Обновить',
     'settings.ntp.server-save'=> 'Сохранить',
 
     // Settings Page - NTP Status
-    'settings.ntp.status'=> 'Статус',
+    'settings.ntp.status'=> 'Состояние',
     'settings.ntp.freq.drift'=> 'Дрейф частоты',
     'settings.ntp.synced.server'=> 'Синхронизированный сервер',
-    'settings.ntp.synced.stratum'=> 'Синхронизированный уровень',
-    'settings.ntp.system.offset'=> 'Системное смещение',
+    'settings.ntp.synced.stratum'=> 'Синхронизированный stratum',
+    'settings.ntp.system.offset'=> 'Смещение системы',
+
+    // Settings Page - Files
+    'settings.files.title'=> 'Менеджер файлов',
+    'settings.files.desc'=> 'Загрузка, скачивание и управление файлами, хранящимися на устройстве.',
+
+
+    // Settings Page - Users
+    'settings.users.title'=> 'Управление пользователями',
+    'settings.users.desc'=> 'Создание, редактирование и управление системными пользователями и их правами.',
+
+    // Settings Page - Scheduler
+    'settings.scheduler.title'=> 'Планировщик',
+    'settings.scheduler.desc'=> 'Создание и управление запланированными задачами для обслуживания и автоматизации.',
+
+    // Settings Page - Scripts
+    'settings.scripts.title'=> 'Скрипты',
+    'settings.scripts.desc'=> 'Создание, редактирование и запуск пользовательских скриптов на устройстве.',
 
     // Settings Page - Reset
     // Reset Modal
     'settings.reset.type'=> 'Тип сброса',
-    'settings.reset.config'=> 'Сброс конфигурации (сохранить пользовательские файлы)',
-    'settings.reset.all'=> 'Сброс к заводским настройкам (стереть все, загрузить значения по умолчанию)',
+    'settings.reset.config'=> 'Сброс конфигурации (сохранить файлы пользователя)',
+    'settings.reset.all'=> 'Сброс до заводских настроек (стереть всё, загрузить значения по умолчанию)',
     'settings.reset.delay'=> 'Задержка (секунды)',
-    'settings.reset.delay.desc'=> 'Установите 0 для немедленного выполнения при использовании кнопки "Запланировать", или нажмите "Сбросить сейчас" для немедленного выполнения.',
+    'settings.reset.delay.desc'=> 'Установите 0 для немедленного выполнения при использовании кнопки Планировать, или нажмите "Сбросить сейчас" для немедленного выполнения.',
 
     //Reset Buttons
     'settings.reset.button.schedule'=> 'Запланировать сброс',
     'settings.reset.button.reset-now'=> 'Сбросить сейчас',
+
     // Settings Page - Reboot
     // Reboot Modal
     'settings.reboot.delay'=> 'Задержка (секунды)',
-    'settings.reboot.delay.desc'=> 'Установите 0 для немедленного перезапуска при использовании кнопки "Запланировать", или нажмите "Перезагрузить сейчас" для немедленного перезапуска.',
+    'settings.reboot.delay.desc'=> 'Установите 0 для немедленной перезагрузки при использовании кнопки Планировать, или нажмите "Перезагрузить сейчас" для принудительной немедленной перезагрузки.',
+
     // Reboot Buttons
-    'settings.reboot.button.schedule'=> 'Запланировать перезапуск',
+    'settings.reboot.button.schedule'=> 'Запланировать перезагрузку',
     'settings.reboot.button.reboot-now'=> 'Перезагрузить сейчас',
 
     // Settings Page - Shutdown
     // Shutdown Modal
     'settings.shutdown.delay'=> 'Задержка (секунды)',
-    'settings.shutdown.delay.desc'=> 'Установите 0 для немедленного выключения при использовании кнопки "Запланировать", или нажмите "Выключить сейчас" для немедленного выключения.',
+    'settings.shutdown.delay.desc'=> 'Установите 0 для немедленного выключения при использовании кнопки Планировать, или нажмите "Выключить сейчас" для принудительного немедленного выключения.',
 
     // Shutdown Buttons
     'settings.shutdown.button.schedule'=> 'Запланировать выключение',
     'settings.shutdown.button.shutdown-now'=> 'Выключить сейчас',
 
+
     // queues.php
     // Queues Page
-    'queues.title'=> 'Менеджер очередей',
-    'queues.desc'=> 'Управление простыми очередями, древовидными очередями и типами очередей.',
+    'queues.title'=> 'Управление очередями',
+    'queues.desc'=> 'Управление простыми очередями, деревьями очередей и типами очередей.',
 
     'queues.simple'=> 'Простые',
-    'queues.tree'=> 'Древовидные',
+    'queues.tree'=> 'Дерево',
     'queues.types'=> 'Типы',
     'queues.simple-queue'=> 'Простые очереди',
-    'queues.queue-tree'=> 'Древовидные очереди',
+    'queues.queue-tree'=> 'Деревья очередей',
     'queues.queue-types'=> 'Типы очередей',
 
     // Queues Page Descriptions
-    'queues.simple.desc'=> 'Создавайте и управляйте простыми очередями для каждого хоста/цели.',
-    'queues.tree.desc'=> 'Управляйте древовидными очередями для продвинутого формирования трафика.',
-    'queues.types.desc'=> 'Определяйте и управляйте типами очередей и классификаторами пакетов.',
+    'queues.simple.desc'=> 'Создание и управление простыми очередями для хостов/целевых адресов.',
+    'queues.tree.desc'=> 'Управление иерархическими деревьями очередей для продвинутого формирования трафика.',
+    'queues.types.desc'=> 'Определение и управление типами очередей и классификаторами пакетов.',
 
     // Queues Page Buttons
-    'queues.open.simple'=> 'Открыть простую очередь',
-    'queues.open.tree'=> 'Открыть древовидную очередь',
+    'queues.open.simple'=> 'Открыть простые очереди',
+    'queues.open.tree'=> 'Открыть дерево очередей',
     'queues.open.types'=> 'Открыть типы очередей',
 
     // Queues Page - Back Button
-    'queues.back-to-queues'=> 'Назад к менеджеру очередей',
+    'queues.back-to-queues'=> 'Назад к очередям',
 
     // Queues General Buttons
-    'queues.button.new'=> 'Новый',
+    'queues.button.new'=> 'Создать',
     'queues.button.edit'=> 'Редактировать',
     'queues.button.enable'=> 'Включить',
     'queues.button.disable'=> 'Отключить',
@@ -762,9 +804,9 @@ return [
     'queues.button.pause-polling'=> 'Приостановить опрос',
     'queues.sort.by'=> 'Сортировать по',
     'queues.sort'=> 'Сортировать',
-    'queues.select.all'=> 'Выбрать все',
-    'queues.button.prev'=> 'Предыдущий',
-    'queues.button.next'=> 'Следующий',
+    'queues.select.all'=> 'Выбрать всё',
+    'queues.button.prev'=> 'Назад',
+    'queues.button.next'=> 'Вперед',
     'queues.button.save'=> 'Сохранить',
     'queues.button.cancel'=> 'Отмена',
     'queues.button.create'=> 'Создать',
@@ -772,13 +814,14 @@ return [
 
     // Queues Loading Status
     'queues.status.loading'=> 'Загрузка очередей...',
+
     // simple.php
     // Simple Queues Page
 
 
     // Simple Queues Action Buttons
     'queues.simple.actions'=> 'Действия',
-    'queues.simple.actions.desc'=> 'Выполняйте действия с выбранными очередями.',
+    'queues.simple.actions.desc'=> 'Выполнить действия для выбранных очередей.',
 
     // Queues Table Headers
     'queues.table.th.name'=> 'Имя',
@@ -786,16 +829,16 @@ return [
     'queues.table.th.target'=> 'Цель',
     'queues.table.th.upload-limit'=> 'Лимит загрузки',
     'queues.table.th.download-limit'=> 'Лимит скачивания',
-    'queues.table.th.download-avg-rate'=> 'Средняя скорость скачивания',
-    'queues.table.th.max-limit'=> 'Максимальный лимит',
+    'queues.table.th.download-avg-rate'=> 'Сред. скорость загрузки',
+    'queues.table.th.max-limit'=> 'Макс. лимит',
     'queues.table.th.queue-type'=> 'Тип очереди',
-    'queues.table.th.limit-at'=> 'Лимит на',
+    'queues.table.th.limit-at'=> 'Ограничение в',
     'queues.table.th.bytes'=> 'Байты',
-    'queues.table.th.avg.rate'=> 'Средняя скорость',
+    'queues.table.th.avg.rate'=> 'Сред. скорость',
     'queues.table.th.kind'=> 'Тип',
 
     // Queues Modal Form - Tabs
-    'queues.tab.main'=> 'Основное',
+    'queues.tab.main'=> 'Основные',
     'queues.tab.advanced'=> 'Дополнительно',
     'queues.tab.queueing'=> 'Очереди',
 
@@ -806,36 +849,37 @@ return [
     'queues.modal.form.name'=> 'Имя',
     'queues.modal.form.target'=> 'Цель',
     'queues.modal.form.target-select-iface'=> 'Выбрать интерфейс',
-    'queues.modal.form.dst'=> 'Цель',
+    'queues.modal.form.dst'=> 'Назначение',
     'queues.modal.form.dst-select-iface'=> 'Выбрать интерфейс',
     'queues.modal.form.target.dst-caption'=> 'Выберите интерфейс или введите пользовательскую цель ниже.',
-    'queues.modal.form.placeholder'=> 'или введите IP (например, 192.168.10.0/24 или 10.0.0.5)',
-    'queues.modal.form.target.upload'=> 'Цель загрузки',
-    'queues.modal.form.max-limit'=> 'Максимальный лимит',
-    'queues.modal.form.target.download'=> 'Цель скачивания',
+    'queues.modal.form.placeholder'=> 'или введите IP (например: 192.168.10.0/24 или 10.0.0.5)',
+    'queues.modal.form.target.upload'=> 'Целевой загрузка',
+    'queues.modal.form.max-limit'=> 'Макс. лимит',
+    'queues.modal.form.target.download'=> 'Целевой скачивание',
     'queues.modal.form.pkt-marks'=> 'Метки пакетов',
-    'queues.modal.form.limit-at'=> 'Лимит на',
-    'queues.modal.form.burst-limit'=> 'Лимит всплеска',
-    'queues.modal.form.burst-threshold'=> 'Порог всплеска',
-    'queues.modal.form.burst-time'=> 'Время всплеска',
+    'queues.modal.form.limit-at'=> 'Ограничение в',
+    'queues.modal.form.burst-limit'=> 'Burst лимит',
+    'queues.modal.form.burst-threshold'=> 'Порог burst',
+    'queues.modal.form.burst-time'=> 'Время burst',
     'queues.modal.form.priority'=> 'Приоритет',
     'queues.modal.form.bucket-size'=> 'Размер корзины',
     'queues.modal.form.parent-queue'=> 'Родительская очередь',
     'queues.modal.form.queue-type'=> 'Тип очереди',
     'queues.modal.form.comment'=> 'Комментарий',
-    'queues.modal.form.comment-placeholder'=> 'Необязательный комментарий',
-    'queues.modal.form.clear-parent'=> 'Очистить родителя (удалить связь с родителем)',
+    'queues.modal.form.comment-placeholder'=> 'Дополнительный комментарий',
+    'queues.modal.form.clear-parent'=> 'Очистить родителя (удалить родительскую связь)',
+
     // tree.php
     // Queue Tree Page
 
     // Queue Tree Action Buttons
     'queues.tree.actions'=> 'Действия',
-    'queues.tree.action.desc'=> 'Выполняйте действия с выбранными записями древовидной очереди.',
+    'queues.tree.action.desc'=> 'Выполнить действия для выбранных записей дерева очередей.',
 
     // Queue Tree Modal Form - Tabs
-    'queues.tree.create.title'=> 'Создать запись древовидной очереди',
-    'queue.tree.tab.general'=> 'Основное',
-    'queue.tree.tab.rate-limit'=> 'Лимит скорости',
+    'queues.tree.create.title'=> 'Создать запись в дереве очередей',
+    'queue.tree.tab.general'=> 'Основные',
+    'queue.tree.tab.rate-limit'=> 'Ограничение скорости',
 
 
     // types.php
@@ -843,36 +887,40 @@ return [
   
     // Queue Types Action 
     'queues.types.actions'=> 'Действия',
-    'queues.types.action.desc'=> 'Выполняйте действия с выбранными типами очередей.',
+    'queues.types.action.desc'=> 'Выполнить действия для выбранных типов очередей.',
 
 
     // ppp.php
     // PPP Page
-    'ppp.title'=> 'Менеджер PPPoE',
-    'ppp.desc'=> 'Управление серверами, секретами и профилями PPPoE.',
+    'ppp.title'=> 'Управление PPPoE',
+    'ppp.desc'=> 'Управление серверами PPPoE, секретами и профилями.',
 
     
-    'ppp.pppoe.servers'=> 'Серверы PPPoE',
-    'ppp.servers'=> 'Серверы',
+    'ppp.pppoe.servers'=> 'Сервера PPPoE',
+    'ppp.servers'=> 'Сервера',
     'ppp.secrets'=> 'Секреты',
     'ppp.profiles'=> 'Профили',
+    'ppp.active'=> 'Активные сессии',
     
     // PPP Page Descriptions
     'ppp.servers.desc'=> 'Просмотр и управление экземплярами серверов PPPoE и привязками.',
-    'ppp.secrets.desc'=> 'Управление секретами PPPoE (учетными данными пользователей).',
+    'ppp.secrets.desc'=> 'Управление секретами PPPoE (учётные данные пользователей).',
     'ppp.profiles.desc'=> 'Создание и управление профилями PPPoE.',
+    'ppp.active.desc'=> 'Просмотр и отключение активных PPPoE сессий.',
 
-    'ppp.open.servers'=> 'Открыть серверы PPPoE',
+    'ppp.open.servers'=> 'Открыть сервера PPPoE',
     'ppp.open.secrets'=> 'Открыть секреты',
     'ppp.open.profiles'=> 'Открыть профили',
+    'ppp.open.active'=> 'Открыть активные сессии',
 
     // PPP Page - Back Button
-    'ppp.back-to-ppp'=> 'Назад к менеджеру PPPoE',
+    'ppp.back-to-ppp'=> 'Назад к управлению PPPoE',
+
     // PPP Actions
     'ppp.actions'=> 'Действия',
 
     // PPP General Buttons
-    'ppp.buttons.new'=> 'Новый',
+    'ppp.buttons.new'=> 'Создать',
     'ppp.buttons.edit'=> 'Редактировать',
     'ppp.buttons.enable'=> 'Включить',
     'ppp.buttons.disable'=> 'Отключить',
@@ -880,9 +928,9 @@ return [
     'ppp.buttons.refresh'=> 'Обновить',
     'ppp.sort.by'=> 'Сортировать по',
     'ppp.sort'=> 'Сортировать',
-    'ppp.select.all'=> '',
-    'ppp.buttons.prev'=> 'Предыдущий',
-    'ppp.buttons.next'=> 'Следующий',
+    'ppp.select.all'=> 'Выбрать всё',
+    'ppp.buttons.prev'=> 'Назад',
+    'ppp.buttons.next'=> 'Вперед',
     'ppp.buttons.clear'=> 'Очистить',
     'ppp.buttons.cancel'=> 'Отмена',
     'ppp.buttons.create'=> 'Создать',
@@ -895,7 +943,7 @@ return [
     // PPP Secrets Table Headers
     'ppp.table.th.service-name'=> 'Имя сервиса',
     'ppp.table.th.iface'=> 'Интерфейс',
-    'ppp.table.th.keepalive'=> 'Таймаут Keepalive',
+    'ppp.table.th.keepalive'=> 'Таймаут keepalive',
     'ppp.table.th.profile'=> 'Профиль',
     'ppp.table.th.one-session-host'=> 'Одна сессия на хост',
     'ppp.table.th.authentication'=> 'Аутентификация',
@@ -903,50 +951,52 @@ return [
     'ppp.table.th.password'=> 'Пароль',
     'ppp.table.th.service'=> 'Сервис',
     'ppp.table.th.address'=> 'Адрес',
-    'ppp.table.th.caller-id'=> 'ID вызывающего абонента',
+    'ppp.table.th.caller-id'=> 'Caller ID',
     'ppp.table.th.local-address'=> 'Локальный адрес',
-    'ppp.table.th.remote-address'=> 'Удаленный адрес',
+    'ppp.table.th.remote-address'=> 'Удалённый адрес',
     'ppp.table.th.last-logged-out'=> 'Последний выход',
     'ppp.table.th.last-disc-reason'=> 'Причина отключения',
     'ppp.table.th.last-called-id'=> 'Последний вызываемый ID',
-    'ppp.table.th.rate-limit'=> 'Лимит скорости',
+    'ppp.table.th.rate-limit'=> 'Ограничение скорости',
     'ppp.table.th.only-one'=> 'Только один',
     'ppp.table.th.uptime'=> 'Время работы',
-    'ppp.table.th.bytes-in'=> 'Входящие байты',
-    'ppp.table.th.bytes-out'=> 'Исходящие байты',
+    'ppp.table.th.bytes-in'=> 'Байты вход.',
+    'ppp.table.th.bytes-out'=> 'Байты исх.',
 
     // PPP Add Server Modal Form
     'ppp.modal.form.title'=> 'Добавить сервер PPPoE',
     'ppp.modal.form.enabled'=> 'Включено',
     'ppp.modal.form.one-session-per-host'=> 'Одна сессия на хост',
-    'ppp.modal.form.accept-empty-services'=> 'Принимать пустые сервисы',
-    'ppp.modal.form.accept-untagged'=> 'Принимать без тегов',
+    'ppp.modal.form.accept-empty-services'=> 'Разрешить пустые сервисы',
+    'ppp.modal.form.accept-untagged'=> 'Разрешить без тега',
     'ppp.modal.form.service-name'=> 'Имя сервиса',
     'ppp.modal.form.service-name_placeholder'=> 'Имя PPPoE',
     'ppp.modal.form.interface'=> 'Интерфейс',
     'ppp.modal.form.placeholder'=> 'По умолчанию',
-    'ppp.modal.form.max-mtu'=> 'Максимальный MTU',
-    'ppp.modal.form.max-mru'=> 'Максимальный MRU',
+    'ppp.modal.form.max-mtu'=> 'Max MTU',
+    'ppp.modal.form.max-mru'=> 'Max MRU',
     'ppp.modal.form.mrru'=> 'MRRU',
-    'ppp.modal.form.keepalive-timeout'=> 'Таймаут Keepalive',
+    'ppp.modal.form.keepalive-timeout'=> 'Таймаут keepalive',
     'ppp.modal.form.profile'=> 'Профиль',
-    'ppp.modal.form.max-sessions'=> 'Максимальное количество сессий',
+    'ppp.modal.form.max-sessions'=> 'Макс. сессий',
     'ppp.modal.form.auth-methods'=> 'Методы аутентификации',
-    'ppp.modal.form.auth-mschapv2'=> 'msChapv2',
-    'ppp.modal.form.auth-mschapv1'=> 'msChapv1',
-    'ppp.modal.form.auth-chap'=> 'Chap',
-    'ppp.modal.form.auth-pap'=> 'PaP',
+    'ppp.modal.form.auth-mschapv2'=> 'MS-CHAPv2',
+    'ppp.modal.form.auth-mschapv1'=> 'MS-CHAPv1',
+    'ppp.modal.form.auth-chap'=> 'CHAP',
+    'ppp.modal.form.auth-pap'=> 'PAP',
 
     // PPP Add/Edit Secret Modal Form
     'ppp.modal.form.secret.name'=> 'Имя',
     'ppp.modal.form.secret.password'=> 'Пароль',
     'ppp.modal.form.secret.service-type'=> 'Сервис',
     'ppp.modal.form.secret.local-address'=> 'Локальный адрес',
-    'ppp.modal.form.secret.remote-address'=> 'Удаленный адрес',
+    'ppp.modal.form.secret.remote-address'=> 'Удалённый адрес',
+
     // secrets.php
     // Modal Titles
     'ppp.modal.form.add.ppp-secret'=> 'Добавить секрет PPPoE',
     'ppp.modal.form.edit.ppp-secret'=> 'Редактировать секрет PPPoE',
+
     // PPP Secrets Page Modal Tabs
     'ppp.secrets.tab.general'=> 'Общие',  
     'ppp.secrets.tab.details'=> 'Детали',
@@ -962,166 +1012,176 @@ return [
     // PPP Profiles Modal Tabs
     'ppp.profiles.tab.general'=> 'Общие',
     'ppp.profiles.tab.protocols'=> 'Протоколы',
-    'ppp.profiles.tab.limits'=> 'Лимиты',
+    'ppp.profiles.tab.limits'=> 'Ограничения',
     'ppp.profiles.tab.queue'=> 'Очередь',
     'ppp.profiles.tab.scripts'=> 'Скрипты',
+
     // PPP Profiles Modal Form Fields
     'ppp.modal.form.profile.name'=> 'Имя',
     'ppp.modal.form.profile.local-address'=> 'Локальный адрес',
-    'ppp.modal.form.profile.remote-address'=> 'Удаленный адрес',
+    'ppp.modal.form.profile.remote-address'=> 'Удалённый адрес',
     'ppp.modal.form.profile.use-ipv6'=> 'Использовать IPv6',
     'ppp.modal.form.profile.use-mpls'=> 'Использовать MPLS',
     'ppp.modal.form.profile.use-comp'=> 'Использовать сжатие',
     'ppp.modal.form.profile.use-enc'=> 'Использовать шифрование',
     'ppp.modal.form.profile.sess-timeout'=> 'Таймаут сессии',
-    'ppp.modal.form.profile.idle-timeout'=> 'Таймаут бездействия',
-    'ppp.modal.form.profile.rate-limit'=> 'Лимит скорости',
+    'ppp.modal.form.profile.idle-timeout'=> 'Таймаут простоя',
+    'ppp.modal.form.profile.rate-limit'=> 'Ограничение скорости',
     'ppp.modal.form.profile.only-one'=> 'Только один',
     'ppp.modal.form.profile.parent-queue'=> 'Родительская очередь',
-    'ppp.modal.form.profile.queue-type-rx'=> 'Тип очереди (Загрузки)',
-    'ppp.modal.form.profile.queue-type-tx'=> 'Тип очереди (Выгрузки)',
-    'ppp.modal.form.profile.script-onup'=> 'При включении',
-    'ppp.modal.form.profile.script-ondown'=> 'При выключении',
+    'ppp.modal.form.profile.queue-type-rx'=> 'Тип очереди (загрузка)',
+    'ppp.modal.form.profile.queue-type-tx'=> 'Тип очереди (скачивание)',
+    'ppp.modal.form.profile.script-onup'=> 'При поднятии',
+    'ppp.modal.form.profile.script-ondown'=> 'При опускании',
     'ppp.modal.form.profile.script-placeholder'=> 'Скрипт будет выполнен при срабатывании события',
-    'ppp.modal.form.migration.confirm'=> 'Подтвердить миграцию профиля',
-    'ppp.modal.form.migration.caption'=> 'Очистка родительской очереди или типа очереди для этого профиля может потребовать пересоздания профиля и переназначения связанных секретов PPP. Эта операция может быть потенциально нарушающей работу. Вы хотите продолжить?',
+    'ppp.modal.form.migration.confirm'=> 'Подтвердите миграцию профиля',
+    'ppp.modal.form.migration.caption'=> 'Очистка родительской очереди или типа очереди для этого профиля может потребовать воссоздания профиля и переназначения связанных секретов PPP. Эта операция может быть разрушительной. Продолжить?',
 
     // ip.php
-    // IP Page
-    'ip.title'=> 'Менеджер IP',
+    // IP Page (extended)
+    'ip.title'=> 'Управление IP',
     'ip.desc'=> 'Управление ARP, адресами, DHCP, DNS, пулами и связанными IP-сервисами.',
 
     'ip.arp'=> 'ARP',
-    'ip.addresses'=> 'Адреса',
+    'ip.addresses'=> 'IP-адреса',
     'ip.cloud'=> 'Облако',
-    'ip.dhcp.client'=> 'DHCP Клиент',
-    'ip.dhcp.server'=> 'DHCP Сервер',
+    'ip.dhcp.client'=> 'DHCP-клиент',
+    'ip.dhcp.server'=> 'DHCP-сервер',
     'ip.dns'=> 'DNS',
-    'ip.pool'=> 'Пул',
+    'ip.pool'=> 'Пулы',
     'ip.services'=> 'Сервисы',
     'ip.upnp'=> 'UPnP',
     'ip.settings'=> 'Настройки',
     
     'ip.arp.desc'=> 'Просмотр и управление записями таблицы ARP.',
     'ip.addresses.desc'=> 'Управление IP-адресами, назначенными интерфейсам.',
-    'ip.cloud.desc'=> 'Настройки облака/DDNS. Значения считываются с маршрутизатора.',
+    'ip.cloud.desc'=> 'Настройки Cloud/DDNS. Значения читаются с маршрутизатора.',
     'ip.dhcp.client.desc'=> 'Просмотр и управление DHCP-клиентами.',
     'ip.dhcp.server.desc'=> 'Настройка DHCP-сервера и аренды.',
     'ip.dns.desc'=> 'Управление настройками DNS и статическими записями.',
     'ip.pool.desc'=> 'Управление пулами адресов для DHCP и других сервисов.',
     'ip.services.desc'=> 'Включение или отключение IP-сервисов.',
-    'ip.upnp.desc'=> 'Настройки Universal Plug and Play. Значения считываются с маршрутизатора.',
+    'ip.upnp.desc'=> 'Настройки UPnP (Universal Plug and Play). Значения читаются с маршрутизатора.',
     'ip.settings.desc'=> 'Общие настройки подсистемы IP.',
 
     'ip.open.arp'=> 'Открыть ARP',
-    'ip.open.addresses'=> 'Открыть Адреса',
-    'ip.open.cloud'=> 'Открыть Облако',
-    'ip.open.dhcp.client'=> 'Открыть DHCP Клиент',
-    'ip.open.dhcp.server'=> 'Открыть DHCP Сервер',
+    'ip.open.addresses'=> 'Открыть адреса',
+    'ip.open.cloud'=> 'Открыть облако',
+    'ip.open.dhcp.client'=> 'Открыть DHCP-клиента',
+    'ip.open.dhcp.server'=> 'Открыть DHCP-сервер',
     'ip.open.dns'=> 'Открыть DNS',
-    'ip.open.pool'=> 'Открыть Пул',
-    'ip.open.services'=> 'Открыть Сервисы',
+    'ip.open.pool'=> 'Открыть пул',
+    'ip.open.services'=> 'Открыть сервисы',
     'ip.open.upnp'=> 'Открыть UPnP',
-    'ip.open.settings'=> 'Открыть Настройки',
+    'ip.open.settings'=> 'Открыть настройки',
+
     // IP Page - Back Button
-    'ip.back-to-ip'=> 'Назад к Менеджеру IP',
+    'ip.back-to-ip'=> 'Назад к управлению IP',
 
     // IP JS strings
-    'ip.addresses.no_addresses' => 'Нет адресов',
+    // Addresses
+    'ip.addresses.no_addresses' => 'Адресов нет',
     'ip.addresses.loading' => 'Загрузка...',
     'ip.addresses.failed_to_contact_api' => 'Не удалось связаться с API',
-    'ip.addresses.please_select_one_or_more' => 'Пожалуйста, выберите один или несколько элементов',
+    'ip.addresses.please_select_one_or_more' => 'Пожалуйста, выберите одну или несколько записей',
     'ip.addresses.select_one_to_edit' => 'Выберите ровно один адрес для редактирования',
     'ip.addresses.action_completed' => 'Действие %s выполнено',
-    'ip.addresses.action_failed' => 'Ошибка действия: %s',
-    'ip.addresses.request_failed' => 'Ошибка запроса: %s',
+    'ip.addresses.action_failed' => 'Действие не удалось: %s',
+    'ip.addresses.request_failed' => 'Запрос не удался: %s',
     'ip.addresses.address_added' => 'Адрес добавлен',
     'ip.addresses.address_updated' => 'Адрес обновлён',
-    'ip.addresses.add_failed' => 'Ошибка добавления: %s',
-    'ip.addresses.update_failed' => 'Ошибка обновления: %s',
+    'ip.addresses.add_failed' => 'Не удалось добавить: %s',
+    'ip.addresses.update_failed' => 'Не удалось обновить: %s',
     'ip.addresses.page_info' => 'Страница %s / %s (%s)',
 
-    'ip.arp.no_arp_entries' => 'Нет записей ARP',
+    // ARP
+    'ip.arp.no_arp_entries' => 'Записей ARP нет',
     'ip.arp.loading' => 'Загрузка...',
     'ip.arp.failed_to_contact_api' => 'Не удалось связаться с API',
-    'ip.arp.please_select_one_or_more' => 'Пожалуйста, выберите один или несколько элементов',
+    'ip.arp.please_select_one_or_more' => 'Пожалуйста, выберите одну или несколько записей',
     'ip.arp.enable_confirm' => 'Включить выбранные записи ARP?',
     'ip.arp.disable_confirm' => 'Отключить выбранные записи ARP?',
     'ip.arp.remove_confirm' => 'Удалить выбранные записи ARP?',
     'ip.arp.page_info' => 'Страница %s / %s (%s)',
 
+    // Cloud
     'ip.cloud.failed_to_load' => 'Не удалось загрузить настройки облака: %s',
     'ip.cloud.reverted' => 'Изменения отменены',
     'ip.cloud.applied' => 'Настройки облака применены',
-    'ip.cloud.apply_failed' => 'Ошибка при применении: %s',
+    'ip.cloud.apply_failed' => 'Не удалось применить: %s',
 
-    'ip.dhcp.client.no_clients' => 'Нет DHCP-клиентов',
+    // DHCP Client
+    'ip.dhcp.client.no_clients' => 'DHCP-клиенты отсутствуют',
     'ip.dhcp.client.failed_to_load' => 'Не удалось загрузить DHCP-клиентов: %s',
     'ip.dhcp.client.please_select_interface' => 'Пожалуйста, выберите интерфейс',
     'ip.dhcp.client.created' => 'DHCP-клиент создан',
-    'ip.dhcp.client.create_failed' => 'Ошибка создания: %s',
-    'ip.dhcp.client.no_entries_selected' => 'Нет выбранных записей',
+    'ip.dhcp.client.create_failed' => 'Не удалось создать: %s',
+    'ip.dhcp.client.no_entries_selected' => 'Записи не выбраны',
     'ip.dhcp.client.enable_completed' => 'Включение выполнено',
-    'ip.dhcp.client.enable_failed' => 'Ошибка включения: %s',
+    'ip.dhcp.client.enable_failed' => 'Не удалось включить: %s',
     'ip.dhcp.client.disable_completed' => 'Отключение выполнено',
-    'ip.dhcp.client.disable_failed' => 'Ошибка отключения: %s',
-    'ip.dhcp.client.remove_confirm' => 'Удалить выбранных DHCP-клиентов?',
+    'ip.dhcp.client.disable_failed' => 'Не удалось отключить: %s',
+    'ip.dhcp.client.remove_confirm' => 'Удалить выбранные DHCP-клиенты?',
     'ip.dhcp.client.option_name_code_required' => 'Требуются имя и код',
     'ip.dhcp.client.option_created' => 'Опция создана',
-    'ip.dhcp.client.option_create_failed' => 'Ошибка создания: %s',
-    'ip.dhcp.client.no_options' => 'Нет опций',
+    'ip.dhcp.client.option_create_failed' => 'Не удалось создать: %s',
+    'ip.dhcp.client.no_options' => 'Опции отсутствуют',
 
-    'ip.dhcp.networks.no_networks' => 'No DHCP networks',
-    'ip.dhcp.networks.loading' => 'Loading...',
-    'ip.dhcp.networks.select_one_to_edit' => 'Please select a single network to edit',
-    'ip.dhcp.networks.create_not_implemented' => 'Create new network: not implemented',
-    'ip.dhcp.networks.please_select_remove' => 'Please select one or more networks to remove',
-    'ip.dhcp.networks.remove_confirm' => 'Remove selected networks?',
-    'ip.dhcp.networks.removed' => 'Removed',
-    'ip.dhcp.networks.remove_failed' => 'Remove failed: %s',
-    'ip.dhcp.networks.page_info' => 'Page %s / %s (%s)',
+    // DHCP Networks
+    'ip.dhcp.networks.no_networks' => 'DHCP-сети отсутствуют',
+    'ip.dhcp.networks.loading' => 'Загрузка...',
+    'ip.dhcp.networks.select_one_to_edit' => 'Пожалуйста, выберите одну сеть для редактирования',
+    'ip.dhcp.networks.create_not_implemented' => 'Создание новой сети: не реализовано',
+    'ip.dhcp.networks.please_select_remove' => 'Пожалуйста, выберите одну или несколько сетей для удаления',
+    'ip.dhcp.networks.remove_confirm' => 'Удалить выбранные сети?',
+    'ip.dhcp.networks.removed' => 'Удалено',
+    'ip.dhcp.networks.remove_failed' => 'Не удалось удалить: %s',
+    'ip.dhcp.networks.page_info' => 'Страница %s / %s (%s)',
 
-    'ip.dns.add_server_placeholder' => 'Add DNS server (IP)',
-    'ip.dns.remove' => 'Remove',
-    'ip.dns.loading' => 'Loading...',
-    'ip.dns.failed_to_contact_api' => 'Failed to contact API',
-    'ip.dns.error_loading' => 'Error loading DNS settings',
-    'ip.dns.dns_saved' => 'DNS settings saved',
-    'ip.dns.failed_to_save' => 'Failed to save: %s',
-    'ip.dns.save_confirm' => 'Save DNS settings?',
-    'ip.dns.no_static_entries' => 'No static entries',
-    'ip.dns.static_added' => 'Static DNS added',
-    'ip.dns.static_add_failed' => 'Failed to add static',
-    'ip.dns.performing_action' => 'Performing %s...',
-    'ip.dns.invalid_json' => 'Invalid JSON response',
-    'ip.dns.request_failed' => 'Request failed: %s',
-    'ip.dns.flush_cache_confirm' => 'Flush entire DNS cache?',
-    'ip.dns.cache_flushed' => 'Cache flushed',
-    'ip.dns.failed_flush_cache' => 'Failed to flush cache: %s',
-    'ip.dns.no_cache_entries' => 'No cache entries',
+    // DNS
+    'ip.dns.add_server_placeholder' => 'Добавить DNS-сервер (IP)',
+    'ip.dns.remove' => 'Удалить',
+    'ip.dns.loading' => 'Загрузка...',
+    'ip.dns.failed_to_contact_api' => 'Не удалось связаться с API',
+    'ip.dns.error_loading' => 'Ошибка при загрузке настроек DNS',
+    'ip.dns.dns_saved' => 'Настройки DNS сохранены',
+    'ip.dns.failed_to_save' => 'Не удалось сохранить: %s',
+    'ip.dns.save_confirm' => 'Сохранить настройки DNS?',
+    'ip.dns.no_static_entries' => 'Статических записей нет',
+    'ip.dns.static_added' => 'Статическая запись добавлена',
+    'ip.dns.static_add_failed' => 'Не удалось добавить статическую запись',
+    'ip.dns.performing_action' => 'Выполняется %s...',
+    'ip.dns.invalid_json' => 'Неверный JSON-ответ',
+    'ip.dns.request_failed' => 'Запрос не удался: %s',
+    'ip.dns.flush_cache_confirm' => 'Очистить весь кэш DNS?',
+    'ip.dns.cache_flushed' => 'Кэш очищен',
+    'ip.dns.failed_flush_cache' => 'Не удалось очистить кэш: %s',
+    'ip.dns.no_cache_entries' => 'Кэш-позиций нет',
 
-    'ip.pool.no_pools' => 'No pools',
-    'ip.pool.please_select_one_or_more' => 'Please select one or more pools',
-    'ip.pool.select_one_to_edit' => 'Select exactly one pool to edit',
-    'ip.pool.name_and_address_required' => 'Name and Address are required',
-    'ip.pool.pool_created' => 'Pool created',
-    'ip.pool.create_failed' => 'Create failed: %s',
-    'ip.pool.pool_updated' => 'Pool updated',
-    'ip.pool.update_failed' => 'Update failed: %s',
-    'ip.pool.remove_confirm' => 'Remove selected pool(s)?',
-    'ip.pool.action_completed' => 'Action %s completed',
-    'ip.pool.action_failed' => 'Action failed: %s',
-    'ip.pool.request_failed' => 'Request failed: %s',
-    'ip.pool.none' => '(none)',
-    'ip.pool.loading' => 'Loading...',
-    'ip.pool.failed_to_contact_api' => 'Failed to contact API',
-    'ip.pool.page_info' => 'Page %s / %s (%s)',
+    // Pool
+    'ip.pool.no_pools' => 'Пулов нет',
+    'ip.pool.please_select_one_or_more' => 'Пожалуйста, выберите один или несколько пулов',
+    'ip.pool.select_one_to_edit' => 'Выберите ровно один пул для редактирования',
+    'ip.pool.name_and_address_required' => 'Требуются имя и адрес',
+    'ip.pool.pool_created' => 'Пул создан',
+    'ip.pool.create_failed' => 'Не удалось создать: %s',
+    'ip.pool.pool_updated' => 'Пул обновлён',
+    'ip.pool.update_failed' => 'Не удалось обновить: %s',
+    'ip.pool.remove_confirm' => 'Удалить выбранный(е) пул(ы)?',
+    'ip.pool.action_completed' => 'Действие %s выполнено',
+    'ip.pool.action_failed' => 'Действие не удалось: %s',
+    'ip.pool.request_failed' => 'Запрос не удался: %s',
+    'ip.pool.none' => '(нет)',
+    'ip.pool.loading' => 'Загрузка...',
+    'ip.pool.failed_to_contact_api' => 'Не удалось связаться с API',
+    'ip.pool.page_info' => 'Страница %s / %s (%s)',
 
-    'ip.settings.refreshing_settings' => 'Refreshing settings...',
-    'ip.settings.no_settings_found' => 'No IP settings found',
-    'ip.settings.failed_to_load' => 'Failed to load IP settings',
-    'ip.settings.updated' => 'IP settings updated',
-    'ip.settings.update_failed' => 'Update failed: %s',
+    // IP Settings
+    'ip.settings.refreshing_settings' => 'Обновление настроек...',
+    'ip.settings.no_settings_found' => 'Настройки IP не найдены',
+    'ip.settings.failed_to_load' => 'Не удалось загрузить настройки IP',
+    'ip.settings.updated' => 'Настройки IP обновлены',
+    'ip.settings.update_failed' => 'Не удалось обновить: %s',
 
     // IP Page - Loading Status
     'ip.loading'=> 'Загрузка данных IP...',
@@ -1139,13 +1199,14 @@ return [
     'ip.buttons.enable'=> 'Включить',
     'ip.buttons.disable'=> 'Отключить',
     'ip.buttons.remove'=> 'Удалить',
-    'ip.buttons.prev'=> 'Предыдущий',
-    'ip.buttons.next'=> 'Следующий',
+    'ip.buttons.prev'=> 'Назад',
+    'ip.buttons.next'=> 'Вперед',
     'ip.sort.by'=> 'Сортировать по',
     'ip.sort'=> 'Сортировать',
-    'ip.select.all'=> 'Выбрать все',
+    'ip.select.all'=> 'Выбрать всё',
     'ip.buttons.flush.cache'=> 'Очистить кэш',
-    'ip.buttons.add.dns.server'=> 'Добавить DNS сервер',
+    'ip.buttons.add.dns.server'=> 'Добавить DNS-сервер',
+
 
     // IP UPnP Page
     'ip.upnp.enabled'=> 'Включено',
@@ -1174,64 +1235,64 @@ return [
     'ip.table.th.dns.data'=> 'Данные',
 
     // IP Address Modal Titles
-    'ip.modal.form.add.address'=> 'Добавить IP адрес',
-    'ip.modal.form.edit.address'=> 'Редактировать IP адрес',
+    'ip.modal.form.add.address'=> 'Добавить IP-адрес',
+    'ip.modal.form.edit.address'=> 'Редактировать IP-адрес',
 
     // IP Address Modal Form
-    'ip.modal.form.ip.address-mask'=> 'IP адрес / Маска',
+    'ip.modal.form.ip.address-mask'=> 'IP-адрес / Маска',
     'ip.modal.form.ip.network'=> 'Сеть',
     'ip.modal.form.iface'=> 'Интерфейс',
     'ip.modal.form.comment'=> 'Комментарий',
     
-
     // cloud.php
     // IP Cloud Page
 
     // IP Cloud Modal Form
-    'ip.cloud.enabled'=> 'Включено DDNS',
+    'ip.cloud.enabled'=> 'DDNS включён',
     'ip.cloud.ddns.update.interval'=> 'Интервал обновления DDNS',
     'ip.cloud.update.time'=> 'Время обновления',
     'ip.cloud.public.ipv4'=> 'Публичный IPv4',
     'ip.cloud.public.ipv6'=> 'Публичный IPv6',
     'ip.cloud.dns.name' => 'Имя DNS',
-    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
-    'ip.cloud.yes'=> 'Yes',
-    'ip.cloud.no'=> 'No',
+    'ip.cloud.use-router-defaults'=> 'Использовать значения маршрутизатора по умолчанию',
+    'ip.cloud.yes'=> 'Да',
+    'ip.cloud.no'=> 'Нет',
 
     // dhcp-client.php
     // IP DHCP Client Page
-    'ip.dhcp.client.options'=> 'Опции DHCP клиента',
-    'ip.dhcp.client.modal.form.interface'=> 'Interface',
-    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
-    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
-    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
-    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
-    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
-    'ip.dhcp.client.options2'=> 'DHCP Client Options',
-    'ip.dhcp.client.modal.form.name'=> 'Name',
-    'ip.dhcp.client.modal.form.code'=> 'Code',
-    'ip.dhcp.client.modal.form.value'=> 'Value',
+    'ip.dhcp.client.options'=> 'Опции DHCP-клиента',
+    'ip.dhcp.client.modal.form.interface'=> 'Интерфейс',
+    'ip.dhcp.client.modal.form.enabled'=> 'Включено',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Использовать DNS пира',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Использовать NTP пира',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Добавить маршрут по умолчанию',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Метрика маршрута по умолчанию',
+    'ip.dhcp.client.options2'=> 'Опции DHCP-клиента',
+    'ip.dhcp.client.modal.form.name'=> 'Имя',
+    'ip.dhcp.client.modal.form.code'=> 'Код',
+    'ip.dhcp.client.modal.form.value'=> 'Значение',
 
    
     // dns.php
     // IP DNS Page
 
     // IP DNS - Modal Form
-    'ip.dns.form.servers'=> 'DNS серверы',
+    'ip.dns.form.servers'=> 'DNS-серверы',
     'ip.dns.form.dynamic-servers'=> 'Динамические серверы',
-    'ip.dns.form.use.doh.servers'=> 'Использовать DoH серверы',
-    'ip.dns.form.doh.max.server.conn'=> 'Максимальное количество соединений с DoH сервером',
-    'ip.dns.form.doh.max.concurrent.queries'=> 'Максимальное количество одновременных запросов DoH',
+    'ip.dns.form.use.doh.servers'=> 'Использовать DoH-серверы',
+    'ip.dns.form.doh.max.server.conn'=> 'Макс. соединений с DoH-сервером',
+    'ip.dns.form.doh.max.concurrent.queries'=> 'Макс. параллельных DoH-запросов',
     'ip.dns.form.doh.timeout'=> 'Таймаут DoH (секунды)',
     'ip.dns.form.allow-remote.requests'=> 'Разрешить удалённые запросы',
 
     'ip.dns.form.cache.size'=> 'Размер кэша (КБ)',
-    'ip.dns.form.cache.max-ttl'=> 'Максимальное время жизни кэша (секунды)',
-    'ip.dns.form.cache.min-ttl'=> 'Минимальное время жизни кэша (секунды)',
-    'ip.dns.form.max.concurrent.queries'=> 'Максимальное количество одновременных запросов',
-    'ip.dns.form.max.concurrent.tcp'=> 'Максимальное количество одновременных TCP соединений',
+    'ip.dns.form.cache.max-ttl'=> 'Макс. TTL кэша (секунды)',
+    'ip.dns.form.cache.min-ttl'=> 'Мин. TTL кэша (секунды)',
+    'ip.dns.form.max.concurrent.queries'=> 'Макс. параллельных запросов',
+    'ip.dns.form.max.concurrent.tcp'=> 'Макс. параллельных TCP-соединений',
     'ip.dns.form.query.timeout'=> 'Таймаут запроса (секунды)',
-    'ip.dns.form.cache.used'=> 'Используемый кэш (только для чтения)',
+    'ip.dns.form.cache.used'=> 'Использование кэша (только чтение)',
+
     'ip.dns.form.add.static.entry'=> 'Добавить статическую запись DNS',
     'ip.dns.form.add.static.name'=> 'Имя',
     'ip.dns.form.add.static.type'=> 'Тип',
@@ -1240,11 +1301,12 @@ return [
     'ip.dns.form.add.static.regexp'=> 'Регулярное выражение',
 
     // IP DNS - Static DNS
-    'ip.dns.static'=> 'Статический DNS',
-    'ip.dns.static.desc'=> 'Управление статическими записями DNS, которые переопределяют динамическое разрешение DNS.',
+    'ip.dns.static'=> 'Статические DNS',
+    'ip.dns.static.desc'=> 'Управление статическими записями DNS, переопределяющими динамическое разрешение.',
 
     // IP DNS - Cache Settings
     'ip.dns.cache'=> 'Настройки кэша DNS',
+
     // pool.php
     // IP Pool Page
 
@@ -1257,11 +1319,11 @@ return [
     'ip.pool.table.th.available'=> 'Доступно',
 
     // IP Pool Modal Form
-    'ip.pool.modal.form.create.title'=> 'Создать пул IP адресов',
-    'ip.pool.modal.form.edit.title'=> 'Редактировать пул IP адресов',
+    'ip.pool.modal.form.create.title'=> 'Создать пул IP-адресов',
+    'ip.pool.modal.form.edit.title'=> 'Редактировать пул IP-адресов',
     'ip.pool.modal.form.name'=> 'Имя',
     'ip.pool.modal.form.ranges'=> 'Диапазоны адресов',
-    'ip.pool.modal.form.ranges-placeholder'=> 'например, 192.168.1.100-192.168.1.200 или 10.0.0.0/24',
+    'ip.pool.modal.form.ranges-placeholder'=> 'например 192.168.1.100-192.168.1.200 или 10.0.0.0/24',
     'ip.pool.modal.form.comment'=> 'Комментарий',
     'ip.pool.modal.form.next-address'=> 'Следующий адрес',
     'ip.pool.modal.form.total-addresses'=> 'Всего адресов',
@@ -1274,18 +1336,18 @@ return [
     // IP Services Table Headers
     'ip.services.table.th.name'=> 'Имя',
     'ip.services.table.th.port'=> 'Порт',
-    'ip.services.table.th.available-from'=> 'Доступно с',
-    'ip.services.table.th.max-sessions'=> 'Максимум сессий',
+    'ip.services.table.th.available-from'=> 'Доступно от',
+    'ip.services.table.th.max-sessions'=> 'Макс. сессий',
     'ip.services.table.th.protocol'=> 'Протокол',
-    'ip.services.table.th.remote'=> 'Удалённый',
-    'ip.services.table.th.local'=> 'Локальный',
+    'ip.services.table.th.remote'=> 'Удалённо',
+    'ip.services.table.th.local'=> 'Локально',
 
     // IP Services Modal Form
-    'ip.services.modal.form.edit.title'=> 'Редактировать IP сервис',
+    'ip.services.modal.form.edit.title'=> 'Редактировать IP-сервис',
     'ip.services.modal.form.name'=> 'Имя',
     'ip.services.modal.form.port'=> 'Порт',
-    'ip.services.modal.form.available-from'=> 'Доступно с',
-    'ip.services.modal.form.max-sessions'=> 'Максимум сессий',
+    'ip.services.modal.form.available-from'=> 'Доступно от',
+    'ip.services.modal.form.max-sessions'=> 'Макс. сессий',
     'ip.services.modal.form.protocol'=> 'Протокол',
     'ip.services.modal.form.remote.address'=> 'Удалённый адрес',
     'ip.services.modal.form.remote.port'=> 'Удалённый порт',
@@ -1295,18 +1357,17 @@ return [
     // IP Settings Page
 
     // IP Settings Modal Form
-    'ip.settings.modal.form.ip-forward'=> 'IP переадресация включена',
+    'ip.settings.modal.form.ip-forward'=> 'Перенаправление IP включено',
     'ip.settings.modal.form.ip-send-redirects'=> 'Отправка Redirects включена',
-    'ip.settings.modal.form.ip-accept-redirects'=> 'Приём Redirects включен',
-    'ip.settings.modal.form.ip-secure-redirects'=> 'Безопасные Redirects включены',
-    'ip.settings.modal.form.ip-accept-source-route'=> 'Приём Source Route включен',
-    'ip.settings.modal.form.ip-allow-fast-path'=> 'Разрешить Fast Path включено',
+    'ip.settings.modal.form.ip-accept-redirects'=> 'Принимать Redirects',
+    'ip.settings.modal.form.ip-secure-redirects'=> 'Защищённые Redirects включены',
+    'ip.settings.modal.form.ip-accept-source-route'=> 'Принимать Source Route',
+    'ip.settings.modal.form.ip-allow-fast-path'=> 'Разрешить Fast Path',
     'ip.settings.modal.form.ip-tcp-syncookies'=> 'TCP Syncookies включены',
     'ip.settings.modal.form.ip-tcp-timestamps'=> 'TCP Timestamps',
-    'ip.settings.modal.form.ip-max-neighbors'=> 'Максимум соседей',
-    'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Ограничение скорости ICMP',
-    'ip.settings.modal.form.ip-arp-timeout'=> 'Время ожидания ARP (секунды)',
-    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Введите формат тайм-аута RouterOS (например, 10 минут, 1 час или 00:10:00). Оставьте пустым по умолчанию.',
+    'ip.settings.modal.form.ip-max-neighbors'=> 'Макс. соседей',
+    'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Лимит ICMP',
+    'ip.settings.modal.form.ip-arp-timeout'=> 'Таймаут ARP (секунды)',
+    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Введите формат таймаута RouterOS (например: 10m, 1h, или 00:10:00). Оставьте пустым для значения по умолчанию.',
 
-    // End of Translations
 ]; 

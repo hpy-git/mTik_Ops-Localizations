@@ -1,45 +1,45 @@
 <?php
 ////////////////////////////////////////////////////////////////////////
-// Cebuano dialect translations for mTik_Ops                           
-// Author: HPY™                                                         
+// Cebuano translations for mTik_Ops                                                                                  
 // Version: Next-Generation                                           
 ////////////////////////////////////////////////////////////////////////
 return [
     // Start of Translations
     // Global
     'language-changed' => 'Nausab ang pinulongan ngadto sa {lang}',
-    'language-search-placeholder' => 'Pangita...',
+    'language-search-placeholder' => 'Pangitaa...',
 
     // Global Search
     'search.title' => 'Pangita',
-    'search.instructions' => 'Isulat ang keyword o hugpong sa mga pulong aron pangitaon ang site.',
-    'search.results_header' => 'Mga resulta sa pagpangita para sa "{query}"',
-    'search.placeholder' => 'Pagsulat aron mangita...',
-    'search.no_results' => 'Wala’y resulta',
+    'search.instructions' => 'Isulat ang usa ka pulong o hugpong sa mga pulong aron pangitaon ang site.',
+    'search.results_header' => 'Mga resulta sa "{query}"',
+    'search.placeholder' => 'Pagsugod sa pag-type...',
+    'search.no_results' => 'Walay nadeskobrehan',
     'search.results' => 'Mga resulta',
     'search.button' => 'Pangita',
-    'search.hint' => 'Pagsulat aron makita ang mga sugyot dayon.',
+    'search.hint' => 'Type para makita ang dali nga mga sugyot.',
     'search.quick_links' => 'Dali nga mga link',
-    'search.show' => 'Ipakita ang Pagpangita',
+    'search.show' => 'Ipakita ang Pangita',
 
+    
     // Site title and tagline
     'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
     'site.tagline' => 'Sentralisadong Pagdumala sa mga Router',
 
     // Authentication
-    'nav.login' => 'Sulod',
-    'nav.logout' => 'Gawas',
-    'auth.logging_in' => 'Nagasulod...',
-    'auth.logging_out' => 'Nagagawas...',
+    'nav.login' => 'Mag-log in',
+    'nav.logout' => 'Mag-log out',
+    'auth.logging_in' => 'Naga-log in',
+    'auth.logging_out' => 'Naga-log out',
 
     // nav-brand.php
-    'nav.brand.user_greeting'=> 'Kumusta!',
+    'nav.brand.user_greeting'=> 'Hi!',
 
     // nav.php
     'lang.label'=> 'Pinulongan',
     'nav.about' => 'Mahitungod',
-    'nav.features' => 'Mga Fitur',
-    'nav.our_team' => 'Ang Team Namo',
+    'nav.features' => 'Mga bahin',
+    'nav.our_team' => 'Ang Aming Team',
     'nav.contact' => 'Kontak',
     'nav.menu' => 'Menu',
     'nav.dashboard' => 'Dashboard',
@@ -52,25 +52,25 @@ return [
     // index.php
     // Index Page - About Section
     'about.title' => 'Gihimo para sa MikroTik',
-    'about.desc' => 'Ang mTikOps usa ka platform sa browser para sa pagdumala sa mga MikroTik router ug hotspot. Naa kini remote access, pagdumala sa hotspot — pag-print, PPPoE, ug uban pa. Tanang kinahanglan sa usa ka paspas nga sistema.',
-    'about.about_us_button' => 'Mahitungod Kanamo',
-    'about.our_team_button' => 'Ang Team Namo',
+    'about.desc' => 'Ang mTikOps usa ka plataporma sa browser alang sa pagdumala sa MikroTik routers ug hotspots. Naglakip kini og remote access, hotspot management — pag-print, PPPoE, ug uban pa. Tanan sa usa ka paspas nga sistema.',
+    'about.about_us_button' => 'Mahitungod Kanato',
+    'about.our_team_button' => 'Ang Aming Team',
 
     // Index Page - Features Section
-    'features.remote.title' => 'Pagdumala sa Remote nga Network',
-    'features.remote.desc' => 'Tan-awa ug dumala ang layo nga mga router, tan-awa ang kahimtang sa interface, i-reboot, ug i-deploy ang mga kausaban sa konfigurasyon nga luwas gikan sa usa ka console.',
+    'features.remote.title' => 'Layo nga Pagdumala sa Network',
+    'features.remote.desc' => 'I-monitor ug dumala ang layo nga mga router, tan-awa ang kahimtang sa interface, mag-reboot, ug i-push ang mga kausaban sa konfigurasyon nga segurado sa tibuok fleet gikan sa usa ka console.',
     'features.hotspot.title' => 'Pagdumala sa Hotspot',
-    'features.hotspot.desc' => 'Paghimo ug pagdumala sa mga hotspot server ug user profile, pag-isyu og voucher, pagmonitor sa aktibo nga mga user ug session, ug pagreport.',
-    'features.troubleshoot.title' => 'Pagsulbad ug Konfigurasyon',
-    'features.troubleshoot.desc' => 'I-deploy ug i-audit ang mga kausaban sa konfigurasyon, padagana ang diagnostics, tan-awa ang logs, ug ayuha ang mga konektividad nga problema gamit ang integrated nga mga himan.',
+    'features.hotspot.desc' => 'Paghimo ug pagdumala sa mga hotspot server ug user profile, mag-isyu og voucher, i-monitor ang mga aktibo nga tiggamit ug sesyon, ug maghimo sa accounting ug reporting.',
+    'features.troubleshoot.title' => 'Pagtul-id ug Konfigurasyon',
+    'features.troubleshoot.desc' => 'I-push ug i-audit ang mga kausaban sa konfigurasyon, padagana ang diagnostics, tan-awa ang mga log, ug sulbara ang mga problema sa konektividad gamit ang napasibo nga mga himan ug log.',
 
     // Index Page - Signup Section
-    'signup.title' => 'Sugdi ang mTikOps',
-    'signup.desc' => 'Himoa ang imong account aron dumalahan ang mga router, hotspot ug magpadagan og diagnostics sa tibuok network gikan sa usa ka dashboard.',
+    'signup.title' => 'Sugdi ang paggamit sa mTikOps',
+    'signup.desc' => 'Paghimo og account aron dumalahan ang mga router, hotspots ug magpadagan og diagnostics sa imong network gikan sa usa ka dashboard.',
     'signup.cta' => 'Magparehistro',
 
     // Index Page - Contact Section
-    'contact.hq' => 'Punong Opisina',
+    'contact.hq' => 'HQ',
     'contact.email' => 'Email',
     'contact.contact' => 'Kontak',
     'contact.hq_address' => 'Taguig City, PH 1630',
@@ -79,141 +79,142 @@ return [
 
     // Index Page - Footer Section
     'footer.copyright' => 'Copyright &copy; mTikOps {year}',
-    'footer.powered' => 'Gipalihok sa HPY™',
+    'footer.powered' => 'Gipatuyok sa HPY™',
     'modal.confirm.title' => 'Kumpirma',
     'modal.confirm.body' => 'Sigurado ka ba?',
     'modal.confirm.cancel' => 'Kanselahon',
-    'modal.confirm.ok' => 'Sige',
+    'modal.confirm.ok' => 'Kumpirma',
 
     // Login Page
-    'login.title' => 'Sulod sa mTik_Ops',
-    'login.desc' => 'Sulod sa imong mTik_Ops account aron dumalahan ang MikroTik router ug hotspot gikan sa sentralisadong dashboard.',
-    'login.form.title' => 'Sulod sa Imong Account',
+    'login.title' => 'Mag-log in sa mTik_Ops',
+    'login.desc' => 'Sulod sa imong mTik_Ops account aron dumalahan ang MikroTik routers ug hotspots gikan sa sentralisadong dashboard.',
+    'login.form.title' => 'Mag-log in sa Imong Account',
     'login.form.host'=> 'Host',
-    'login.form.username'=> 'Ngalan sa Gumagamit',
+    'login.form.username'=> 'Ngalan sa Tiggamit',
     'login.form.password'=> 'Password',
-    'login.form.connection_type'=> 'Klase sa Koneksyon',
-    'login.form.connection_type_yes'=> 'Oo (Luwas nga API)',
-    'login.form.connection_type_no'=> 'Dili (Standard nga API)',
+    'login.form.connection_type'=> 'Tipo sa Koneksyon',
+    'login.form.connection_type_yes'=> 'Oo (Secure API)',
+    'login.form.connection_type_no'=> 'Dili (Standard API)',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Hinumdumi Ko',
     'login.form.connect'=> 'Konektar',
     'login.form.cancel'=> 'Kanselahon',
+
     // Login Page Placeholders
     'login.form.host_placeholder'=> 'IP sa Router o Hostname',
-    'login.form.username_placeholder'=> 'Isulod ang imong username',
+    'login.form.username_placeholder'=> 'Isulod ang imong ngalan sa tiggamit',
     'login.form.password_placeholder'=> 'Isulod ang imong password',
 
 
     // about-us.php
     // About Us Page
-    'about-us.title' => 'Mahitungod Kanamo',
-    'about-us.desc' => 'Hibaloa pa ang bahin sa mTik_Ops, among misyon, ug ang team nga nagpaluyo sa platform.',
-    'about-us.overview'=> 'Kasayuran',
+    'about-us.title' => 'Mahitungod Kanato',
+    'about-us.desc' => 'Hibaloa pa ang bahin sa mTik_Ops, among misyon, ug ang team nga nagpaluyo sa plataporma.',
+    'about-us.overview'=> 'Pangkalahatan',
     'about-us.vision'=> 'Panglantaw',
-    'about-us.features'=> 'Mga Fitur',
+    'about-us.features'=> 'Mga bahin',
     'about-us.tutorials'=> 'Mga Tutorial',
-    'about-us.faqs'=> 'Mga Pangutana',
-    'about-us.requirements'=> 'Mga Kinahanglanon',
+    'about-us.faqs'=> 'FAQs',
+    'about-us.requirements'=> 'Kinahanglanon',
 
     // about-us.php
     // About Us Page Descriptions
-    'about-us.overview.desc'=> 'Mubo nga introduksyon sa mTikOps ug sa mga nag-unang kakayahan niini.',
-    'about-us.vision.desc'=> 'Hibaloi ang among misyon ug dugay nga tumong para sa proyekto.',
-    'about-us.features.desc'=> 'Tan-awa ang mga nag-unang fitur nga anaa sa mTikOps.',
-    'about-us.tutorials.desc'=> 'Mga giya lakip ang step-by-step ug halimbawa sa workflow.',
-    'about-us.faqs.desc'=> 'Kasuag nga mga pangutana ug tubag bahin sa mTikOps.',
-    'about-us.requirements.desc'=> 'Prerequisites ug RouterOS requirements alang sa pagpadagan sa mTikOps.',
+    'about-us.overview.desc'=> 'Mubo nga pasinabot sa mTikOps ug sa mga punoang kapasidad niini.',
+    'about-us.vision.desc'=> 'Hibaloa ang among misyon ug dugay nga tumong para sa proyekto.',
+    'about-us.features.desc'=> 'Tan-awa ang mga nag-unang bahin nga anaa sa mTikOps.',
+    'about-us.tutorials.desc'=> 'Mga lakang-lakang nga giya ug pananglitan sa workflow.',
+    'about-us.faqs.desc'=> 'Kasagarang mga pangutana ug tubag bahin sa mTikOps.',
+    'about-us.requirements.desc'=> 'Mga kinahanglanon ug kompatibilidad sa RouterOS para sa pagdagan sa mTikOps.',
 
     // about-us.php
     // About Us Page Buttons
-    'about-us.open.overview'=> 'Abliha ang Kasayuran',
-    'about-us.open.vision'=> 'Abliha ang Panglantaw',
-    'about-us.open.features'=> 'Abliha ang Mga Fitur',
-    'about-us.open.tutorials'=> 'Abliha ang Mga Tutorial',
-    'about-us.open.faqs'=> 'Abliha ang FAQs',
-    'about-us.open.requirements'=> 'Abliha ang Mga Kinahanglanon',
+    'about-us.open.overview'=> 'Ablihi ang Pangkalahatan',
+    'about-us.open.vision'=> 'Ablihi ang Panglantaw',
+    'about-us.open.features'=> 'Ablihi ang Mga Bahin',
+    'about-us.open.tutorials'=> 'Ablihi ang Mga Tutorial',
+    'about-us.open.faqs'=> 'Ablihi ang FAQs',
+    'about-us.open.requirements'=> 'Ablihi ang Kinahanglanon',
 
     // About Us - Back Button
-    'about-us.back-to-about'=> 'Balik sa Mahitungod Kanamo',
+    'about-us.back-to-about'=> 'Balik sa Mahitungod Kanato',
 
     // About Us - Overview Page
-    'about-us.overview-page.title'=> 'Kasayuran',
-    'about-us.overview-page.desc'=> 'Ang mTikOps usa ka gaan nga web platform para sa pagdumala sa MikroTik router ug hotspot services gikan sa browser.',
+    'about-us.overview-page.title'=> 'Pangkalahatan',
+    'about-us.overview-page.desc'=> 'Ang mTikOps usa ka magaan nga web plataporma alang sa pagdumala sa MikroTik routers ug hotspot services gikan sa browser.',
 
     // About Us - Vision Page
     'about-us.vision-page.title'=> 'Panglantaw',
-    'about-us.vision-page.desc'=> 'Tumong namo nga pasaylon ang pagdumala sa network alang sa mga MikroTik user pinaagi sa yano ug intuitive nga interface ug automation nga mga himan.',
+    'about-us.vision-page.desc'=> 'Gitinguha namo nga pasayonon ang operasyon sa network para sa mga MikroTik user pinaagi sa usa ka sayon sabton nga interface ug mga himan sa awtomasyon.',
 
     // About Us - Features Page
-    'about-us.features-page.title'=> 'Mga Fitur',
-    'about-us.features-page.desc'=> 'Susiha ang nag-unang mga fitur sa mTikOps.',
+    'about-us.features-page.title'=> 'Mga Bahin',
+    'about-us.features-page.desc'=> 'Susiha ang mga punoang bahin sa mTikOps.',
 
     // About Us - Tutorials Page
     'about-us.tutorials-page.title'=> 'Mga Tutorial',
-    'about-us.tutorials-page.desc'=> 'Mga giya ug how-to alang sa kasagaran nga buluhaton.',
+    'about-us.tutorials-page.desc'=> 'Mga giya ug paagi sa kasagarang buluhaton.',
 
     // About Us - FAQs Page
-    'about-us.faqs-page.title'=> 'Mga Pangutana',
-    'about-us.faqs-page.desc'=> 'Mga kasagarang pangutana ug ilang tubag.',
+    'about-us.faqs-page.title'=> 'FAQs',
+    'about-us.faqs-page.desc'=> 'Kasagaran pangutana ug tubag.',
 
     // About Us - Requirements Page
-    'about-us.requirements-page.title'=> 'Mga Kinahanglanon',
-    'about-us.requirements-page.desc'=> 'Minimum nga kinahanglanon ug mga nota sa compatibility.',
+    'about-us.requirements-page.title'=> 'Kinahanglanon',
+    'about-us.requirements-page.desc'=> 'Pinakamubo nga kinahanglanon ug tala sa kompatibilidad.',
 
     // our-team.php
     // Our Team Page
-    'our-team.title'=> 'Ang Team Namo',
-    'our-team.desc'=> 'Ila-ila ang mga tawo nga nagpaluyo sa mTikOps — mga developers, contributors ug maintainers.',
-    'our-team.leadership'=> 'Mga Namuno',
+    'our-team.title'=> 'Ang Aming Team',
+    'our-team.desc'=> 'Ilaila ang mga tawo nga nagpaluyo sa mTikOps — mga developer, contributors ug maintainers.',
+    'our-team.leadership'=> 'Pamunoan',
     'our-team.developers'=> 'Mga Developer',
     'our-team.contributors'=> 'Mga Kontribyutor',
-    'our-team.advisors'=> 'Mga Adviser',
-    'our-team.careers'=> 'Apil sa Team',
+    'our-team.advisors'=> 'Mga Tigabay',
+    'our-team.careers'=> 'Apil Kanamo',
     'our-team.contact'=> 'Kontak',
 
     // Our Team Page Descriptions
-    'our-team.leadership.desc'=> 'Mga core maintainer ug project lead nga nagpadagan sa mTikOps.',
-    'our-team.developers.desc'=> 'Mga engineer ug contributors nga nag-develop sa fitur ug nag-ayo sa bugs.', 
-    'our-team.contributors.desc'=> 'Mga community contributors nga motabang sa dokumentasyon, testing ug code.',
-    'our-team.advisors.desc'=> 'Mga adviser ug eksperto nga nagsuporta sa proyekto.',
+    'our-team.leadership.desc'=> 'Panguna nga mga maintainer ug mga lider sa proyekto nga nagpadagan sa mTikOps.',
+    'our-team.developers.desc'=> 'Mga engineer ug mga kontribyutor nga nagmugna sa mga bahin ug pagsulbad sa mga isyu.',
+    'our-team.contributors.desc'=> 'Mga kontribyutor sa komunidad nga tabang sa dokumentasyon, testing ug code.',
+    'our-team.advisors.desc'=> 'Mga tigabay ug eksperto nga nagasuporta sa proyekto.',
     'our-team.careers.desc'=> 'Mga bakanteng posisyon ug paagi sa pag-apil sa team.',
-    'our-team.contact.desc'=> 'Kontaka ang team para sa mga pangutana o kolaborasyon.',
+    'our-team.contact.desc'=> 'Kontaka ang team alang sa mga pangutana o kolaborasyon.',
 
     // Our Team Page Buttons
-    'our-team.open.leadership'=> 'Tan-awa ang Mga Namuno',
+    'our-team.open.leadership'=> 'Tan-awa ang Pamunoan',
     'our-team.open.developers'=> 'Tan-awa ang Mga Developer',
     'our-team.open.contributors'=> 'Tan-awa ang Mga Kontribyutor',
-    'our-team.open.advisors'=> 'Tan-awa ang Mga Adviser',
-    'our-team.open.careers'=> 'Apil sa Team',
+    'our-team.open.advisors'=> 'Tan-awa ang Mga Tigabay',
+    'our-team.open.careers'=> 'Apil Kanamo',
     'our-team.open.contact'=> 'Kontaka ang Team',
 
     // Our Team - Back Button
-    'our-team.back-to-team'=> 'Balik sa Team Namo',
+    'our-team.back-to-team'=> 'Balik sa Aming Team',
 
     // Our Team - Leadership Page
-    'our-team.leadership-page.title'=> 'Mga Namuno',
-    'our-team.leadership-page.desc'=> 'Ila-ila ang mga core maintainer ug project lead sa mTikOps.',
+    'our-team.leadership-page.title'=> 'Leadership',
+    'our-team.leadership-page.desc'=> 'Meet the core maintainers and project leads behind mTikOps.',
 
     // Our Team - Developers Page
-    'our-team.developers-page.title'=> 'Mga Developer',
-    'our-team.developers-page.desc'=> 'Mga profile ug responsibilidad sa mga developer nga nagtabang sa mTikOps.',
+    'our-team.developers-page.title'=> 'Developers',
+    'our-team.developers-page.desc'=> 'Mga profile ug responsibilidad sa mga developer nga nagkontribyut sa mTikOps.',
 
     // Our Team - Contributors Page
-    'our-team.contributors-page.title'=> 'Mga Kontribyutor',
-    'our-team.contributors-page.desc'=> 'Pag-ila sa mga community contributors ug unsaon pag-apil.',
+    'our-team.contributors-page.title'=> 'Contributors',
+    'our-team.contributors-page.desc'=> 'Recognizing community contributors and how to get involved.',
 
     // Our Team - Advisors Page
-    'our-team.advisors-page.title'=> 'Mga Adviser',
-    'our-team.advisors-page.desc'=> 'Mga adviser ug eksperto nga naghatag og giya sa proyekto.',
+    'our-team.advisors-page.title'=> 'Advisors',
+    'our-team.advisors-page.desc'=> 'Advisors and experts who provide guidance to the project.',
 
     // Our Team - Join Us Page
-    'our-team.join-us-page.title'=> 'Apil sa Team',
-    'our-team.join-us-page.desc'=> 'Susiha ang mga bakanteng posisyon ug unsaon pagtabang sa mTikOps.',  
+    'our-team.join-us-page.title'=> 'Join Us',
+    'our-team.join-us-page.desc'=> 'Explore open roles and how to contribute to mTikOps.',  
 
     // Our Team - Contact Page
-    'our-team.contact-page.title'=> 'Kontak',
-    'our-team.contact-page.desc'=> 'Mga paagi sa pagkontak sa mTikOps team para sa kolaborasyon o suporta.',
+    'our-team.contact-page.title'=> 'Contact',
+    'our-team.contact-page.desc'=> 'Ways to contact the mTikOps team for collaboration or support.',
 
     // Dashboard Page
     'dashboard.title'=> 'Dashboard',
@@ -222,66 +223,69 @@ return [
     // Dashboard Buttons
     'dashboard.show'=> 'Ipakita ang Dashboard',
     'dashboard.button.refresh'=> 'I-refresh',
-    'dashboard.button.prev'=> 'Niaging',
+    'dashboard.button.prev'=> 'Miuna',
     'dashboard.button.next'=> 'Sunod',
 
     // Dashboard Network Monitoring
-    'dashboard.monitoring.title'=> 'Pagmonitor sa Network',
-    'dashboard.monitoring.desc'=> 'Real-time nga pagmonitor sa performance sa network, uptime, ug kahimtang sa device sa tibuok MikroTik infrastructure.',
-    'dashboard.ltmg.title'=> 'Live Traffic Monitoring Graph',
+    'dashboard.monitoring.title'=> 'Pag-monitor sa Network',
+    'dashboard.monitoring.desc'=> 'Real-time nga pag-monitor sa performance sa network, uptime, ug kahimtang sa device sa imong MikroTik infrastructure.',
+    'dashboard.ltmg.title'=> 'Grapiko sa Real-time nga Trapiko',
     'dashboard.fullscreen'=> 'Tibuok Ekran',
     'dashboard.loading'=> 'Nag-load sa Data...',
-    'dashboard.not-monitoring'=> 'Wala Magmonitor',
+    'dashboard.not-monitoring'=> 'Wala Gi-monitor',
 
     // Dashboard System Logging
-    'dashboard.logging.title'=> 'System Logging',
-    'dashboard.logging.desc'=> 'Sentralisadong logging ug alert para sa mga system event ug error',
-    'dashboard.system.logs'=> 'System Logs',
-    'dashboard.critical.logs'=> 'Kritikal nga Logs',
+    'dashboard.logging.title'=> 'Pag-log sa Sistema',
+    'dashboard.logging.desc'=> 'Sentralisadong pag-log ug alerto para sa mga event sa sistema ug sayop',
+    'dashboard.system.logs'=> 'Mga Log sa Sistema',
+    'dashboard.critical.logs'=> 'Mga Kritikal nga Log',
 
     // Dashboard Device Information
     'dashboard.device.info.title'=> 'Impormasyon sa Device',
-    'dashboard.system.resources'=> 'Mga Resource sa Sistema',
-    'dashboard.system.information'=> 'Impormasyon sa Sistema',
-    'dashboard.system.platform'=> 'Impormasyon sa RouterBOARD',
+    'dashboard.system.resources'=> 'System Resources',
+    'dashboard.system.information'=> 'System Information',
+    'dashboard.system.platform'=> 'RouterBOARD Information',
 
     // Device info JS strings
-    'device.system_identity' => 'Identidad sa Sistema',
+    'device.system_identity' => 'Identity sa Sistema',
     'device.routeros_version' => 'Bersyon sa RouterOS',
-    'device.uptime' => 'Gidugayon',
+    'device.uptime' => 'Oras nga Nagdagan',
     'device.board' => 'Board',
-    'device.health' => 'Kahimtang',
-    'device.temp_label' => 'Temp:',
+    'device.health' => 'Kahimsog',
+    'device.temp_label' => 'Temperatura:',
     'device.voltage_label' => 'Boltage:',
-    'device.unknown' => 'Wala Hibalo',
+    'device.unknown' => 'Wala mailhi',
     'device.na' => 'n/a',
     'device.cpu' => 'CPU',
-    'device.memory' => 'Memoriya',
+    'device.memory' => 'Memorya',
     'device.disk' => 'Disk',
     'device.board_model' => 'Modelo sa Board',
     'device.serial' => 'Serial',
     'device.architecture' => 'Arkitektura',
     'device.cpu_label' => 'CPU',
-    'device.cores' => 'cores',
+    'device.cores' => 'Cores',
     'device.build' => 'Build',
-    'device.failed_load' => 'Dili ma-load ang impormasyon sa system',
+    'device.failed_load' => 'Napakyas sa pag-load sa impormasyon sa system',
     // Generate users preview JS strings
     'generate.generating' => 'Nagahimo...',
-    'generate.print_fetch_failed' => 'Napakyas pagkuhag pag-imprinta: %s',
-    'generate.network_not_ok' => 'Ang tubag sa network dili maayo: %s',
+    'generate.print_fetch_failed' => 'Napakyas pagkuha sa pag-print: %s',
+    'generate.network_not_ok' => 'Dili maayong tubag gikan sa network: %s',
     'generate.generation_failed' => 'Napakyas ang paghimo: %s',
-    'generate.unknown_error' => 'Wala mailhi nga sayop',
-    'generate.preview_not_available' => 'Walay preview nga magamit',
-    'generate.failed_print_dialog' => 'Napakyas sa pag-abli sa print dialog: %s',
-    'generate.cached_cleared' => 'Gi-clear ang cached batch',
-    'generate.failed_clear_cached' => 'Napakyas pag-clear sa cached batch',
+    'generate.unknown_error' => 'Wala mailhing sayop',
+    'generate.preview_not_available' => 'Wala ang preview',
+    'generate.failed_print_dialog' => 'Napakyas pagbukas sa native print dialog: %s',
+    'generate.cached_cleared' => 'Gi-clear ang naka-cache nga batch',
+    'generate.failed_clear_cached' => 'Napakyas pag-clear sa naka-cache nga batch',
     'generate.preview_failed' => 'Napakyas ang preview',
-    'generate.preview' => 'Preview',
-    'generate.unexpected_error' => 'Dili gilauman nga sayop: %s',
+    'generate.preview' => 'Tan-awa',
+    'generate.unexpected_error' => 'Walay gilauman nga sayop: %s',
+    'generate.generated' => 'Nakahimo og %s ka tiggamit',
+    'generate.request_failed' => 'Napakyas ang hangyo samtang nagahimo og mga voucher.',
+    'generate.generate' => 'Himoa',
 
     // Dashboard Hotspot Active Sessions
-    'dashboard.hotspot.as.title'=> 'Aktibong Session sa Hotspot',
-    'dashboard.ppp.as.title'=> 'Aktibong PPPoE Session',
+    'dashboard.hotspot.as.title'=> 'Aktibong Hotspot nga Sesyon',
+    'dashboard.ppp.as.title'=> 'Aktibong PPPoE nga Sesyon',
     // JS dashboard strings (used by client-side locale export)
     'dashboard.no_active_sessions' => 'Walay aktibong sesyon',
     'dashboard.no_ppp_active_sessions' => 'Walay aktibong PPP sesyon',
@@ -289,184 +293,261 @@ return [
     'dashboard.active_sessions' => 'mga aktibong sesyon',
     'dashboard.name' => 'Ngalan',
     'dashboard.address' => 'Address',
-    'dashboard.uptime' => 'Gidugayon',
+    'dashboard.uptime' => 'Uptime',
     'dashboard.service' => 'Serbisyo',
-    'dashboard.not_monitoring' => 'Dili gipang-monitor',
+    'dashboard.not_monitoring' => 'Wala Gi-monitor',
     'dashboard.more_format' => '... ug %d pa',
-    'dashboard.unable_load_active' => 'Dili ma-load ang aktibong mga sesyon',
-    'dashboard.unable_load_ppp' => 'Dili ma-load ang aktibong PPP nga mga sesyon',
+    'dashboard.unable_load_active' => 'Dili makarga ang aktibong mga sesyon',
+    'dashboard.unable_load_ppp' => 'Dili makarga ang aktibong PPP nga mga sesyon',
 
     // hotspot.php
     // Hotspot Page
-    'hotspot.title'=> 'Hotspot Manager',
-    'hotspot.desc'=> 'Dumala ang mga hotspot user, user profile, aktibong session ug hosts.',
-    'hotspot.users'=> 'Mga User',
+    'hotspot.title'=> 'Tagdumala sa Hotspot',
+    'hotspot.desc'=> 'Dumala ang mga hotspot nga tiggamit, profile sa tiggamit, aktibong sesyon ug mga host.',
+    'hotspot.users'=> 'Mga Tiggamit',
     'hotspot.profiles'=> 'Mga Profile',
     'hotspot.active'=> 'Aktibo',
     'hotspot.hosts'=> 'Mga Host',
 
     // Hotspot Page Descriptions
     'hotspot.users.desc'=> 'Paghimo, pag-edit ug pagdumala sa tagsa-tagsa nga hotspot user account.',
-    'hotspot.profiles.desc'=> 'Dumala ang bandwidth, session ug rate-limit nga profile para sa mga user.',
-    'hotspot.active.desc'=> 'Tan-awa ug i-disconnect ang kasamtangang aktibo nga mga hotspot session.',
-    'hotspot.hosts.desc'=> 'Susihon ug dumala ang mga device nga konektado sa hotspot.',
+    'hotspot.profiles.desc'=> 'Dumala ang bandwidth, session ug rate-limit nga mga profile alang sa mga tiggamit.',
+    'hotspot.active.desc'=> 'Tan-awa ug i-disconnect ang kasamtangang aktibong hotspot nga mga sesyon.',
+    'hotspot.hosts.desc'=> 'Susiha ug dumala ang mga device nga nakakonektar sa hotspot.',
 
     // Hotspot Page Buttons
-    'hotspot.open.users'=> 'Abliha ang Mga User',
-    'hotspot.open.profiles'=> 'Abliha ang Mga Profile',
-    'hotspot.open.active'=> 'Abliha ang Aktibo',
-    'hotspot.open.hosts'=> 'Abliha ang Mga Host',
+    'hotspot.open.users'=> 'Ablihi ang Mga Tiggamit',
+    'hotspot.open.profiles'=> 'Ablihi ang Mga Profile',
+    'hotspot.open.active'=> 'Ablihi ang Aktibo',
+    'hotspot.open.hosts'=> 'Ablihi ang Mga Host',
 
     // Hotspot - Back Button
-    'hotspot.back-to-hotspot'=> 'Balik sa Hotspot Manager',
+    'hotspot.back-to-hotspot'=> 'Balik sa Tagdumala sa Hotspot',
 
     // Hotspot General Buttons
     'hotspot.action.button'=> 'Mga Aksyon',
-    'hotspot.generate.button'=> 'Pag-generate',
-    'hotspot.add-user.button'=> 'Idugang ang User',
+    'hotspot.generate.button'=> 'Himoa',
+    'hotspot.add-user.button'=> 'Dugang Tiggamit',
     'hotspot.enable.button'=> 'I-enable',
-    'hotspot.add-profile.button'=> 'Idugang ang Profile',
+    'hotspot.add-profile.button'=> 'Dugang Profile',
     'hotspot.edit.button'=> 'I-edit',
-    'hotspot.remove.button'=> 'Tangtangon',
+    'hotspot.remove.button'=> 'Kuhaa',
     'hotspot.disable.button'=> 'I-disable',
-    'hotspot.export.users'=> 'I-export ang Mga User',
+    'hotspot.export.users'=> 'I-export ang Mga Tiggamit',
     'hotspot.export.button'=> 'I-export',
     'hotspot.button.refresh'=> 'I-refresh',
-    'hotspot.button.prev'=> 'Niaging',
+    'hotspot.button.prev'=> 'Miuna',
     'hotspot.button.next'=> 'Sunod',
-    'hotspot.sort.by'=> 'Isort sa',
+    'hotspot.sort.by'=> 'Isort pinaagi sa',
     'hotspot.sort.profiles'=> 'Isort pinaagi sa Profile',
     'hotspot.sort.comments'=> 'Isort pinaagi sa Komento',
 
     // Hotspot Table Headers
-    'hotspot.table.th.select'=> 'Pili ang Tanan',
+    'hotspot.table.th.select'=> 'Pili-a Tanan',
     'hotspot.table.th.server'=> 'Ngalan sa Server',
-    'hotspot.table.th.user'=> 'User',
+    'hotspot.table.th.user'=> 'Tiggamit',
     'hotspot.table.th.name'=> 'Ngalan',
     'hotspot.table.th.address'=> 'Address',
     'hotspot.table.th.mac'=> 'MAC Address',
     'hotspot.table.th.profile'=> 'Profile',
     'hotspot.table.th.uptime'=> 'Uptime',
-    'hotspot.table.th.bytes-in'=> 'Bytes In',
-    'hotspot.table.th.bytes-out'=> 'Bytes Out',
+    'hotspot.table.th.bytes-in'=> 'Bytes Sulod',
+    'hotspot.table.th.bytes-out'=> 'Bytes Gawas',
     'hotspot.table.th.comment'=> 'Komento',
-    'hotspot.table.th.to-address'=> 'To Address',
-    'hotspot.table.th.last-seen'=> 'Katapusang Nakita',
-    'hotspot.status.loading'=> 'Nag-load sa Mga Hotspot User...',
-        // Hotspot JS helper strings
-        'hotspot.no_active_entries' => 'Walay aktibong entry',
-        'hotspot.loading' => 'Nag-load...',
-        'hotspot.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
-        'hotspot.page_info' => 'Panid %s / %s (%s)',
-    'hotspot.profiles.no_profiles_option' => '(no profiles)',
+    'hotspot.table.th.to-address'=> 'Padulong nga Address',
+    'hotspot.table.th.last-seen'=> 'Karon ang Nakita',
+    'hotspot.status.loading'=> 'Nag-load sa Mga Tiggamit sa Hotspot...',
+
+    // Hotspot JS: hosts, profiles, users, modals
+    // Hosts list
+    'hotspot.hosts.no_hosts' => 'Walay host',
+    'hotspot.hosts.loading' => 'Nag-load...',
+    'hotspot.hosts.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'hotspot.hosts.page_info' => 'Panid %s / %s (%s)',
+
+    // Profiles list
+    'hotspot.profiles.no_profiles' => 'Walay profile',
+    'hotspot.profiles.loading' => 'Nag-load...',
+    'hotspot.profiles.failed_to_load' => 'Napakyas sa pag-load sa mga profile',
+    'hotspot.profiles.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'hotspot.profiles.no_pools' => '(walay pools)',
+    'hotspot.profiles.no_queues' => '(walay queues)',
+    'hotspot.profiles.no_types' => '(walay types)',
+    'hotspot.profiles.select' => 'Pili-a...',
+    'hotspot.profiles.default' => 'default',
+    'hotspot.profiles.no_profiles_option' => '(walay profile)',
     'hotspot.profiles.page_info' => 'Panid %s / %s (%s)',
-    'hotspot.profiles.name_required' => 'Name is required',
-    'hotspot.profiles.added' => 'Profile added',
-    'hotspot.profiles.add_failed' => 'Failed to add profile: %s',
-    'hotspot.profiles.server_contact_failed' => 'Failed to contact server',
-    'hotspot.profiles.id_missing' => 'Profile id missing',
-    'hotspot.profiles.updated' => 'Profile updated',
-    'hotspot.profiles.update_failed' => 'Failed to update profile: %s',
-    'hotspot.profiles.removed' => 'Profile removed',
-    'hotspot.profiles.remove_failed' => 'Failed to remove profile: %s',
-    'hotspot.profiles.select_remove' => 'Select a profile to remove',
-    'hotspot.profiles.remove_confirm' => 'Are you sure you want to remove the selected profile?',
-    'hotspot.profiles.remove_confirm_title' => 'Confirm',
+    'hotspot.profiles.name_required' => 'Kinahanglan ang ngalan',
+    'hotspot.profiles.added' => 'Nadugang ang profile',
+    'hotspot.profiles.add_failed' => 'Napakyas pagdugang sa profile: %s',
+    'hotspot.profiles.server_contact_failed' => 'Napakyas sa pagkontak sa server',
+    'hotspot.profiles.id_missing' => 'Wala ang profile id',
+    'hotspot.profiles.updated' => 'Na-update ang profile',
+    'hotspot.profiles.update_failed' => 'Napakyas pag-update sa profile: %s',
+    'hotspot.profiles.removed' => 'Gikuha ang profile',
+    'hotspot.profiles.remove_failed' => 'Napakyas pagtangtang sa profile: %s',
+    'hotspot.profiles.select_remove' => 'Pili-a ang profile nga tangtangon',
+    'hotspot.profiles.remove_confirm' => 'Sigurado ka ba nga gusto nimong tangtangon ang napiling profile?',
+    'hotspot.profiles.remove_confirm_title' => 'Kumpirma',
+    
+    // Admin Control Panel translations
+    'admin.title' => 'Panel sa Administrasyon',
+    'admin.desc' => 'Sentro sa Kontrol sa Misyon',
+    'admin.maintenance' => 'Maintenance',
+    'admin.maintenance.desc' => 'I-toggle ang site-wide maintenance notice para sa mga bisita.',
+    'admin.page_access' => 'Pagkontrol sa Access sa Panid',
+    'admin.page_access.desc' => 'Tugoti o dili tugoti ang mga tiggamit nga maka-access sa tibuok seksyon sa app.',
+    'admin.view_logs' => 'Tan-awa ang Logs',
+    'admin.logs.title' => 'Admin Access Logs',
+    'admin.save' => 'I-save',
+    'admin.saved' => 'Nasulod',
+    'admin.save_failed' => 'Napakyas ang pag-save',
+    'admin.save_error' => 'Napakyas sa pag-save sa mga setting',
+    'admin.load_logs_failed' => 'Napakyas sa pag-load sa mga log',
+    'admin.access_denied' => 'Wala ka’y permiso sa pag-access sa Admin Control Panel.',
+    'access.restricted.title' => 'Gipugngan ang Access',
+    'access.restricted.desc' => 'Kini nga seksyon kasamtangang gi-disable',
+    'admin.section_disabled' => 'Seksyon gi-disable sa admin',
+    'nav.disabled' => 'Gi-disable',
+    // Maintenance toggle JS strings
+    'maintenance.toast' => 'Maintenance Mode' . '<br/><br/>' . 'Ang mga function limitado samtang naka-enable ang maintenance mode.',
+    'maintenance.set_failed' => 'Napakyas sa pag-set sa estado sa Maintenance Mode',
+
+    // Users modals and export
+    'hotspot.modals.no_servers' => '(walay servers)',
+    'hotspot.modals.no_profiles' => '(walay profiles)',
+    'hotspot.modals.please_select_export' => 'Palihug pili-a ang usa o labaw pa ka tiggamit aron i-export',
+    'hotspot.modals.select_at_least_one_field' => 'Pilia bisan usa ka field aron i-export',
+    'hotspot.modals.no_users_selected' => 'Walay napiling tiggamit',
+    'hotspot.modals.no_data_to_export' => 'Walay data nga i-export',
+    'hotspot.modals.export_started' => 'Nagsugod ang pag-export',
+    'hotspot.modals.export_failed' => 'Napakyas ang pag-export',
+    'hotspot.modals.add_user_title' => 'Dugang Hotspot User',
+    'hotspot.modals.edit_user_title' => 'I-edit ang Hotspot User',
+    'hotspot.modals.create_button' => 'Paghimo',
+    'hotspot.modals.update_button' => 'I-update',
+    'hotspot.modals.failed_load_user' => 'Napakyas sa pag-load sa datos sa tiggamit',
+    'hotspot.modals.select_one_to_edit' => 'Palihug pili-a ang eksaktong usa ka tiggamit aron i-edit',
+    'hotspot.modals.user_updated' => 'Na-update ang tiggamit',
+    'hotspot.modals.user_created' => 'Nakahimo og tiggamit',
+    'hotspot.modals.create_update_failed' => 'Napakyas ang paghimo/pag-update',
+    'hotspot.modals.create_request_failed' => 'Napakyas ang create request',
+
+    // Users list
+    'hotspot.users.no_users' => 'Walay tiggamit',
+    'hotspot.users.loading' => 'Nag-load...',
+    'hotspot.users.empty_response' => 'Walay sulod ang tubag',
+    'hotspot.users.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'hotspot.users.select_one_or_more' => 'Palihug pili-a ang usa o daghan pa ka tiggamit.',
+    'hotspot.users.remove_confirm' => 'Tangtangon ang napiling mga tiggamit? Dili na kini mabawi.',
+    'hotspot.users.action_completed' => 'Aksyon "%s" nahuman. Malampuson: %s/%s',
+    'hotspot.users.action_failed' => 'Napakyas ang aksyon: %s',
+    'hotspot.users.request_failed' => 'Napakyas ang hangyo',
+    'hotspot.users.sort_profiles' => 'Isort ang Mga Profile',
+    'hotspot.users.sort_comments' => 'Isort ang Mga Komento',
+    'hotspot.users.select_profiles_placeholder' => 'Isort ang Mga Profile',
+    'hotspot.users.select_comments_placeholder' => 'Isort ang Mga Komento',
+
+    // Hotspot JS helper strings
+    'hotspot.no_active_entries' => 'Walay aktibong entry',
+    'hotspot.loading' => 'Nag-load...',
+    'hotspot.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'hotspot.page_info' => 'Panid %s / %s (%s)',
 
     // Hotspot Modal Tabs and Titles
-    'hotspot.modal.title.generate'=> 'Pag-generate og Mga User / Voucher',
-    'hotspot.modal.general.tab'=> 'Panguna',
+    'hotspot.modal.title.generate'=> 'Paghimo sa Mga Tiggamit / Voucher',
+    'hotspot.modal.general.tab'=> 'Kinauyokan',
     'hotspot.modal.printing.tab'=> 'Pag-print',
-    'hotspot.modal.stats.tab'=> 'Stats',
-    'hotspot.modal.queueing.tab'=> 'Queueing',
+    'hotspot.modal.stats.tab'=> 'Estadistika',
+    'hotspot.modal.queueing.tab'=> 'Pag-queue',
     'hotspot.modal.scripts.tab'=> 'Mga Script',
 
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Kantidad',
     'hotspot.modal.form.server'=> 'Hotspot Server',
-    'hotspot.modal.form.username'=> 'Ngalan sa User',
+    'hotspot.modal.form.username'=> 'Ngalan sa Tiggamit',
     'hotspot.modal.form.password'=> 'Password',
-    'hotspot.modal.form.user-type'=> 'Klase sa User',
-    'hotspot.modal.form.code-length'=> 'Gitas-on sa Kodigo',
-    'hotspot.modal.form.characters'=> 'Mga Karakter',
+    'hotspot.modal.form.user-type'=> 'Tipo sa Tiggamit',
+    'hotspot.modal.form.code-length'=> 'Gitas-on sa Code',
+    'hotspot.modal.form.characters'=> 'Mga karakter',
     'hotspot.modal.form.user-profile'=> 'User Profile',
     'hotspot.modal.form.comment'=> 'Komento',
     'hotspot.modal.form.optional-comment'=> 'Opsyonal nga Komento',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
-    'hotspot.modal.form.time-limit'=>  'Limit sa Oras',
+    'hotspot.modal.form.time-limit'=>  'Gitas-on sa Oras',
     'hotspot.modal.form.data-limit'=>  'Limit sa Data',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Ngalan sa Hotspot',
     'hotspot.modal.form.hotspot-dns'=> 'DNS',
-    'hotspot.modal.form.hotspot-currency'=> 'Kuwares',
-    'hotspot.modal.form.hotspot-select-currency'=> 'Pilia ang Kuwares',
+    'hotspot.modal.form.hotspot-currency'=> 'Salapi',
+    'hotspot.modal.form.hotspot-select-currency'=> 'Pilia ang Salapi',
     'hotspot.modal.form.hotspot-price'=> 'Presyo',
-    'hotspot.modal.form.hotspot-include-comment'=> 'Lakip ang Komento',
-    'hotspot.modal.form.hotspot-include-comment-desc'=> 'I-apil ang gihimo nga komento sa gi-print nga voucher',
+    'hotspot.modal.form.hotspot-include-comment'=> 'Apil ang Komento',
+    'hotspot.modal.form.hotspot-include-comment-desc'=> 'Apili ang gihimong komento sa gi-print nga voucher',
     'hotspot.modal.form.hotspot-template'=> 'Template',
 
     // Hotspot Modal Form Generate - Printing Placeholders
-    'hotspot.modal.form.hotspot-name-placeholder'=> 'Akong Hotspot',
+    'hotspot.modal.form.hotspot-name-placeholder'=> 'Ang Akong Hotspot',
     'hotspot.modal.form.hotspot-dns-placeholder'=> 'hotspot.mtikops.com',
-    'hotspot.modal.form.hotspot-price-placeholder'=> 'Presyo kada Voucher',
+    'hotspot.modal.form.hotspot-price-placeholder'=> 'Presyo Kada Voucher',
 
     // Hotspot Modal Form Generate - User-Type
-    'hotspot.modal.form.user-type-regular'=> 'Ngalan ug Password',
-    'hotspot.modal.form.user-type-voucher'=> 'Ngalan = Password',
+    'hotspot.modal.form.user-type-regular'=> 'Ngalan sa Tiggamit & Password',
+    'hotspot.modal.form.user-type-voucher'=> 'Ngalan sa Tiggamit = Password',
 
     // Hotspot Modal Form Generate - Characters
     'hotspot.modal.form.characters-lower'=> 'abcd (mubo nga letra)',
-    'hotspot.modal.form.characters-upper'=> 'ABCD (Dako nga letra)',
-    'hotspot.modal.form.characters-mixed'=> 'AbCd (Mix)',
-    'hotspot.modal.form.characters-num'=> '1234 (Mga Numero)',
+    'hotspot.modal.form.characters-upper'=> 'ABCD (DAGKONG LETRA)',
+    'hotspot.modal.form.characters-mixed'=> 'AbCd (Halo)',
+    'hotspot.modal.form.characters-num'=> '1234 (Numero)',
     'hotspot.modal.form.characters-lower-num'=> 'a1b2 (mubo nga letra & Numero)',
-    'hotspot.modal.form.characters-upper-num'=> 'A1B2 (Dako nga letra & Numero)',
-    'hotspot.modal.form.characters-mixed-num'=> 'aA1bB2 (Mix & Numero)',
+    'hotspot.modal.form.characters-upper-num'=> 'A1B2 (DAGKONG LETRA & Numero)',
+    'hotspot.modal.form.characters-mixed-num'=> 'aA1bB2 (Halo & Numero',
 
     // Hotspot Modal Form Stats - Stats Tab
     'hotspot.modal.form.stats.uptime'=> 'Uptime',
-    'hotspot.modal.form.stats.bytes_in'=> 'Bytes In',
-    'hotspot.modal.form.stats.bytes_out'=> 'Bytes Out',
+    'hotspot.modal.form.stats.bytes_in'=> 'Bytes Sulod',
+    'hotspot.modal.form.stats.bytes_out'=> 'Bytes Gawas',
     'hotspot.modal.form.stats.limit-uptime'=> 'Limit sa Uptime',
-    'hotspot.modal.form.stats.limit-bytes_total'=> 'Kinatumungan nga Limit sa Bytes',
+    'hotspot.modal.form.stats.limit-bytes_total'=> 'Limit sa Total nga Bytes',
     'hotspot.modal.form.stats.user-code'=> 'User Code',
     'hotspot.modal.form.stats.expire-date'=> 'Petsa sa Pag-expire',
 
     // Hotspot Modal Form Misc
-    'hotspot.modal.form.loading' => 'Nag-load sa datos...',
+    'hotspot.modal.form.loading' => 'Nag-load sa data...',
 
     // Hotspot Modal Form Buttons
-    'hotspot.modal.form.button.generate-print'=> 'Generate ug Print',
-    'hotspot.modal.form.button.generate'=> 'Generate Lang',
+    'hotspot.modal.form.button.generate-print'=> 'Himoa & I-print',
+    'hotspot.modal.form.button.generate'=> 'Himoa Lang',
     'hotspot.modal.form.button.clear-cached-batch'=> 'I-clear ang Cached Batch',
-    'hotspot.modal.form.button.close'=> 'Sirado',
-    'hotspot.modal.form.button.create'=> 'Himoa',
+    'hotspot.modal.form.button.close'=> 'Isara',
+    'hotspot.modal.form.button.create'=> 'Paghimo',
     'hotspot.modal.form.button.cancel'=> 'Kanselahon',
 
     // profiles.php
     // Hotspot User Profiles Page
     'hotspot.user.profiles.title'=> 'Mga Profile',
-    'hotspot.user.profiles.desc'=> 'Dumala ang bandwidth, session ug rate-limit nga mga profile para sa mga user.',
+    'hotspot.user.profiles.desc'=> 'Dumala ang bandwidth, session ug rate-limit nga mga profile alang sa mga tiggamit.',
 
     // Hotspot User Profiles Table Headers
     'hotspot.user.profiles.th.name'=> 'Ngalan',
-    'hotspot.user.profiles.th.shared-users'=> 'Gibahin nga Mga User',
+    'hotspot.user.profiles.th.shared-users'=> 'Gipaambit nga Tiggamit',
     'hotspot.user.profiles.th.rate-limit'=> 'Rate Limit',
     'hotspot.user.profiles.th.idle-timeout'=> 'Idle Timeout',
     'hotspot.user.profiles.th.keepalive-timeout'=> 'Keepalive Timeout',
-    'hotspot.user.profiles.th.queue-type'=> 'Klase sa Queue',
+    'hotspot.user.profiles.th.queue-type'=> 'Queue Type',
 
     // Hotspot User Profiles Modal Form
-    'hotspot.user.profiles.modal.title.add-profile'=> 'Idugang ang Profile',
+    'hotspot.user.profiles.modal.title.add-profile'=> 'Dugang Profile',
 
     // Hotspot User Profile Form Fields - General Tab
     'hotspot.user.profiles.form.name'=> 'Ngalan sa Profile',
-    'hotspot.user.profiles.form.pool'=> 'Address Pool',
+    'hotspot.user.profiles.form.pool'=> 'Pool sa Address',
     'hotspot.user.profiles.form.rate-limit-rx'=> 'Rate Limit (RX)',
     'hotspot.user.profiles.form.rate-limit-tx'=> 'Rate Limit (TX)',
-    'hotspot.user.profiles.form.shared-users'=> 'Gibahin nga Mga User',
-    'hotspot.user.profiles.form.expiry-mode'=> 'Pamaagi sa Pag-expire',
+    'hotspot.user.profiles.form.shared-users'=> 'Gipaambit nga Tiggamit',
+    'hotspot.user.profiles.form.expiry-mode'=> 'Paagi sa Pag-expire',
     'hotspot.user.profiles.form.expiry-duration'=> 'Gidugayon sa Pag-expire',
     'hotspot.user.profiles.form.lock-device'=> 'I-lock sa Device',
     'hotspot.user.profiles.form.lock-server'=> 'I-lock sa Server',
@@ -474,56 +555,56 @@ return [
 
     // Expiry Mode Options
     'hotspot.user.profiles.form.expiry-mode_none'=> 'Wala',
-    'hotspot.user.profiles.form.expiry-mode_remove'=> 'Tangtangon',
+    'hotspot.user.profiles.form.expiry-mode_remove'=> 'Kuhaa',
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Pahibalo',
-    'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Tangtangon ug Irekord',
-    'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Tangtangon ug Pahibalo',
+    'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Kuhaa ug Irekord',
+    'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Kuhaa ug Pahibalo',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Parent Queue',
-    'hotspot.user.profiles.form.queue-type'=> 'Klase sa Queue',
+    'hotspot.user.profiles.form.queue-type'=> 'Queue Type',
 
     // Hotspot User Profiles Form Fields - Scripts Tab
     'hotspot.user.profiles.form.on-login-script'=> 'Script sa Pag-login',
-    'hotspot.user.profiles.form.on-login-script_placeholder'=> 'Opsyonal nga script nga modagan sa pag-login',
+    'hotspot.user.profiles.form.on-login-script_placeholder'=> 'Opsyonal nga script pag-login',
     'hotspot.user.profiles.form.on-logout-script'=> 'Script sa Pag-logout',
-    'hotspot.user.profiles.form.on-logout-script_placeholder'=> 'Opsyonal nga script nga modagan sa pag-logout',
+    'hotspot.user.profiles.form.on-logout-script_placeholder'=> 'Opsyonal nga script pag-logout',
 
     // Hotspot User Profile Modal - Edit Profile
     'hotspot.user.profile.edit'=> 'I-edit ang Profile',
-    'hotspot.user.profile.select.profile'=> 'Pilia ang Profile',
-    'hotspot.user.profile.select.profile.desc'=> 'Pilia ang profile nga i-edit. Human pagpili motungha ang kompleto nga editor.',
+    'hotspot.user.profile.select.profile'=> 'Pili-a ang Profile',
+    'hotspot.user.profile.select.profile.desc'=> 'Pilia ang profile nga i-edit. Human pagpili mohimo ang bug-os nga editor.',
     'hotspot.user.profile.button.cancel'=> 'Kanselahon',
     'hotspot.user.profile.button.save'=> 'I-save',
 
     // Hotspot User Profile Modal - Remove Profile
-    'hotspot.user.profiles.remove'=> 'Tangtanga ang Profile',
-    'hotspot.user.profiles.remove-select'=> 'Pilia ang Profile nga Tangtangon',
-    'hotspot.user.profiles.remove-warning'=> 'Dili na kini mabawi. Siguradoha nga gusto nimo tangtangon ang napili nga profile.',
+    'hotspot.user.profiles.remove'=> 'Kuhaa ang Profile',
+    'hotspot.user.profiles.remove-select'=> 'Pili-a ang Profile nga Kuhaon',
+    'hotspot.user.profiles.remove-warning'=> 'Dili na kini mabawi. Siguradoha nga gusto nimo kuhaon ang napiling profile.',
     'hotspot.user.profiles.remove.button-cancel'=> 'Kanselahon',
-    'hotspot.user.profiles.remove.button-remove'=> 'Tangtangon',
+    'hotspot.user.profiles.remove.button-remove'=> 'Kuhaa',
 
     // Hotspot Export Users Modal
-    'hotspot.export.user.desc'=> 'Pilia ang mga field nga i-apil sa export. Ang napiling mga user ra ang i-export.',
+    'hotspot.export.user.desc'=> 'Pilia ang mga field nga i-apil sa export. Mga napiling tiggamit ra ang i-export.',
     'hotspot.export.user.name'=> 'Ngalan',
     'hotspot.export.user.price'=> 'Presyo',
     'hotspot.export.user.password'=> 'Password',
     'hotspot.export.user.profile'=> 'Profile',
     'hotspot.export.user.comment'=> 'Komento',
-    'hotspot.export.user.inc-header'=> 'Ilakip ang Header',
-    'hotspot.export.user.column-order'=> 'Han-ay sa Kolum',
-    'hotspot.export.user.column-up'=> 'Itaas',
-    'hotspot.export.user.column-down'=> 'Iubos',
-    'hotspot.export.user.column-desc'=> 'Pilia ang field ug gamita ang Itaas/Iubos aron mausab ang han-ay sa kolum.',
+    'hotspot.export.user.inc-header'=> 'Apili ang Headers',
+    'hotspot.export.user.column-order'=> 'Han-ay sa Column',
+    'hotspot.export.user.column-up'=> 'I-alsa',
+    'hotspot.export.user.column-down'=> 'I-ubos',
+    'hotspot.export.user.column-desc'=> 'Pilia ang usa ka field ug gamita ang I-alsa/I-ubos aron usbon ang han-ay sa column.',
     'hotspot.export.user.button-cancel'=> 'Kanselahon',
     'hotspot.export.user.button-download'=> 'I-download ang CSV',
 
     // Hotspot Print Preview Modal
-    'hotspot.print.preview.title'=> 'Print Preview',
-    'hotspot.print.preview.desc'=> 'Tan-awa ang napiling mga user sa wala pa mag-print.',
+    'hotspot.print.preview.title'=> 'Preview sa Pag-print',
+    'hotspot.print.preview.desc'=> 'Tan-awa ang napiling mga tiggamit sa wala pa pag-print.',
     'hotspot.print.preview.button-cancel'=> 'Kanselahon',
-    'hotspot.print.preview.button-close'=> 'Sirado',
-    'hotspot.print.preview.button-print'=> 'I-save ug I-print',
+    'hotspot.print.preview.button-close'=> 'Isara',
+    'hotspot.print.preview.button-print'=> 'I-save & I-print',
     
 
     // active.php
@@ -535,11 +616,11 @@ return [
     // settings.php
     // Hotspot Settings Page
     'settings.title'=> 'Mga Setting',
-    'settings.desc'=> 'I-configure ang identity sa device, system services ug maintenance nga mga aksyon.',
+    'settings.desc'=> 'I-configure ang identity sa device, system services ug mga aksyon sa maintenance.',
     'settings.identity'=> 'Identity',
     'settings.ntp'=> 'NTP',
     'settings.files'=> 'Mga File',
-    'settings.users'=> 'Mga User',
+    'settings.users'=> 'Mga Tiggamit',
     'settings.scheduler'=> 'Scheduler',
     'settings.scripts'=> 'Mga Script',
     'settings.reset'=> 'Reset',
@@ -550,7 +631,7 @@ return [
     //'settings.open.identity'=> 'Open Identity',
     //'settings.open.ntp'=> 'Open NTP',
     'settings.open.files'=> 'Ablihi ang Mga File',
-    'settings.open.users'=> 'Dumala ang Mga User',
+    'settings.open.users'=> 'Dumala ang Mga Tiggamit',
     'settings.open.scheduler'=> 'Ablihi ang Scheduler',
     'settings.open.scripts'=> 'Ablihi ang Mga Script',
     //'settings.open.reset'=> 'Reset',
@@ -558,77 +639,77 @@ return [
     //'settings.open.shutdown'=> 'Shutdown',
 
     // SETTINGS GENERAL BUTTONS
-    'settings.buttons.upload'=> 'Upload',
-    'settings.buttons.delete'=> 'Delete',
-    'settings.buttons.refresh'=> 'Refresh',
-    'settings.buttons.save'=> 'Save',
-    'settings.buttons.cancel'=> 'Cancel',
-    'settings.buttons.close'=> 'Close',
-    'settings.buttons.edit'=> 'Edit',
-    'settings.buttons.add'=> 'Add',
-    'settings.buttons.remove'=> 'Remove',
-    'settings.buttons.prev'=> 'Prev',
-    'settings.buttons.next'=> 'Next',
-    'settings.sort.by'=> 'Sort by',
-    'settings.sort' => 'Sort',
+    'settings.buttons.upload'=> 'I-upload',
+    'settings.buttons.delete'=> 'I-delete',
+    'settings.buttons.refresh'=> 'I-refresh',
+    'settings.buttons.save'=> 'I-save',
+    'settings.buttons.cancel'=> 'Kanselahon',
+    'settings.buttons.close'=> 'Isara',
+    'settings.buttons.edit'=> 'I-edit',
+    'settings.buttons.add'=> 'Dugang',
+    'settings.buttons.remove'=> 'Kuhaa',
+    'settings.buttons.prev'=> 'Miuna',
+    'settings.buttons.next'=> 'Sunod',
+    'settings.sort.by'=> 'Isort pinaagi sa',
+    'settings.sort' => 'Isort',
 
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Balik sa Mga Setting',
 
     // Settings Page - Actions
-    'settings.actions'=> 'Actions',
+    'settings.actions'=> 'Mga Aksyon',
 
     // Settings Page - Loading
-    'settings.loading'=> 'Loading Settings...',
+    'settings.loading'=> 'Nag-load sa Mga Setting...',
 
     // Settings Page Descriptions
-    'settings.identity.desc'=> 'Tan-awa ug i-edit ang identity sa device ug ang basic nga impormasyon sa sistema.',
-    'settings.ntp.desc'=> 'I-configure ang network time protocol (NTP) aron husto ang oras.',
-    'settings.files.desc'=> 'Dumala ang mga gi-upload nga file ug script nga naa sa device.',
-    'settings.users.desc'=> 'Dumala ang mga system user ug ilang access rights.',
-    'settings.scheduler.desc'=> 'Paghimo og scheduled nga mga buluhaton para sa maintenance ug automation.',
+    'settings.identity.desc'=> 'Tan-awa ug i-edit ang identity sa device ug batakang impormasyon sa system.',
+    'settings.ntp.desc'=> 'I-configure ang network time protocol (NTP) settings alang sa tukma nga oras.',
+    'settings.files.desc'=> 'Dumala ang na-upload nga mga file ug mga script nga naka-store sa device.',
+    'settings.users.desc'=> 'Dumala ang mga system user ug ilang mga katungod sa access.',
+    'settings.scheduler.desc'=> 'Paghimo og mga naka-schedule nga buluhaton alang sa maintenance ug awtomasyon.',
     'settings.scripts.desc'=> 'Dumala ug padagana ang custom nga mga script sa device.',
     'settings.reset.desc'=> 'I-reset ang konfigurasyon ngadto sa default. Gamita uban ang pag-amping.',
-    'settings.reboot.desc'=> 'I-restart ang device remotely. Siguroha nga na-save ang tanan nga kausaban sa wala pa mag-reboot.',
+    'settings.reboot.desc'=> 'I-restart ang device remotely. Siguraduha nga nasave ang tanan nga kausaban una mag-reboot.',
     'settings.shutdown.desc'=> 'I-shutdown ang device remotely ug luwas. Gamita uban ang pag-amping.',
 
     // Settings Table Headers
-    'settings.table.th.name'=> 'Name',
-    'settings.table.th.group'=> 'Group',
-    'settings.table.th.last-login'=> 'Last Login',
-    'settings.table.th.comment'=> 'Comment',
+    'settings.table.th.name'=> 'Ngalan',
+    'settings.table.th.group'=> 'Grupo',
+    'settings.table.th.last-login'=> 'Kahuman sa Pag-login',
+    'settings.table.th.comment'=> 'Komento',
     'settings.table.th.role'=> 'Role',
-    'settings.table.th.select'=> 'Select All',
-    'settings.table.th.username'=> 'Username',
+    'settings.table.th.select'=> 'Pili-a Tanan',
+    'settings.table.th.username'=> 'Ngalan sa Tiggamit',
     'settings.table.th.password'=> 'Password',
-    'settings.table.th.actions'=> 'Actions',
-    'settings.table.th.next-run'=> 'Next Run',
+    'settings.table.th.actions'=> 'Mga Aksyon',
+    'settings.table.th.next-run'=> 'Sunod nga Daganan',
     'settings.table.th.interval'=> 'Interval',
-    'settings.table.th.enabled'=> 'Enabled',
-    'settings.table.th.size'=> 'Size',
-    'settings.table.th.owner'=> 'Owner',
-    'settings.table.th.date'=> 'Date',
+    'settings.table.th.enabled'=> 'Gi-enable',
+    'settings.table.th.size'=> 'Gitas-on',
+    'settings.table.th.owner'=> 'Tag-iya',
+    'settings.table.th.date'=> 'Petsa',
 
    
     // Settings Page - Identity
-    'settings.identity.placeholder'=> 'Isulod ang identity sa sistema',
-    'settings.identity.caption'=> 'Mao ni ang ngalan nga makita sa logs ug network identification.',
+    'settings.identity.placeholder'=> 'Isulod ang identity sa system',
+    'settings.identity.caption'=> 'Mao kini ang ngalan nga makita sa mga log ug network identification.',
 
     // Settings Page - Identity Buttons
     'settings.identity.save'=> 'I-save ang Identity',
     'settings.identity.refresh'=> 'I-refresh',
 
     // Settings Page - NTP Modal
-    'settings.ntp.enabled'=> 'Gipalihok',
-    'settings.ntp.enabled-yes'=> 'Gipalihok',
-    'settings.ntp.enabled-no'=> 'Gidili',
+    'settings.ntp.enabled'=> 'Gi-enable',
+    'settings.ntp.enabled-yes'=> 'Gi-enable',
+    'settings.ntp.enabled-no'=> 'Dili Gi-enable',
     'settings.ntp.mode'=> 'Modo',
     'settings.ntp.mode-broadcast'=> 'Broadcast',
     'settings.ntp.mode-manycast'=> 'Manycast',
     'settings.ntp.mode-multicast'=> 'Multicast',
     'settings.ntp.mode-unicast'=> 'Unicast',
-    'settings.ntp.server'=> 'NTP Server',
-    'settings.ntp.server-add'=> 'Idugang ang Server',
+    'settings.ntp.server'=> 'NTP Servers',
+    'settings.ntp.server-add'=> 'Dugang Server',
     'settings.ntp.server-refresh'=> 'I-refresh',
     'settings.ntp.server-save'=> 'I-save',
 
@@ -640,98 +721,98 @@ return [
     'settings.ntp.system.offset'=> 'System Offset',
 
     // Settings Page - Files
-    'settings.files.title'=> 'Files Manager',
-    'settings.files.desc'=> 'Upload, download and manage files stored on the device.',
+    'settings.files.title'=> 'Tagdumala sa Mga File',
+    'settings.files.desc'=> 'I-upload, i-download ug dumala ang mga file nga naka-store sa device.',
 
 
     // Settings Page - Users
-    'settings.users.title'=> 'User Manager',
-    'settings.users.desc'=> 'Create, edit and manage system users and their access rights.',
+    'settings.users.title'=> 'Tagdumala sa Mga Tiggamit',
+    'settings.users.desc'=> 'Paghimo, pag-edit ug pagdumala sa mga system user ug ilang mga katungod sa access.',
 
     // Settings Page - Scheduler
     'settings.scheduler.title'=> 'Scheduler',
-    'settings.scheduler.desc'=> 'Create and manage scheduled tasks for maintenance and automation.',
+    'settings.scheduler.desc'=> 'Paghimo ug pagdumala sa mga naka-schedule nga buluhaton alang sa maintenance ug awtomasyon.',
 
     // Settings Page - Scripts
-    'settings.scripts.title'=> 'Scripts',
-    'settings.scripts.desc'=> 'Create, edit and run custom scripts on the device.',
+    'settings.scripts.title'=> 'Mga Script',
+    'settings.scripts.desc'=> 'Paghimo, pag-edit ug pagdagan sa custom nga mga script sa device.',
 
     // Settings Page - Reset
     // Reset Modal
-    'settings.reset.type'=> 'Klase sa Reset',
-    'settings.reset.config'=> 'I-reset ang Konfigurasyon (panalipdi ang mga user file)',
-    'settings.reset.all'=> 'Factory Reset (tangtanga tanan, i-reload ang default)',
-    'settings.reset.delay'=> 'Delay (segundo)',
-    'settings.reset.delay.desc'=> 'I-set sa 0 aron buhaton dayon kung gamiton ang Schedule button, o i-klik ang "Reset Now" aron modagan dayon.',
+    'settings.reset.type'=> 'Tipo sa Reset',
+    'settings.reset.config'=> 'I-reset ang Konfigurasyon (panag-iya ang user files)',
+    'settings.reset.all'=> 'Factory Reset (i-erase tanan, i-reload ang defaults)',
+    'settings.reset.delay'=> 'Paglangan (segundo)',
+    'settings.reset.delay.desc'=> 'I-set sa 0 aron buhaton dayon kung gamiton ang Schedule button, o i-klik ang "Reset Now" aron patuman dayon.',
 
     //Reset Buttons
-    'settings.reset.button.schedule'=> 'Iskedyul ang Reset',
+    'settings.reset.button.schedule'=> 'I-schedule ang Reset',
     'settings.reset.button.reset-now'=> 'I-reset Karon',
 
     // Settings Page - Reboot
     // Reboot Modal
-    'settings.reboot.delay'=> 'Delay (segundo)',
-    'settings.reboot.delay.desc'=> 'I-set sa 0 aron mag-reboot dayon kung gamiton ang Schedule button, o i-klik ang "Reboot Now" aron piliton ang dayon nga reboot.',
+    'settings.reboot.delay'=> 'Paglangan (segundo)',
+    'settings.reboot.delay.desc'=> 'I-set sa 0 aron i-reboot dayon kung gamiton ang Schedule button, o i-klik ang "Reboot Now" aron pwersahon ang dayon nga reboot.',
 
     // Reboot Buttons
-    'settings.reboot.button.schedule'=> 'Iskedyul ang Reboot',
+    'settings.reboot.button.schedule'=> 'I-schedule ang Reboot',
     'settings.reboot.button.reboot-now'=> 'I-reboot Karon',
 
     // Settings Page - Shutdown
     // Shutdown Modal
-    'settings.shutdown.delay'=> 'Delay (segundo)',
-    'settings.shutdown.delay.desc'=> 'I-set sa 0 aron mag-shutdown dayon kung gamiton ang Schedule button, o i-klik ang "Shutdown Now" aron piliton ang dayon nga shutdown.',
+    'settings.shutdown.delay'=> 'Paglangan (segundo)',
+    'settings.shutdown.delay.desc'=> 'I-set sa 0 aron i-shutdown dayon kung gamiton ang Schedule button, o i-klik ang "Shutdown Now" aron pwersahon ang dayon nga shutdown.',
 
     // Shutdown Buttons
-    'settings.shutdown.button.schedule'=> 'Iskedyul ang Shutdown',
+    'settings.shutdown.button.schedule'=> 'I-schedule ang Shutdown',
     'settings.shutdown.button.shutdown-now'=> 'I-shutdown Karon',
 
 
     // queues.php
     // Queues Page
-    'queues.title'=> 'Queues Manager',
+    'queues.title'=> 'Tagdumala sa Mga Queue',
     'queues.desc'=> 'Dumala ang Simple queues, Tree queues ug Queue Types.',
 
     'queues.simple'=> 'Simple',
     'queues.tree'=> 'Tree',
-    'queues.types'=> 'Mga Klase',
+    'queues.types'=> 'Types',
     'queues.simple-queue'=> 'Simple Queues',
     'queues.queue-tree'=> 'Queue Trees',
     'queues.queue-types'=> 'Queue Types',
 
     // Queues Page Descriptions
-    'queues.simple.desc'=> 'Paghimo ug pagdumala sa simple nga per-host/per-target nga mga queue.',
-    'queues.tree.desc'=> 'Dumala ang hierarchical queue trees para sa advanced nga traffic shaping.',
-    'queues.types.desc'=> 'I-define ug dumala ang mga klase sa queue ug packet classifiers.',
+    'queues.simple.desc'=> 'Paghimo ug pagdumala sa simple per-host/per-target nga mga queue.',
+    'queues.tree.desc'=> 'Dumala ang hierarchical nga queue trees alang sa advanced traffic shaping.',
+    'queues.types.desc'=> 'Pag-definir ug pagdumala sa queue types ug packet classifiers.',
 
     // Queues Page Buttons
-    'queues.open.simple'=> 'Abliha ang Simple Queue',
-    'queues.open.tree'=> 'Abliha ang Queue Tree',
-    'queues.open.types'=> 'Abliha ang Queue Types',
+    'queues.open.simple'=> 'Ablihi ang Simple Queue',
+    'queues.open.tree'=> 'Ablihi ang Queue Tree',
+    'queues.open.types'=> 'Ablihi ang Queue Types',
 
     // Queues Page - Back Button
-    'queues.back-to-queues'=> 'Balik sa Queues Manager',
+    'queues.back-to-queues'=> 'Balik sa Tagdumala sa Mga Queue',
 
     // Queues General Buttons
     'queues.button.new'=> 'Bag-o',
     'queues.button.edit'=> 'I-edit',
     'queues.button.enable'=> 'I-enable',
     'queues.button.disable'=> 'I-disable',
-    'queues.button.remove'=> 'Tangtangon',
+    'queues.button.remove'=> 'Kuhaa',
     'queues.button.refresh'=> 'I-refresh',
-    'queues.button.pause-polling'=> 'Pahunong ang Polling',
-    'queues.sort.by'=> 'Isort sa',
+    'queues.button.pause-polling'=> 'I-pausa ang Polling',
+    'queues.sort.by'=> 'Isort pinaagi sa',
     'queues.sort'=> 'Isort',
-    'queues.select.all'=> 'Pili-a ang Tanan',
-    'queues.button.prev'=> 'Niaging',
+    'queues.select.all'=> 'Pili-a Tanan',
+    'queues.button.prev'=> 'Miuna',
     'queues.button.next'=> 'Sunod',
     'queues.button.save'=> 'I-save',
     'queues.button.cancel'=> 'Kanselahon',
-    'queues.button.create'=> 'Himoa',
+    'queues.button.create'=> 'Paghimo',
 
 
     // Queues Loading Status
-    'queues.status.loading'=> 'Nag-load sa Mga Queue...',
+    'queues.status.loading'=> 'Nag-load sa Queues...',
 
     // simple.php
     // Simple Queues Page
@@ -739,7 +820,7 @@ return [
 
     // Simple Queues Action Buttons
     'queues.simple.actions'=> 'Mga Aksyon',
-    'queues.simple.actions.desc'=> 'Pagbuhat og aksyon sa napiling mga queue.',
+    'queues.simple.actions.desc'=> 'Paghimo og mga aksyon sa napiling mga queue.',
 
     // Queues Table Headers
     'queues.table.th.name'=> 'Ngalan',
@@ -749,28 +830,28 @@ return [
     'queues.table.th.download-limit'=> 'Download Limit',
     'queues.table.th.download-avg-rate'=> 'Average Download Rate',
     'queues.table.th.max-limit'=> 'Max Limit',
-    'queues.table.th.queue-type'=> 'Mga Klase sa Queue',
+    'queues.table.th.queue-type'=> 'Queue Types',
     'queues.table.th.limit-at'=> 'Limit Sa',
     'queues.table.th.bytes'=> 'Bytes',
     'queues.table.th.avg.rate'=> 'Average Rate',
     'queues.table.th.kind'=> 'Klase',
 
     // Queues Modal Form - Tabs
-    'queues.tab.main'=> 'Panguna',
+    'queues.tab.main'=> 'Main',
     'queues.tab.advanced'=> 'Advanced',
-    'queues.tab.queueing'=> 'Queueing',
+    'queues.tab.queueing'=> 'Pag-queue',
 
     // Queues Modal Form Tab
     'queues.modal.form.new.simple'=> 'Bag-ong Simple Queue',
     'queue.modal.form.edit.simple'=> 'I-edit ang Simple Queue',
-    'queues.modal.form.enabled'=> 'Gipalihok',
+    'queues.modal.form.enabled'=> 'Gi-enable',
     'queues.modal.form.name'=> 'Ngalan',
     'queues.modal.form.target'=> 'Target',
-    'queues.modal.form.target-select-iface'=> 'Pilia ang Interface',
-    'queues.modal.form.dst'=> 'Destinasyon',
-    'queues.modal.form.dst-select-iface'=> 'Pilia ang Interface',
-    'queues.modal.form.target.dst-caption'=> 'Pilia ang interface o isulod ang custom target sa ubos.',
-    'queues.modal.form.placeholder'=> 'o isulod ang IP (e.g. 192.168.10.0/24 o 10.0.0.5)',
+    'queues.modal.form.target-select-iface'=> 'Pili-a ang Interface',
+    'queues.modal.form.dst'=> 'Destination',
+    'queues.modal.form.dst-select-iface'=> 'Pili-a ang Interface',
+    'queues.modal.form.target.dst-caption'=> 'Pili-a ang interface o isulod ang custom target sa ubos.',
+    'queues.modal.form.placeholder'=> 'o isulod ang IP (pananglitan 192.168.10.0/24 o 10.0.0.5)',
     'queues.modal.form.target.upload'=> 'Target Upload',
     'queues.modal.form.max-limit'=> 'Max Limit',
     'queues.modal.form.target.download'=> 'Target Download',
@@ -779,24 +860,24 @@ return [
     'queues.modal.form.burst-limit'=> 'Burst Limit',
     'queues.modal.form.burst-threshold'=> 'Burst Threshold',
     'queues.modal.form.burst-time'=> 'Burst Time',
-    'queues.modal.form.priority'=> 'Prayoridad',
+    'queues.modal.form.priority'=> 'Priority',
     'queues.modal.form.bucket-size'=> 'Bucket Size',
     'queues.modal.form.parent-queue'=> 'Parent Queue',
-    'queues.modal.form.queue-type'=> 'Klase sa Queue',
+    'queues.modal.form.queue-type'=> 'Queue Type',
     'queues.modal.form.comment'=> 'Komento',
     'queues.modal.form.comment-placeholder'=> 'Opsyonal nga komento',
-    'queues.modal.form.clear-parent'=> 'I-clear ang parent (tanggalon ang relasyon)',
+    'queues.modal.form.clear-parent'=> 'I-clear ang parent (kuhaa ang parent relationship)',
 
     // tree.php
     // Queue Tree Page
 
     // Queue Tree Action Buttons
     'queues.tree.actions'=> 'Mga Aksyon',
-    'queues.tree.action.desc'=> 'Pagbuhat og aksyon sa napiling queue tree entries.',
+    'queues.tree.action.desc'=> 'Paghimo og mga aksyon sa napiling queue tree entries.',
 
     // Queue Tree Modal Form - Tabs
     'queues.tree.create.title'=> 'Paghimo og Queue Tree Entry',
-    'queue.tree.tab.general'=> 'Panguna',
+    'queue.tree.tab.general'=> 'General',
     'queue.tree.tab.rate-limit'=> 'Rate Limit',
 
 
@@ -805,31 +886,34 @@ return [
   
     // Queue Types Action 
     'queues.types.actions'=> 'Mga Aksyon',
-    'queues.types.action.desc'=> 'Pagbuhat og aksyon sa napiling klase sa queue.',
+    'queues.types.action.desc'=> 'Paghimo og mga aksyon sa napiling queue types.',
 
 
     // ppp.php
     // PPP Page
-    'ppp.title'=> 'PPPoE Manager',
-    'ppp.desc'=> 'Dumala ang PPPoE Server, Secrets ug Profile.',
+    'ppp.title'=> 'Tagdumala sa PPPoE',
+    'ppp.desc'=> 'Dumala ang PPPoE Servers, Secrets ug Profiles.',
 
     
-    'ppp.pppoe.servers'=> 'PPPoE Server',
+    'ppp.pppoe.servers'=> 'PPPoE Servers',
     'ppp.servers'=> 'Mga Server',
-    'ppp.secrets'=> 'Mga Secret',
+    'ppp.secrets'=> 'Secrets',
     'ppp.profiles'=> 'Mga Profile',
+    'ppp.active'=> 'Aktibong Sesyon',
     
     // PPP Page Descriptions
-    'ppp.servers.desc'=> 'Tan-awa ug dumala ang mga PPPoE server instance ug bindings.',
-    'ppp.secrets.desc'=> 'Dumala ang PPPoE secret (mga kredensyal sa user).',
-    'ppp.profiles.desc'=> 'Paghimo ug pagdumala sa PPPoE profile.',
+    'ppp.servers.desc'=> 'Tan-awa ug dumala ang PPPoE server instances ug bindings.',
+    'ppp.secrets.desc'=> 'Dumala ang PPPoE secrets (mga kredensyal sa tiggamit).',
+    'ppp.profiles.desc'=> 'Paghimo ug pagdumala sa PPPoE profiles.',
+    'ppp.active.desc'=> 'Tan-awa ug i-disconnect ang aktibong PPPoE nga mga sesyon.',
 
-    'ppp.open.servers'=> 'Abliha ang PPPoE Server',
-    'ppp.open.secrets'=> 'Abliha ang Secrets',
-    'ppp.open.profiles'=> 'Abliha ang Mga Profile',
+    'ppp.open.servers'=> 'Ablihi ang PPPoE Servers',
+    'ppp.open.secrets'=> 'Ablihi ang Secrets',
+    'ppp.open.profiles'=> 'Ablihi ang Mga Profile',
+    'ppp.open.active'=> 'Ablihi ang Aktibong Sesyon',
 
     // PPP Page - Back Button
-    'ppp.back-to-ppp'=> 'Balik sa PPPoE Manager',
+    'ppp.back-to-ppp'=> 'Balik sa Tagdumala sa PPPoE',
 
     // PPP Actions
     'ppp.actions'=> 'Mga Aksyon',
@@ -839,16 +923,16 @@ return [
     'ppp.buttons.edit'=> 'I-edit',
     'ppp.buttons.enable'=> 'I-enable',
     'ppp.buttons.disable'=> 'I-disable',
-    'ppp.buttons.remove'=> 'Tangtangon',
+    'ppp.buttons.remove'=> 'Kuhaa',
     'ppp.buttons.refresh'=> 'I-refresh',
-    'ppp.sort.by'=> 'Isort sa',
+    'ppp.sort.by'=> 'Isort pinaagi sa',
     'ppp.sort'=> 'Isort',
-    'ppp.select.all'=> 'Pili-a ang Tanan',
-    'ppp.buttons.prev'=> 'Niaging',
+    'ppp.select.all'=> 'Pili-a Tanan',
+    'ppp.buttons.prev'=> 'Miuna',
     'ppp.buttons.next'=> 'Sunod',
     'ppp.buttons.clear'=> 'I-clear',
     'ppp.buttons.cancel'=> 'Kanselahon',
-    'ppp.buttons.create'=> 'Himoa',
+    'ppp.buttons.create'=> 'Paghimo',
     'ppp.buttons.save'=> 'I-save',
     'ppp.buttons.proceed'=> 'Padayon',
 
@@ -867,24 +951,23 @@ return [
     'ppp.table.th.service'=> 'Serbisyo',
     'ppp.table.th.address'=> 'Address',
     'ppp.table.th.caller-id'=> 'Caller ID',
-    'ppp.table.th.local-address'=> 'Local Address',
-    'ppp.table.th.remote-address'=> 'Remote Address',
-    'ppp.table.th.last-logged-out'=> 'Katapusang Pag-gawas',
-    'ppp.table.th.last-disc-reason'=> 'Rason sa Disconnect',
-    'ppp.table.th.last-called-id'=> 'Katapusang Called ID',
+    'ppp.table.th.local-address'=> 'Lokal nga Address',
+    'ppp.table.th.remote-address'=> 'Layo nga Address',
+    'ppp.table.th.last-logged-out'=> 'Kahuman sa Pag-log Out',
+    'ppp.table.th.last-disc-reason'=> 'Rason sa Diskonek',
+    'ppp.table.th.last-called-id'=> 'Last Called ID',
     'ppp.table.th.rate-limit'=> 'Rate Limit',
-    'ppp.table.th.only-one'=> 'Usa Ra',
-    'ppp.table.th.uptime'=> 'Oras nga nagdagan',
-    'ppp.table.th.bytes-in'=> 'Bytes sulod',
-    'ppp.table.th.bytes-out'=> 'Bytes gawas',
-
+    'ppp.table.th.only-one'=> 'Usa Lang',
+    'ppp.table.th.uptime'=> 'Uptime',
+    'ppp.table.th.bytes-in'=> 'Bytes Sulod',
+    'ppp.table.th.bytes-out'=> 'Bytes Gawas',
 
     // PPP Add Server Modal Form
-    'ppp.modal.form.title'=> 'Idugang ang PPPoE Server',
-    'ppp.modal.form.enabled'=> 'Gipalihok',
-    'ppp.modal.form.one-session-per-host'=> 'Usa ka Session kada Host',
-    'ppp.modal.form.accept-empty-services'=> 'Dawata ang Walay Sulod nga Serbisyo',
-    'ppp.modal.form.accept-untagged'=> 'Dawata ang Untagged',
+    'ppp.modal.form.title'=> 'Dugang PPPoE Server',
+    'ppp.modal.form.enabled'=> 'Gi-enable',
+    'ppp.modal.form.one-session-per-host'=> 'One Session Per Host',
+    'ppp.modal.form.accept-empty-services'=> 'Accept Empty Services',
+    'ppp.modal.form.accept-untagged'=> 'Accept Untagged',
     'ppp.modal.form.service-name'=> 'Ngalan sa Serbisyo',
     'ppp.modal.form.service-name_placeholder'=> 'Ngalan sa PPPoE',
     'ppp.modal.form.interface'=> 'Interface',
@@ -895,7 +978,7 @@ return [
     'ppp.modal.form.keepalive-timeout'=> 'Keepalive Timeout',
     'ppp.modal.form.profile'=> 'Profile',
     'ppp.modal.form.max-sessions'=> 'Max Sessions',
-    'ppp.modal.form.auth-methods'=> 'Mga Pamaagi sa Authentication',
+    'ppp.modal.form.auth-methods'=> 'Authentication Methods',
     'ppp.modal.form.auth-mschapv2'=> 'msChapv2',
     'ppp.modal.form.auth-mschapv1'=> 'msChapv1',
     'ppp.modal.form.auth-chap'=> 'Chap',
@@ -905,37 +988,37 @@ return [
     'ppp.modal.form.secret.name'=> 'Ngalan',
     'ppp.modal.form.secret.password'=> 'Password',
     'ppp.modal.form.secret.service-type'=> 'Serbisyo',
-    'ppp.modal.form.secret.local-address'=> 'Local Address',
-    'ppp.modal.form.secret.remote-address'=> 'Remote Address',
+    'ppp.modal.form.secret.local-address'=> 'Lokal nga Address',
+    'ppp.modal.form.secret.remote-address'=> 'Layo nga Address',
 
     // secrets.php
     // Modal Titles
-    'ppp.modal.form.add.ppp-secret'=> 'Idugang ang PPPoE Secret',
+    'ppp.modal.form.add.ppp-secret'=> 'Dugang PPPoE Secret',
     'ppp.modal.form.edit.ppp-secret'=> 'I-edit ang PPPoE Secret',
 
     // PPP Secrets Page Modal Tabs
-    'ppp.secrets.tab.general'=> 'Panguna',  
+    'ppp.secrets.tab.general'=> 'General',  
     'ppp.secrets.tab.details'=> 'Detalye',
 
     // profiles.php
     // PPP Profiles Page
 
     // PPP Profiles Modal Titles
-    'ppp.modal.form.add.ppp-profile'=> 'Idugang ang PPPoE Profile',
+    'ppp.modal.form.add.ppp-profile'=> 'Dugang PPPoE Profile',
     'ppp.modal.form.edit.ppp-profile'=> 'I-edit ang PPPoE Profile',
 
 
     // PPP Profiles Modal Tabs
-    'ppp.profiles.tab.general'=> 'Panguna',
-    'ppp.profiles.tab.protocols'=> 'Mga Protocol',
-    'ppp.profiles.tab.limits'=> 'Mga Limit',
+    'ppp.profiles.tab.general'=> 'General',
+    'ppp.profiles.tab.protocols'=> 'Protocols',
+    'ppp.profiles.tab.limits'=> 'Limits',
     'ppp.profiles.tab.queue'=> 'Queue',
     'ppp.profiles.tab.scripts'=> 'Mga Script',
 
     // PPP Profiles Modal Form Fields
     'ppp.modal.form.profile.name'=> 'Ngalan',
-    'ppp.modal.form.profile.local-address'=> 'Local Address',
-    'ppp.modal.form.profile.remote-address'=> 'Remote Address',
+    'ppp.modal.form.profile.local-address'=> 'Lokal nga Address',
+    'ppp.modal.form.profile.remote-address'=> 'Layo nga Address',
     'ppp.modal.form.profile.use-ipv6'=> 'Gamiton ang IPv6',
     'ppp.modal.form.profile.use-mpls'=> 'Gamiton ang MPLS',
     'ppp.modal.form.profile.use-comp'=> 'Gamiton ang Compression',
@@ -943,23 +1026,23 @@ return [
     'ppp.modal.form.profile.sess-timeout'=> 'Session Timeout',
     'ppp.modal.form.profile.idle-timeout'=> 'Idle Timeout',
     'ppp.modal.form.profile.rate-limit'=> 'Rate Limit',
-    'ppp.modal.form.profile.only-one'=> 'Usa Ra',
+    'ppp.modal.form.profile.only-one'=> 'Usa Lang',
     'ppp.modal.form.profile.parent-queue'=> 'Parent Queue',
-    'ppp.modal.form.profile.queue-type-rx'=> 'Klase sa Queue (Download)',
-    'ppp.modal.form.profile.queue-type-tx'=> 'Klase sa Queue (Upload)',
+    'ppp.modal.form.profile.queue-type-rx'=> 'Queue Type (Downloads)',
+    'ppp.modal.form.profile.queue-type-tx'=> 'Queue Type (Uploads)',
     'ppp.modal.form.profile.script-onup'=> 'On Up',
     'ppp.modal.form.profile.script-ondown'=> 'On Down',
-    'ppp.modal.form.profile.script-placeholder'=> 'Ang script modagan kung ang event mahitabo',
-    'ppp.modal.form.migration.confirm'=> 'Kumpirma sa Pag-migrate sa Profile',
-    'ppp.modal.form.migration.caption'=> 'Ang pag-clear sa Parent Queue o Queue Type alang niining profile mahimo magkinahanglan sa pagbalik paghimo sa profile ug pag-assign pag-usab sa mga PPP secret. Kini nga operasyon mahimong makasamok. Gusto ba nimo magpadayon?',
+    'ppp.modal.form.profile.script-placeholder'=> 'Ang script pagadaganon kung moukay ang event',
+    'ppp.modal.form.migration.confirm'=> 'Kumpirma ang Pagbalhin sa Profile',
+    'ppp.modal.form.migration.caption'=> 'Ang pag-clear sa Parent Queue o Queue Type alang niining profile mahimong magkinahanglan sa pag-usab sa profile ug pag-reassign sa mga PPP secret nga nalakip. Kini nga operasyon mahimong makalilisang. Gusto ka ba mosugot?',
 
     // ip.php
     // IP Page
-    'ip.title'=> 'IP Manager',
-    'ip.desc'=> 'Dumala ang ARP, Address, DHCP, DNS, Pool ug mga related nga IP serbisyo.',
+    'ip.title'=> 'Tagdumala sa IP',
+    'ip.desc'=> 'Dumala ang ARP, Addresses, DHCP, DNS, Pools ug mga may kalabutan nga IP services.',
 
     'ip.arp'=> 'ARP',
-    'ip.addresses'=> 'Mga Address',
+    'ip.addresses'=> 'Addresses',
     'ip.cloud'=> 'Cloud',
     'ip.dhcp.client'=> 'DHCP Client',
     'ip.dhcp.server'=> 'DHCP Server',
@@ -970,126 +1053,134 @@ return [
     'ip.settings'=> 'Mga Setting',
     
     'ip.arp.desc'=> 'Tan-awa ug dumala ang mga entry sa ARP table.',
-    'ip.addresses.desc'=> 'Dumala ang IP address nga naka-assign sa mga interface.',
-    'ip.cloud.desc'=> 'Cloud/DDNS nga mga setting. Ang mga value gibasa gikan sa router.',
-    'ip.dhcp.client.desc'=> 'Tan-awa ug dumala ang DHCP client.',
-    'ip.dhcp.server.desc'=> 'I-configure ang DHCP server ug mga lease.',
+    'ip.addresses.desc'=> 'Dumala ang mga IP address nga nakahatag sa mga interface.',
+    'ip.cloud.desc'=> 'Cloud/DDNS nga mga setting. Gibasa ang mga value gikan sa router.',
+    'ip.dhcp.client.desc'=> 'Tan-awa ug dumala ang DHCP clients.',
+    'ip.dhcp.server.desc'=> 'I-configure ang DHCP server ug leases.',
     'ip.dns.desc'=> 'Dumala ang DNS settings ug static entries.',
-    'ip.pool.desc'=> 'Dumala ang address pool para sa DHCP ug ubang serbisyo.',
-    'ip.services.desc'=> 'I-enable o i-disable ang mga serbisyo nga may kalabutan sa IP.',
-    'ip.upnp.desc'=> 'Universal Plug and Play nga mga setting. Ang mga value gibasa gikan sa router.',
-    'ip.settings.desc'=> 'Kinahanglanon nga mga setting sa IP subsystem.',
+    'ip.pool.desc'=> 'Dumala ang address pools para sa DHCP ug uban pang serbisyo.',
+    'ip.services.desc'=> 'I-enable o i-disable ang mga IP-related nga serbisyo.',
+    'ip.upnp.desc'=> 'Universal Plug and Play settings. Gibasa ang mga value gikan sa router.',
+    'ip.settings.desc'=> 'Kinauyokan nga IP subsystem settings.',
 
-    'ip.open.arp'=> 'Abliha ang ARP',
-    'ip.open.addresses'=> 'Abliha ang Mga Address',
-    'ip.open.cloud'=> 'Abliha ang Cloud',
-    'ip.open.dhcp.client'=> 'Abliha ang DHCP Client',
-    'ip.open.dhcp.server'=> 'Abliha ang DHCP Server',
-    'ip.open.dns'=> 'Abliha ang DNS',
-    'ip.open.pool'=> 'Abliha ang Pool',
-    'ip.open.services'=> 'Abliha ang Mga Serbisyo',
-    'ip.open.upnp'=> 'Abliha ang UPnP',
-    'ip.open.settings'=> 'Abliha ang Mga Setting',
+    'ip.open.arp'=> 'Ablihi ang ARP',
+    'ip.open.addresses'=> 'Ablihi ang Addresses',
+    'ip.open.cloud'=> 'Ablihi ang Cloud',
+    'ip.open.dhcp.client'=> 'Ablihi ang DHCP Client',
+    'ip.open.dhcp.server'=> 'Ablihi ang DHCP Server',
+    'ip.open.dns'=> 'Ablihi ang DNS',
+    'ip.open.pool'=> 'Ablihi ang Pool',
+    'ip.open.services'=> 'Ablihi ang Mga Serbisyo',
+    'ip.open.upnp'=> 'Ablihi ang UPnP',
+    'ip.open.settings'=> 'Ablihi ang Mga Setting',
 
     // IP Page - Back Button
-    'ip.back-to-ip'=> 'Balik sa IP Manager',
+    'ip.back-to-ip'=> 'Balik sa Tagdumala sa IP',
 
     // IP JS strings
-    'ip.addresses.no_addresses' => 'Walay mga address',
+    // Addresses
+    'ip.addresses.no_addresses' => 'Walay address',
     'ip.addresses.loading' => 'Nag-load...',
-    'ip.addresses.failed_to_contact_api' => 'Napakyas sa pag-contact sa API',
-    'ip.addresses.please_select_one_or_more' => 'Palihug pili ug usa o daghang entry',
-    'ip.addresses.select_one_to_edit' => 'Pilia ang usa ka address aron i-edit',
-    'ip.addresses.action_completed' => 'Nahuman ang aksyon %s',
+    'ip.addresses.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'ip.addresses.please_select_one_or_more' => 'Palihug pili-a ang usa o daghan pa ka entry',
+    'ip.addresses.select_one_to_edit' => 'Pili-a ang usa ka address nga i-edit',
+    'ip.addresses.action_completed' => 'Aksyon %s nahuman',
     'ip.addresses.action_failed' => 'Napakyas ang aksyon: %s',
-    'ip.addresses.request_failed' => 'Napakyas ang request: %s',
-    'ip.addresses.address_added' => 'Naidugang ang address',
+    'ip.addresses.request_failed' => 'Napakyas ang hangyo: %s',
+    'ip.addresses.address_added' => 'Nadugang ang address',
     'ip.addresses.address_updated' => 'Na-update ang address',
     'ip.addresses.add_failed' => 'Napakyas ang pagdugang: %s',
     'ip.addresses.update_failed' => 'Napakyas ang pag-update: %s',
-    'ip.addresses.page_info' => 'Pahina %s / %s (%s)',
+    'ip.addresses.page_info' => 'Panid %s / %s (%s)',
 
+    // ARP
     'ip.arp.no_arp_entries' => 'Walay ARP entry',
     'ip.arp.loading' => 'Nag-load...',
-    'ip.arp.failed_to_contact_api' => 'Napakyas sa pag-contact sa API',
-    'ip.arp.please_select_one_or_more' => 'Palihug pili ug usa o daghang entry',
-    'ip.arp.enable_confirm' => 'I-enable ba ang napiling ARP entry?',
-    'ip.arp.disable_confirm' => 'I-disable ba ang napiling ARP entry?',
-    'ip.arp.remove_confirm' => 'Tangtanga ang napiling ARP entry?',
-    'ip.arp.page_info' => 'Pahina %s / %s (%s)',
+    'ip.arp.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'ip.arp.please_select_one_or_more' => 'Palihug pili-a ang usa o daghan pa ka entry',
+    'ip.arp.enable_confirm' => 'I-enable ang napiling ARP entries?',
+    'ip.arp.disable_confirm' => 'I-disable ang napiling ARP entries?',
+    'ip.arp.remove_confirm' => 'Kuhaa ang napiling ARP entries?',
+    'ip.arp.page_info' => 'Panid %s / %s (%s)',
 
+    // Cloud
     'ip.cloud.failed_to_load' => 'Napakyas sa pag-load sa cloud settings: %s',
-    'ip.cloud.reverted' => 'Gibawi ang mga kausaban',
-    'ip.cloud.applied' => 'Na-apply ang cloud settings',
-    'ip.cloud.apply_failed' => 'Napakyas sa pag-apply: %s',
+    'ip.cloud.reverted' => 'Gibalikan ang mga kausaban',
+    'ip.cloud.applied' => 'Giatag ang cloud settings',
+    'ip.cloud.apply_failed' => 'Napakyas ang pag-aplikar: %s',
 
+    // DHCP Client
     'ip.dhcp.client.no_clients' => 'Walay DHCP client',
-    'ip.dhcp.client.failed_to_load' => 'Napakyas sa pag-load sa DHCP client: %s',
-    'ip.dhcp.client.please_select_interface' => 'Palihug pili ug interface',
-    'ip.dhcp.client.created' => 'Nahimo ang DHCP Client',
-    'ip.dhcp.client.create_failed' => 'Napakyas ang paghimo: %s',
+    'ip.dhcp.client.failed_to_load' => 'Napakyas sa pag-load sa DHCP clients: %s',
+    'ip.dhcp.client.please_select_interface' => 'Palihug pili-a ang interface',
+    'ip.dhcp.client.created' => 'Nakahimo og DHCP Client',
+    'ip.dhcp.client.create_failed' => 'Napakyas sa paghimo: %s',
     'ip.dhcp.client.no_entries_selected' => 'Walay napiling entry',
-    'ip.dhcp.client.enable_completed' => 'Kompleto na ang pag-enable',
+    'ip.dhcp.client.enable_completed' => 'Na-enable na',
     'ip.dhcp.client.enable_failed' => 'Napakyas ang pag-enable: %s',
-    'ip.dhcp.client.disable_completed' => 'Kompleto na ang pag-disable',
+    'ip.dhcp.client.disable_completed' => 'Na-disable na',
     'ip.dhcp.client.disable_failed' => 'Napakyas ang pag-disable: %s',
-    'ip.dhcp.client.remove_confirm' => 'Tangtanga ang napiling DHCP client?',
-    'ip.dhcp.client.option_name_code_required' => 'Kinahanglan ang Pangalan ug Code',
-    'ip.dhcp.client.option_created' => 'Nahimo ang option',
-    'ip.dhcp.client.option_create_failed' => 'Napakyas ang paghimo: %s',
+    'ip.dhcp.client.remove_confirm' => 'Kuhaa ang napiling DHCP clients?',
+    'ip.dhcp.client.option_name_code_required' => 'Kinahanglan ang Ngalan ug Code',
+    'ip.dhcp.client.option_created' => 'Nakahimo og option',
+    'ip.dhcp.client.option_create_failed' => 'Napakyas sa paghimo: %s',
     'ip.dhcp.client.no_options' => 'Walay option',
 
-    'ip.dhcp.networks.no_networks' => 'No DHCP networks',
-    'ip.dhcp.networks.loading' => 'Loading...',
-    'ip.dhcp.networks.select_one_to_edit' => 'Please select a single network to edit',
-    'ip.dhcp.networks.create_not_implemented' => 'Create new network: not implemented',
-    'ip.dhcp.networks.please_select_remove' => 'Please select one or more networks to remove',
-    'ip.dhcp.networks.remove_confirm' => 'Remove selected networks?',
-    'ip.dhcp.networks.removed' => 'Removed',
-    'ip.dhcp.networks.remove_failed' => 'Remove failed: %s',
-    'ip.dhcp.networks.page_info' => 'Page %s / %s (%s)',
+    // DHCP Networks
+    'ip.dhcp.networks.no_networks' => 'Walay DHCP network',
+    'ip.dhcp.networks.loading' => 'Nag-load...',
+    'ip.dhcp.networks.select_one_to_edit' => 'Palihug pili-a ang usa ka network nga i-edit',
+    'ip.dhcp.networks.create_not_implemented' => 'Paghimo og bag-ong network: wala pa maimplementar',
+    'ip.dhcp.networks.please_select_remove' => 'Palihug pili-a ang usa o daghan pa ka network nga tangtangon',
+    'ip.dhcp.networks.remove_confirm' => 'Kuhaa ang napiling mga network?',
+    'ip.dhcp.networks.removed' => 'Gikuha na',
+    'ip.dhcp.networks.remove_failed' => 'Napakyas ang pagtangtang: %s',
+    'ip.dhcp.networks.page_info' => 'Panid %s / %s (%s)',
 
-    'ip.dns.add_server_placeholder' => 'Add DNS server (IP)',
-    'ip.dns.remove' => 'Remove',
-    'ip.dns.loading' => 'Loading...',
-    'ip.dns.failed_to_contact_api' => 'Failed to contact API',
-    'ip.dns.error_loading' => 'Error loading DNS settings',
-    'ip.dns.dns_saved' => 'DNS settings saved',
-    'ip.dns.failed_to_save' => 'Failed to save: %s',
-    'ip.dns.save_confirm' => 'Save DNS settings?',
-    'ip.dns.no_static_entries' => 'No static entries',
-    'ip.dns.static_added' => 'Static DNS added',
-    'ip.dns.static_add_failed' => 'Failed to add static',
-    'ip.dns.performing_action' => 'Performing %s...',
-    'ip.dns.invalid_json' => 'Invalid JSON response',
-    'ip.dns.request_failed' => 'Request failed: %s',
-    'ip.dns.flush_cache_confirm' => 'Flush entire DNS cache?',
-    'ip.dns.cache_flushed' => 'Cache flushed',
-    'ip.dns.failed_flush_cache' => 'Failed to flush cache: %s',
-    'ip.dns.no_cache_entries' => 'No cache entries',
+    // DNS
+    'ip.dns.add_server_placeholder' => 'Idugang ang DNS server (IP)',
+    'ip.dns.remove' => 'Kuhaa',
+    'ip.dns.loading' => 'Nag-load...',
+    'ip.dns.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'ip.dns.error_loading' => 'Sayop sa pag-load sa DNS settings',
+    'ip.dns.dns_saved' => 'Na-save ang DNS settings',
+    'ip.dns.failed_to_save' => 'Napakyas sa pag-save: %s',
+    'ip.dns.save_confirm' => 'I-save ang DNS settings?',
+    'ip.dns.no_static_entries' => 'Walay static entry',
+    'ip.dns.static_added' => 'Nadugang ang static DNS',
+    'ip.dns.static_add_failed' => 'Napakyas pagdugang sa static',
+    'ip.dns.performing_action' => 'Nagbuhat og %s...',
+    'ip.dns.invalid_json' => 'Invalid nga JSON nga tubag',
+    'ip.dns.request_failed' => 'Napakyas ang hangyo: %s',
+    'ip.dns.flush_cache_confirm' => 'I-flush ang tibuok DNS cache?',
+    'ip.dns.cache_flushed' => 'Na-flush ang cache',
+    'ip.dns.failed_flush_cache' => 'Napakyas ang pag-flush sa cache: %s',
+    'ip.dns.no_cache_entries' => 'Walay cache entry',
 
-    'ip.pool.no_pools' => 'No pools',
-    'ip.pool.please_select_one_or_more' => 'Please select one or more pools',
-    'ip.pool.select_one_to_edit' => 'Select exactly one pool to edit',
-    'ip.pool.name_and_address_required' => 'Name and Address are required',
-    'ip.pool.pool_created' => 'Pool created',
-    'ip.pool.create_failed' => 'Create failed: %s',
-    'ip.pool.pool_updated' => 'Pool updated',
-    'ip.pool.update_failed' => 'Update failed: %s',
-    'ip.pool.remove_confirm' => 'Remove selected pool(s)?',
-    'ip.pool.action_completed' => 'Action %s completed',
-    'ip.pool.action_failed' => 'Action failed: %s',
-    'ip.pool.request_failed' => 'Request failed: %s',
-    'ip.pool.none' => '(none)',
-    'ip.pool.loading' => 'Loading...',
-    'ip.pool.failed_to_contact_api' => 'Failed to contact API',
-    'ip.pool.page_info' => 'Page %s / %s (%s)',
+    // Pool
+    'ip.pool.no_pools' => 'Walay pool',
+    'ip.pool.please_select_one_or_more' => 'Palihug pili-a ang usa o daghan pa ka pool',
+    'ip.pool.select_one_to_edit' => 'Pili-a ang usa ka pool nga i-edit',
+    'ip.pool.name_and_address_required' => 'Kinahanglan ang Ngalan ug Address',
+    'ip.pool.pool_created' => 'Nakahimo og pool',
+    'ip.pool.create_failed' => 'Napakyas sa paghimo: %s',
+    'ip.pool.pool_updated' => 'Na-update ang pool',
+    'ip.pool.update_failed' => 'Napakyas ang pag-update: %s',
+    'ip.pool.remove_confirm' => 'Kuhaa ang napiling pool(s)?',
+    'ip.pool.action_completed' => 'Aksyon %s nahuman',
+    'ip.pool.action_failed' => 'Napakyas ang aksyon: %s',
+    'ip.pool.request_failed' => 'Napakyas ang hangyo: %s',
+    'ip.pool.none' => '(wala)',
+    'ip.pool.loading' => 'Nag-load...',
+    'ip.pool.failed_to_contact_api' => 'Napakyas sa pagkontak sa API',
+    'ip.pool.page_info' => 'Panid %s / %s (%s)',
 
-    'ip.settings.refreshing_settings' => 'Refreshing settings...',
-    'ip.settings.no_settings_found' => 'No IP settings found',
-    'ip.settings.failed_to_load' => 'Failed to load IP settings',
-    'ip.settings.updated' => 'IP settings updated',
-    'ip.settings.update_failed' => 'Update failed: %s',
+    // IP Settings
+    'ip.settings.refreshing_settings' => 'Nag-refresh sa mga setting...',
+    'ip.settings.no_settings_found' => 'Walay makit-ang IP settings',
+    'ip.settings.failed_to_load' => 'Napakyas sa pag-load sa IP settings',
+    'ip.settings.updated' => 'Na-update ang IP settings',
+    'ip.settings.update_failed' => 'Napakyas ang pag-update: %s',
 
     // IP Page - Loading Status
     'ip.loading'=> 'Nag-load sa IP Data...',
@@ -1098,27 +1189,28 @@ return [
     'ip.actions'=> 'Mga Aksyon',
 
     // IP Page General Buttons
-    'ip.buttons.new'=> 'Idugang',
+    'ip.buttons.new'=> 'Dugang',
     'ip.buttons.edit'=> 'I-edit',
     'ip.buttons.refresh'=> 'I-refresh',
-    'ip.buttons.create'=> 'Himoa',
+    'ip.buttons.create'=> 'Paghimo',
     'ip.buttons.save'=> 'I-save',
     'ip.buttons.cancel'=> 'Kanselahon',
     'ip.buttons.enable'=> 'I-enable',
     'ip.buttons.disable'=> 'I-disable',
-    'ip.buttons.remove'=> 'Tangtangon',
-    'ip.buttons.prev'=> 'Niaging',
+    'ip.buttons.remove'=> 'Kuhaa',
+    'ip.buttons.prev'=> 'Miuna',
     'ip.buttons.next'=> 'Sunod',
-    'ip.sort.by'=> 'Isort sa',
+    'ip.sort.by'=> 'Isort pinaagi sa',
     'ip.sort'=> 'Isort',
-    'ip.select.all'=> 'Pili-a ang Tanan',
+    'ip.select.all'=> 'Pili-a Tanan',
     'ip.buttons.flush.cache'=> 'I-flush ang Cache',
-    'ip.buttons.add.dns.server'=> 'Idugang ang DNS Server',
+    'ip.buttons.add.dns.server'=> 'Dugang DNS Server',
+
 
     // IP UPnP Page
-    'ip.upnp.enabled'=> 'Gipalihok',
-    'ip.upnp.allow-disable-external-iface'=> 'Tugoti ang pag-disable sa external interface',
-    'ip.upnp.show-dummy-rule'=> 'Ipakita ang dummy rule',
+    'ip.upnp.enabled'=> 'Gi-enable',
+    'ip.upnp.allow-disable-external-iface'=> 'Tugoti ang pag-disable sa external nga interface',
+    'ip.upnp.show-dummy-rule'=> 'Ipakita ang dummy nga lagda',
 
     // arp.php
     // IP ARP Page
@@ -1132,17 +1224,17 @@ return [
     'ip.table.th.iface'=> 'Interface',
     'ip.table.th.comment'=> 'Komento',
     'ip.table.th.dhcp.client.name' => 'Ngalan',
-    'ip.table.th.dhcp.client.code-value' => 'Code Value',
-    'ip.table.th.dhcp.client.client-value' => 'Client Value',
+    'ip.table.th.dhcp.client.code-value' => 'Balor sa Code',
+    'ip.table.th.dhcp.client.client-value' => 'Balor sa Client',
     'ip.table.th.dns.name'=> 'Ngalan',
     'ip.table.th.dns.regexp'=> 'Regexp',
-    'ip.table.th.dns.type'=> 'Klase',
-    'ip.table.th.dns.value'=> 'Value',
+    'ip.table.th.dns.type'=> 'Tipo',
+    'ip.table.th.dns.value'=> 'Bili',
     'ip.table.th.dns.ttl'=> 'TTL',
     'ip.table.th.dns.data'=> 'Data',
 
     // IP Address Modal Titles
-    'ip.modal.form.add.address'=> 'Idugang ang IP Address',
+    'ip.modal.form.add.address'=> 'Dugang IP Address',
     'ip.modal.form.edit.address'=> 'I-edit ang IP Address',
 
     // IP Address Modal Form
@@ -1156,75 +1248,76 @@ return [
     // IP Cloud Page
 
     // IP Cloud Modal Form
-    'ip.cloud.enabled'=> 'DDNS Gipalihok',
+    'ip.cloud.enabled'=> 'Gi-enable ang DDNS',
     'ip.cloud.ddns.update.interval'=> 'Interval sa Pag-update sa DDNS',
-    'ip.cloud.update.time'=> 'Oras sa Pag-update',
+    'ip.cloud.update.time'=> 'Panahon sa Pag-update',
     'ip.cloud.public.ipv4'=> 'Public IPv4',
     'ip.cloud.public.ipv6'=> 'Public IPv6',
     'ip.cloud.dns.name' => 'Ngalan sa DNS',
-    'ip.cloud.use-router-defaults'=> 'Use Router Defaults',
-    'ip.cloud.yes'=> 'Yes',
-    'ip.cloud.no'=> 'No',
+    'ip.cloud.use-router-defaults'=> 'Gamiton ang Default sa Router',
+    'ip.cloud.yes'=> 'Oo',
+    'ip.cloud.no'=> 'Dili',
 
     // dhcp-client.php
     // IP DHCP Client Page
-    'ip.dhcp.client.options'=> 'Mga Opsyon sa DHCP Client',
+    'ip.dhcp.client.options'=> 'DHCP Client',
     'ip.dhcp.client.modal.form.interface'=> 'Interface',
-    'ip.dhcp.client.modal.form.enabled'=> 'Enabled',
-    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Use Peer DNS',
-    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Use Peer NTP',
-    'ip.dhcp.client.modal.form.add-default-route'=> 'Add Default Route',
-    'ip.dhcp.client.modal.form.default-route-distance'=> 'Default Route Distance',
-    'ip.dhcp.client.options2'=> 'DHCP Client Options',
-    'ip.dhcp.client.modal.form.name'=> 'Name',
+    'ip.dhcp.client.modal.form.enabled'=> 'Gi-enable',
+    'ip.dhcp.client.modal.form.use-peer-dns'=> 'Gamiton ang Peer DNS',
+    'ip.dhcp.client.modal.form.use-peer-ntp'=> 'Gamiton ang Peer NTP',
+    'ip.dhcp.client.modal.form.add-default-route'=> 'Idugang ang Default Route',
+    'ip.dhcp.client.modal.form.default-route-distance'=> 'Gilay-on sa Default Route',
+    'ip.dhcp.client.options2'=> 'Mga Opsyon sa DHCP Client',
+    'ip.dhcp.client.modal.form.name'=> 'Ngalan',
     'ip.dhcp.client.modal.form.code'=> 'Code',
-    'ip.dhcp.client.modal.form.value'=> 'Value',
+    'ip.dhcp.client.modal.form.value'=> 'Bili',
 
    
+
     // dns.php
     // IP DNS Page
 
     // IP DNS - Modal Form
-    'ip.dns.form.servers'=> 'DNS Server',
-    'ip.dns.form.dynamic-servers'=> 'Dynamic Server',
-    'ip.dns.form.use.doh.servers'=> 'Gamiton ang DoH Server',
+    'ip.dns.form.servers'=> 'Mga DNS Server',
+    'ip.dns.form.dynamic-servers'=> 'Dynamic Servers',
+    'ip.dns.form.use.doh.servers'=> 'Gamiton ang DoH Servers',
     'ip.dns.form.doh.max.server.conn'=> 'DoH Max Server Connections',
     'ip.dns.form.doh.max.concurrent.queries'=> 'DoH Max Concurrent Queries',
     'ip.dns.form.doh.timeout'=> 'DoH Timeout (segundo)',
     'ip.dns.form.allow-remote.requests'=> 'Tugoti ang Remote Requests',
 
-    'ip.dns.form.cache.size'=> 'Gidak-on sa Cache (KB)',
-    'ip.dns.form.cache.max-ttl'=> 'Cache Max TTL (segundo)',
-    'ip.dns.form.cache.min-ttl'=> 'Cache Min TTL (segundo)',
+    'ip.dns.form.cache.size'=> 'Kadak-on sa Cache (KB)',
+    'ip.dns.form.cache.max-ttl'=> 'Max TTL sa Cache (segundo)',
+    'ip.dns.form.cache.min-ttl'=> 'Min TTL sa Cache (segundo)',
     'ip.dns.form.max.concurrent.queries'=> 'Max Concurrent Queries',
     'ip.dns.form.max.concurrent.tcp'=> 'Max Concurrent TCP Connections',
     'ip.dns.form.query.timeout'=> 'Query Timeout (segundo)',
-    'ip.dns.form.cache.used'=> 'Gigamit nga Cache (read-only)',
+    'ip.dns.form.cache.used'=> 'Gigamit sa Cache (read-only)',
 
-    'ip.dns.form.add.static.entry'=> 'Idugang ang Static DNS Entry',
+    'ip.dns.form.add.static.entry'=> 'Dugang Static DNS Entry',
     'ip.dns.form.add.static.name'=> 'Ngalan',
-    'ip.dns.form.add.static.type'=> 'Klase',
-    'ip.dns.form.add.static.value'=> 'Value',
+    'ip.dns.form.add.static.type'=> 'Tipo',
+    'ip.dns.form.add.static.value'=> 'Bili',
     'ip.dns.form.add.static.ttl'=> 'TTL',
     'ip.dns.form.add.static.regexp'=> 'Regexp',
 
     // IP DNS - Static DNS
     'ip.dns.static'=> 'Static DNS',
-    'ip.dns.static.desc'=> 'Dumala ang static DNS entry nga mo-override sa dynamic DNS resolution.',
+    'ip.dns.static.desc'=> 'Manage static DNS entries that override dynamic DNS resolution.',
 
     // IP DNS - Cache Settings
-    'ip.dns.cache'=> 'Mga Setting sa DNS Cache',
+    'ip.dns.cache'=> 'DNS Cache Settings',
 
     // pool.php
     // IP Pool Page
 
     // IP Pool Table Headers
     'ip.pool.table.th.name'=> 'Ngalan',
-    'ip.pool.table.th.ranges'=> 'Mga Range',
+    'ip.pool.table.th.ranges'=> 'Mga Sakop (Ranges)',
     'ip.pool.table.th.comment'=> 'Komento',
-    'ip.pool.table.th.total-addresses'=> 'Total nga Address',
+    'ip.pool.table.th.total-addresses'=> 'Tibuok nga Address',
     'ip.pool.table.th.used'=> 'Gigamit',
-    'ip.pool.table.th.available'=> 'Available',
+    'ip.pool.table.th.available'=> 'Magamit',
 
     // IP Pool Modal Form
     'ip.pool.modal.form.create.title'=> 'Paghimo og IP Pool',
@@ -1234,9 +1327,9 @@ return [
     'ip.pool.modal.form.ranges-placeholder'=> 'pananglitan 192.168.1.100-192.168.1.200 o 10.0.0.0/24',
     'ip.pool.modal.form.comment'=> 'Komento',
     'ip.pool.modal.form.next-address'=> 'Sunod nga Address',
-    'ip.pool.modal.form.total-addresses'=> 'Total nga Address',
+    'ip.pool.modal.form.total-addresses'=> 'Tibuok nga Address',
     'ip.pool.modal.form.used'=> 'Gigamit',
-    'ip.pool.modal.form.available'=> 'Available',
+    'ip.pool.modal.form.available'=> 'Magamit',
 
     // services.php
     // IP Services Page
@@ -1244,7 +1337,7 @@ return [
     // IP Services Table Headers
     'ip.services.table.th.name'=> 'Ngalan',
     'ip.services.table.th.port'=> 'Port',
-    'ip.services.table.th.available-from'=> 'Available From',
+    'ip.services.table.th.available-from'=> 'Magamit Gikan Sa',
     'ip.services.table.th.max-sessions'=> 'Max Sessions',
     'ip.services.table.th.protocol'=> 'Protocol',
     'ip.services.table.th.remote'=> 'Remote',
@@ -1254,29 +1347,28 @@ return [
     'ip.services.modal.form.edit.title'=> 'I-edit ang IP Service',
     'ip.services.modal.form.name'=> 'Ngalan',
     'ip.services.modal.form.port'=> 'Port',
-    'ip.services.modal.form.available-from'=> 'Available From',
+    'ip.services.modal.form.available-from'=> 'Magamit Gikan Sa',
     'ip.services.modal.form.max-sessions'=> 'Max Sessions',
     'ip.services.modal.form.protocol'=> 'Protocol',
-    'ip.services.modal.form.remote.address'=> 'Remote Address',
+    'ip.services.modal.form.remote.address'=> 'Layo nga Address',
     'ip.services.modal.form.remote.port'=> 'Remote Port',
-    'ip.services.modal.form.local.address'=> 'Local Address',
+    'ip.services.modal.form.local.address'=> 'Lokal nga Address',
 
     // settings.php
     // IP Settings Page
 
     // IP Settings Modal Form
-    'ip.settings.modal.form.ip-forward'=> 'IP Forwarding Gipalihok',
-    'ip.settings.modal.form.ip-send-redirects'=> 'Send Redirects Gipalihok',
-    'ip.settings.modal.form.ip-accept-redirects'=> 'Accept Redirects Gipalihok',
-    'ip.settings.modal.form.ip-secure-redirects'=> 'Secure Redirects Gipalihok',
-    'ip.settings.modal.form.ip-accept-source-route'=> 'Accept Source Route Gipalihok',
-    'ip.settings.modal.form.ip-allow-fast-path'=> 'Allow Fast Path Gipalihok',
-    'ip.settings.modal.form.ip-tcp-syncookies'=> 'TCP Syncookies Gipalihok',
+    'ip.settings.modal.form.ip-forward'=> 'Gi-enable ang IP Forwarding',
+    'ip.settings.modal.form.ip-send-redirects'=> 'Gi-enable ang Pagpadala sa Redirects',
+    'ip.settings.modal.form.ip-accept-redirects'=> 'Gi-enable ang Pagdawat sa Redirects',
+    'ip.settings.modal.form.ip-secure-redirects'=> 'Gi-enable ang Secure Redirects',
+    'ip.settings.modal.form.ip-accept-source-route'=> 'Gi-enable ang Pagdawat sa Source Route',
+    'ip.settings.modal.form.ip-allow-fast-path'=> 'Gi-allow ang Fast Path',
+    'ip.settings.modal.form.ip-tcp-syncookies'=> 'Gi-enable ang TCP Syncookies',
     'ip.settings.modal.form.ip-tcp-timestamps'=> 'TCP Timestamps',
     'ip.settings.modal.form.ip-max-neighbors'=> 'Max Neighbors',
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'ICMP Rate Limit',
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (segundo)',
-    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Isulod ang RouterOS timeout format (pananglitan 10m, 1h, o 00:10:00). Bilihi nga walay sulod para sa default.',
+    'ip.settings.modal.form.ip-arp-timeout-help'=> 'Isulod ang RouterOS timeout format (pananglitan 10m, 1h, o 00:10:00). Pabilin nga walay sulod para sa default.',
 
-    // End of Translations
 ]; 

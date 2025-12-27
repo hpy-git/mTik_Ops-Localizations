@@ -1,16 +1,7 @@
 <?php
 ////////////////////////////////////////////////////////////////////////
-// English language translations for mTik_Ops                           
-// Author: HPY™                                                         
+// English language translations for mTik_Ops                                                                              
 // Version: Next-Generation                                           
-////////////////////////////////////////////////////////////////////////
-
-///////////////////////////////////////////////////////////////////////
-// [ Instructions ]                                                     
-// Copy this file to create other language files in the same format.    
-// Translate the strings on the right side of the => operator.         
-// Use the same key names for all languages.                            
-// IMPORTANT: REMOVE THIS INSTRUCTION COMMENT BLOCK BEFORE COMMITING!
 ////////////////////////////////////////////////////////////////////////
 return [
     // Start of Translations
@@ -398,6 +389,29 @@ return [
     'hotspot.profiles.select_remove' => 'Select a profile to remove',
     'hotspot.profiles.remove_confirm' => 'Are you sure you want to remove the selected profile?',
     'hotspot.profiles.remove_confirm_title' => 'Confirm',
+    
+    // Admin Control Panel translations
+    'admin.title' => 'Administration Panel',
+    'admin.desc' => 'Mission Control Center',
+    'admin.maintenance' => 'Maintenance',
+    'admin.maintenance.desc' => 'Toggle site-wide maintenance notice for visitors.',
+    'admin.page_access' => 'Page Access Controls',
+    'admin.page_access.desc' => 'Allow or disallow users to access whole sections of the app.',
+    'admin.view_logs' => 'View Logs',
+    'admin.logs.title' => 'Admin Access Logs',
+    'admin.save' => 'Save',
+    'admin.saved' => 'Saved',
+    'admin.save_failed' => 'Save failed',
+    'admin.save_error' => 'Failed to save settings',
+    'admin.load_logs_failed' => 'Failed to load logs',
+    'admin.access_denied' => 'You do not have permission to access the Admin Control Panel.',
+    'access.restricted.title' => 'Access Restricted',
+    'access.restricted.desc' => 'This section is currently disabled',
+    'admin.section_disabled' => 'Section disabled by admin',
+    'nav.disabled' => 'Disabled',
+    // Maintenance toggle JS strings
+    'maintenance.toast' => 'Maintenance Mode' . '<br/><br/>' . 'Functions are limited while maintenance mode is enabled.',
+    'maintenance.set_failed' => 'Failed to set maintenance Mode state',
 
     // Users modals and export
     'hotspot.modals.no_servers' => '(no servers)',
@@ -1356,5 +1370,4 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
 
-    // End of Translations
 ]; 
