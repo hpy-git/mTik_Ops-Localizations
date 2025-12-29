@@ -48,6 +48,7 @@ return [
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Colas',
     'nav.settings' => 'Ajustes',
+    'nav.downloads' => 'Descargas',
 
     // index.php
     // Index Page - About Section
@@ -86,7 +87,7 @@ return [
     'modal.confirm.ok' => 'Aceptar',
 
     // Login Page
-    'login.title' => 'Iniciar sesión en mTik_Ops',
+    'login.title' => 'Iniciar sesión',
     'login.desc' => 'Acceda a su cuenta mTik_Ops para gestionar routers y hotspots MikroTik desde un panel centralizado.',
     'login.form.title' => 'Iniciar sesión en su cuenta',
     'login.form.host'=> 'Host',
@@ -104,8 +105,25 @@ return [
     'login.form.host_placeholder'=> 'IP del router o nombre de host',
     'login.form.username_placeholder'=> 'Introduzca su usuario',
     'login.form.password_placeholder'=> 'Introduzca su contraseña',
+ // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
 
-
+    // Downloads Page
+    'downloads.title' => 'Descargas',
+    'downloads.desc' => 'Descargue instaladores y paquetes para las plataformas compatibles.',
+    'downloads.available' => 'Descargas disponibles',
+    'downloads.coming_soon' => 'Próximamente',
+    'downloads.download' => 'Descargar',
+    'downloads.note' => 'Suba los instaladores a la carpeta /downloads para ponerlos a disposición.',
     // about-us.php
     // About Us Page
     'about-us.title' => 'Sobre nosotros',
@@ -1369,5 +1387,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Límite de tasa ICMP',
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 

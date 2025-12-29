@@ -49,6 +49,7 @@ return [
     'nav.ppp' => 'PPP（ポイント・ツー・ポイント）',
     'nav.queues' => 'キュー',
     'nav.settings' => '設定',
+    'nav.downloads' => 'ダウンロード',
 
     // index.php
     // Index Page - About Section
@@ -87,7 +88,7 @@ return [
     'modal.confirm.ok' => '確認',
 
     // Login Page
-    'login.title' => 'mTik_Ops にログイン',
+    'login.title' => 'ログイン',
     'login.desc' => '集中ダッシュボードから MikroTik ルーターとホットスポットを管理するために mTik_Ops にアクセスします。',
     'login.form.title' => 'アカウントにログイン',
     'login.form.host'=> 'ホスト',
@@ -106,6 +107,25 @@ return [
     'login.form.username_placeholder'=> 'ユーザー名を入力してください',
     'login.form.password_placeholder'=> 'パスワードを入力してください',
 
+ // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
+
+    // Downloads Page
+    'downloads.title' => 'ダウンロード',
+    'downloads.desc' => 'サポートされているプラットフォームのインストーラーとパッケージをダウンロードします。',
+    'downloads.available' => '利用可能なダウンロード',
+    'downloads.coming_soon' => '近日公開',
+    'downloads.download' => 'ダウンロード',
+    'downloads.note' => 'インストーラーを /downloads フォルダにアップロードして利用可能にしてください。',
 
     // about-us.php
     // About Us Page
@@ -1370,5 +1390,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'ICMPレート制限',
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARPタイムアウト（秒）',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'RouterOSのタイムアウト形式を入力してください（例: 10m、1h、または00:10:00）。デフォルトを使用するには空欄にします。',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 

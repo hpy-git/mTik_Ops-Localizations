@@ -49,6 +49,7 @@ return [
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Code',
     'nav.settings' => 'Impostazioni',
+    'nav.downloads' => 'Download',
 
     // index.php
     // Index Page - About Section
@@ -87,7 +88,7 @@ return [
     'modal.confirm.ok' => 'Conferma',
 
     // Login Page
-    'login.title' => 'Accesso a mTik_Ops',
+    'login.title' => 'Accesso',
     'login.desc' => 'Accedi al tuo account mTik_Ops per gestire router e hotspot MikroTik da una dashboard centralizzata.',
     'login.form.title' => 'Accedi al tuo account',
     'login.form.host'=> 'Host',
@@ -106,7 +107,26 @@ return [
     'login.form.username_placeholder'=> 'Inserisci il tuo nome utente',
     'login.form.password_placeholder'=> 'Inserisci la tua password',
 
+    // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
 
+    // Downloads Page
+    'downloads.title' => 'Download',
+    'downloads.desc' => 'Scarica installer e pacchetti per le piattaforme supportate.',
+    'downloads.available' => 'Download disponibili',
+    'downloads.coming_soon' => 'Presto disponibile',
+    'downloads.download' => 'Scarica',
+    'downloads.note' => 'Carica gli installer nella cartella /downloads per renderli disponibili.',
+    
     // about-us.php
     // About Us Page
     'about-us.title' => 'Chi siamo',
@@ -1367,5 +1387,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Limite ICMP',
     'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (secondi)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Inserisci il formato timeout di RouterOS (es. 10m, 1h, o 00:10:00). Lascia vuoto per il valore predefinito.',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 

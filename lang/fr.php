@@ -57,6 +57,7 @@ return [
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Files d\'attente',
     'nav.settings' => 'Paramètres',
+    'nav.downloads' => 'Téléchargements',
 
     // index.php
     // Index Page - About Section
@@ -95,7 +96,7 @@ return [
     'modal.confirm.ok' => 'Confirmer',
 
     // Login Page
-    'login.title' => 'Connexion à mTik_Ops',
+    'login.title' => 'Connexion',
     'login.desc' => 'Accédez à votre compte mTik_Ops pour gérer les routeurs MikroTik et les hotspots depuis un tableau de bord centralisé.',
     'login.form.title' => 'Connexion à votre compte',
     'login.form.host'=> 'Hôte',
@@ -113,8 +114,26 @@ return [
     'login.form.host_placeholder'=> 'IP du routeur ou nom d\'hôte',
     'login.form.username_placeholder'=> 'Entrez votre nom d\'utilisateur',
     'login.form.password_placeholder'=> 'Entrez votre mot de passe',
+    // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
 
-
+    // Downloads Page
+    'downloads.title' => 'Téléchargements',
+    'downloads.desc' => 'Téléchargez les installateurs et packages pour les plateformes prises en charge.',
+    'downloads.available' => 'Téléchargements disponibles',
+    'downloads.coming_soon' => 'Bientôt disponible',
+    'downloads.download' => 'Télécharger',
+    'downloads.note' => 'Téléversez les installateurs dans le dossier /downloads pour les rendre disponibles.',
+    
     // about-us.php
     // About Us Page
     'about-us.title' => 'À propos de nous',
@@ -1377,5 +1396,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Limite de débit ICMP',
     'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (secondes)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Entrez le format de timeout de RouterOS (p.ex. 10m, 1h ou 00:10:00). Laisser vide pour la valeur par défaut.',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 

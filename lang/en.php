@@ -48,6 +48,7 @@ return [
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Queues',
     'nav.settings' => 'Settings',
+    'nav.downloads' => 'Downloads',
 
     // index.php
     // Index Page - About Section
@@ -86,8 +87,8 @@ return [
     'modal.confirm.ok' => 'Confirm',
 
     // Login Page
-    'login.title' => 'Login to mTik_Ops',
-    'login.desc' => 'Access your mTik_Ops account to manage MikroTik routers and hotspots from a centralized dashboard.',
+    'login.title' => 'Login',
+    'login.desc' => 'Access your MikroTik routers and hotspots from a centralized dashboard.',
     'login.form.title' => 'Login to Your Account',
     'login.form.host'=> 'Host',
     'login.form.username'=> 'Username',
@@ -105,6 +106,26 @@ return [
     'login.form.username_placeholder'=> 'Enter your username',
     'login.form.password_placeholder'=> 'Enter your password',
 
+    // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
+
+    // Downloads Page
+    'downloads.title' => 'Downloads',
+    'downloads.desc' => 'Download installers and packages for supported platforms.',
+    'downloads.available' => 'Available Downloads',
+    'downloads.coming_soon' => 'Coming soon',
+    'downloads.download' => 'Download',
+    'downloads.note' => 'Upload installers to the /downloads folder to make them available.',
+    'downloads.instructions' => 'Click Download button to download. Files marked "Coming soon" are not yet available for download.',
 
     // about-us.php
     // About Us Page
@@ -229,6 +250,8 @@ return [
     // Dashboard Network Monitoring
     'dashboard.monitoring.title'=> 'Network Monitoring',
     'dashboard.monitoring.desc'=> 'Real-time monitoring of network performance, uptime, and device status across your MikroTik infrastructure.',
+    'dashboard.ltmg.title'=> 'Live Traffic Monitoring Graph',
+
     'dashboard.fullscreen'=> 'Fullscreen',
     'dashboard.loading'=> 'Loading Data...',
     'dashboard.not-monitoring'=> 'Not Monitoring',
@@ -408,9 +431,14 @@ return [
     'access.restricted.desc' => 'This section is currently disabled',
     'admin.section_disabled' => 'Section disabled by admin',
     'nav.disabled' => 'Disabled',
+
+    'status.title' => 'Status Panel',
+    'status.desc' => 'Live System Status & Uptime Monitoring',
+    
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Maintenance Mode' . '<br/><br/>' . 'Functions are limited while maintenance mode is enabled.',
     'maintenance.set_failed' => 'Failed to set maintenance Mode state',
+    'maintenance.update_toast' => 'System Update Mode' . '<br/><br/>' . 'System updates are in progress. Some features may be unavailable.',
 
     // Users modals and export
     'hotspot.modals.no_servers' => '(no servers)',
@@ -1369,4 +1397,15 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
 
-]; 
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
+
+];

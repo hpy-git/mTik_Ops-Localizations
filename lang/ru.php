@@ -9,6 +9,77 @@ return [
     'language-changed' => 'Язык сменён на {lang}',
     'language-search-placeholder' => 'Поиск...',
 
+        // Missing from previous sync: core site/nav/search/signup/status/footer
+        'site.title' => 'mTik_Ops', // DO NOT TRANSLATE
+        'site.tagline' => 'Централизованное управление маршрутизаторами',
+
+        'nav.brand.user_greeting'=> 'Привет!',
+        'nav.login' => 'Вход',
+        'nav.logout' => 'Выход',
+        'lang.label'=> 'Язык',
+        'nav.about' => 'О нас',
+        'nav.features' => 'Функции',
+        'nav.our_team' => 'Наша команда',
+        'nav.contact' => 'Контакты',
+        'nav.menu' => 'Меню',
+        'nav.dashboard' => 'Панель',
+        'nav.hotspot' => 'Hotspot',
+        'nav.ip' => 'IP',
+        'nav.ppp' => 'PPP',
+        'nav.queues' => 'Очереди',
+        'nav.settings' => 'Настройки',
+        'nav.downloads' => 'Загрузки',
+
+        'search.title' => 'Поиск',
+        'search.instructions' => 'Введите ключевое слово или фразу для поиска по сайту.',
+        'search.results_header' => 'Результаты поиска для "{query}"',
+        'search.placeholder' => 'Начните ввод...',
+        'search.no_results' => 'Результаты не найдены',
+        'search.results' => 'Результаты',
+        'search.button' => 'Искать',
+        'search.hint' => 'Начните ввод, чтобы увидеть подсказки.',
+        'search.quick_links' => 'Быстрые ссылки',
+        'search.show' => 'Показать поиск',
+
+        'about.title' => 'Создано для MikroTik',
+        'about.desc' => 'mTikOps — веб‑платформа для управления маршрутизаторами MikroTik и хотспотами. Включает удалённый доступ, управление хотспотом, печать, PPPoE и многое другое.',
+        'about.about_us_button' => 'О нас',
+        'about.our_team_button' => 'Наша команда',
+
+        'features.remote.title' => 'Удалённое управление сетью',
+        'features.remote.desc' => 'Мониторинг и управление удалёнными маршрутизаторами, просмотр состояния интерфейсов, перезагрузки и безопасное распространение конфигураций из единой консоли.',
+        'features.hotspot.title' => 'Управление Hotspot',
+        'features.hotspot.desc' => 'Создание и управление hotspot‑серверами и профилями пользователей, выдача ваучеров, мониторинг активных пользователей и сессий, отчёты и учёт.',
+        'features.troubleshoot.title' => 'Диагностика и конфигурация',
+        'features.troubleshoot.desc' => 'Применение и аудит изменений конфигурации, запуск диагностик, просмотр логов и устранение неполадок с интегрированными инструментами.',
+
+        'signup.title' => 'Начните с mTikOps',
+        'signup.desc' => 'Создайте аккаунт для управления маршрутизаторами, хотспотами и запуска диагностики из единой панели.',
+        'signup.cta' => 'Зарегистрироваться',
+
+        'contact.hq' => 'Штаб-квартира',
+        'contact.hq_address' => 'Taguig City, PH 1630',
+        'contact.email' => 'Электронная почта',
+        'contact.email_addr' => 'noc@mtikops.com',
+        'contact.phone' => '+63 (962) 660-6116',
+        'contact.contact' => 'Контакты',
+
+        'footer.copyright' => 'Авторские права &copy; mTikOps {year}',
+        'footer.powered' => 'Работает на HPY™',
+
+        'modal.confirm.title' => 'Подтвердите',
+        'modal.confirm.body' => 'Вы уверены?',
+        'modal.confirm.cancel' => 'Отмена',
+        'modal.confirm.ok' => 'Подтвердить',
+
+        'auth.logging_in' => 'Вход в систему',
+        'auth.logging_out' => 'Выход из системы',
+
+        'status.title' => 'Статус системы',
+        'status.desc' => 'Просмотр статуса системы и служб',
+
+        'maintenance.update_toast' => 'Система обновлена. Перезапустите при необходимости.',
+
     // Global Search
 
     // ip.php
@@ -87,7 +158,7 @@ return [
     'ip.pools.modal.name'=> 'Имя',
     'ip.pools.modal.ranges'=> 'Диапазоны (через запятую)',
     'ip.pools.modal.placeholder'=> 'например 192.168.1.100-192.168.1.200,10.0.0.1-10.0.0.50',
-    'login.title' => 'Вход в mTik_Ops',
+    'login.title' => 'Вход',
     'login.desc' => 'Войдите в аккаунт mTik_Ops для управления маршрутизаторами MikroTik и хотспотами из централизованной панели.',
     'login.form.title' => 'Вход в аккаунт',
     'login.form.host'=> 'Хост',
@@ -106,7 +177,26 @@ return [
     'login.form.username_placeholder'=> 'Введите имя пользователя',
     'login.form.password_placeholder'=> 'Введите пароль',
 
+     // Login Page Messages
+     'login.error.invalid_submission'=> 'Неверная отправка формы. Пожалуйста, попробуйте ещё раз.',
+     'login.error.missing_fields'=> 'Требуются Хост, Имя пользователя и Пароль.',
+     'login.error.unable_connect'=> 'Не удалось подключиться — проверьте учётные данные и попробуйте снова.',
+     'login.success.connected'=> 'Успешно подключено к маршрутизатору.',
+     'login.success.remembered'=> 'Данные подключения сохранены для будущих входов.',
+     'login.info.session_expired'=> 'Время вашей сессии истекло. Пожалуйста, войдите снова.',
+     'login.info.logged_out'=> 'Вы успешно вышли из системы.',
+     'login.info.please_login'=> 'Пожалуйста, войдите, чтобы продолжить.',
+     'login.button.forgot_password'=> 'Забыли пароль?',
+     'login.try_again'=> 'Попробовать снова?',
 
+    // Downloads Page
+    'downloads.title' => 'Загрузки',
+    'downloads.desc' => 'Скачайте установщики и пакеты для поддерживаемых платформ.',
+    'downloads.available' => 'Доступные загрузки',
+    'downloads.coming_soon' => 'Скоро',
+    'downloads.download' => 'Скачать',
+    'downloads.note' => 'Загрузите установщики в папку /downloads, чтобы сделать их доступными.',
+    
     // about-us.php
     // About Us Page
     'about-us.title' => 'О проекте',
@@ -1369,5 +1459,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'Лимит ICMP',
     'ip.settings.modal.form.ip-arp-timeout'=> 'Таймаут ARP (секунды)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Введите формат таймаута RouterOS (например: 10m, 1h, или 00:10:00). Оставьте пустым для значения по умолчанию.',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 

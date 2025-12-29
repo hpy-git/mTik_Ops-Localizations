@@ -49,6 +49,7 @@ return [
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Mga Pila',
     'nav.settings' => 'Mga Setting',
+    'nav.downloads' => 'Mga Download',
 
     // index.php
     // Index Page - About Section
@@ -87,7 +88,7 @@ return [
     'modal.confirm.ok' => 'Kumpirmahin',
 
     // Login Page
-    'login.title' => 'Mag-login sa mTik_Ops',
+    'login.title' => 'Mag-login',
     'login.desc' => 'Mag-access sa iyong account ng mTik_Ops para pamahalaan ang MikroTik routers at hotspot mula sa isang sentralisadong dashboard.',
     'login.form.title' => 'Mag-login sa Iyong Account',
     'login.form.host'=> 'Host',
@@ -106,7 +107,26 @@ return [
     'login.form.username_placeholder'=> 'Ilagay ang iyong username',
     'login.form.password_placeholder'=> 'Ilagay ang iyong password',
 
+ // Login Page Messages
+    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
+    'login.error.missing_fields'=> 'Host, Username and Password are required.',
+    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
+    'login.success.connected'=> 'Successfully connected to the router.',
+    'login.success.remembered'=> 'Connection details remembered for future logins.',
+    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
+    'login.info.logged_out'=> 'You have been logged out successfully.',
+    'login.info.please_login'=> 'Please log in to continue.',
+    'login.button.forgot_password'=> 'Forgot Password?',
+    'login.try_again'=> 'Try Again?',
 
+    // Downloads Page
+    'downloads.title' => 'Mga Download',
+    'downloads.desc' => 'I-download ang mga installer at package para sa suportadong mga platform.',
+    'downloads.available' => 'Mga Available na Download',
+    'downloads.coming_soon' => 'Darating na',
+    'downloads.download' => 'I-download',
+    'downloads.note' => 'I-upload ang mga installer sa folder /downloads para maging available.',
+    
     // about-us.php
     // About Us Page
     'about-us.title' => 'Tungkol sa Amin',
@@ -1369,5 +1389,16 @@ return [
     'ip.settings.modal.form.ip-icmp-rate-limit'=> 'ICMP Rate Limit',
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
+
+    // Error pages
+    'errors.404.title' => 'Page Not Found',
+    'errors.404.desc' => 'The page you requested could not be found.',
+    'errors.403.title' => 'Forbidden',
+    'errors.403.desc' => 'You don\'t have permission to access this resource.',
+    'errors.500.title' => 'Server Error',
+    'errors.500.desc' => 'An internal server error occurred.',
+    'errors.back_home' => 'Return Home',
+    'errors.more_info' => 'What happened',
+    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
 
 ]; 
