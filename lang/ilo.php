@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => 'Agnaload...',
+    'downloads.changelog.no_file' => 'Awan tala ti panagbaliw para iti daytoy a file.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Ilocano translations for mTik_Ops                           
@@ -126,6 +128,8 @@ return [
     'downloads.coming_soon' => 'Agsapa',
     'downloads.download' => 'I-download',
     'downloads.note' => 'I-upload dagiti installer iti /downloads a folder tapno mausar da.',
+        'downloads.note' => 'I-upload dagiti installer idiay /downloads a folder tapno magun-odda.',
+        'downloads.changelog' => 'Tala ti panagbaliw',
     
     // about-us.php
     // About Us Page
@@ -431,6 +435,7 @@ return [
     'nav.disabled' => 'Naka-disable',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Modo ti Maintenance' . '<br/><br/>' . 'Naikid dagiti funciones bayat a naka-enable ti modo ti maintenance.',
+    'maintenance.update_toast' => 'Modo ti Panag-upgrade ti Sistema' . '<br/><br/>' . 'Adda agdama a panag-update ti sistema. Sabali a features mabalin nga saan a magun-od.',
     'maintenance.set_failed' => 'Napalpak a iset ti estado ti modo ti maintenance',
 
     // Users modals and export

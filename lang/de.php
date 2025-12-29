@@ -125,6 +125,9 @@ return [
     'downloads.coming_soon' => 'Demnächst',
     'downloads.download' => 'Herunterladen',
     'downloads.note' => 'Laden Sie Installer in den Ordner /downloads hoch, um sie verfügbar zu machen.',
+    'downloads.changelog' => 'Änderungsprotokoll',
+    'downloads.changelog.loading' => 'Lädt...',
+    'downloads.changelog.no_file' => 'Für diese Datei ist kein Änderungsprotokoll verfügbar.',
     
     // about-us.php
     // About Us Page
@@ -431,6 +434,7 @@ return [
     'nav.disabled' => 'Deaktiviert',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Wartungsmodus' . '<br/><br/>' . 'Funktionen sind eingeschränkt, solange der Wartungsmodus aktiviert ist.',
+    'maintenance.update_toast' => 'System-Update-Modus' . '<br/><br/>' . 'Systemupdates werden durchgeführt. Einige Funktionen sind möglicherweise nicht verfügbar.',
     'maintenance.set_failed' => 'Setzen des Wartungsmodus fehlgeschlagen',
 
     // Users modals and export

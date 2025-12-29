@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => '読み込み中...',
+    'downloads.changelog.no_file' => 'このファイルの変更履歴はありません。',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Japanese translations for mTik_Ops                                                                               
@@ -126,6 +128,7 @@ return [
     'downloads.coming_soon' => '近日公開',
     'downloads.download' => 'ダウンロード',
     'downloads.note' => 'インストーラーを /downloads フォルダにアップロードして利用可能にしてください。',
+    'downloads.changelog' => '変更履歴',
 
     // about-us.php
     // About Us Page
@@ -432,6 +435,7 @@ return [
     'nav.disabled' => '無効',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'メンテナンスモード' . '<br/><br/>' . 'メンテナンスモードが有効な間、一部の機能は制限されます。',
+    'maintenance.update_toast' => 'システム更新モード' . '<br/><br/>' . 'システムの更新が進行中です。一部の機能が利用できない場合があります。',
     'maintenance.set_failed' => 'メンテナンスモードの状態設定に失敗しました',
 
     // Users modals and export

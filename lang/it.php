@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => 'Caricamento...',
+    'downloads.changelog.no_file' => 'Nessun registro delle modifiche disponibile per questo file.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Italian translations for mTik_Ops                                                                          
@@ -126,6 +128,7 @@ return [
     'downloads.coming_soon' => 'Presto disponibile',
     'downloads.download' => 'Scarica',
     'downloads.note' => 'Carica gli installer nella cartella /downloads per renderli disponibili.',
+    'downloads.changelog' => 'Registro delle modifiche',
     
     // about-us.php
     // About Us Page
@@ -432,6 +435,7 @@ return [
     'nav.disabled' => 'Disabilitato',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Modalità manutenzione' . '<br/><br/>' . 'Le funzioni sono limitate mentre la modalità manutenzione è attiva.',
+    'maintenance.update_toast' => 'Modalità aggiornamento di sistema' . '<br/><br/>' . 'Sono in corso aggiornamenti di sistema. Alcune funzionalità potrebbero non essere disponibili.',
     'maintenance.set_failed' => 'Impossibile impostare lo stato della modalità manutenzione',
 
     // Users modals and export

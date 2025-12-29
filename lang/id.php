@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => 'Memuat...',
+    'downloads.changelog.no_file' => 'Tidak ada catatan perubahan untuk file ini.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Indonesian translations for mTik_Ops                           
@@ -123,7 +125,8 @@ return [
     'downloads.available' => 'Unduhan Tersedia',
     'downloads.coming_soon' => 'Segera hadir',
     'downloads.download' => 'Unduh',
-    'downloads.note' => 'Unggah penginstal ke folder /downloads untuk membuatnya tersedia.',
+        'downloads.note' => 'Unggah installer ke folder /downloads untuk menjadikannya tersedia.',
+        'downloads.changelog' => 'Catatan perubahan',
     
     // about-us.php
     // About Us Page
@@ -430,6 +433,7 @@ return [
     'nav.disabled' => 'Dinonaktifkan',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Mode Pemeliharaan' . '<br/><br/>' . 'Fungsi terbatas saat mode pemeliharaan diaktifkan.',
+    'maintenance.update_toast' => 'Mode Pembaruan Sistem' . '<br/><br/>' . 'Pembaruan sistem sedang berlangsung. Beberapa fitur mungkin tidak tersedia.',
     'maintenance.set_failed' => 'Gagal mengatur status Mode Pemeliharaan',
 
     // Users modals and export

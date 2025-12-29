@@ -126,7 +126,9 @@ return [
     'downloads.download' => 'Download',
     'downloads.note' => 'Upload installers to the /downloads folder to make them available.',
     'downloads.instructions' => 'Click Download button to download. Files marked "Coming soon" are not yet available for download.',
-
+    'downloads.changelog' => 'Changelog',
+    'downloads.changelog.loading' => 'Loading...',
+    'downloads.changelog.no_file' => 'No changelog available for this file.',
     // about-us.php
     // About Us Page
     'about-us.title' => 'About Us',
@@ -437,8 +439,8 @@ return [
     
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Maintenance Mode' . '<br/><br/>' . 'Functions are limited while maintenance mode is enabled.',
-    'maintenance.set_failed' => 'Failed to set maintenance Mode state',
     'maintenance.update_toast' => 'System Update Mode' . '<br/><br/>' . 'System updates are in progress. Some features may be unavailable.',
+    'maintenance.set_failed' => 'Failed to set maintenance Mode state',
 
     // Users modals and export
     'hotspot.modals.no_servers' => '(no servers)',

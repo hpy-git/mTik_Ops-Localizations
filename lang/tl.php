@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => 'Naglo-load...',
+    'downloads.changelog.no_file' => 'Walang changelog para sa file na ito.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Tagalog translations for mTik_Ops                           
@@ -126,6 +128,8 @@ return [
     'downloads.coming_soon' => 'Darating na',
     'downloads.download' => 'I-download',
     'downloads.note' => 'I-upload ang mga installer sa folder /downloads para maging available.',
+        'downloads.note' => 'I-upload ang mga installer sa folder na /downloads upang magamit ang mga ito.',
+        'downloads.changelog' => 'Tala ng pagbabago',
     
     // about-us.php
     // About Us Page
@@ -431,6 +435,7 @@ return [
     'nav.disabled' => 'Hindi Pinagana',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Mode ng Maintenance' . '<br/><br/>' . 'Limitado ang mga function habang naka-enable ang maintenance mode.',
+    'maintenance.update_toast' => 'Mode ng Pag-update ng Sistema' . '<br/><br/>' . 'Mayroong isinasagawang mga pag-update ng sistema. Ang ilang mga tampok ay maaaring hindi magamit.',
     'maintenance.set_failed' => 'Nabigong itakda ang estado ng Maintenance Mode',
 
     // Users modals and export

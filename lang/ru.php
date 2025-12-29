@@ -1,3 +1,5 @@
+    'downloads.changelog.loading' => 'Загрузка...',
+    'downloads.changelog.no_file' => 'Для этого файла нет журнала изменений.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Russian translations for mTik_Ops                           
@@ -196,6 +198,7 @@ return [
     'downloads.coming_soon' => 'Скоро',
     'downloads.download' => 'Скачать',
     'downloads.note' => 'Загрузите установщики в папку /downloads, чтобы сделать их доступными.',
+    'downloads.changelog' => 'Журнал изменений',
     
     // about-us.php
     // About Us Page
@@ -502,6 +505,7 @@ return [
     'nav.disabled' => 'Отключено',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Режим обслуживания' . '<br/><br/>' . 'Функции ограничены, когда режим обслуживания включён.',
+    'maintenance.update_toast' => 'Режим обновления системы' . '<br/><br/>' . 'Выполняются обновления системы. Некоторые функции могут быть недоступны.',
     'maintenance.set_failed' => 'Не удалось изменить состояние режима обслуживания',
 
     // Users modals and export

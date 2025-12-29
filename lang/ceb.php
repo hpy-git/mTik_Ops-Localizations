@@ -124,6 +124,9 @@ return [
     'downloads.coming_soon' => 'Paabot sa Kaugmaon',
     'downloads.download' => 'I-download',
     'downloads.note' => 'I-upload ang mga installer ngadto sa folder /downloads aron mahimong available.',
+    'downloads.changelog' => 'Tala sa mga kausaban',
+    'downloads.changelog.loading' => 'Nag-load...',
+    'downloads.changelog.no_file' => 'Walay tala sa mga kausaban para niini nga file.',
 
     // about-us.php
     // About Us Page
@@ -430,6 +433,7 @@ return [
     'nav.disabled' => 'Gi-disable',
     // Maintenance toggle JS strings
     'maintenance.toast' => 'Maintenance Mode' . '<br/><br/>' . 'Ang mga function limitado samtang naka-enable ang maintenance mode.',
+    'maintenance.update_toast' => 'Mode sa Pag-update sa Sistema' . '<br/><br/>' . 'Nagpadayon ang mga pag-update sa sistema. Ang pipila ka mga feature mahimong dili magamit.',
     'maintenance.set_failed' => 'Napakyas sa pag-set sa estado sa Maintenance Mode',
 
     // Users modals and export
