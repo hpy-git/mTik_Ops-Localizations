@@ -1391,14 +1391,14 @@ return [
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Geben Sie das RouterOS-Timeout-Format ein (z. B. 10m, 1h oder 00:10:00). Leer lassen für Standard.',
 
     // Error pages
-    'errors.404.title' => 'Page Not Found',
-    'errors.404.desc' => 'The page you requested could not be found.',
-    'errors.403.title' => 'Forbidden',
-    'errors.403.desc' => 'You don\'t have permission to access this resource.',
-    'errors.500.title' => 'Server Error',
-    'errors.500.desc' => 'An internal server error occurred.',
-    'errors.back_home' => 'Return Home',
-    'errors.more_info' => 'What happened',
-    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
+    'errors.404.title' => 'Seite nicht gefunden',
+    'errors.404.desc' => 'Die angeforderte Seite konnte nicht gefunden werden.',
+    'errors.403.title' => 'Verboten',
+    'errors.403.desc' => 'Sie haben keine Berechtigung, auf diese Ressource zuzugreifen.',
+    'errors.500.title' => 'Serverfehler',
+    'errors.500.desc' => 'Auf dem Server ist ein interner Fehler aufgetreten.',
+    'errors.back_home' => 'Zurück zur Startseite',
+    'errors.more_info' => 'Was ist passiert',
+    'errors.contact_admin' => 'Wenn Sie der Meinung sind, dass dies ein Fehler ist, kontaktieren Sie den Administrator der Website.',
 
 ]; 

@@ -1391,14 +1391,14 @@ return [
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Masukkan format timeout RouterOS (mis. 10m, 1h, atau 00:10:00). Biarkan kosong untuk default.',
 
     // Error pages
-    'errors.404.title' => 'Page Not Found',
-    'errors.404.desc' => 'The page you requested could not be found.',
-    'errors.403.title' => 'Forbidden',
-    'errors.403.desc' => 'You don\'t have permission to access this resource.',
-    'errors.500.title' => 'Server Error',
-    'errors.500.desc' => 'An internal server error occurred.',
-    'errors.back_home' => 'Return Home',
-    'errors.more_info' => 'What happened',
-    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
+    'errors.404.title' => 'Halaman Tidak Ditemukan',
+    'errors.404.desc' => 'Halaman yang Anda minta tidak dapat ditemukan.',
+    'errors.403.title' => 'Terlarang',
+    'errors.403.desc' => 'Anda tidak memiliki izin untuk mengakses sumber daya ini.',
+    'errors.500.title' => 'Kesalahan Server',
+    'errors.500.desc' => 'Terjadi kesalahan internal pada server.',
+    'errors.back_home' => 'Kembali ke Beranda',
+    'errors.more_info' => 'Apa yang terjadi',
+    'errors.contact_admin' => 'Jika Anda yakin ini adalah kesalahan, hubungi administrator situs.',
 
 ]; 

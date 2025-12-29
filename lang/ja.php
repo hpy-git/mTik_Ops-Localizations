@@ -1392,14 +1392,14 @@ return [
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'RouterOSのタイムアウト形式を入力してください（例: 10m、1h、または00:10:00）。デフォルトを使用するには空欄にします。',
 
     // Error pages
-    'errors.404.title' => 'Page Not Found',
-    'errors.404.desc' => 'The page you requested could not be found.',
-    'errors.403.title' => 'Forbidden',
-    'errors.403.desc' => 'You don\'t have permission to access this resource.',
-    'errors.500.title' => 'Server Error',
-    'errors.500.desc' => 'An internal server error occurred.',
-    'errors.back_home' => 'Return Home',
-    'errors.more_info' => 'What happened',
-    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
+    'errors.404.title' => 'ページが見つかりません',
+    'errors.404.desc' => '要求されたページは見つかりませんでした。',
+    'errors.403.title' => '禁止されています',
+    'errors.403.desc' => 'このリソースにアクセスする権限がありません。',
+    'errors.500.title' => 'サーバーエラー',
+    'errors.500.desc' => 'サーバーで内部エラーが発生しました。',
+    'errors.back_home' => 'ホームに戻る',
+    'errors.more_info' => '何が起こったか',
+    'errors.contact_admin' => 'これがエラーだと思う場合は、サイト管理者に連絡してください。',
 
 ]; 

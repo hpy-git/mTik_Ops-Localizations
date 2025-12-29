@@ -1391,14 +1391,14 @@ return [
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Isulod ang RouterOS timeout format (pananglitan 10m, 1h, o 00:10:00). Pabilin nga walay sulod para sa default.',
 
     // Error pages
-    'errors.404.title' => 'Page Not Found',
-    'errors.404.desc' => 'The page you requested could not be found.',
-    'errors.403.title' => 'Forbidden',
-    'errors.403.desc' => 'You don\'t have permission to access this resource.',
-    'errors.500.title' => 'Server Error',
-    'errors.500.desc' => 'An internal server error occurred.',
-    'errors.back_home' => 'Return Home',
-    'errors.more_info' => 'What happened',
-    'errors.contact_admin' => 'If you believe this is an error, contact the site administrator.',
+    'errors.404.title' => 'Wala Makit-i ang Panid',
+    'errors.404.desc' => 'Ang panid nga imong gipangayo wala makit-i.',
+    'errors.403.title' => 'Gidili',
+    'errors.403.desc' => 'Wala kay permiso sa pag-access niini nga resource.',
+    'errors.500.title' => 'Sayup sa Server',
+    'errors.500.desc' => 'Nahitabo ang internal nga sayup sa server.',
+    'errors.back_home' => 'Balik sa Home',
+    'errors.more_info' => 'Unsa ang nahitabo',
+    'errors.contact_admin' => 'Kung nagtuo ka nga sayup kini, kontaka ang administrador sa site.',
 
 ]; 
