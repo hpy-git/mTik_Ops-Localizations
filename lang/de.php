@@ -33,7 +33,7 @@ return [
     'auth.logging_out' => 'Abmeldung...',
 
     // nav-brand.php
-    'nav.brand.user_greeting'=> 'Hi!',
+    'nav.brand.user_greeting'=> 'Hallo!',
 
     // nav.php
     'lang.label'=> 'Sprache',
@@ -94,8 +94,8 @@ return [
     'login.form.username'=> 'Benutzername',
     'login.form.password'=> 'Passwort',
     'login.form.connection_type'=> 'Verbindungstyp',
-    'login.form.connection_type_yes'=> 'Ja (Secure API)',
-    'login.form.connection_type_no'=> 'Nein (Standard API)',
+    'login.form.connection_type_yes'=> 'Secure API',
+    'login.form.connection_type_no'=> 'Standard API',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Angemeldet bleiben',
     'login.form.connect'=> 'Verbinden',
@@ -107,16 +107,16 @@ return [
     'login.form.password_placeholder'=> 'Passwort eingeben',
 
  // Login Page Messages
-    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
-    'login.error.missing_fields'=> 'Host, Username and Password are required.',
-    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
-    'login.success.connected'=> 'Successfully connected to the router.',
-    'login.success.remembered'=> 'Connection details remembered for future logins.',
-    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
-    'login.info.logged_out'=> 'You have been logged out successfully.',
-    'login.info.please_login'=> 'Please log in to continue.',
-    'login.button.forgot_password'=> 'Forgot Password?',
-    'login.try_again'=> 'Try Again?',
+     'login.error.invalid_submission'=> 'Ungültige Formularübermittlung. Bitte versuche es erneut.',
+     'login.error.missing_fields'=> 'Host, Benutzername und Passwort sind erforderlich.',
+     'login.error.unable_connect'=> 'Verbindung nicht möglich! — Überprüfen Sie Ihre Zugangsdaten und versuchen Sie es erneut.',
+     'login.success.connected'=> 'Erfolgreich mit dem Router verbunden.',
+     'login.success.remembered'=> 'Verbindungsdaten für zukünftige Anmeldungen gespeichert.',
+     'login.info.session_expired'=> 'Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.',
+     'login.info.logged_out'=> 'Sie wurden erfolgreich abgemeldet.',
+     'login.info.please_login'=> 'Bitte melden Sie sich an, um fortzufahren.',
+     'login.button.forgot_password'=> 'Passwort vergessen?',
+     'login.try_again'=> 'Erneut versuchen?',
 
     // Downloads Page
     'downloads.title' => 'Downloads',

@@ -17,7 +17,7 @@ return [
     'search.no_results' => 'Walay nadeskobrehan',
     'search.results' => 'Mga resulta',
     'search.button' => 'Pangita',
-    'search.hint' => 'Type para makita ang dali nga mga sugyot.',
+    'search.hint' => 'Isulat aron makita ang dali nga mga sugyot.',
     'search.quick_links' => 'Dali nga mga link',
     'search.show' => 'Ipakita ang Pangita',
 
@@ -33,7 +33,7 @@ return [
     'auth.logging_out' => 'Naga-log out',
 
     // nav-brand.php
-    'nav.brand.user_greeting'=> 'Hi!',
+    'nav.brand.user_greeting'=> 'Kumusta!',
 
     // nav.php
     'lang.label'=> 'Pinulongan',
@@ -94,8 +94,8 @@ return [
     'login.form.username'=> 'Ngalan sa Tiggamit',
     'login.form.password'=> 'Password',
     'login.form.connection_type'=> 'Tipo sa Koneksyon',
-    'login.form.connection_type_yes'=> 'Oo (Secure API)',
-    'login.form.connection_type_no'=> 'Dili (Standard API)',
+    'login.form.connection_type_yes'=> 'Secure API',
+    'login.form.connection_type_no'=> 'Standard API',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Hinumdumi Ko',
     'login.form.connect'=> 'Konektar',
@@ -106,16 +106,16 @@ return [
     'login.form.username_placeholder'=> 'Isulod ang imong ngalan sa tiggamit',
     'login.form.password_placeholder'=> 'Isulod ang imong password',
  // Login Page Messages
-    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
-    'login.error.missing_fields'=> 'Host, Username and Password are required.',
-    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
-    'login.success.connected'=> 'Successfully connected to the router.',
-    'login.success.remembered'=> 'Connection details remembered for future logins.',
-    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
-    'login.info.logged_out'=> 'You have been logged out successfully.',
-    'login.info.please_login'=> 'Please log in to continue.',
-    'login.button.forgot_password'=> 'Forgot Password?',
-    'login.try_again'=> 'Try Again?',
+     'login.error.invalid_submission'=> 'Sayop ang pagsumite sa porma. Palihug sulayi pag-usab.',
+     'login.error.missing_fields'=> 'Kinahanglan ang Host, Ngalan sa Tiggamit ug Password.',
+     'login.error.unable_connect'=> 'Dili makakonekta! — Susihi ang imong mga kredensyal ug sulayi pag-usab.',
+     'login.success.connected'=> 'Malampusong nakonektar sa router.',
+     'login.success.remembered'=> 'Girecord ang detalye sa koneksyon para sa umaabot nga mga pag-login.',
+     'login.info.session_expired'=> 'Nawagtang ang imong sesyon. Palihug pag-login pag-usab.',
+     'login.info.logged_out'=> 'Malampusong naka-logout.',
+     'login.info.please_login'=> 'Palihug pag-login aron magpadayon.',
+     'login.button.forgot_password'=> 'Nakalimot sa Password?',
+     'login.try_again'=> 'Sulayi pag-usab?',
 
     // Downloads Page
     'downloads.title' => 'Mga Download',

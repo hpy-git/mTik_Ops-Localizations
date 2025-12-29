@@ -94,8 +94,8 @@ return [
     'login.form.username'=> 'Nama Pengguna',
     'login.form.password'=> 'Kata Sandi',
     'login.form.connection_type'=> 'Jenis Koneksi',
-    'login.form.connection_type_yes'=> 'Ya (API Aman)',
-    'login.form.connection_type_no'=> 'Tidak (API Standar)',
+    'login.form.connection_type_yes'=> 'API Aman',
+    'login.form.connection_type_no'=> 'API Standar',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Ingat Saya',
     'login.form.connect'=> 'Hubungkan',
@@ -106,16 +106,16 @@ return [
     'login.form.username_placeholder'=> 'Masukkan nama pengguna Anda',
     'login.form.password_placeholder'=> 'Masukkan kata sandi Anda',
  // Login Page Messages
-    'login.error.invalid_submission'=> 'Invalid form submission. Please try again.',
-    'login.error.missing_fields'=> 'Host, Username and Password are required.',
-    'login.error.unable_connect'=> 'Unable to Connect! — Check your credentials and try again.',
-    'login.success.connected'=> 'Successfully connected to the router.',
-    'login.success.remembered'=> 'Connection details remembered for future logins.',
-    'login.info.session_expired'=> 'Your session has expired. Please log in again.',
-    'login.info.logged_out'=> 'You have been logged out successfully.',
-    'login.info.please_login'=> 'Please log in to continue.',
-    'login.button.forgot_password'=> 'Forgot Password?',
-    'login.try_again'=> 'Try Again?',
+     'login.error.invalid_submission'=> 'Pengiriman formulir tidak valid. Silakan coba lagi.',
+     'login.error.missing_fields'=> 'Host, Username dan Password diperlukan.',
+     'login.error.unable_connect'=> 'Tidak dapat terhubung! — Periksa kredensial Anda dan coba lagi.',
+     'login.success.connected'=> 'Berhasil terhubung ke router.',
+     'login.success.remembered'=> 'Detail koneksi disimpan untuk login di masa mendatang.',
+     'login.info.session_expired'=> 'Sesi Anda telah berakhir. Silakan masuk kembali.',
+     'login.info.logged_out'=> 'Anda telah berhasil keluar.',
+     'login.info.please_login'=> 'Silakan masuk untuk melanjutkan.',
+     'login.button.forgot_password'=> 'Lupa Password?',
+     'login.try_again'=> 'Coba lagi?',
 
     // Downloads Page
     'downloads.title' => 'Unduhan',
@@ -742,7 +742,7 @@ return [
 
     // Settings Page - Files
     'settings.files.title'=> 'Files Manager',
-    'settings.files.desc'=> 'Upload, download and manage files stored on the device.',
+    'settings.files.desc'=> 'Unggah, unduh, at kelola file yang tersimpan di perangkat.',
 
 
     // Settings Page - Users
@@ -806,9 +806,9 @@ return [
     'queues.types.desc'=> 'Define and manage queue types and packet classifiers.',
 
     // Queues Page Buttons
-    'queues.open.simple'=> 'Open Simple Queue',
-    'queues.open.tree'=> 'Open Queue Tree',
-    'queues.open.types'=> 'Open Queue Types',
+    'queues.open.simple'=> 'Buka Antrian Sederhana',
+    'queues.open.tree'=> 'Buka Pohon Antrian',
+    'queues.open.types'=> 'Buka Tipe Antrian',
 
     // Queues Page - Back Button
     'queues.back-to-queues'=> 'Back to Queues Manager',
@@ -824,10 +824,10 @@ return [
     'queues.sort.by'=> 'Sort by',
     'queues.sort'=> 'Sort',
     'queues.select.all'=> 'Pilih Semua',
-    'queues.button.prev'=> 'Prev',
-    'queues.button.next'=> 'Next',
-    'queues.button.save'=> 'Save',
-    'queues.button.cancel'=> 'Cancel',
+    'queues.button.prev'=> 'Sebelumnya',
+    'queues.button.next'=> 'Berikutnya',
+    'queues.button.save'=> 'Simpan',
+    'queues.button.cancel'=> 'Batal',
     'queues.button.create'=> 'Buat',
 
 
@@ -892,7 +892,7 @@ return [
     // Queue Tree Page
 
     // Queue Tree Action Buttons
-    'queues.tree.actions'=> 'Actions',
+    'queues.tree.actions'=> 'Aksi',
     'queues.tree.action.desc'=> 'Lakukan aksi pada entri queue tree yang dipilih.',
 
     // Queue Tree Modal Form - Tabs
@@ -927,10 +927,10 @@ return [
     'ppp.profiles.desc'=> 'Create and manage PPPoE profiles.',
     'ppp.active.desc'=> 'View and disconnect active PPPoE sessions.',
 
-    'ppp.open.servers'=> 'Open PPPoE Servers',
-    'ppp.open.secrets'=> 'Open Secrets',
-    'ppp.open.profiles'=> 'Open Profiles',
-    'ppp.open.active'=> 'Open Active Sessions',
+    'ppp.open.servers'=> 'Buka Server PPPoE',
+    'ppp.open.secrets'=> 'Buka Secrets',
+    'ppp.open.profiles'=> 'Buka Profil',
+    'ppp.open.active'=> 'Buka Sesi Aktif',
 
     // PPP Page - Back Button
     'ppp.back-to-ppp'=> 'Back to PPPoE Manager',
@@ -939,22 +939,22 @@ return [
     'ppp.actions'=> 'Actions',
 
     // PPP General Buttons
-    'ppp.buttons.new'=> 'New',
-    'ppp.buttons.edit'=> 'Edit',
-    'ppp.buttons.enable'=> 'Enable',
-    'ppp.buttons.disable'=> 'Disable',
-    'ppp.buttons.remove'=> 'Remove',
-    'ppp.buttons.refresh'=> 'Refresh',
+    'ppp.buttons.new'=> 'Baru',
+    'ppp.buttons.edit'=> 'Sunting',
+    'ppp.buttons.enable'=> 'Aktifkan',
+    'ppp.buttons.disable'=> 'Nonaktifkan',
+    'ppp.buttons.remove'=> 'Hapus',
+    'ppp.buttons.refresh'=> 'Segarkan',
     'ppp.sort.by'=> 'Sort by',
     'ppp.sort'=> 'Sort',
     'ppp.select.all'=> '',
-    'ppp.buttons.prev'=> 'Prev',
-    'ppp.buttons.next'=> 'Next',
-    'ppp.buttons.clear'=> 'Clear',
-    'ppp.buttons.cancel'=> 'Cancel',
+    'ppp.buttons.prev'=> 'Sebelumnya',
+    'ppp.buttons.next'=> 'Berikutnya',
+    'ppp.buttons.clear'=> 'Bersihkan',
+    'ppp.buttons.cancel'=> 'Batal',
     'ppp.buttons.create'=> 'Buat',
-    'ppp.buttons.save'=> 'Save',
-    'ppp.buttons.proceed'=> 'Proceed',
+    'ppp.buttons.save'=> 'Simpan',
+    'ppp.buttons.proceed'=> 'Lanjut',
 
     // PPP Loading Status
     'ppp.status.loading'=> 'Memuat Data PPPoE...',
