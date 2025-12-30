@@ -1403,6 +1403,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (segundo)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Isulod ang RouterOS timeout format (pananglitan 10m, 1h, o 00:10:00). Pabilin nga walay sulod para sa default.',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'I-klik ang buton na Download aron mag-download. Ang mga file nga gimarkahan og "Coming soon" wala pa magamit.',
+
+    'ip.dhcp.leases.title'=> 'DHCP Leases',
+    'ip.dhcp.leases.desc'=> 'Tan-awa ug dumala ang aktibo nga DHCP leases',
+
+    'ip.dhcp.networks.title'=> 'DHCP Networks',
+    'ip.dhcp.networks.desc'=> 'Paghimo ug pagdumala sa DHCP network',
+
+    'ip.dhcp.server.title'=> 'DHCP Manager',
+    'ip.dhcp.server.back-to-dhcp'=> 'Balik sa DHCP Manager',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'I-configure ang mga setting sa DHCP server.',
+    'ip.dhcp.server.dhcp.leases'=> 'Leases',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Tan-awa ang aktibo nga DHCP leases.',
+    'ip.dhcp.server.dhcp.networks'=> 'Networks',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Pagdumala sa mga DHCP network.',
+
+    'ip.open.dhcp.leases' => 'Ablihi ang DHCP Leases',
+    'ip.open.dhcp.networks' => 'Ablihi ang DHCP Networks',
+
+    'status.title' => 'Panel sa Status',
+    'status.desc' => 'Pag-monitor sa kahimtang sa sistema ug uptime sa tinuod nga oras',
+
     // Error pages
     'errors.404.title' => 'Wala Makit-i ang Panid',
     'errors.404.desc' => 'Ang panid nga imong gipangayo wala makit-i.',

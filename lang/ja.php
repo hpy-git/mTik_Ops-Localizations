@@ -1404,6 +1404,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARPタイムアウト（秒）',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'RouterOSのタイムアウト形式を入力してください（例: 10m、1h、または00:10:00）。デフォルトを使用するには空欄にします。',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'ダウンロードボタンをクリックしてダウンロードしてください。"Coming soon" と表示されているファイルはまだ利用できません。',
+
+    'ip.dhcp.leases.title'=> 'DHCPリース',
+    'ip.dhcp.leases.desc'=> 'アクティブなDHCPリースの表示と管理',
+
+    'ip.dhcp.networks.title'=> 'DHCPネットワーク',
+    'ip.dhcp.networks.desc'=> 'DHCPネットワークの作成と管理',
+
+    'ip.dhcp.server.title'=> 'DHCPマネージャー',
+    'ip.dhcp.server.back-to-dhcp'=> 'DHCPマネージャーに戻る',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'DHCPサーバーの設定を構成します。',
+    'ip.dhcp.server.dhcp.leases'=> 'リース',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'アクティブなDHCPリースを表示します。',
+    'ip.dhcp.server.dhcp.networks'=> 'ネットワーク',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'DHCPネットワークを管理します。',
+
+    'ip.open.dhcp.leases' => 'DHCPリースを開く',
+    'ip.open.dhcp.networks' => 'DHCPネットワークを開く',
+
+    'status.title' => 'ステータスパネル',
+    'status.desc' => 'システムのライブステータスと稼働時間を監視します。',
+
     // Error pages
     'errors.404.title' => 'ページが見つかりません',
     'errors.404.desc' => '要求されたページは見つかりませんでした。',

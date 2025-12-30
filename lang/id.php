@@ -1403,6 +1403,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (detik)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Masukkan format timeout RouterOS (mis. 10m, 1h, atau 00:10:00). Biarkan kosong untuk default.',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'Klik tombol Unduh untuk mengunduh. File yang diberi tanda "Coming soon" belum tersedia.',
+
+    'ip.dhcp.leases.title'=> 'DHCP Leases',
+    'ip.dhcp.leases.desc'=> 'Lihat dan kelola lease DHCP aktif',
+
+    'ip.dhcp.networks.title'=> 'Jaringan DHCP',
+    'ip.dhcp.networks.desc'=> 'Buat dan kelola jaringan DHCP',
+
+    'ip.dhcp.server.title'=> 'Pengelola DHCP',
+    'ip.dhcp.server.back-to-dhcp'=> 'Kembali ke Pengelola DHCP',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'Konfigurasi pengaturan server DHCP.',
+    'ip.dhcp.server.dhcp.leases'=> 'Sewa',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Lihat sewa DHCP aktif.',
+    'ip.dhcp.server.dhcp.networks'=> 'Jaringan',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Kelola jaringan DHCP.',
+
+    'ip.open.dhcp.leases' => 'Buka Sewa DHCP',
+    'ip.open.dhcp.networks' => 'Buka Jaringan DHCP',
+
+    'status.title' => 'Panel Status',
+    'status.desc' => 'Pemantauan status sistem dan uptime secara langsung',
+
     // Error pages
     'errors.404.title' => 'Halaman Tidak Ditemukan',
     'errors.404.desc' => 'Halaman yang Anda minta tidak dapat ditemukan.',

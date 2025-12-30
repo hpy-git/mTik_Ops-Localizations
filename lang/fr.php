@@ -1410,6 +1410,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (secondes)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Entrez le format de timeout de RouterOS (p.ex. 10m, 1h ou 00:10:00). Laisser vide pour la valeur par défaut.',
 
+    // DHCP additions (added in English)
+    'downloads.instructions' => 'Cliquez sur le bouton Télécharger pour télécharger. Les fichiers marqués "Coming soon" ne sont pas encore disponibles.',
+
+    'ip.dhcp.leases.title'=> 'Baux DHCP',
+    'ip.dhcp.leases.desc'=> 'Afficher et gérer les baux DHCP actifs',
+
+    'ip.dhcp.networks.title'=> 'Réseaux DHCP',
+    'ip.dhcp.networks.desc'=> 'Créer et gérer des réseaux DHCP',
+
+    'ip.dhcp.server.title'=> 'Gestionnaire DHCP',
+    'ip.dhcp.server.back-to-dhcp'=> 'Retour au gestionnaire DHCP',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'Configurer les paramètres du serveur DHCP.',
+    'ip.dhcp.server.dhcp.leases'=> 'Baux',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Afficher les baux DHCP actifs.',
+    'ip.dhcp.server.dhcp.networks'=> 'Réseaux',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Gérer les réseaux DHCP.',
+
+    'ip.open.dhcp.leases' => 'Ouvrir les baux DHCP',
+    'ip.open.dhcp.networks' => 'Ouvrir les réseaux DHCP',
+
+    'status.title' => 'Panneau d\'état',
+    'status.desc' => 'Surveillance en direct de l\'état du système et du temps de disponibilité',
+
     // Error pages
     'errors.404.title' => 'Page non trouvée',
     'errors.404.desc' => 'La page demandée est introuvable.',

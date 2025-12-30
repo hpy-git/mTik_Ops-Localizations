@@ -1473,6 +1473,27 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'Таймаут ARP (секунды)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Введите формат таймаута RouterOS (например: 10m, 1h, или 00:10:00). Оставьте пустым для значения по умолчанию.',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'Нажмите кнопку "Загрузить", чтобы скачать. Файлы, помеченные "Coming soon", ещё недоступны для скачивания.',
+
+    'ip.dhcp.leases.title'=> 'DHCP аренды',
+    'ip.dhcp.leases.desc'=> 'Просмотр и управление активными DHCP-арендами',
+
+    'ip.dhcp.networks.title'=> 'DHCP-сети',
+    'ip.dhcp.networks.desc'=> 'Создавайте и управляйте DHCP-сетями',
+
+    'ip.dhcp.server.title'=> 'Менеджер DHCP',
+    'ip.dhcp.server.back-to-dhcp'=> 'Вернуться к менеджеру DHCP',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'Настройте параметры DHCP-сервера.',
+    'ip.dhcp.server.dhcp.leases'=> 'Аренды',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Просмотр активных DHCP-аренд.',
+    'ip.dhcp.server.dhcp.networks'=> 'Сети',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Управление DHCP-сетями.',
+
+    'ip.open.dhcp.leases' => 'Открыть DHCP-аренды',
+    'ip.open.dhcp.networks' => 'Открыть DHCP-сети',
+
     // Error pages
     'errors.404.title' => 'Страница не найдена',
     'errors.404.desc' => 'Запрошенная страница не найдена.',

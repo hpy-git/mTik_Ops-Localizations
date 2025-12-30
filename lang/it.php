@@ -1401,6 +1401,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'Timeout ARP (secondi)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Inserisci il formato timeout di RouterOS (es. 10m, 1h, o 00:10:00). Lascia vuoto per il valore predefinito.',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'Fare clic sul pulsante Download per scaricare. I file contrassegnati come "Coming soon" non sono ancora disponibili per il download.',
+
+    'ip.dhcp.leases.title'=> 'Lease DHCP',
+    'ip.dhcp.leases.desc'=> 'Visualizza e gestisci i lease DHCP attivi',
+
+    'ip.dhcp.networks.title'=> 'Reti DHCP',
+    'ip.dhcp.networks.desc'=> 'Crea e gestisci le reti DHCP',
+
+    'ip.dhcp.server.title'=> 'Gestore DHCP',
+    'ip.dhcp.server.back-to-dhcp'=> 'Torna al gestore DHCP',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'Configura le impostazioni del server DHCP.',
+    'ip.dhcp.server.dhcp.leases'=> 'Lease',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Visualizza i lease DHCP attivi.',
+    'ip.dhcp.server.dhcp.networks'=> 'Reti',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Gestisci le reti DHCP.',
+
+    'ip.open.dhcp.leases' => 'Apri Lease DHCP',
+    'ip.open.dhcp.networks' => 'Apri Reti DHCP',
+
+    'status.title' => 'Pannello di stato',
+    'status.desc' => 'Monitoraggio in tempo reale dello stato del sistema e dell\'uptime',
+
     // Error pages
     'errors.404.title' => 'Pagina non trovata',
     'errors.404.desc' => 'La pagina richiesta non è stata trovata.',

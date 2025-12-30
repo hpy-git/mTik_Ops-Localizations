@@ -1403,6 +1403,30 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP-Timeout (Sekunden)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Geben Sie das RouterOS-Timeout-Format ein (z. B. 10m, 1h oder 00:10:00). Leer lassen für Standard.',
 
+    // DHCP additions (from English)
+    'downloads.instructions' => 'Klicken Sie auf die Schaltfläche "Herunterladen", um die Datei herunterzuladen. Dateien mit der Kennzeichnung "Coming soon" sind noch nicht verfügbar.',
+
+    'ip.dhcp.leases.title'=> 'DHCP-Leases',
+    'ip.dhcp.leases.desc'=> 'Aktive DHCP-Leases anzeigen und verwalten',
+
+    'ip.dhcp.networks.title'=> 'DHCP-Netzwerke',
+    'ip.dhcp.networks.desc'=> 'DHCP-Netzwerke erstellen und verwalten',
+
+    'ip.dhcp.server.title'=> 'DHCP-Manager',
+    'ip.dhcp.server.back-to-dhcp'=> 'Zurück zum DHCP-Manager',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'DHCP-Servereinstellungen konfigurieren.',
+    'ip.dhcp.server.dhcp.leases'=> 'Leases',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Aktive DHCP-Leases anzeigen.',
+    'ip.dhcp.server.dhcp.networks'=> 'Netzwerke',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'DHCP-Netzwerke verwalten.',
+
+    'ip.open.dhcp.leases' => 'DHCP-Leases öffnen',
+    'ip.open.dhcp.networks' => 'DHCP-Netzwerke öffnen',
+
+    'status.title' => 'Status-Panel',
+    'status.desc' => 'Echtzeit-Systemstatus- und Verfügbarkeitsüberwachung',
+
     // Error pages
     'errors.404.title' => 'Seite nicht gefunden',
     'errors.404.desc' => 'Die angeforderte Seite konnte nicht gefunden werden.',

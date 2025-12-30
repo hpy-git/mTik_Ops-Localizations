@@ -1404,6 +1404,31 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (segundo)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Ipatik ti RouterOS a format ti timeout (e.g. 10m, 1h, or 00:10:00). Iwaras a bakante para iti default.',
 
+    // DHCP additions (from English)
+    'dashboard.ltmg.title'=> 'Grafiko ti Live Traffic Monitoring',
+    'downloads.instructions' => 'Pinduten ti buton a Download tapno ag-download. Dagiti file a naka-"Coming soon" saan pay a magun-odan.',
+
+    'ip.dhcp.leases.title'=> 'DHCP Leases',
+    'ip.dhcp.leases.desc'=> 'Kitaen ken idar-ay dagiti aktibo a DHCP leases',
+
+    'ip.dhcp.networks.title'=> 'DHCP Networks',
+    'ip.dhcp.networks.desc'=> 'Agaramid ken idar-ay dagiti DHCP networks',
+
+    'ip.dhcp.server.title'=> 'DHCP Manager',
+    'ip.dhcp.server.back-to-dhcp'=> 'Mapan Idiay DHCP Manager',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'Konfiguraren dagiti setting ti DHCP server.',
+    'ip.dhcp.server.dhcp.leases'=> 'Leases',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Kitaen dagiti aktibo a DHCP leases.',
+    'ip.dhcp.server.dhcp.networks'=> 'Networks',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Idaray dagiti DHCP networks.',
+
+    'ip.open.dhcp.leases' => 'Buklen ti DHCP Leases',
+    'ip.open.dhcp.networks' => 'Buklen ti DHCP Networks',
+
+    'status.title' => 'Panel ti Status',
+    'status.desc' => 'Panagmonitor ti live nga estado ti sistema ken uptime',
+
     // Error pages
     'errors.404.title' => 'Saan a Nasarakan ti Pahina',
     'errors.404.desc' => 'Saan a nasarakan ti in-request a pahina.',

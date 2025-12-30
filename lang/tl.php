@@ -1404,6 +1404,31 @@ return [
     'ip.settings.modal.form.ip-arp-timeout'=> 'ARP Timeout (seconds)',
     'ip.settings.modal.form.ip-arp-timeout-help'=> 'Enter RouterOS timeout format (e.g. 10m, 1h, or 00:10:00). Leave empty for default.',
 
+    // DHCP additions (from English)
+    'dashboard.ltmg.title'=> 'Grapiko ng Real-time na Pagsubaybay ng Trapiko',
+    'downloads.instructions' => 'I-click ang button na Download para mag-download. Ang mga file na may label na "Coming soon" ay hindi pa magagamit.',
+
+    'ip.dhcp.leases.title'=> 'DHCP Leases',
+    'ip.dhcp.leases.desc'=> 'Tingnan at pamahalaan ang mga aktibong DHCP leases',
+
+    'ip.dhcp.networks.title'=> 'DHCP Networks',
+    'ip.dhcp.networks.desc'=> 'Gumawa at pamahalaan ang mga DHCP network',
+
+    'ip.dhcp.server.title'=> 'DHCP Manager',
+    'ip.dhcp.server.back-to-dhcp'=> 'Bumalik sa DHCP Manager',
+    'ip.dhcp.server.dhcp'=> 'DHCP',
+    'ip.dhcp.server.dhcp.desc'=> 'I-configure ang mga setting ng DHCP server.',
+    'ip.dhcp.server.dhcp.leases'=> 'Mga Lease',
+    'ip.dhcp.server.dhcp.leases.desc'=> 'Tingnan ang mga aktibong DHCP leases.',
+    'ip.dhcp.server.dhcp.networks'=> 'Mga Network',
+    'ip.dhcp.server.dhcp.networks.desc'=> 'Pamahalaan ang mga DHCP network.',
+
+    'ip.open.dhcp.leases' => 'Buksan ang DHCP Leases',
+    'ip.open.dhcp.networks' => 'Buksan ang DHCP Networks',
+
+    'status.title' => 'Panel ng Status',
+    'status.desc' => 'Real-time na pagsubaybay sa status ng sistema at uptime',
+
     // Error pages
     'errors.404.title' => 'Hindi Natagpuan ang Pahina',
     'errors.404.desc' => 'Hindi matagpuan ang pahinang hiniling mo.',

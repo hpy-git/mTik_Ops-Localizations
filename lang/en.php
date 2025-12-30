@@ -1114,6 +1114,9 @@ return [
     'ip.open.services'=> 'Open Services',
     'ip.open.upnp'=> 'Open UPnP',
     'ip.open.settings'=> 'Open Settings',
+    'ip.open.dhcp.server' => 'Open DHCP Server',
+    'ip.open.dhcp.networks' => 'Open DHCP Networks',
+    'ip.open.dhcp.leases' => 'Open DHCP Leases',
 
     // IP Page - Back Button
     'ip.back-to-ip'=> 'Back to IP Manager',
@@ -1177,6 +1180,30 @@ return [
     'ip.dhcp.networks.removed' => 'Removed',
     'ip.dhcp.networks.remove_failed' => 'Remove failed: %s',
     'ip.dhcp.networks.page_info' => 'Page %s / %s (%s)',
+
+    // DHCP Servers
+    'ip.dhcp.server.dhcp' => 'DHCP',
+    'ip.dhcp.server.dhcp.networks' => 'Networks',
+    'ip.dhcp.server.dhcp.leases' => 'Leases',
+    'ip.dhcp.server.dhcp.desc' => 'Configure DHCP server settings.',
+    'ip.dhcp.server.dhcp.networks.desc' => 'Manage DHCP networks.',
+    'ip.dhcp.server.dhcp.leases.desc' => 'View active DHCP leases.',
+
+    // DHCP Back Button
+    'ip.dhcp.server.back-to-dhcp'=> 'Back to DHCP Manager',
+
+    // DHCP.php
+    'ip.dhcp.server.title'=> 'DHCP Manager',
+    'ip.dhcp.server.desc'=> 'Manage DHCP server settings',
+
+    // Leases.php
+    'ip.dhcp.leases.title'=> 'DHCP Leases',
+    'ip.dhcp.leases.desc'=> 'View and manage active DHCP leases',
+
+    // Networks.php
+    'ip.dhcp.networks.title'=> 'DHCP Networks',
+    'ip.dhcp.networks.desc'=> 'Create and manage DHCP networks',
+
 
     // DNS
     'ip.dns.add_server_placeholder' => 'Add DNS server (IP)',
