@@ -32,6 +32,7 @@ return [
     'nav.logout' => 'ログアウト',
     'auth.logging_in' => 'ログイン中',
     'auth.logging_out' => 'ログアウト中',
+    'nav.quick_login' => 'クイックログイン',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'こんにちは！',

@@ -32,6 +32,7 @@ return [
     'nav.logout' => 'Ag-log out',
     'auth.logging_in' => 'Agle-log in',
     'auth.logging_out' => 'Agle-log out',
+    'nav.quick_login' => 'Dagus a Login',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Kumusta!',

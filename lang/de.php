@@ -31,6 +31,7 @@ return [
     'nav.logout' => 'Abmelden',
     'auth.logging_in' => 'Anmeldung...',
     'auth.logging_out' => 'Abmeldung...',
+    'nav.quick_login' => 'Schnellanmeldung',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Hallo!',

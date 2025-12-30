@@ -40,6 +40,7 @@ return [
     'nav.logout' => 'Déconnexion',
     'auth.logging_in' => 'Connexion en cours',
     'auth.logging_out' => 'Déconnexion en cours',
+    'nav.quick_login' => 'Connexion rapide',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Salut !',

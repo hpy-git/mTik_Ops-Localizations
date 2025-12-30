@@ -31,6 +31,7 @@ return [
     'nav.logout' => 'Logout',
     'auth.logging_in' => 'Logging in',
     'auth.logging_out' => 'Logging out',
+    'nav.quick_login' => 'Quick Login',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Hi!',

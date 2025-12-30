@@ -31,6 +31,7 @@ return [
     'nav.logout' => 'Mag-log out',
     'auth.logging_in' => 'Naga-log in',
     'auth.logging_out' => 'Naga-log out',
+    'nav.quick_login' => 'Dali nga Pag-login',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Kumusta!',

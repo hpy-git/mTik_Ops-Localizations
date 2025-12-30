@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Cargando...',
-    'downloads.changelog.no_file' => 'No hay un registro de cambios disponible para este archivo.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Spanish translations for mTik_Ops                                                                              
@@ -33,6 +31,7 @@ return [
     'nav.logout' => 'Cerrar sesión',
     'auth.logging_in' => 'Iniciando sesión...',
     'auth.logging_out' => 'Cerrando sesión...',
+    'nav.quick_login' => 'Inicio de sesión rápido',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> '¡Hola!',
@@ -128,6 +127,9 @@ return [
     'downloads.download' => 'Descargar',
     'downloads.note' => 'Suba los instaladores a la carpeta /downloads para ponerlos a disposición.',
     'downloads.changelog' => 'Registro de cambios',
+    'downloads.changelog.loading' => 'Cargando...',
+    'downloads.changelog.no_file' => 'No hay un registro de cambios disponible para este archivo.',
+
     // about-us.php
     // About Us Page
     'about-us.title' => 'Sobre nosotros',

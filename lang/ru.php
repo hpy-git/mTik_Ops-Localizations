@@ -16,6 +16,7 @@ return [
         'nav.brand.user_greeting'=> 'Привет!',
         'nav.login' => 'Вход',
         'nav.logout' => 'Выход',
+        'nav.quick_login' => 'Быстрый вход',
         'lang.label'=> 'Язык',
         'nav.about' => 'О нас',
         'nav.features' => 'Функции',

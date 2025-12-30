@@ -32,6 +32,7 @@ return [
     'nav.logout' => 'Disconnetti',
     'auth.logging_in' => 'Accesso in corso',
     'auth.logging_out' => 'Uscita in corso',
+    'nav.quick_login' => 'Accesso rapido',
 
     // nav-brand.php
     'nav.brand.user_greeting'=> 'Ciao!',
