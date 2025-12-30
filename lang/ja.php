@@ -99,6 +99,7 @@ return [
     'login.form.connection_type'=> '接続タイプ',
     'login.form.connection_type_yes'=> 'セキュアAPI',
     'login.form.connection_type_no'=> '標準API',
+    'login.form.connection_type_help'=> 'ほとんどの場合は8728を使用してください。8729を使用する特別な理由がある場合（ルーターにSSL証明書が適用されているなど）を除きます。',
     'login.form.port'=> 'ポート',
     'login.form.remember'=> 'ログイン状態を保持する',
     'login.form.connect'=> '接続',
@@ -490,9 +491,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> '数量',
     'hotspot.modal.form.server'=> 'Hotspot サーバー',
+    'hotspot.modal.form.qty.help'=> '作成されるバウチャー/トークンコードの数。',
     'hotspot.modal.form.username'=> 'ユーザー名',
     'hotspot.modal.form.password'=> 'パスワード',
     'hotspot.modal.form.user-type'=> 'ユーザータイプ',
+    'hotspot.modal.form.user-type.help'=> 'ユーザー名とパスワード - ランダムなユーザー名と異なるパスワードを作成します（通常ユーザーのログインに使用）。<br/>ユーザー名 = パスワード - ランダムなユーザー名を作成し、パスワードがユーザー名と同じになります（バウチャー用）。',
     'hotspot.modal.form.code-length'=> 'コード長',
     'hotspot.modal.form.characters'=> '文字種',
     'hotspot.modal.form.user-profile'=> 'ユーザープロファイル',
@@ -500,7 +503,9 @@ return [
     'hotspot.modal.form.optional-comment'=> '任意コメント',
     'hotspot.modal.form.mac-address'=>  'MACアドレス',
     'hotspot.modal.form.time-limit'=>  '時間制限',
+    'hotspot.modal.form.time-limit.help'=> '許容される形式:<br/>m - 分<br/>h - 時間<br/>d - 日<br/><br/>時間制限に達するとユーザーは無効化されます。<br/><br/>注意:<br/>1. 時間制限とデータ制限の両方が設定されている場合、いずれかの制限に達するとユーザーは無効化されます。<br/>2. どちらの制限も設定されていない場合、ユーザーは手動で無効化または削除されるまでアクティブのままです。<br/>3. 時間制限とデータ制限はセッションをより細かく制御するために併用できます。<br/>4. ユーザー作成時のエラーを避けるため、形式が正しいことを確認してください。<br/>5. 例: 30m (30分), 2h (2時間), 1d (1日)。',
     'hotspot.modal.form.data-limit'=>  'データ制限',
+    'hotspot.modal.form.data-limit.help'=> '許容される形式:<br/>M - メガビット<br/>G - ギガビット<br/><br/>データ制限に達するとユーザーは無効化されます。<br/><br/>注意:<br/>1. 時間制限とデータ制限の両方が設定されている場合、いずれかの制限に達するとユーザーは無効化されます。<br/>2. どちらの制限も設定されていない場合、ユーザーは手動で無効化または削除されるまでアクティブのままです。<br/>3. 時間制限とデータ制限はセッションをより細かく制御するために併用できます。<br/>4. ユーザー作成時のエラーを避けるため、形式が正しいことを確認してください。<br/>5. 例: 500M (500 メガビット), 2G (2 ギガビット)。',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Hotspot 名称',
@@ -584,6 +589,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> '通知',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> '削除して記録',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> '削除して通知',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'このプロファイルのユーザー有効期限の処理方法を選択してください。<br/><br/>オプション：<br/>なし - 有効期限なし。<br/>削除 - 有効期限到来時に自動的にユーザーを削除。<br/>通知 - 有効期限到来時にユーザーに通知するが削除しない。<br/>削除と記録 - ユーザーを削除し、イベントを記録する。<br/>通知して削除 - ユーザーに通知してから有効期限到来で削除する。',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> '親キュー',
@@ -623,6 +629,9 @@ return [
     'hotspot.export.user.column-desc'=> 'フィールドを選択し、上/下を使って列の順序を変更します。',
     'hotspot.export.user.button-cancel'=> 'キャンセル',
     'hotspot.export.user.button-download'=> 'CSVをダウンロード',
+    'hotspot.export.user.button-move-up'=> '上へ移動',
+    'hotspot.export.user.button-move-down'=> '下へ移動',
+    'hotspot.export.user.column-order-desc'=> 'フィールドを選択し、上へ移動/下へ移動ボタンを使って列の順序を変更してください。',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> '印刷プレビュー',

@@ -169,6 +169,7 @@ return [
     'login.form.connection_type'=> 'Тип подключения',
     'login.form.connection_type_yes'=> 'Secure API',
     'login.form.connection_type_no'=> 'Standard API',
+    'login.form.connection_type_help'=> 'Используйте порт 8728 в большинстве случаев, если у вас нет особой причины использовать 8729 (например, если на маршрутизаторе установлен SSL-сертификат).',
     'login.form.port'=> 'Порт',
     'login.form.remember'=> 'Запомнить меня',
     'login.form.connect'=> 'Подключиться',
@@ -560,9 +561,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Количество',
     'hotspot.modal.form.server'=> 'Сервер хотспота',
+    'hotspot.modal.form.qty.help'=> 'Количество ваучеров/токенов, которые будут созданы.',
     'hotspot.modal.form.username'=> 'Имя пользователя',
     'hotspot.modal.form.password'=> 'Пароль',
     'hotspot.modal.form.user-type'=> 'Тип пользователя',
+    'hotspot.modal.form.user-type.help'=> 'Имя пользователя и пароль — создаёт случайное имя пользователя и другой пароль (позволяет обычный вход).<br/>Имя пользователя = Пароль — создаёт случайное имя пользователя, пароль совпадает с именем (для ваучеров).',
     'hotspot.modal.form.code-length'=> 'Длина кода',
     'hotspot.modal.form.characters'=> 'Символы',
     'hotspot.modal.form.user-profile'=> 'Профиль пользователя',
@@ -570,7 +573,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Доп. комментарий',
     'hotspot.modal.form.mac-address'=>  'MAC-адрес',
     'hotspot.modal.form.time-limit'=>  'Ограничение по времени',
+    'hotspot.modal.form.time-limit.help'=> 'Допустимые форматы:<br/>m - Минуты<br/>h - Часы<br/>d - Дни<br/><br/>Пользователь будет отключен при достижении временного лимита.<br/><br/>Примечания:<br/>1. Если установлены и Временной лимит, и Лимит данных, пользователь будет отключен при достижении любого из них.<br/>2. Если ни один лимит не установлен, пользователь останется активным до его ручного отключения или удаления.<br/>3. Временной лимит и Лимит данных можно использовать вместе для более точного контроля сессий.<br/>4. Убедитесь, что формат правильный, чтобы избежать ошибок при создании пользователя.<br/>5. Примеры: 30m (30 минут), 2h (2 часа), 1d (1 день).',
     'hotspot.modal.form.data-limit'=>  'Ограничение по трафику',
+    'hotspot.modal.form.data-limit.help'=> 'Допустимые форматы:<br/>M - Мегабиты<br/>G - Гигабиты<br/><br/>Пользователь будет отключен при достижении лимита данных.<br/><br/>Примечания:<br/>1. Если установлены и Временной лимит, и Лимит данных, пользователь будет отключен при достижении любого из них.<br/>2. Если ни один лимит не установлен, пользователь останется активным до его ручного отключения или удаления.<br/>3. Временной лимит и Лимит данных можно использовать вместе для более точного контроля сессий.<br/>4. Убедитесь, что формат правильный, чтобы избежать ошибок при создании пользователя.<br/>5. Примеры: 500M (500 Мегабит), 2G (2 Гигабит).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Название хотспота',
@@ -654,6 +659,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Уведомление',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Удалить и записать',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Удалить и уведомить',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Выберите способ обработки истечения срока действия пользователя для этого профиля.<br/><br/>Варианты:<br/>Нет - Без истечения срока.<br/>Удалить - Автоматически удалить пользователя при истечении.<br/>Уведомить - Уведомить пользователя о истечении, но не удалять.<br/>Удалить и записать - Удалить пользователя и зафиксировать событие.<br/>Уведомить и удалить - Уведомить пользователя, а затем удалить при истечении.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Родительская очередь',
@@ -693,6 +699,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Выберите поле и используйте Вверх/Вниз для изменения порядка колонок.',
     'hotspot.export.user.button-cancel'=> 'Отмена',
     'hotspot.export.user.button-download'=> 'Скачать CSV',
+    'hotspot.export.user.button-move-up'=> 'Переместить вверх',
+    'hotspot.export.user.button-move-down'=> 'Переместить вниз',
+    'hotspot.export.user.column-order-desc'=> 'Выберите поле и используйте кнопки Переместить вверх/Переместить вниз для изменения порядка столбцов.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Предпросмотр печати',

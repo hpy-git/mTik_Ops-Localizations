@@ -100,6 +100,7 @@ return [
     'login.form.remember'=> 'Remember Me',
     'login.form.connect'=> 'Connect',
     'login.form.cancel'=> 'Cancel',
+    'login.form.connection_type_help'=> 'Use 8728 in most cases unless you have a specific reason to use 8729 (like an SSL certificate has been applied for the router).',
 
     // Login Page Placeholders
     'login.form.host_placeholder'=> 'Router IP or Hostname',
@@ -494,17 +495,23 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Quantity',
     'hotspot.modal.form.server'=> 'Hotspot Server',
+
+    'hotspot.modal.form.qty.help'=> 'Number of vouchers / token codes that will be created.',
     'hotspot.modal.form.username'=> 'Username',
     'hotspot.modal.form.password'=> 'Password',
     'hotspot.modal.form.user-type'=> 'User Type',
     'hotspot.modal.form.code-length'=> 'Code Length',
+
+    'hotspot.modal.form.user-type.help'=> 'Username & Password - Creates a random username and a different password (allows regular user login).<br/>Username = Password - Creates a random username where password equals username (for voucher use).',
     'hotspot.modal.form.characters'=> 'Characters',
     'hotspot.modal.form.user-profile'=> 'User Profile',
     'hotspot.modal.form.comment'=> 'Comment',
     'hotspot.modal.form.optional-comment'=> 'Optional Comment',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
     'hotspot.modal.form.time-limit'=>  'Time Limit',
+    'hotspot.modal.form.time-limit.help'=> 'Acceptable formats:<br/>m - Minutes<br/>h - Hours<br/>d - Days<br/><br/>User is disabled when time limit is reached.<br/><br/>Notes:<br/>1. If both Time Limit and Data Limit are set, the user will be disabled when either limit is reached.<br/>2. If neither limit is set, the user will remain active until manually disabled or removed.<br/>3. Time Limit and Data Limit can be used together for more control over user sessions.<br/>4. Ensure that the format is correct to avoid errors during user creation.<br/>5. Examples: 30m (30 minutes), 2h (2 hours), 1d (1 day).',
     'hotspot.modal.form.data-limit'=>  'Data Limit',
+    'hotspot.modal.form.data-limit.help'=> 'Acceptable formats:<br/>M - Megabits<br/>G - Gigabits<br/><br/>User is disabled when data limit is reached.<br/><br/>Notes:<br/>1. If both Time Limit and Data Limit are set, the user will be disabled when either limit is reached.<br/>2. If neither limit is set, the user will remain active until manually disabled or removed.<br/>3. Time Limit and Data Limit can be used together for more control over user sessions.<br/>4. Ensure that the format is correct to avoid errors during user creation.<br/>5. Examples: 500M (500 Megabits), 2G (2 Gigabits).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Hotspot Name',
@@ -588,7 +595,9 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Notice',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Remove and Record',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Remove and Notice',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Select how to handle user expiry for this profile.<br/><br/>Options:<br/>None - No expiry.<br/>Remove - Automatically remove user on expiry.<br/>Notice - Notify user on expiry but do not remove.<br/>Remove and Record - Remove user and log the event.<br/>Remove and Notice - Notify user and then remove on expiry.',
 
+    
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Parent Queue',
     'hotspot.user.profiles.form.queue-type'=> 'Queue Type',
@@ -627,6 +636,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Select a field and use Up/Down to change column order.',
     'hotspot.export.user.button-cancel'=> 'Cancel',
     'hotspot.export.user.button-download'=> 'Download CSV',
+    'hotspot.export.user.button-move-up'=> 'Move Up',
+    'hotspot.export.user.button-move-down'=> 'Move Down',
+    'hotspot.export.user.column-order-desc'=> 'Select a field and use the Move Up/Down buttons to change column order.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Print Preview',

@@ -98,6 +98,7 @@ return [
     'login.form.connection_type'=> 'Jenis Koneksi',
     'login.form.connection_type_yes'=> 'API Aman',
     'login.form.connection_type_no'=> 'API Standar',
+    'login.form.connection_type_help'=> 'Gunakan 8728 dalam kebanyakan kasus kecuali Anda memiliki alasan khusus untuk menggunakan 8729 (mis. sertifikat SSL telah diterapkan pada router).',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Ingat Saya',
     'login.form.connect'=> 'Hubungkan',
@@ -488,9 +489,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Quantity',
     'hotspot.modal.form.server'=> 'Hotspot Server',
+    'hotspot.modal.form.qty.help'=> 'Jumlah voucher / kode token yang akan dibuat.',
     'hotspot.modal.form.username'=> 'Username',
     'hotspot.modal.form.password'=> 'Password',
     'hotspot.modal.form.user-type'=> 'User Type',
+    'hotspot.modal.form.user-type.help'=> 'Username & Password - Membuat username acak dan password berbeda (mengizinkan login pengguna biasa).<br/>Username = Password - Membuat username acak yang passwordnya sama dengan username (untuk voucher).',
     'hotspot.modal.form.code-length'=> 'Code Length',
     'hotspot.modal.form.characters'=> 'Characters',
     'hotspot.modal.form.user-profile'=> 'User Profile',
@@ -498,7 +501,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Optional Comment',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
     'hotspot.modal.form.time-limit'=>  'Time Limit',
+    'hotspot.modal.form.time-limit.help'=> 'Format yang diterima:<br/>m - Menit<br/>h - Jam<br/>d - Hari<br/><br/>Pengguna dinonaktifkan ketika batas waktu tercapai.<br/><br/>Catatan:<br/>1. Jika Batas Waktu dan Batas Data keduanya diatur, pengguna akan dinonaktifkan ketika salah satu batas tercapai.<br/>2. Jika tidak ada batas yang diatur, pengguna akan tetap aktif sampai dinonaktifkan atau dihapus secara manual.<br/>3. Batas Waktu dan Batas Data dapat digunakan bersama untuk kontrol sesi pengguna yang lebih baik.<br/>4. Pastikan format benar agar tidak terjadi kesalahan saat membuat pengguna.<br/>5. Contoh: 30m (30 menit), 2h (2 jam), 1d (1 hari).',
     'hotspot.modal.form.data-limit'=>  'Data Limit',
+    'hotspot.modal.form.data-limit.help'=> 'Format yang diterima:<br/>M - Megabit<br/>G - Gigabit<br/><br/>Pengguna dinonaktifkan ketika batas data tercapai.<br/><br/>Catatan:<br/>1. Jika Batas Waktu dan Batas Data keduanya diatur, pengguna akan dinonaktifkan ketika salah satu batas tercapai.<br/>2. Jika tidak ada batas yang diatur, pengguna akan tetap aktif sampai dinonaktifkan atau dihapus secara manual.<br/>3. Batas Waktu dan Batas Data dapat digunakan bersama untuk kontrol sesi pengguna yang lebih baik.<br/>4. Pastikan format benar agar tidak terjadi kesalahan saat membuat pengguna.<br/>5. Contoh: 500M (500 Megabit), 2G (2 Gigabit).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Nama Hotspot',
@@ -583,6 +588,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Pemberitahuan',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Hapus dan Catat',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Hapus dan Beri Tahu',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Pilih bagaimana menangani kedaluwarsa pengguna untuk profil ini.<br/><br/>Opsi:<br/>Tidak ada - Tidak ada kedaluwarsa.<br/>Hapus - Secara otomatis menghapus pengguna saat kedaluwarsa.<br/>Pemberitahuan - Memberi tahu pengguna saat kedaluwarsa tetapi tidak menghapusnya.<br/>Hapus dan Catat - Hapus pengguna dan catat peristiwa tersebut.<br/>Beri Tahu dan Hapus - Beri tahu pengguna lalu hapus saat kedaluwarsa.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Antrian Induk',
@@ -622,6 +628,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Pilih bidang dan gunakan Atas/Bawah untuk mengubah urutan kolom.',
     'hotspot.export.user.button-cancel'=> 'Batal',
     'hotspot.export.user.button-download'=> 'Unduh CSV',
+    'hotspot.export.user.button-move-up'=> 'Pindah ke atas',
+    'hotspot.export.user.button-move-down'=> 'Pindah ke bawah',
+    'hotspot.export.user.column-order-desc'=> 'Pilih sebuah kolom dan gunakan tombol Pindah ke atas/Pindah ke bawah untuk mengubah urutan kolom.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Pratinjau Cetak',

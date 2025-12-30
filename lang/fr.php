@@ -107,6 +107,7 @@ return [
     'login.form.connection_type'=> 'Type de connexion',
     'login.form.connection_type_yes'=> 'API sécurisée',
     'login.form.connection_type_no'=> 'API standard',
+    'login.form.connection_type_help'=> 'Utilisez 8728 dans la plupart des cas, sauf si vous avez une raison spécifique d\'utiliser 8729 (par exemple si un certificat SSL a été installé sur le routeur).',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Se souvenir de moi',
     'login.form.connect'=> 'Se connecter',
@@ -497,9 +498,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Quantité',
     'hotspot.modal.form.server'=> 'Serveur Hotspot',
+    'hotspot.modal.form.qty.help'=> 'Nombre de vouchers / codes token qui seront créés.',
     'hotspot.modal.form.username'=> 'Nom d\'utilisateur',
     'hotspot.modal.form.password'=> 'Mot de passe',
     'hotspot.modal.form.user-type'=> 'Type d\'utilisateur',
+    'hotspot.modal.form.user-type.help'=> 'Nom d\'utilisateur & Mot de passe - Crée un nom d\'utilisateur aléatoire et un mot de passe différent (autorise la connexion utilisateur standard).<br/>Nom d\'utilisateur = Mot de passe - Crée un nom d\'utilisateur aléatoire dont le mot de passe est identique (pour l\'utilisation de vouchers).',
     'hotspot.modal.form.code-length'=> 'Longueur du code',
     'hotspot.modal.form.characters'=> 'Caractères',
     'hotspot.modal.form.user-profile'=> 'Profil utilisateur',
@@ -507,7 +510,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Commentaire optionnel',
     'hotspot.modal.form.mac-address'=>  'Adresse MAC',
     'hotspot.modal.form.time-limit'=>  'Limite de temps',
+    'hotspot.modal.form.time-limit.help'=> 'Formats acceptés:<br/>m - Minutes<br/>h - Heures<br/>d - Jours<br/><br/>L’utilisateur est désactivé lorsque la limite de temps est atteinte.<br/><br/>Remarques :<br/>1. Si la limite de temps et la limite de données sont définies, l’utilisateur sera désactivé lorsque l’une ou l’autre limite sera atteinte.<br/>2. Si aucune limite n’est définie, l’utilisateur restera actif jusqu’à ce qu’il soit désactivé ou supprimé manuellement.<br/>3. La limite de temps et la limite de données peuvent être utilisées ensemble pour mieux contrôler les sessions utilisateur.<br/>4. Vérifiez que le format est correct pour éviter les erreurs lors de la création de l’utilisateur.<br/>5. Exemples : 30m (30 minutes), 2h (2 heures), 1d (1 jour).',
     'hotspot.modal.form.data-limit'=>  'Limite de données',
+    'hotspot.modal.form.data-limit.help'=> 'Formats acceptés:<br/>M - Mégabits<br/>G - Gigabits<br/><br/>L’utilisateur est désactivé lorsque la limite de données est atteinte.<br/><br/>Remarques :<br/>1. Si la limite de temps et la limite de données sont définies, l’utilisateur sera désactivé lorsque l’une ou l’autre limite sera atteinte.<br/>2. Si aucune limite n’est définie, l’utilisateur restera actif jusqu’à ce qu’il soit désactivé ou supprimé manuellement.<br/>3. La limite de temps et la limite de données peuvent être utilisées ensemble pour mieux contrôler les sessions utilisateur.<br/>4. Vérifiez que le format est correct pour éviter les erreurs lors de la création de l’utilisateur.<br/>5. Exemples : 500M (500 Mégabits), 2G (2 Gigabits).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Nom du hotspot',
@@ -591,6 +596,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Avertir',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Supprimer et enregistrer',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Supprimer et avertir',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Sélectionnez comment gérer l\'expiration des utilisateurs pour ce profil.<br/><br/>Options:<br/>Aucune - Pas d\'expiration.<br/>Supprimer - Supprimer automatiquement l\'utilisateur à l\'expiration.<br/>Avis - Notifier l\'utilisateur à l\'expiration mais ne pas supprimer.<br/>Supprimer et enregistrer - Supprimer l\'utilisateur et enregistrer l\'événement.<br/>Supprimer et avertir - Avertir l\'utilisateur puis supprimer à l\'expiration.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'File parente',
@@ -630,6 +636,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Sélectionnez un champ et utilisez Haut/Bas pour changer l\'ordre des colonnes.',
     'hotspot.export.user.button-cancel'=> 'Annuler',
     'hotspot.export.user.button-download'=> 'Télécharger CSV',
+    'hotspot.export.user.button-move-up'=> 'Déplacer vers le haut',
+    'hotspot.export.user.button-move-down'=> 'Déplacer vers le bas',
+    'hotspot.export.user.column-order-desc'=> 'Sélectionnez un champ et utilisez les boutons Déplacer vers le haut/vers le bas pour modifier l\'ordre des colonnes.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Aperçu avant impression',

@@ -96,6 +96,7 @@ return [
     'login.form.connection_type'=> 'Tipo sa Koneksyon',
     'login.form.connection_type_yes'=> 'Secure API',
     'login.form.connection_type_no'=> 'Standard API',
+    'login.form.connection_type_help'=> 'Gamita ang 8728 sa kadaghanan sa mga kaso gawas kon adunay ka espesyal nga rason nga gamiton ang 8729 (pananglitan kung ang SSL certificate gi-aplikar sa router).',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Hinumdumi Ko',
     'login.form.connect'=> 'Konektar',
@@ -488,9 +489,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Kantidad',
     'hotspot.modal.form.server'=> 'Hotspot Server',
+    'hotspot.modal.form.qty.help'=> 'Gidaghanon sa mga voucher / token code nga pagahimoon.',
     'hotspot.modal.form.username'=> 'Ngalan sa Tiggamit',
     'hotspot.modal.form.password'=> 'Password',
     'hotspot.modal.form.user-type'=> 'Tipo sa Tiggamit',
+    'hotspot.modal.form.user-type.help'=> 'Username & Password - Mughimo og random username ug lahi nga password (para sa regular user login).<br/>Username = Password - Mughimo og random username nga pareho ang password (para sa voucher).',
     'hotspot.modal.form.code-length'=> 'Gitas-on sa Code',
     'hotspot.modal.form.characters'=> 'Mga karakter',
     'hotspot.modal.form.user-profile'=> 'User Profile',
@@ -498,7 +501,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Opsyonal nga Komento',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
     'hotspot.modal.form.time-limit'=>  'Gitas-on sa Oras',
+    'hotspot.modal.form.time-limit.help'=> 'Mga dawaton nga format:<br/>m - Minuto<br/>h - Oras<br/>d - Adlaw<br/><br/>I-disable ang tiggamit kung maabot ang limit sa oras.<br/><br/>Mga Nota:<br/>1. Kung ang Limit sa Oras ug Limit sa Data pareho nga gitakda, i-disable ang tiggamit kung maabot ang bisan usa sa mga limit.<br/>2. Kung wala’y bisan usa ka limit nga gitakda, magpabilin nga aktibo ang tiggamit hangtod kini manu-mano i-disable o tangtangon.<br/>3. Ang Limit sa Oras ug Limit sa Data puwede gamiton kauban aron mas kontrolado ang mga sesyon sa tiggamit.<br/>4. Siguraduhang husto ang format aron malikayan ang mga sayop sa paghimo sa tiggamit.<br/>5. Mga pananglitan: 30m (30 ka minuto), 2h (2 ka oras), 1d (1 ka adlaw).',
     'hotspot.modal.form.data-limit'=>  'Limit sa Data',
+    'hotspot.modal.form.data-limit.help'=> 'Mga dawaton nga format:<br/>M - Megabit<br/>G - Gigabit<br/><br/>I-disable ang tiggamit kung maabot ang limit sa data.<br/><br/>Mga Nota:<br/>1. Kung ang Limit sa Oras ug Limit sa Data pareho nga gitakda, i-disable ang tiggamit kung maabot ang bisan usa sa mga limit.<br/>2. Kung wala’y bisan usa ka limit nga gitakda, magpabilin nga aktibo ang tiggamit hangtod kini manu-mano i-disable o tangtangon.<br/>3. Ang Limit sa Oras ug Limit sa Data puwede gamiton kauban aron mas kontrolado ang mga sesyon sa tiggamit.<br/>4. Siguraduhang husto ang format aron malikayan ang mga sayop sa paghimo sa tiggamit.<br/>5. Mga pananglitan: 500M (500 Megabit), 2G (2 Gigabit).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Ngalan sa Hotspot',
@@ -582,6 +587,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Pahibalo',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Kuhaa ug Irekord',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Kuhaa ug Pahibalo',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Pilia kung giunsa pagdumala ang pag-expire sa user alang niining profile.<br/><br/>Mga Kapilian:<br/>Wala - Walay pag-expire.<br/>Kuhaa - Awtomatik nga tangtangon ang user sa pag-expire.<br/>Pahibalo - Ipahibalo ang user sa pag-expire apan dili tangtangon.<br/>Kuhaa ug Irekord - Kuhaa ang user ug irekord ang panghitabo.<br/>Pahibalo ug Kuhaa - Pahibaloha ang user unya kuhaa sa pag-expire.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Parent Queue',
@@ -621,6 +627,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Pilia ang usa ka field ug gamita ang I-alsa/I-ubos aron usbon ang han-ay sa column.',
     'hotspot.export.user.button-cancel'=> 'Kanselahon',
     'hotspot.export.user.button-download'=> 'I-download ang CSV',
+    'hotspot.export.user.button-move-up'=> 'Ibalhin Pataas',
+    'hotspot.export.user.button-move-down'=> 'Ibalhin Pababa',
+    'hotspot.export.user.column-order-desc'=> 'Pilia ang usa ka field ug gamita ang mga buton nga Ibalhin Pataas/Pababa aron usbon ang han-ay sa mga kolum.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Preview sa Pag-print',

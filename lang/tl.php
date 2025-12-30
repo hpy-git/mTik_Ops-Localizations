@@ -99,6 +99,7 @@ return [
     'login.form.connection_type'=> 'Uri ng Koneksyon',
     'login.form.connection_type_yes'=> 'Secure API',
     'login.form.connection_type_no'=> 'Standard API',
+    'login.form.connection_type_help'=> 'Gamitin ang 8728 sa karamihan ng mga kaso maliban kung mayroon kang partikular na dahilan para gumamit ng 8729 (halimbawa, kung ang SSL certificate ay na-apply sa router).',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Tandaan Ako',
     'login.form.connect'=> 'Kumonekta',
@@ -490,9 +491,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Dami',
     'hotspot.modal.form.server'=> 'Server ng Hotspot',
+    'hotspot.modal.form.qty.help'=> 'Bilang ng mga voucher / token code na gagawin.',
     'hotspot.modal.form.username'=> 'Username',
     'hotspot.modal.form.password'=> 'Password',
     'hotspot.modal.form.user-type'=> 'Uri ng User',
+    'hotspot.modal.form.user-type.help'=> 'Username & Password - Gumagawa ng random na username at ibang password (pinahihintulutan ang regular na pag-login).<br/>Username = Password - Gumagawa ng random na username kung saan pareho ang password (para sa voucher).',
     'hotspot.modal.form.code-length'=> 'Haba ng Code',
     'hotspot.modal.form.characters'=> 'Mga Character',
     'hotspot.modal.form.user-profile'=> 'Profile ng User',
@@ -500,7 +503,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Opsyonal na Komento',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
     'hotspot.modal.form.time-limit'=>  'Limitasyon ng Oras',
+    'hotspot.modal.form.time-limit.help'=> 'Mga tinatanggap na format:<br/>m - Minuto<br/>h - Oras<br/>d - Araw<br/><br/>Ma-di-disable ang user kapag naabot ang time limit.<br/><br/>Mga Tala:<br/>1. Kung parehong naka-set ang Time Limit at Data Limit, madi-disable ang user kapag naabot ang alinman sa mga limit.<br/>2. Kung walang anumang limit na naka-set, mananatiling aktibo ang user hanggang ito ay mano-manong i-disable o alisin.<br/>3. Maaaring gamitin nang magkakasama ang Time Limit at Data Limit para sa mas mahusay na kontrol ng mga session.<br/>4. Siguraduhing tama ang format para iwas error sa paglikha ng user.<br/>5. Mga halimbawa: 30m (30 minuto), 2h (2 oras), 1d (1 araw).',
     'hotspot.modal.form.data-limit'=>  'Limitasyon ng Data',
+    'hotspot.modal.form.data-limit.help'=> 'Mga tinatanggap na format:<br/>M - Megabit<br/>G - Gigabit<br/><br/>Ma-di-disable ang user kapag naabot ang data limit.<br/><br/>Mga Tala:<br/>1. Kung parehong naka-set ang Time Limit at Data Limit, madi-disable ang user kapag naabot ang alinman sa mga limit.<br/>2. Kung walang anumang limit na naka-set, mananatiling aktibo ang user hanggang ito ay mano-manong i-disable o alisin.<br/>3. Maaaring gamitin nang magkakasama ang Time Limit at Data Limit para sa mas mahusay na kontrol ng mga session.<br/>4. Siguraduhing tama ang format para iwas error sa paglikha ng user.<br/>5. Mga halimbawa: 500M (500 Megabit), 2G (2 Gigabit).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Pangalan ng Hotspot',
@@ -584,6 +589,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Notice',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Remove and Record',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Remove and Notice',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Piliin kung paano hawakan ang pag-expire ng user para sa profile na ito.<br/><br/>Mga Opsyon:<br/>Wala - Walang pag-expire.<br/>Alisin - Awtomatikong aalisin ang user kapag nag-expire.<br/>Abiso - Ipapaalam sa user kapag nag-expire ngunit hindi aalisin.<br/>Alisin at I-record - Alisin ang user at itala ang pangyayari.<br/>Abisuhan at Alisin - Ipaalam muna sa user tapos alisin kapag nag-expire.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Parent Queue',
@@ -623,6 +629,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Select a field and use Up/Down to change column order.',
     'hotspot.export.user.button-cancel'=> 'Kanselahin',
     'hotspot.export.user.button-download'=> 'I-download ang CSV',
+    'hotspot.export.user.button-move-up'=> 'Ilipat pataas',
+    'hotspot.export.user.button-move-down'=> 'Ilipat pababa',
+    'hotspot.export.user.column-order-desc'=> 'Piliin ang isang field at gamitin ang mga button na Ilipat pataas/pababa upang baguhin ang pagkakasunod-sunod ng mga kolum.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Paunang-tingin ng Pag-print',

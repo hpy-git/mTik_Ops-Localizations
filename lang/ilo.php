@@ -99,6 +99,7 @@ return [
     'login.form.connection_type'=> 'Klas ti Koneksyon',
     'login.form.connection_type_yes'=> 'Secure API',
     'login.form.connection_type_no'=> 'Standard API',
+    'login.form.connection_type_help'=> 'Usaren ti 8728 kadagiti kaaduan a kaso malaksid no adda partikular a rason a usaren ti 8729 (kas iti nu naipatakder ti SSL certificate iti router).',
     'login.form.port'=> 'Port',
     'login.form.remember'=> 'Irekordo Ak',
     'login.form.connect'=> 'Ikonektar',
@@ -490,9 +491,11 @@ return [
     // Hotspot Modal Form Generate / Add User - General Tab
     'hotspot.modal.form.qty'=> 'Bilang',
     'hotspot.modal.form.server'=> 'Hotspot Server',
+    'hotspot.modal.form.qty.help'=> 'Bilang ti vouchers / token codes a mabukel.',
     'hotspot.modal.form.username'=> 'Nagan ti Ag-Usar',
     'hotspot.modal.form.password'=> 'Password',
     'hotspot.modal.form.user-type'=> 'Klase ti User',
+    'hotspot.modal.form.user-type.help'=> 'Username & Password - Agaramid ti random a username ken sabali a password (para iti regular a login).<br/>Username = Password - Agaramid ti random a username a kapareho ti password (para iti voucher).',
     'hotspot.modal.form.code-length'=> 'Kaunggan ti Kodigo',
     'hotspot.modal.form.characters'=> 'Karakter',
     'hotspot.modal.form.user-profile'=> 'Profile ti User',
@@ -500,7 +503,9 @@ return [
     'hotspot.modal.form.optional-comment'=> 'Optional a Comment',
     'hotspot.modal.form.mac-address'=>  'MAC Address',
     'hotspot.modal.form.time-limit'=>  'Limitasyon ti Oras',
+    'hotspot.modal.form.time-limit.help'=> 'Maawat a pormat:<br/>m - Minuto<br/>h - Oras<br/>d - Aldaw<br/><br/>Ma-disallow ti user no maabot ti time limit.<br/><br/>Dagiti Nota:<br/>1. No naisett ti Time Limit ken Data Limit, ma-disallow ti user no maabot ti maysa kadagiti limit.<br/>2. No awan ti naiset a limit, agtalinunod a aktibo ti user agingga nga madiaktibar wenno maikkat manually.<br/>3. Mabalin nga usarenn ti Time Limit ken Data Limit nga agkakaduwa tapno mas kontrolado dagiti session ti user.<br/>4. Siguradua a nasayaat ti pormat tapno maliklikan ti error iti panangaramid ti user.<br/>5. Dagiti ejemplo: 30m (30 minuto), 2h (2 oras), 1d (1 aldaw).',
     'hotspot.modal.form.data-limit'=>  'Limitasyon ti Data',
+    'hotspot.modal.form.data-limit.help'=> 'Maawat a pormat:<br/>M - Megabit<br/>G - Gigabit<br/><br/>Ma-disallow ti user no maabot ti data limit.<br/><br/>Dagiti Nota:<br/>1. No naisett ti Time Limit ken Data Limit, ma-disallow ti user no maabot ti maysa kadagiti limit.<br/>2. No awan ti naiset a limit, agtalinunod a aktibo ti user agingga nga madiaktibar wenno maikkat manually.<br/>3. Mabalin nga usarenn ti Time Limit ken Data Limit nga agkakaduwa tapno mas kontrolado dagiti session ti user.<br/>4. Siguradua a nasayaat ti pormat tapno maliklikan ti error iti panangaramid ti user.<br/>5. Dagiti ejemplo: 500M (500 Megabit), 2G (2 Gigabit).',
 
     // Hotspot Modal Form Generate - Printing Tab
     'hotspot.modal.form.hotspot-name'=> 'Nagan ti Hotspot',
@@ -584,6 +589,7 @@ return [
     'hotspot.user.profiles.form.expiry-mode_notice'=> 'Abiso',
     'hotspot.user.profiles.form.expiry-mode_remove_record'=> 'Ikkaten ken Irekord',
     'hotspot.user.profiles.form.expiry-mode_remove_notice'=> 'Ikkaten ken Abisuan',
+    'hotspot.user.profiles.form.expiry-mode_help'=> 'Piliin no kasano ti panangtaripato iti panag-expire ti user para iti daytoy a profile.<br/><br/>Pagpilian:<br/>Awan - Awan expiration.<br/>Ikkaten - Ikkaten ti user iti expiration nga automatico.<br/>Abiso - Ipaammo ti user iti expiration ngem saan a ikkaten.<br/>Ikkaten ken Irekord - Ikkaten ti user ken irekord ti pannakaitaliaw.<br/>Abisuan ken Ikkaten - Ipaammo ti user ken saka ikkaten iti expiration.',
 
     // Hotspot User Profile Form Fields - Queue Tab
     'hotspot.user.profiles.form.parent-queue'=> 'Parent Queue',
@@ -623,6 +629,9 @@ return [
     'hotspot.export.user.column-desc'=> 'Pilia ti field ken usarin ti Iangat/Ibungbong tapno mabaliwan ti urnos ti kolumna.',
     'hotspot.export.user.button-cancel'=> 'Ikansela',
     'hotspot.export.user.button-download'=> 'I-download ti CSV',
+    'hotspot.export.user.button-move-up'=> 'I-alsa',
+    'hotspot.export.user.button-move-down'=> 'Ipaaba',
+    'hotspot.export.user.column-order-desc'=> 'Pilia ti field ken usarin dagiti boton a I-alsa/Ipaaba tapno mabaliwan ti urnos dagiti kolumna.',
 
     // Hotspot Print Preview Modal
     'hotspot.print.preview.title'=> 'Panagkita ti Imprinta',
