@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Naglo-load...',
-    'downloads.changelog.no_file' => 'Walang changelog para sa file na ito.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Tagalog translations for mTik_Ops                           
@@ -129,9 +127,9 @@ return [
     'downloads.coming_soon' => 'Darating na',
     'downloads.download' => 'I-download',
     'downloads.note' => 'I-upload ang mga installer sa folder /downloads para maging available.',
-        'downloads.note' => 'I-upload ang mga installer sa folder na /downloads upang magamit ang mga ito.',
-        'downloads.changelog' => 'Tala ng pagbabago',
-    
+    'downloads.changelog' => 'Tala ng pagbabago',
+    'downloads.changelog.loading' => 'Naglo-load...',
+    'downloads.changelog.no_file' => 'Walang changelog para sa file na ito.',
     // about-us.php
     // About Us Page
     'about-us.title' => 'Tungkol sa Amin',

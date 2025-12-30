@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Chargement...',
-    'downloads.changelog.no_file' => 'Pas de journal des modifications disponible pour ce fichier.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // French translations for mTik_Ops                           
@@ -137,7 +135,9 @@ return [
     'downloads.download' => 'Télécharger',
     'downloads.note' => 'Téléversez les installateurs dans le dossier /downloads pour les rendre disponibles.',
     'downloads.changelog' => 'Journal des modifications',
-    
+    'downloads.changelog.loading' => 'Chargement...',
+    'downloads.changelog.no_file' => 'Pas de journal des modifications disponible pour ce fichier.',
+
     // about-us.php
     // About Us Page
     'about-us.title' => 'À propos de nous',

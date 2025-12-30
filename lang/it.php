@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Caricamento...',
-    'downloads.changelog.no_file' => 'Nessun registro delle modifiche disponibile per questo file.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Italian translations for mTik_Ops                                                                          
@@ -130,7 +128,9 @@ return [
     'downloads.download' => 'Scarica',
     'downloads.note' => 'Carica gli installer nella cartella /downloads per renderli disponibili.',
     'downloads.changelog' => 'Registro delle modifiche',
-    
+    'downloads.changelog.loading' => 'Caricamento...',
+    'downloads.changelog.no_file' => 'Nessun registro delle modifiche disponibile per questo file.',
+
     // about-us.php
     // About Us Page
     'about-us.title' => 'Chi siamo',

@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Загрузка...',
-    'downloads.changelog.no_file' => 'Для этого файла нет журнала изменений.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Russian translations for mTik_Ops                           
@@ -200,7 +198,9 @@ return [
     'downloads.download' => 'Скачать',
     'downloads.note' => 'Загрузите установщики в папку /downloads, чтобы сделать их доступными.',
     'downloads.changelog' => 'Журнал изменений',
-    
+    'downloads.changelog.loading' => 'Загрузка...',
+    'downloads.changelog.no_file' => 'Для этого файла нет журнала изменений.',
+
     // about-us.php
     // About Us Page
     'about-us.title' => 'О проекте',

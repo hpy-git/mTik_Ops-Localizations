@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => 'Memuat...',
-    'downloads.changelog.no_file' => 'Tidak ada catatan perubahan untuk file ini.',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Indonesian translations for mTik_Ops                           
@@ -126,8 +124,10 @@ return [
     'downloads.available' => 'Unduhan Tersedia',
     'downloads.coming_soon' => 'Segera hadir',
     'downloads.download' => 'Unduh',
-        'downloads.note' => 'Unggah installer ke folder /downloads untuk menjadikannya tersedia.',
-        'downloads.changelog' => 'Catatan perubahan',
+    'downloads.note' => 'Unggah installer ke folder /downloads untuk menjadikannya tersedia.',
+    'downloads.changelog' => 'Catatan perubahan',
+    'downloads.changelog.loading' => 'Memuat...',
+    'downloads.changelog.no_file' => 'Tidak ada catatan perubahan untuk file ini.',
     
     // about-us.php
     // About Us Page

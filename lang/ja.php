@@ -1,5 +1,3 @@
-    'downloads.changelog.loading' => '読み込み中...',
-    'downloads.changelog.no_file' => 'このファイルの変更履歴はありません。',
 <?php
 ////////////////////////////////////////////////////////////////////////
 // Japanese translations for mTik_Ops                                                                               
@@ -130,6 +128,8 @@ return [
     'downloads.download' => 'ダウンロード',
     'downloads.note' => 'インストーラーを /downloads フォルダにアップロードして利用可能にしてください。',
     'downloads.changelog' => '変更履歴',
+    'downloads.changelog.loading' => '読み込み中...',
+    'downloads.changelog.no_file' => 'このファイルの変更履歴はありません。',
 
     // about-us.php
     // About Us Page
