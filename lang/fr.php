@@ -452,7 +452,7 @@ return [
     'hotspot.profiles.remove_confirm_title' => 'Confirmer',
     
     // Admin Control Panel translations
-    'admin.title' => 'Panneau d'administration',
+    'admin.title' => 'Panneau d\'administration',
     'admin.desc' => 'Centre de contrôle',
     'admin.maintenance' => 'Maintenance',
     'admin.maintenance.desc' => 'Activer/désactiver l\'avertissement de maintenance pour les visiteurs.',
