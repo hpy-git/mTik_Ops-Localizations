@@ -46,10 +46,12 @@ return [
     'nav.dashboard' => 'Dashboard',
     'nav.hotspot' => 'Hotspot',
     'nav.ip' => 'IP',
+    'nav.firewall' => 'Firewall',
     'nav.ppp' => 'PPP',
     'nav.queues' => 'Queues',
     'nav.settings' => 'Settings',
     'nav.downloads' => 'Downloads',
+    'nav.scripting' => 'Scripting',
 
     // index.php
     // Index Page - About Section
@@ -347,6 +349,32 @@ return [
     'hotspot.open.active'=> 'Open Active',
     'hotspot.open.hosts'=> 'Open Hosts',
 
+    // firewall.php
+    'firewall.title' => 'Firewall',
+    'firewall.desc' => 'Manage firewall rules, NAT, mangle, and traffic inspection tools.',
+    'firewall.filter' => 'Filter Rules',
+    'firewall.nat' => 'NAT',
+    'firewall.mangle' => 'Mangle',
+    'firewall.raw' => 'Raw',
+    'firewall.connections' => 'Connections',
+    'firewall.address' => 'Address Lists',
+    'firewall.layer7' => 'Layer7 Protocols',
+    'firewall.filter.desc' => 'Create and organize packet filtering rules for traffic control.',
+    'firewall.nat.desc' => 'Configure source and destination NAT policies for your network.',
+    'firewall.mangle.desc' => 'Mark packets and connections for advanced routing and QoS.',
+    'firewall.raw.desc' => 'Apply raw prerouting filters before connection tracking.',
+    'firewall.connections.desc' => 'Inspect current firewall connection tracking entries.',
+    'firewall.address.desc' => 'Maintain reusable address lists for rule matching.',
+    'firewall.layer7.desc' => 'Manage Layer7 protocol patterns for deep packet inspection.',
+    'firewall.open.filter' => 'Open Filter Rules',
+    'firewall.open.nat' => 'Open NAT',
+    'firewall.open.mangle' => 'Open Mangle',
+    'firewall.open.raw' => 'Open Raw',
+    'firewall.open.connections' => 'Open Connections',
+    'firewall.open.address' => 'Open Address Lists',
+    'firewall.open.layer7' => 'Open Layer7 Protocols',
+    'firewall.back-to-firewall' => 'Back to Firewall',
+
     // Hotspot - Back Button
     'hotspot.back-to-hotspot'=> 'Back to Hotspot Manager',
 
@@ -417,7 +445,7 @@ return [
     'hotspot.profiles.remove_confirm_title' => 'Confirm',
     
     // Admin Control Panel translations
-    'admin.title' => 'Administration Panel',
+    'admin.title' => 'Admin Panel',
     'admin.desc' => 'Mission Control Center',
     'admin.maintenance' => 'Maintenance',
     'admin.maintenance.desc' => 'Toggle site-wide maintenance notice for visitors.',
@@ -694,6 +722,11 @@ return [
     'settings.buttons.next'=> 'Next',
     'settings.sort.by'=> 'Sort by',
     'settings.sort' => 'Sort',
+    'settings.buttons.enable'=> 'Enable',
+    'settings.buttons.disable'=> 'Disable',
+    'settings.buttons.create'=> 'Create',
+    'settings.buttons.yes'=> 'Yes',
+    'settings.buttons.no'=> 'No',
 
     // Settings Page - Back Button
     'settings.back-to-settings'=> 'Back to Settings',
@@ -774,6 +807,39 @@ return [
     // Settings Page - Scheduler
     'settings.scheduler.title'=> 'Scheduler',
     'settings.scheduler.desc'=> 'Create and manage scheduled tasks for maintenance and automation.',
+
+    // Scheduler Page
+
+    // Scheduler Table Headers
+    'settings.scheduler.table.th.name'=> 'Name',
+    'settings.scheduler.table.th.start-date'=> 'Start Date',
+    'settings.scheduler.table.th.start-time'=> 'Start Time',
+    'settings.scheduler.table.th.interval'=> 'Interval',
+    'settings.scheduler.table.th.owner'=> 'Owner',
+    'settings.scheduler.table.th.run-count'=> 'Run Count',
+    'settings.scheduler.table.th.next-run'=> 'Next Run',
+
+    // Scheduler Tabs
+    'settings.scheduler.tab.general'=> 'General',
+    'settings.scheduler.tab.advanced'=> 'Advanced',
+    'settings.scheduler.tab.scripts'=> 'Scripts',
+    'settings.scheduler.tab.policy'=> 'Policy',
+    'settings.scheduler.tab.details'=> 'Details',
+
+    // Scheduler Modal Form
+    'settings.scheduler.modal.form.new' => 'New Scheduler Task',
+    'settings.scheduler.modal.form.edit' => 'Edit Scheduler Task',
+    'settings.scheduler.modal.form.name'=> 'Name',
+    'settings.scheduler.modal.form.start-date'=> 'Start Date',
+    'settings.scheduler.modal.form.start-time'=> 'Start Time',
+    'settings.scheduler.modal.form.interval'=> 'Interval',
+    'settings.scheduler.modal.form.enabled'=> 'Enabled',
+    'settings.scheduler.modal.form.script'=> 'Script',
+    'settings.scheduler.modal.form.policies'=> 'Policies',
+    'settings.scheduler.modal.form.comment'=> 'Comment',
+    'settings.scheduler.modal.form.comment-placeholder'=> 'Optional comment',
+    'settings.scheduler.modal.form.on-event'=> 'On Event',
+    'settings.scheduler.modal.form.on-event-placeholder'=> 'Script to run on event',
 
     // Settings Page - Scripts
     'settings.scripts.title'=> 'Scripts',

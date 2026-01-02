@@ -47,10 +47,12 @@ return [
     'nav.dashboard' => 'ダッシュボード',
     'nav.hotspot' => 'ホットスポット',
     'nav.ip' => 'IP（インターネットプロトコル）',
+    'nav.firewall' => 'Firewall',
     'nav.ppp' => 'PPP（ポイント・ツー・ポイント）',
     'nav.queues' => 'キュー',
     'nav.settings' => '設定',
     'nav.downloads' => 'ダウンロード',
+    'nav.scripting' => 'Scripting',
 
     // index.php
     // Index Page - About Section
@@ -346,6 +348,32 @@ return [
     'hotspot.open.profiles'=> 'プロファイルを開く',
     'hotspot.open.active'=> 'アクティブを開く',
     'hotspot.open.hosts'=> 'ホストを開く',
+
+    // firewall.php
+    'firewall.title' => 'Firewall',
+    'firewall.desc' => 'Manage firewall rules, NAT, mangle, and traffic inspection tools.',
+    'firewall.filter' => 'Filter Rules',
+    'firewall.nat' => 'NAT',
+    'firewall.mangle' => 'Mangle',
+    'firewall.raw' => 'Raw',
+    'firewall.connections' => 'Connections',
+    'firewall.address' => 'Address Lists',
+    'firewall.layer7' => 'Layer7 Protocols',
+    'firewall.filter.desc' => 'Create and organize packet filtering rules for traffic control.',
+    'firewall.nat.desc' => 'Configure source and destination NAT policies for your network.',
+    'firewall.mangle.desc' => 'Mark packets and connections for advanced routing and QoS.',
+    'firewall.raw.desc' => 'Apply raw prerouting filters before connection tracking.',
+    'firewall.connections.desc' => 'Inspect current firewall connection tracking entries.',
+    'firewall.address.desc' => 'Maintain reusable address lists for rule matching.',
+    'firewall.layer7.desc' => 'Manage Layer7 protocol patterns for deep packet inspection.',
+    'firewall.open.filter' => 'Open Filter Rules',
+    'firewall.open.nat' => 'Open NAT',
+    'firewall.open.mangle' => 'Open Mangle',
+    'firewall.open.raw' => 'Open Raw',
+    'firewall.open.connections' => 'Open Connections',
+    'firewall.open.address' => 'Open Address Lists',
+    'firewall.open.layer7' => 'Open Layer7 Protocols',
+    'firewall.back-to-firewall' => 'Back to Firewall',
 
     // Hotspot - Back Button
     'hotspot.back-to-hotspot'=> 'ホットスポット管理に戻る',
